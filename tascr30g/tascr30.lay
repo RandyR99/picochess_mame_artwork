@@ -10,32 +10,32 @@
 		<image file="modulo3c.png" />
 	</element>
 
-<element name="fondo_madera">
-		<image file="fondo_madera2.png" />
+<element name="background_wood">
+		<image file="background_wood2.png" />
 	</element>
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 
 
 <element name="ledg" defstate="0">
-    <image file="../leds/verde_0.png" state="0"/>
-	<image file="../leds/verde_1.png" state="1"/>
+    <image file="../leds/green_0.png" state="0"/>
+	<image file="../leds/green_1.png" state="1"/>
 	</element>
 
 	<element name="ledr" defstate="0">
-      <image file="../leds/rojo_1a.png" state="1"/>
+      <image file="../leds/red_1a.png" state="1"/>
 	</element>
 
 <element name="ledo">
-			<image file="../leds/rojo_0.png" state="0"/>
+			<image file="../leds/red_0.png" state="0"/>
 	</element>
 
 	<element name="hlb" defstate="0">
-    <image file="../botones/but9.png" state="0"/>
-	<image file="../botones/but9_sel.png" state="1"/>
+    <image file="../buttons/but9.png" state="0"/>
+	<image file="../buttons/but9_sel.png" state="1"/>
 	</element>
 
 	<element name="hlbr">
@@ -47,142 +47,142 @@
 
 
 	<element name="piece" defstate="0">
-		<image file="../piezas/pmephisto5/wkn.png" state="1"/>
-		<image file="../piezas/pmephisto5/wkn.png" state="2"/>
-		<image file="../piezas/pmephisto5/bk.png" state="3"/>
-		<image file="../piezas/pmephisto5/wk.png" state="4"/>
-		<image file="../piezas/pmephisto5/bq.png" state="5"/>
-		<image file="../piezas/pmephisto5/wq.png" state="6"/>
-		<image file="../piezas/pmephisto5/br.png" state="7"/>
-		<image file="../piezas/pmephisto5/br.png" state="8"/>
-		<image file="../piezas/pmephisto5/wr.png" state="9"/>
-		<image file="../piezas/pmephisto5/wr.png" state="10"/>
-		<image file="../piezas/pmephisto5/bb.png" state="11"/>
-		<image file="../piezas/pmephisto5/bb.png" state="12"/>
-		<image file="../piezas/pmephisto5/wb.png" state="13"/>
-		<image file="../piezas/pmephisto5/wb.png" state="14"/>
-		<image file="../piezas/pmephisto5/bkn.png" state="15"/>
-		<image file="../piezas/pmephisto5/bkn.png" state="16"/>
-		<image file="../piezas/pmephisto5/wp.png" state="17"/>
-		<image file="../piezas/pmephisto5/wp.png" state="18"/>
-		<image file="../piezas/pmephisto5/wp.png" state="19"/>
-		<image file="../piezas/pmephisto5/wp.png" state="20"/>
-		<image file="../piezas/pmephisto5/wp.png" state="21"/>
-		<image file="../piezas/pmephisto5/wp.png" state="22"/>
-		<image file="../piezas/pmephisto5/wp.png" state="23"/>
-		<image file="../piezas/pmephisto5/wp.png" state="24"/>
-		<image file="../piezas/pmephisto5/bp.png" state="25"/>
-		<image file="../piezas/pmephisto5/bp.png" state="26"/>
-		<image file="../piezas/pmephisto5/bp.png" state="27"/>
-		<image file="../piezas/pmephisto5/bp.png" state="28"/>
-		<image file="../piezas/pmephisto5/bp.png" state="29"/>
-		<image file="../piezas/pmephisto5/bp.png" state="30"/>
-		<image file="../piezas/pmephisto5/bp.png" state="31"/>
-		<image file="../piezas/pmephisto5/bp.png" state="32"/>
+		<image file="../pieces/pmephisto5/wkn.png" state="1"/>
+		<image file="../pieces/pmephisto5/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto5/bk.png" state="3"/>
+		<image file="../pieces/pmephisto5/wk.png" state="4"/>
+		<image file="../pieces/pmephisto5/bq.png" state="5"/>
+		<image file="../pieces/pmephisto5/wq.png" state="6"/>
+		<image file="../pieces/pmephisto5/br.png" state="7"/>
+		<image file="../pieces/pmephisto5/br.png" state="8"/>
+		<image file="../pieces/pmephisto5/wr.png" state="9"/>
+		<image file="../pieces/pmephisto5/wr.png" state="10"/>
+		<image file="../pieces/pmephisto5/bb.png" state="11"/>
+		<image file="../pieces/pmephisto5/bb.png" state="12"/>
+		<image file="../pieces/pmephisto5/wb.png" state="13"/>
+		<image file="../pieces/pmephisto5/wb.png" state="14"/>
+		<image file="../pieces/pmephisto5/bkn.png" state="15"/>
+		<image file="../pieces/pmephisto5/bkn.png" state="16"/>
+		<image file="../pieces/pmephisto5/wp.png" state="17"/>
+		<image file="../pieces/pmephisto5/wp.png" state="18"/>
+		<image file="../pieces/pmephisto5/wp.png" state="19"/>
+		<image file="../pieces/pmephisto5/wp.png" state="20"/>
+		<image file="../pieces/pmephisto5/wp.png" state="21"/>
+		<image file="../pieces/pmephisto5/wp.png" state="22"/>
+		<image file="../pieces/pmephisto5/wp.png" state="23"/>
+		<image file="../pieces/pmephisto5/wp.png" state="24"/>
+		<image file="../pieces/pmephisto5/bp.png" state="25"/>
+		<image file="../pieces/pmephisto5/bp.png" state="26"/>
+		<image file="../pieces/pmephisto5/bp.png" state="27"/>
+		<image file="../pieces/pmephisto5/bp.png" state="28"/>
+		<image file="../pieces/pmephisto5/bp.png" state="29"/>
+		<image file="../pieces/pmephisto5/bp.png" state="30"/>
+		<image file="../pieces/pmephisto5/bp.png" state="31"/>
+		<image file="../pieces/pmephisto5/bp.png" state="32"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/pmephisto5/wkn_sel.png" state="33"></image>
-		<image file="../piezas/pmephisto5/wkn_sel.png" state="34"></image>
-		<image file="../piezas/pmephisto5/bk_sel.png" state="35"></image>
-		<image file="../piezas/pmephisto5/wk_sel.png" state="36"></image>
-		<image file="../piezas/pmephisto5/bq_sel.png" state="37"></image>
-		<image file="../piezas/pmephisto5/wq_sel.png" state="38"></image>
-		<image file="../piezas/pmephisto5/br_sel.png" state="39"></image>
-		<image file="../piezas/pmephisto5/br_sel.png" state="40"></image>
-		<image file="../piezas/pmephisto5/wr_sel.png" state="41"></image>
-		<image file="../piezas/pmephisto5/wr_sel.png" state="42"></image>
-		<image file="../piezas/pmephisto5/bb_sel.png" state="43"></image>
-		<image file="../piezas/pmephisto5/bb_sel.png" state="44"></image>
-		<image file="../piezas/pmephisto5/wb_sel.png" state="45"></image>
-		<image file="../piezas/pmephisto5/wb_sel.png" state="46"></image>
-		<image file="../piezas/pmephisto5/bkn_sel.png" state="47"></image>
-		<image file="../piezas/pmephisto5/bkn_sel.png" state="48"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="49"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="50"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="51"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="52"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="53"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="54"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="55"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="56"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="57"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="58"></image>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="59"></image>
-		<image file="../piezas/pmephisto5/bp_sel.png" state="60"></image>
-		<image file="../piezas/pmephisto5/bp_sel.png" state="61"></image>
-		<image file="../piezas/pmephisto5/bp.png" state="62"></image>
-		<image file="../piezas/pmephisto5/bp.png" state="63"></image>
-		<image file="../piezas/pmephisto5/bp.png" state="64"></image>
+		<image file="../pieces/pmephisto5/wkn_sel.png" state="33"></image>
+		<image file="../pieces/pmephisto5/wkn_sel.png" state="34"></image>
+		<image file="../pieces/pmephisto5/bk_sel.png" state="35"></image>
+		<image file="../pieces/pmephisto5/wk_sel.png" state="36"></image>
+		<image file="../pieces/pmephisto5/bq_sel.png" state="37"></image>
+		<image file="../pieces/pmephisto5/wq_sel.png" state="38"></image>
+		<image file="../pieces/pmephisto5/br_sel.png" state="39"></image>
+		<image file="../pieces/pmephisto5/br_sel.png" state="40"></image>
+		<image file="../pieces/pmephisto5/wr_sel.png" state="41"></image>
+		<image file="../pieces/pmephisto5/wr_sel.png" state="42"></image>
+		<image file="../pieces/pmephisto5/bb_sel.png" state="43"></image>
+		<image file="../pieces/pmephisto5/bb_sel.png" state="44"></image>
+		<image file="../pieces/pmephisto5/wb_sel.png" state="45"></image>
+		<image file="../pieces/pmephisto5/wb_sel.png" state="46"></image>
+		<image file="../pieces/pmephisto5/bkn_sel.png" state="47"></image>
+		<image file="../pieces/pmephisto5/bkn_sel.png" state="48"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="49"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="50"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="51"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="52"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="53"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="54"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="55"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="56"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="57"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="58"></image>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="59"></image>
+		<image file="../pieces/pmephisto5/bp_sel.png" state="60"></image>
+		<image file="../pieces/pmephisto5/bp_sel.png" state="61"></image>
+		<image file="../pieces/pmephisto5/bp.png" state="62"></image>
+		<image file="../pieces/pmephisto5/bp.png" state="63"></image>
+		<image file="../pieces/pmephisto5/bp.png" state="64"></image>
 	</element>
 
 
 	<element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wn.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/bk.png" state="3"/>
-		<image file="../piezas/chess2/wk.png" state="4"/>
-		<image file="../piezas/chess2/bq.png" state="5"/>
-		<image file="../piezas/chess2/wq.png" state="6"/>
-		<image file="../piezas/chess2/br.png" state="7"/>
-		<image file="../piezas/chess2/br.png" state="8"/>
-		<image file="../piezas/chess2/wr.png" state="9"/>
-		<image file="../piezas/chess2/wr.png" state="10"/>
-		<image file="../piezas/chess2/bb.png" state="11"/>
-		<image file="../piezas/chess2/bb.png" state="12"/>
-		<image file="../piezas/chess2/wb.png" state="13"/>
-		<image file="../piezas/chess2/wb.png" state="14"/>
-		<image file="../piezas/chess2/bn.png" state="15"/>
-		<image file="../piezas/chess2/bn.png" state="16"/>
-		<image file="../piezas/chess2/wp.png" state="17"/>
-		<image file="../piezas/chess2/wp.png" state="18"/>
-		<image file="../piezas/chess2/wp.png" state="19"/>
-		<image file="../piezas/chess2/wp.png" state="20"/>
-		<image file="../piezas/chess2/wp.png" state="21"/>
-		<image file="../piezas/chess2/wp.png" state="22"/>
-		<image file="../piezas/chess2/wp.png" state="23"/>
-		<image file="../piezas/chess2/wp.png" state="24"/>
-		<image file="../piezas/chess2/bp.png" state="25"/>
-		<image file="../piezas/chess2/bp.png" state="26"/>
-		<image file="../piezas/chess2/bp.png" state="27"/>
-		<image file="../piezas/chess2/bp.png" state="28"/>
-		<image file="../piezas/chess2/bp.png" state="29"/>
-		<image file="../piezas/chess2/bp.png" state="30"/>
-		<image file="../piezas/chess2/bp.png" state="31"/>
-		<image file="../piezas/chess2/bp.png" state="32"/>
+		<image file="../pieces/chess2/wn.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/bk.png" state="3"/>
+		<image file="../pieces/chess2/wk.png" state="4"/>
+		<image file="../pieces/chess2/bq.png" state="5"/>
+		<image file="../pieces/chess2/wq.png" state="6"/>
+		<image file="../pieces/chess2/br.png" state="7"/>
+		<image file="../pieces/chess2/br.png" state="8"/>
+		<image file="../pieces/chess2/wr.png" state="9"/>
+		<image file="../pieces/chess2/wr.png" state="10"/>
+		<image file="../pieces/chess2/bb.png" state="11"/>
+		<image file="../pieces/chess2/bb.png" state="12"/>
+		<image file="../pieces/chess2/wb.png" state="13"/>
+		<image file="../pieces/chess2/wb.png" state="14"/>
+		<image file="../pieces/chess2/bn.png" state="15"/>
+		<image file="../pieces/chess2/bn.png" state="16"/>
+		<image file="../pieces/chess2/wp.png" state="17"/>
+		<image file="../pieces/chess2/wp.png" state="18"/>
+		<image file="../pieces/chess2/wp.png" state="19"/>
+		<image file="../pieces/chess2/wp.png" state="20"/>
+		<image file="../pieces/chess2/wp.png" state="21"/>
+		<image file="../pieces/chess2/wp.png" state="22"/>
+		<image file="../pieces/chess2/wp.png" state="23"/>
+		<image file="../pieces/chess2/wp.png" state="24"/>
+		<image file="../pieces/chess2/bp.png" state="25"/>
+		<image file="../pieces/chess2/bp.png" state="26"/>
+		<image file="../pieces/chess2/bp.png" state="27"/>
+		<image file="../pieces/chess2/bp.png" state="28"/>
+		<image file="../pieces/chess2/bp.png" state="29"/>
+		<image file="../pieces/chess2/bp.png" state="30"/>
+		<image file="../pieces/chess2/bp.png" state="31"/>
+		<image file="../pieces/chess2/bp.png" state="32"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wn_sel.png" state="33"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="34"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="35"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="36"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="37"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="38"></image>
-		<image file="../piezas/chess2/br_sel.png" state="39"></image>
-		<image file="../piezas/chess2/br_sel.png" state="40"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="41"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="42"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="43"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="44"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="45"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="46"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="47"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="48"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="49"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="50"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="51"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="52"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="53"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="54"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="55"></image>
-		<image file="../piezas/chess2/wp_sel.png" state="56"></image>
-		<image file="../piezas/chess2/bp_sel.png" state="57"></image>
-		<image file="../piezas/chess2/bp_sel.png" state="58"></image>
-		<image file="../piezas/chess2/bp_sel.png" state="59"></image>
-		<image file="../piezas/chess2/bp_sel.png" state="60"></image>
-		<image file="../piezas/chess2/bp_sel.png" state="61"></image>
-		<image file="../piezas/chess2/bp.png" state="62"></image>
-		<image file="../piezas/chess2/bp.png" state="63"></image>
-		<image file="../piezas/chess2/bp.png" state="64"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="33"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="34"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="35"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="36"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="37"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="38"></image>
+		<image file="../pieces/chess2/br_sel.png" state="39"></image>
+		<image file="../pieces/chess2/br_sel.png" state="40"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="41"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="42"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="43"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="44"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="45"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="46"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="47"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="48"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="49"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="50"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="51"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="52"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="53"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="54"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="55"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="56"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="57"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="58"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="59"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="60"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="61"></image>
+		<image file="../pieces/chess2/bp.png" state="62"></image>
+		<image file="../pieces/chess2/bp.png" state="63"></image>
+		<image file="../pieces/chess2/bp.png" state="64"></image>
 	</element>
 	<element name="black"> <rect><color red="0" green="0" blue="0" /></rect></element>
 	<element name="background"> <rect><color red="0.56" green="0.33" blue="0.12" /></rect></element>
@@ -374,34 +374,34 @@
 
 
 	<element name="piece_ui" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp.png" state="13"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wn.png" state="14"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wb.png" state="15"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wr.png" state="16"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wq.png" state="17"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wk.png" state="18"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wp.png" state="13"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wn.png" state="14"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wb.png" state="15"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wr.png" state="16"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wq.png" state="17"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wk.png" state="18"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/bp.png" state="19"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bn.png" state="20"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bb.png" state="21"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/br.png" state="22"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bq.png" state="23"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bk.png" state="24"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bp.png" state="19"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bn.png" state="20"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bb.png" state="21"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/br.png" state="22"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bq.png" state="23"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bk.png" state="24"><color alpha="0.5" /></image>
 	</element>
 
 
@@ -521,7 +521,7 @@
 	<view name="3d artwork by luis">
 		<bounds left="0" right="185" top="-2" bottom="95" />
 
-<element ref="fondo_madera">
+<element ref="background_wood">
 			<bounds x="0" y="-2" width="190" height="102"/>
 		</element>
 
@@ -580,7 +580,7 @@
 <view name="2d artwork by luis">
 		<bounds left="0" right="185" top="-2" bottom="95" />
 
-<element ref="fondo_madera">
+<element ref="background_wood">
 			<bounds x="0" y="-2" width="190" height="102"/>
 		</element>
 

@@ -12,8 +12,8 @@ license:cc0
 		<image file="pocket2.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -55,7 +55,7 @@ license:cc0
 	<view name="artwork by luis">
 <bounds left="-10" right="1073" top="-10" bottom="1308" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-10" y="-10" width="1088" height="1318" />
 		</element>
 

@@ -18,7 +18,7 @@ license:cc0
 
 	
 <element name="button" defstate="0">
-	<image file="../botones/down1_sel.png" state="1"/>
+	<image file="../buttons/down1_sel.png" state="1"/>
 	
 	</element>
 

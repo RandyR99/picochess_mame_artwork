@@ -13,12 +13,12 @@ license:cc0
 
 
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 <element name="hlbb" defstate="0">
@@ -49,7 +49,7 @@ license:cc0
 
 
 <element name="hlb" defstate="0">
-<image file="../botones/down_sel.png" state="1"/>
+<image file="../buttons/down_sel.png" state="1"/>
 	</element>
 
 
@@ -59,61 +59,61 @@ license:cc0
 
 
 <element name="piece3" defstate="0">
-		<image file="../piezas/pnovag_plastico_blanco/wp.png" state="1"/>
-		<image file="../piezas/pnovag_plastico_blanco/wkn.png" state="2"/>
-		<image file="../piezas/pnovag_plastico_blanco/wb.png" state="3"/>
-		<image file="../piezas/pnovag_plastico_blanco/wr.png" state="4"/>
-		<image file="../piezas/pnovag_plastico_blanco/wq.png" state="5"/>
-		<image file="../piezas/pnovag_plastico_blanco/wk.png" state="6"/>
-		<image file="../piezas/pnovag_plastico_blanco/bp.png" state="7"/>
-		<image file="../piezas/pnovag_plastico_blanco/bkn.png" state="8"/>
-		<image file="../piezas/pnovag_plastico_blanco/bb.png" state="9"/>
-		<image file="../piezas/pnovag_plastico_blanco/br.png" state="10"/>
-		<image file="../piezas/pnovag_plastico_blanco/bq.png" state="11"/>
-		<image file="../piezas/pnovag_plastico_blanco/bk.png" state="12"/>
-		<image file="../piezas/pnovag_plastico_blanco/wp_sel.png" state="13"/>
-		<image file="../piezas/pnovag_plastico_blanco/wkn_sel.png" state="14"/>
-		<image file="../piezas/pnovag_plastico_blanco/wb_sel.png" state="15"/>
-		<image file="../piezas/pnovag_plastico_blanco/wr_sel.png" state="16"/>
-		<image file="../piezas/pnovag_plastico_blanco/wq_sel.png" state="17"/>
-		<image file="../piezas/pnovag_plastico_blanco/wk_sel.png" state="18"/>
-		<image file="../piezas/pnovag_plastico_blanco/bp_sel.png" state="19"/>
-		<image file="../piezas/pnovag_plastico_blanco/bkn_sel.png" state="20"/>
-		<image file="../piezas/pnovag_plastico_blanco/bb_sel.png" state="21"/>
-		<image file="../piezas/pnovag_plastico_blanco/br_sel.png" state="22"/>
-		<image file="../piezas/pnovag_plastico_blanco/bq_sel.png" state="23"/>
-		<image file="../piezas/pnovag_plastico_blanco/bk_sel.png" state="24"/>
+		<image file="../pieces/pnovag_plastic_white/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic_white/wkn.png" state="2"/>
+		<image file="../pieces/pnovag_plastic_white/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic_white/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic_white/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic_white/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic_white/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic_white/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic_white/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic_white/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic_white/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic_white/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic_white/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic_white/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic_white/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic_white/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic_white/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic_white/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic_white/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic_white/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic_white/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic_white/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic_white/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic_white/bk_sel.png" state="24"/>
 	</element>
 
 <element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 
@@ -261,19 +261,19 @@ license:cc0
 <view name="artwork by luis">
 		<bounds left="-400" right="3081" top="-20" bottom="2815" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-400" y="-20" width="3550" height="200" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-400" y="2760" width="3550" height="80" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-400" y="-20" width="700" height="2840" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="3020" y="-20" width="190" height="2840" />
 		</element>
 
@@ -334,19 +334,19 @@ license:cc0
 <view name="artwork 2d by luis">
 		<bounds left="-400" right="3081" top="-20" bottom="2815" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-400" y="-20" width="3550" height="200" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-400" y="2760" width="3550" height="80" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-400" y="-20" width="700" height="2840" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="3020" y="-20" width="190" height="2840" />
 		</element>
 

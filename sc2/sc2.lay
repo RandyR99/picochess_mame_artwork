@@ -7,8 +7,8 @@
 		<image file="sc2b.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -107,7 +107,7 @@
 
 		<bounds left="75" right="126" top="-3.2" bottom="84.5" />
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="75" y="-3.2" width="126" height="89.5" />
 		</element>
 		

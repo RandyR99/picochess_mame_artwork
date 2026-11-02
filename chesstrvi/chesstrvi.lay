@@ -14,8 +14,8 @@ license:cc0
 
 <!-- foto: tibono -->
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -68,7 +68,7 @@ license:cc0
 	<view name="artwork by luis">
 <bounds left="-10" right="772" top="-10" bottom="770" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-10" y="-10" width="782" height="780" />
 		</element>
 

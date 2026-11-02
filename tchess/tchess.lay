@@ -12,8 +12,8 @@ license:cc0
 		<image file="tryom3.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -154,8 +154,8 @@ license:cc0
 
 
 <element name="but" defstate="0">
-    <image file="../botones/bblue1.png" state="0"/>
-    <image file="../botones/bblue1_sel.png" state="1"/>
+    <image file="../buttons/bblue1.png" state="0"/>
+    <image file="../buttons/bblue1_sel.png" state="1"/>
 	</element>
 	
 	<element name="hlb" defstate="0">

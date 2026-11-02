@@ -19,20 +19,20 @@ license:cc0
  
 
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
 
 
 <element name="button" defstate="0">
-	<image file="../botones/down_sel2.png" state="1"/>
+	<image file="../buttons/down_sel2.png" state="1"/>
 	
 	</element>
 
 <element name="led" defstate="0">
-		<image file="../leds/rojo_1a.png" state="1"/>
+		<image file="../leds/red_1a.png" state="1"/>
 		
 	</element>
 
@@ -51,7 +51,7 @@ license:cc0
 <view name="russian artwork by luis">
 <bounds left="0" right="1100" top="0" bottom="874" />
 	
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="0" width="1100" height="874" />
 		</element>	
 	
@@ -106,7 +106,7 @@ license:cc0
 	<view name="english artwork by luis">
 <bounds left="0" right="1100" top="0" bottom="874" />
 	
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="0" width="1100" height="874" />
 		</element>	
 	

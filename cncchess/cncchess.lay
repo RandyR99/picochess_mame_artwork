@@ -10,8 +10,8 @@
 		<image file="conic4.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -38,7 +38,7 @@
 
 
 	<element name="hl" defstate="0">
-	<image file="../botones/down_sel.png" state="1"/>
+	<image file="../buttons/down_sel.png" state="1"/>
 	
 	</element>
 
@@ -55,7 +55,7 @@
 	<view name="artwork by luis">
 <bounds left="-10" right="1599" top="-10" bottom="1099" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-10" y="-10" width="1609" height="1109" />
 		</element>
 

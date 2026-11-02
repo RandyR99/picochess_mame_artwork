@@ -12,11 +12,11 @@
 	</element>
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -34,29 +34,29 @@
 		
 </element>
 
-	<element name="boton1" defstate="0">
-        <image file="boton1_sel.png" state="1"/>
-	<image file="boton1.png" state="0"/>	
+	<element name="button1" defstate="0">
+        <image file="button1_sel.png" state="1"/>
+	<image file="button1.png" state="0"/>	
 </element>
 
-	<element name="boton2" defstate="0">
-        <image file="boton4a_sel.png" state="1"/>
-	<image file="boton4a.png" state="0"/>	
+	<element name="button2" defstate="0">
+        <image file="button4a_sel.png" state="1"/>
+	<image file="button4a.png" state="0"/>	
 </element>
 
-<element name="boton3" defstate="0">
-        <image file="boton4b_sel.png" state="1"/>
-	<image file="boton4a.png" state="0"/>	
+<element name="button3" defstate="0">
+        <image file="button4b_sel.png" state="1"/>
+	<image file="button4a.png" state="0"/>	
 </element>
 
-	<element name="boton4" defstate="0">
-        <image file="boton2a_sel.png" state="1"/>
-	<image file="boton2a.png" state="0"/>	
+	<element name="button4" defstate="0">
+        <image file="button2a_sel.png" state="1"/>
+	<image file="button2a.png" state="0"/>	
 </element>
 
 	<element name="mm" defstate="0">
-        <image file="boton3_sel.png" state="1"/>
-	<image file="boton3.png" state="0"/>	
+        <image file="button3_sel.png" state="1"/>
+	<image file="button3.png" state="0"/>	
 </element>
 
 
@@ -86,89 +86,89 @@
 	</element>
 
 	<element name="piece" defstate="0">
-		<image file="../piezas/pmephisto2/wp.png" state="1"/>
-		<image file="../piezas/pmephisto2/wkn.png" state="2"/>
-		<image file="../piezas/pmephisto2/wb.png" state="3"/>
-		<image file="../piezas/pmephisto2/wr.png" state="4"/>
-		<image file="../piezas/pmephisto2/wq.png" state="5"/>
-		<image file="../piezas/pmephisto2/wk.png" state="6"/>
-		<image file="../piezas/pmephisto2/bp.png" state="7"/>
-		<image file="../piezas/pmephisto2/bkn.png" state="8"/>
-		<image file="../piezas/pmephisto2/bb.png" state="9"/>
-		<image file="../piezas/pmephisto2/br.png" state="10"/>
-		<image file="../piezas/pmephisto2/bq.png" state="11"/>
-		<image file="../piezas/pmephisto2/bk.png" state="12"/>
-		<image file="../piezas/pmephisto2/wp_sel.png" state="13"/>
-		<image file="../piezas/pmephisto2/wkn_sel.png" state="14"/>
-		<image file="../piezas/pmephisto2/wb_sel.png" state="15"/>
-		<image file="../piezas/pmephisto2/wr_sel.png" state="16"/>
-		<image file="../piezas/pmephisto2/wq_sel.png" state="17"/>
-		<image file="../piezas/pmephisto2/wk_sel.png" state="18"/>
-		<image file="../piezas/pmephisto2/bp_sel.png" state="19"/>
-		<image file="../piezas/pmephisto2/bkn_sel.png" state="20"/>
-		<image file="../piezas/pmephisto2/bb_sel.png" state="21"/>
-		<image file="../piezas/pmephisto2/br_sel.png" state="22"/>
-		<image file="../piezas/pmephisto2/bq_sel.png" state="23"/>
-		<image file="../piezas/pmephisto2/bk_sel.png" state="24"/>
+		<image file="../pieces/pmephisto2/wp.png" state="1"/>
+		<image file="../pieces/pmephisto2/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto2/wb.png" state="3"/>
+		<image file="../pieces/pmephisto2/wr.png" state="4"/>
+		<image file="../pieces/pmephisto2/wq.png" state="5"/>
+		<image file="../pieces/pmephisto2/wk.png" state="6"/>
+		<image file="../pieces/pmephisto2/bp.png" state="7"/>
+		<image file="../pieces/pmephisto2/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto2/bb.png" state="9"/>
+		<image file="../pieces/pmephisto2/br.png" state="10"/>
+		<image file="../pieces/pmephisto2/bq.png" state="11"/>
+		<image file="../pieces/pmephisto2/bk.png" state="12"/>
+		<image file="../pieces/pmephisto2/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto2/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto2/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto2/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto2/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto2/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto2/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto2/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto2/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto2/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto2/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto2/bk_sel.png" state="24"/>
 	</element>
 
 
 	<element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 <element name="piece_l" defstate="0">
-		<image file="../piezas/pmephisto2/wp.png" state="1"/>
-		<image file="../piezas/pmephisto2/wkn.png" state="2"/>
-		<image file="../piezas/pmephisto2/wb.png" state="3"/>
-		<image file="../piezas/pmephisto2/wr.png" state="4"/>
-		<image file="../piezas/pmephisto2/wq.png" state="5"/>
-		<image file="../piezas/pmephisto2/wk.png" state="6"/>
-		<image file="../piezas/pmephisto2/bp.png" state="7"/>
-		<image file="../piezas/pmephisto2/bkn.png" state="8"/>
-		<image file="../piezas/pmephisto2/bb.png" state="9"/>
-		<image file="../piezas/pmephisto2/br.png" state="10"/>
-		<image file="../piezas/pmephisto2/bq.png" state="11"/>
-		<image file="../piezas/pmephisto2/bk.png" state="12"/>
-		<image file="../piezas/pmephisto2/wp_sel.png" state="13"/>
-		<image file="../piezas/pmephisto2/wkn_sel.png" state="14"/>
-		<image file="../piezas/pmephisto2/wb_sel.png" state="15"/>
-		<image file="../piezas/pmephisto2/wr_sel.png" state="16"/>
-		<image file="../piezas/pmephisto2/wq_sel.png" state="17"/>
-		<image file="../piezas/pmephisto2/wk_sel.png" state="18"/>
-		<image file="../piezas/pmephisto2/bp_sel.png" state="19"/>
-		<image file="../piezas/pmephisto2/bkn_sel.png" state="20"/>
-		<image file="../piezas/pmephisto2/bb_sel.png" state="21"/>
-		<image file="../piezas/pmephisto2/br_sel.png" state="22"/>
-		<image file="../piezas/pmephisto2/bq_sel.png" state="23"/>
-		<image file="../piezas/pmephisto2/bk_sel.png" state="24"/>
+		<image file="../pieces/pmephisto2/wp.png" state="1"/>
+		<image file="../pieces/pmephisto2/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto2/wb.png" state="3"/>
+		<image file="../pieces/pmephisto2/wr.png" state="4"/>
+		<image file="../pieces/pmephisto2/wq.png" state="5"/>
+		<image file="../pieces/pmephisto2/wk.png" state="6"/>
+		<image file="../pieces/pmephisto2/bp.png" state="7"/>
+		<image file="../pieces/pmephisto2/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto2/bb.png" state="9"/>
+		<image file="../pieces/pmephisto2/br.png" state="10"/>
+		<image file="../pieces/pmephisto2/bq.png" state="11"/>
+		<image file="../pieces/pmephisto2/bk.png" state="12"/>
+		<image file="../pieces/pmephisto2/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto2/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto2/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto2/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto2/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto2/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto2/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto2/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto2/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto2/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto2/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto2/bk_sel.png" state="24"/>
 	</element>
 
 	<group name="sb_board">
@@ -403,7 +403,7 @@
 	<view name="Artwork by Luis">
 <bounds left="-145" right="1530" top="30" bottom="1270" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-145" y="-5" width="1700" height="1280" />
 		</element>
 
@@ -469,7 +469,7 @@
 		<view name="2D Artwork by Luis">
 <bounds left="-145" right="1530" top="30" bottom="1270" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-145" y="-5" width="1700" height="1280" />
 		</element>
 
@@ -536,19 +536,19 @@
 	<view name="Artwork 3D by Luis">
 <bounds left="-140" right="1600" top="-15" bottom="915" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="1400" y="-15" width="320" height="930" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-140" y="-15" width="1740" height="120" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-140" y="800" width="1740" height="120" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-140" y="-15" width="400" height="1020" />
 		</element>
 
@@ -823,21 +823,21 @@ sion
 		<element name="8.6" ref="led_l"><bounds x="1251" y="540" width="21" height="15" /></element>
 	
 	
-	    <element ref="boton1" inputtag="IN.0" inputmask="0x80"><bounds x="1282" y="279" width="60" height="18.5" /></element>
-		<element ref="boton1" inputtag="IN.0" inputmask="0x40"><bounds x="1287" y="307" width="60" height="18.5" /></element>
-		<element ref="boton1" inputtag="IN.0" inputmask="0x20"><bounds x="1292" y="334" width="60" height="18.5" /></element>
-		<element ref="boton1" inputtag="IN.0" inputmask="0x10"><bounds x="1297" y="363" width="60" height="18.5" /></element>
-		<element ref="boton1" inputtag="IN.0" inputmask="0x08"><bounds x="1303" y="392" width="60" height="18.5" /></element>
-		<element ref="boton1" inputtag="IN.0" inputmask="0x04"><bounds x="1308" y="420" width="60" height="18.5" /></element>
+	    <element ref="button1" inputtag="IN.0" inputmask="0x80"><bounds x="1282" y="279" width="60" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.0" inputmask="0x40"><bounds x="1287" y="307" width="60" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.0" inputmask="0x20"><bounds x="1292" y="334" width="60" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.0" inputmask="0x10"><bounds x="1297" y="363" width="60" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.0" inputmask="0x08"><bounds x="1303" y="392" width="60" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.0" inputmask="0x04"><bounds x="1308" y="420" width="60" height="18.5" /></element>
 
-        <element ref="boton4" inputtag="IN.1" inputmask="0x40"><bounds x="1382" y="453" width="36" height="28" /></element>
-		<element ref="boton4" inputtag="IN.1" inputmask="0x20"><bounds x="1390" y="494" width="37" height="28" /></element>
-		<element ref="boton4" inputtag="IN.1" inputmask="0x10"><bounds x="1398" y="534" width="37" height="28" /></element>
+        <element ref="button4" inputtag="IN.1" inputmask="0x40"><bounds x="1382" y="453" width="36" height="28" /></element>
+		<element ref="button4" inputtag="IN.1" inputmask="0x20"><bounds x="1390" y="494" width="37" height="28" /></element>
+		<element ref="button4" inputtag="IN.1" inputmask="0x10"><bounds x="1398" y="534" width="37" height="28" /></element>
 
 
-		<element ref="boton1" inputtag="IN.1" inputmask="0x04"><bounds x="1358" y="710" width="69" height="18.5" /></element> <!-- HINT -->
-		<element ref="boton1" inputtag="IN.1" inputmask="0x08"><bounds x="1363" y="744" width="69" height="18.5" /></element>
-		<element ref="boton1" inputtag="IN.1" inputmask="0x02"><bounds x="1367" y="778" width="70" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.1" inputmask="0x04"><bounds x="1358" y="710" width="69" height="18.5" /></element> <!-- HINT -->
+		<element ref="button1" inputtag="IN.1" inputmask="0x08"><bounds x="1363" y="744" width="69" height="18.5" /></element>
+		<element ref="button1" inputtag="IN.1" inputmask="0x02"><bounds x="1367" y="778" width="70" height="18.5" /></element>
 
        
 

@@ -30,72 +30,72 @@
 	</element>
 
 	<element name="piece" defstate="0">
-		<image file="../piezas/chess/wn.png" state="1"/>
-		<image file="../piezas/chess/wn.png" state="2"/>
-		<image file="../piezas/chess/bk.png" state="3"/>
-		<image file="../piezas/chess/wk.png" state="4"/>
-		<image file="../piezas/chess/bq.png" state="5"/>
-		<image file="../piezas/chess/wq.png" state="6"/>
-		<image file="../piezas/chess/br.png" state="7"/>
-		<image file="../piezas/chess/br.png" state="8"/>
-		<image file="../piezas/chess/wr.png" state="9"/>
-		<image file="../piezas/chess/wr.png" state="10"/>
-		<image file="../piezas/chess/bb.png" state="11"/>
-		<image file="../piezas/chess/bb.png" state="12"/>
-		<image file="../piezas/chess/wb.png" state="13"/>
-		<image file="../piezas/chess/wb.png" state="14"/>
-		<image file="../piezas/chess/bn.png" state="15"/>
-		<image file="../piezas/chess/bn.png" state="16"/>
-		<image file="../piezas/chess/wp.png" state="17"/>
-		<image file="../piezas/chess/wp.png" state="18"/>
-		<image file="../piezas/chess/wp.png" state="19"/>
-		<image file="../piezas/chess/wp.png" state="20"/>
-		<image file="../piezas/chess/wp.png" state="21"/>
-		<image file="../piezas/chess/wp.png" state="22"/>
-		<image file="../piezas/chess/wp.png" state="23"/>
-		<image file="../piezas/chess/wp.png" state="24"/>
-		<image file="../piezas/chess/bp.png" state="25"/>
-		<image file="../piezas/chess/bp.png" state="26"/>
-		<image file="../piezas/chess/bp.png" state="27"/>
-		<image file="../piezas/chess/bp.png" state="28"/>
-		<image file="../piezas/chess/bp.png" state="29"/>
-		<image file="../piezas/chess/bp.png" state="30"/>
-		<image file="../piezas/chess/bp.png" state="31"/>
-		<image file="../piezas/chess/bp.png" state="32"/>
+		<image file="../pieces/chess/wn.png" state="1"/>
+		<image file="../pieces/chess/wn.png" state="2"/>
+		<image file="../pieces/chess/bk.png" state="3"/>
+		<image file="../pieces/chess/wk.png" state="4"/>
+		<image file="../pieces/chess/bq.png" state="5"/>
+		<image file="../pieces/chess/wq.png" state="6"/>
+		<image file="../pieces/chess/br.png" state="7"/>
+		<image file="../pieces/chess/br.png" state="8"/>
+		<image file="../pieces/chess/wr.png" state="9"/>
+		<image file="../pieces/chess/wr.png" state="10"/>
+		<image file="../pieces/chess/bb.png" state="11"/>
+		<image file="../pieces/chess/bb.png" state="12"/>
+		<image file="../pieces/chess/wb.png" state="13"/>
+		<image file="../pieces/chess/wb.png" state="14"/>
+		<image file="../pieces/chess/bn.png" state="15"/>
+		<image file="../pieces/chess/bn.png" state="16"/>
+		<image file="../pieces/chess/wp.png" state="17"/>
+		<image file="../pieces/chess/wp.png" state="18"/>
+		<image file="../pieces/chess/wp.png" state="19"/>
+		<image file="../pieces/chess/wp.png" state="20"/>
+		<image file="../pieces/chess/wp.png" state="21"/>
+		<image file="../pieces/chess/wp.png" state="22"/>
+		<image file="../pieces/chess/wp.png" state="23"/>
+		<image file="../pieces/chess/wp.png" state="24"/>
+		<image file="../pieces/chess/bp.png" state="25"/>
+		<image file="../pieces/chess/bp.png" state="26"/>
+		<image file="../pieces/chess/bp.png" state="27"/>
+		<image file="../pieces/chess/bp.png" state="28"/>
+		<image file="../pieces/chess/bp.png" state="29"/>
+		<image file="../pieces/chess/bp.png" state="30"/>
+		<image file="../pieces/chess/bp.png" state="31"/>
+		<image file="../pieces/chess/bp.png" state="32"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess/wn.png" state="33"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wn.png" state="34"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bk.png" state="35"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wk.png" state="36"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bq.png" state="37"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wq.png" state="38"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/br.png" state="39"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/br.png" state="40"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wr.png" state="41"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wr.png" state="42"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bb.png" state="43"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bb.png" state="44"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wb.png" state="45"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wb.png" state="46"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bn.png" state="47"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bn.png" state="48"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="49"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="50"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="51"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="52"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="53"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="54"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="55"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wp.png" state="56"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="57"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="58"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="59"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="60"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="61"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="62"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="63"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bp.png" state="64"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wn.png" state="33"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wn.png" state="34"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bk.png" state="35"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wk.png" state="36"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bq.png" state="37"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wq.png" state="38"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/br.png" state="39"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/br.png" state="40"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wr.png" state="41"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wr.png" state="42"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bb.png" state="43"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bb.png" state="44"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wb.png" state="45"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wb.png" state="46"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bn.png" state="47"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bn.png" state="48"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="49"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="50"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="51"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="52"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="53"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="54"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="55"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.png" state="56"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="57"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="58"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="59"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="60"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="61"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="62"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="63"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.png" state="64"><color alpha="0.5" /></image>
 	</element>
 
 	<element name="tasc_system" defstate="0">
@@ -163,34 +163,34 @@
 <!-- sb ui -->
 
 	<element name="piece_ui" defstate="0">
-		<image file="../piezas/chess/wp.png" state="1"/>
-		<image file="../piezas/chess/wn.png" state="2"/>
-		<image file="../piezas/chess/wb.png" state="3"/>
-		<image file="../piezas/chess/wr.png" state="4"/>
-		<image file="../piezas/chess/wq.png" state="5"/>
-		<image file="../piezas/chess/wk.png" state="6"/>
+		<image file="../pieces/chess/wp.png" state="1"/>
+		<image file="../pieces/chess/wn.png" state="2"/>
+		<image file="../pieces/chess/wb.png" state="3"/>
+		<image file="../pieces/chess/wr.png" state="4"/>
+		<image file="../pieces/chess/wq.png" state="5"/>
+		<image file="../pieces/chess/wk.png" state="6"/>
 
-		<image file="../piezas/chess/bp.png" state="7"/>
-		<image file="../piezas/chess/bn.png" state="8"/>
-		<image file="../piezas/chess/bb.png" state="9"/>
-		<image file="../piezas/chess/br.png" state="10"/>
-		<image file="../piezas/chess/bq.png" state="11"/>
-		<image file="../piezas/chess/bk.png" state="12"/>
+		<image file="../pieces/chess/bp.png" state="7"/>
+		<image file="../pieces/chess/bn.png" state="8"/>
+		<image file="../pieces/chess/bb.png" state="9"/>
+		<image file="../pieces/chess/br.png" state="10"/>
+		<image file="../pieces/chess/bq.png" state="11"/>
+		<image file="../pieces/chess/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess/wp.png" state="13"></image>
-		<image file="../piezas/chess/wn.png" state="14"></image>
-		<image file="../piezas/chess/wb.png" state="15"></image>
-		<image file="../piezas/chess/wr.png" state="16"></image>
-		<image file="../piezas/chess/wq.png" state="17"></image>
-		<image file="../piezas/chess/wk.png" state="18"></image>
+		<image file="../pieces/chess/wp.png" state="13"></image>
+		<image file="../pieces/chess/wn.png" state="14"></image>
+		<image file="../pieces/chess/wb.png" state="15"></image>
+		<image file="../pieces/chess/wr.png" state="16"></image>
+		<image file="../pieces/chess/wq.png" state="17"></image>
+		<image file="../pieces/chess/wk.png" state="18"></image>
 
-		<image file="../piezas/chess/bp.png" state="19"></image>
-		<image file="../piezas/chess/bn.png" state="20"></image>
-		<image file="../piezas/chess/bb.png" state="21"></image>
-		<image file="../piezas/chess/br.png" state="22"></image>
-		<image file="../piezas/chess/bq.png" state="23"></image>
-		<image file="../piezas/chess/bk.png" state="24"></image>
+		<image file="../pieces/chess/bp.png" state="19"></image>
+		<image file="../pieces/chess/bn.png" state="20"></image>
+		<image file="../pieces/chess/bb.png" state="21"></image>
+		<image file="../pieces/chess/br.png" state="22"></image>
+		<image file="../pieces/chess/bq.png" state="23"></image>
+		<image file="../pieces/chess/bk.png" state="24"></image>
 	</element>
 
 	<element name="hlub" defstate="0">

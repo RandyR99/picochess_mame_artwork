@@ -8,8 +8,8 @@
 		<image file="ss3.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 	
 	
@@ -24,8 +24,8 @@
 	</element>
 
 <element name="switch2" defstate="0">
-		<image file="boton_0.png" state="0"/>
-        <image file="boton_1.png" state="1"/>
+		<image file="button_0.png" state="0"/>
+        <image file="button_1.png" state="1"/>
 	</element>
 
 	
@@ -121,22 +121,22 @@
 	<view name="artwork by luis">
 		<bounds left="-5" right="1196" top="-5" bottom="486" />
 
-<element ref="fondo">
+<element ref="background">
 		
 			<bounds x="-5" y="-5" width="1200" height="10" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 		
 			<bounds x="-5" y="-5" width="25" height="483" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 		
 			<bounds x="-5" y="475" width="1200" height="18" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 		
 			<bounds x="1180" y="-5" width="15" height="483" />
 		</element>

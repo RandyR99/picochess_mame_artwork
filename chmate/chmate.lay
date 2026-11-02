@@ -30,8 +30,8 @@ license:cc0
 	</element>
 
 <element name="hl" defstate="0">
-		<image file="../botones/down_sel.png" state="1"/>
-	<image file="../botones/down.png" state="0"/>
+		<image file="../buttons/down_sel.png" state="1"/>
+	<image file="../buttons/down.png" state="0"/>
 	</element>
 
 
@@ -39,8 +39,8 @@ license:cc0
 
 
 <element name="button" defstate="0">
-	<image file="../botones/down_sel.png" state="1"/>
-	<image file="../botones/down.png" state="0"/>
+	<image file="../buttons/down_sel.png" state="1"/>
+	<image file="../buttons/down.png" state="0"/>
 	</element>
 
 

@@ -12,8 +12,8 @@ license:cc0
 		<image file="ccmk2.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo.png" />
+<element name="background">
+		<image file="../misc/background.png" />
 	</element>
 
 
@@ -35,7 +35,7 @@ license:cc0
 
 
     <element name="but" defstate="0">
-    <image file="../botones/down_sel.png" state="1"/>
+    <image file="../buttons/down_sel.png" state="1"/>
 	</element>
 
 	<element name="led" defstate="0">

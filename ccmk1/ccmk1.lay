@@ -12,8 +12,8 @@ license:cc0
 		<image file="ccmk1.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 	<element name="black"><rect><color red="0.12" green="0.12" blue="0.12" /></rect></element>
@@ -37,8 +37,8 @@ license:cc0
 	</element>
 
 	<element name="but" defstate="0">
-    <image file="../botones/down_sel6.png" state="1"/>
-    <image file="../botones/down_sel6.png" state="1"/>
+    <image file="../buttons/down_sel6.png" state="1"/>
+    <image file="../buttons/down_sel6.png" state="1"/>
 	</element>
 
 	
@@ -60,7 +60,7 @@ license:cc0
 	<view name="artwork by luis">
 <bounds left="-10" right="1710" top="-10" bottom="870" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-10" y="-10" width="1725" height="960" />
 		</element>
 

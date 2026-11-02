@@ -11,30 +11,30 @@
 	</element>
 
 	<element name="piece" defstate="0">
-		<image file="../piezas/chess2/bp.png" state="1"/>
-		<image file="../piezas/chess2/bkn.png" state="2"/>
-		<image file="../piezas/chess2/bb.png" state="3"/>
-		<image file="../piezas/chess2/br.png" state="4"/>
-		<image file="../piezas/chess2/bq.png" state="5"/>
-		<image file="../piezas/chess2/bk.png" state="6"/>
-		<image file="../piezas/chess2/wp.png" state="7"/>
-		<image file="../piezas/chess2/wkn.png" state="8"/>
-		<image file="../piezas/chess2/wb.png" state="9"/>
-		<image file="../piezas/chess2/wr.png" state="10"/>
-		<image file="../piezas/chess2/wq.png" state="11"/>
-		<image file="../piezas/chess2/wk.png" state="12"/>
-		<image file="../piezas/chess2/bp_sel.png" state="13"/>
-		<image file="../piezas/chess2/bkn_sel.png" state="14"/>
-		<image file="../piezas/chess2/bb_sel.png" state="15"/>
-		<image file="../piezas/chess2/br_sel.png" state="16"/>
-		<image file="../piezas/chess2/bq_sel.png" state="17"/>
-		<image file="../piezas/chess2/bk_sel.png" state="18"/>
-		<image file="../piezas/chess2/wp_sel.png" state="19"/>
-		<image file="../piezas/chess2/wkn_sel.png" state="20"/>
-		<image file="../piezas/chess2/wb_sel.png" state="21"/>
-		<image file="../piezas/chess2/wr_sel.png" state="22"/>
-		<image file="../piezas/chess2/wq_sel.png" state="23"/>
-		<image file="../piezas/chess2/wk_sel.png" state="24"/>
+		<image file="../pieces/chess2/bp.png" state="1"/>
+		<image file="../pieces/chess2/bkn.png" state="2"/>
+		<image file="../pieces/chess2/bb.png" state="3"/>
+		<image file="../pieces/chess2/br.png" state="4"/>
+		<image file="../pieces/chess2/bq.png" state="5"/>
+		<image file="../pieces/chess2/bk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="7"/>
+		<image file="../pieces/chess2/wkn.png" state="8"/>
+		<image file="../pieces/chess2/wb.png" state="9"/>
+		<image file="../pieces/chess2/wr.png" state="10"/>
+		<image file="../pieces/chess2/wq.png" state="11"/>
+		<image file="../pieces/chess2/wk.png" state="12"/>
+		<image file="../pieces/chess2/bp_sel.png" state="13"/>
+		<image file="../pieces/chess2/bkn_sel.png" state="14"/>
+		<image file="../pieces/chess2/bb_sel.png" state="15"/>
+		<image file="../pieces/chess2/br_sel.png" state="16"/>
+		<image file="../pieces/chess2/bq_sel.png" state="17"/>
+		<image file="../pieces/chess2/bk_sel.png" state="18"/>
+		<image file="../pieces/chess2/wp_sel.png" state="19"/>
+		<image file="../pieces/chess2/wkn_sel.png" state="20"/>
+		<image file="../pieces/chess2/wb_sel.png" state="21"/>
+		<image file="../pieces/chess2/wr_sel.png" state="22"/>
+		<image file="../pieces/chess2/wq_sel.png" state="23"/>
+		<image file="../pieces/chess2/wk_sel.png" state="24"/>
 	</element>
 
 	<element name="CLEARboard"><image file="CLEARboard.png" /></element>
@@ -44,63 +44,63 @@
 	<element name="sensor" defstate="0"></element>
 
 	<element name="btc" defstate="0">
-	<image file="rojo_c.png" state="0"/>
-	<image file="rojo_c_sel.png" state="1"/>
+	<image file="red_c.png" state="0"/>
+	<image file="red_c_sel.png" state="1"/>
 	</element>
 
 	<element name="bta" defstate="0">
-	<image file="gris_a.png" state="0"/>
-	<image file="gris_a_sel.png" state="1"/>
+	<image file="grey_a.png" state="0"/>
+	<image file="grey_a_sel.png" state="1"/>
 	</element>
 
 	<element name="btst" defstate="0">
-	<image file="gris_st.png" state="0"/>
-	<image file="gris_st_sel.png" state="1"/>
+	<image file="grey_st.png" state="0"/>
+	<image file="grey_st_sel.png" state="1"/>
 	</element>
 
 	<element name="btz" defstate="0">
-	<image file="gris_z.png" state="0"/>
-	<image file="gris_z_sel.png" state="1"/>
+	<image file="grey_z.png" state="0"/>
+	<image file="grey_z_sel.png" state="1"/>
 	</element>
 
 	<element name="bt1" defstate="0">
-	<image file="azul_1.png" state="0"/>
-	<image file="azul_1_sel.png" state="1"/>
+	<image file="blue_1.png" state="0"/>
+	<image file="blue_1_sel.png" state="1"/>
 	</element>
 
 	<element name="bt2" defstate="0">
-	<image file="azul_2.png" state="0"/>
-	<image file="azul_2_sel.png" state="1"/>
+	<image file="blue_2.png" state="0"/>
+	<image file="blue_2_sel.png" state="1"/>
 	</element>
 
 	<element name="bt3" defstate="0">
-	<image file="azul_3.png" state="0"/>
-	<image file="azul_3_sel.png" state="1"/>
+	<image file="blue_3.png" state="0"/>
+	<image file="blue_3_sel.png" state="1"/>
 	</element>
 
 	<element name="bt4" defstate="0">
-	<image file="azul_4.png" state="0"/>
-	<image file="azul_4_sel.png" state="1"/>
+	<image file="blue_4.png" state="0"/>
+	<image file="blue_4_sel.png" state="1"/>
 	</element>
 
 	<element name="bt5" defstate="0">
-	<image file="azul_5.png" state="0"/>
-	<image file="azul_5_sel.png" state="1"/>
+	<image file="blue_5.png" state="0"/>
+	<image file="blue_5_sel.png" state="1"/>
 	</element>
 
 	<element name="bt6" defstate="0">
-	<image file="azul_6.png" state="0"/>
-	<image file="azul_6_sel.png" state="1"/>
+	<image file="blue_6.png" state="0"/>
+	<image file="blue_6_sel.png" state="1"/>
 	</element>
 
 	<element name="bt7" defstate="0">
-	<image file="azul_7.png" state="0"/>
-	<image file="azul_7_sel.png" state="1"/>
+	<image file="blue_7.png" state="0"/>
+	<image file="blue_7_sel.png" state="1"/>
 	</element>
 
 	<element name="bt8" defstate="0">
-	<image file="azul_8.png" state="0"/>
-	<image file="azul_8_sel.png" state="1"/>
+	<image file="blue_8.png" state="0"/>
+	<image file="blue_8_sel.png" state="1"/>
 	</element>
 
 <element name="RESET" defstate="0">

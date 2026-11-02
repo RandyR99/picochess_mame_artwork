@@ -56,7 +56,7 @@ license:CC0-1.0
 			<bounds x="0" y="0" width="4096" height="6.25" />
 			<color alpha="0" />
 		</rect>
-		<image file="../piezas/chess/hand.svg">
+		<image file="../pieces/chess/hand.svg">
 			<bounds state="0" x="0" y="0" width="20" height="10" />
 			<bounds state="3600" x="3600" y="0" width="20" height="10" />
 			<color red="1.0" green="1.0" blue="1.0" />
@@ -96,34 +96,34 @@ license:CC0-1.0
 	</element>
 
 	<element name="piece" defstate="0">
-		<image file="../piezas/chess/wp.svg" state="1"/>
-		<image file="../piezas/chess/wn.svg" state="2"/>
-		<image file="../piezas/chess/wb.svg" state="3"/>
-		<image file="../piezas/chess/wr.svg" state="4"/>
-		<image file="../piezas/chess/wq.svg" state="5"/>
-		<image file="../piezas/chess/wk.svg" state="6"/>
+		<image file="../pieces/chess/wp.svg" state="1"/>
+		<image file="../pieces/chess/wn.svg" state="2"/>
+		<image file="../pieces/chess/wb.svg" state="3"/>
+		<image file="../pieces/chess/wr.svg" state="4"/>
+		<image file="../pieces/chess/wq.svg" state="5"/>
+		<image file="../pieces/chess/wk.svg" state="6"/>
 
-		<image file="../piezas/chess/bp.svg" state="7"/>
-		<image file="../piezas/chess/bn.svg" state="8"/>
-		<image file="../piezas/chess/bb.svg" state="9"/>
-		<image file="../piezas/chess/br.svg" state="10"/>
-		<image file="../piezas/chess/bq.svg" state="11"/>
-		<image file="../piezas/chess/bk.svg" state="12"/>
+		<image file="../pieces/chess/bp.svg" state="7"/>
+		<image file="../pieces/chess/bn.svg" state="8"/>
+		<image file="../pieces/chess/bb.svg" state="9"/>
+		<image file="../pieces/chess/br.svg" state="10"/>
+		<image file="../pieces/chess/bq.svg" state="11"/>
+		<image file="../pieces/chess/bk.svg" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess/wp.svg" state="13"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wn.svg" state="14"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wb.svg" state="15"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wr.svg" state="16"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wq.svg" state="17"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/wk.svg" state="18"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wp.svg" state="13"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wn.svg" state="14"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wb.svg" state="15"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wr.svg" state="16"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wq.svg" state="17"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/wk.svg" state="18"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess/bp.svg" state="19"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bn.svg" state="20"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bb.svg" state="21"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/br.svg" state="22"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bq.svg" state="23"><color alpha="0.5" /></image>
-		<image file="../piezas/chess/bk.svg" state="24"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bp.svg" state="19"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bn.svg" state="20"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bb.svg" state="21"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/br.svg" state="22"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bq.svg" state="23"><color alpha="0.5" /></image>
+		<image file="../pieces/chess/bk.svg" state="24"><color alpha="0.5" /></image>
 	</element>
 
 	<group name="sb_board">
@@ -375,19 +375,19 @@ license:CC0-1.0
 		</disk>
 	</element>
 
-	<element name="text_pw1"><image file="../piezas/chess/wk.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
-	<element name="text_pw2"><image file="../piezas/chess/wq.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
-	<element name="text_pw3"><image file="../piezas/chess/wb.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
-	<element name="text_pw4"><image file="../piezas/chess/wn.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
-	<element name="text_pw5"><image file="../piezas/chess/wr.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
-	<element name="text_pw6"><image file="../piezas/chess/wp.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
+	<element name="text_pw1"><image file="../pieces/chess/wk.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
+	<element name="text_pw2"><image file="../pieces/chess/wq.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
+	<element name="text_pw3"><image file="../pieces/chess/wb.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
+	<element name="text_pw4"><image file="../pieces/chess/wn.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
+	<element name="text_pw5"><image file="../pieces/chess/wr.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
+	<element name="text_pw6"><image file="../pieces/chess/wp.svg" /><rect><color red="0" green="0" blue="0" alpha="0.35" /></rect></element>
 
-	<element name="text_pr1"><rect><color red="1" green="1" blue="1" /></rect><image file="../piezas/chess/bk.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
-	<element name="text_pr2"><rect><color red="1" green="1" blue="1" /></rect><image file="../piezas/chess/bq.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
-	<element name="text_pr3"><rect><color red="1" green="1" blue="1" /></rect><image file="../piezas/chess/bb.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
-	<element name="text_pr4"><rect><color red="1" green="1" blue="1" /></rect><image file="../piezas/chess/bn.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
-	<element name="text_pr5"><rect><color red="1" green="1" blue="1" /></rect><image file="../piezas/chess/br.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
-	<element name="text_pr6"><rect><color red="1" green="1" blue="1" /></rect><image file="../piezas/chess/bp.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
+	<element name="text_pr1"><rect><color red="1" green="1" blue="1" /></rect><image file="../pieces/chess/bk.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
+	<element name="text_pr2"><rect><color red="1" green="1" blue="1" /></rect><image file="../pieces/chess/bq.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
+	<element name="text_pr3"><rect><color red="1" green="1" blue="1" /></rect><image file="../pieces/chess/bb.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
+	<element name="text_pr4"><rect><color red="1" green="1" blue="1" /></rect><image file="../pieces/chess/bn.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
+	<element name="text_pr5"><rect><color red="1" green="1" blue="1" /></rect><image file="../pieces/chess/br.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
+	<element name="text_pr6"><rect><color red="1" green="1" blue="1" /></rect><image file="../pieces/chess/bp.svg" /><rect><color red="1" green="1" blue="1" alpha="0.1875" /></rect></element>
 
 	<group name="left">
 		<element ref="cwhite"><bounds x="0" y="0" width="20" height="80" /></element>
@@ -610,12 +610,12 @@ license:CC0-1.0
 	<element name="text_l11"><text string="Human"></text></element>
 	<element name="text_l12"><text string="Robot"></text></element>
 
-	<element name="text_pl1"><image file="../piezas/chess/wk.svg" /></element>
-	<element name="text_pl2"><image file="../piezas/chess/wq.svg" /></element>
-	<element name="text_pl3"><image file="../piezas/chess/wb.svg" /></element>
-	<element name="text_pl4"><image file="../piezas/chess/wn.svg" /></element>
-	<element name="text_pl5"><image file="../piezas/chess/wr.svg" /></element>
-	<element name="text_pl6"><image file="../piezas/chess/wp.svg" /></element>
+	<element name="text_pl1"><image file="../pieces/chess/wk.svg" /></element>
+	<element name="text_pl2"><image file="../pieces/chess/wq.svg" /></element>
+	<element name="text_pl3"><image file="../pieces/chess/wb.svg" /></element>
+	<element name="text_pl4"><image file="../pieces/chess/wn.svg" /></element>
+	<element name="text_pl5"><image file="../pieces/chess/wr.svg" /></element>
+	<element name="text_pl6"><image file="../pieces/chess/wp.svg" /></element>
 
 	<group name="leds1a">
 		<bounds x="0" y="0" width="140" height="10" />

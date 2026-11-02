@@ -13,8 +13,8 @@ license:CC0
 	</element>
 
 <element name="but" defstate="0">
-		<image file="../botones/but5_sel.png" state="1"/>
-	<image file="../botones/but5.png" state="0"/>
+		<image file="../buttons/but5_sel.png" state="1"/>
+	<image file="../buttons/but5.png" state="0"/>
 </element>
 
 	<element name="digit" defstate="0">

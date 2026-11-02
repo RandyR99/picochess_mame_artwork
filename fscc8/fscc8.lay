@@ -11,98 +11,98 @@
 		<image file="scc8c.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 	<element name="piece_3" defstate="0">
 	
-		<image file="../piezas/pfidelity_plastico/wp.png" state="1"/>
-		<image file="../piezas/pfidelity_plastico/wkn.png" state="2"/>
-        <image file="../piezas/pfidelity_plastico/wb.png" state="3"/>
-		<image file="../piezas/pfidelity_plastico/wr.png" state="4"/>
-		<image file="../piezas/pfidelity_plastico/wq.png" state="5"/>
-		<image file="../piezas/pfidelity_plastico/wk.png" state="6"/>
-		<image file="../piezas/pfidelity_plastico/bp.png" state="7"/>
-		<image file="../piezas/pfidelity_plastico/bkn.png" state="8"/>
-		<image file="../piezas/pfidelity_plastico/bb.png" state="9"/>
-		<image file="../piezas/pfidelity_plastico/br.png" state="10"/>
-		<image file="../piezas/pfidelity_plastico/bq.png" state="11"/>
-		<image file="../piezas/pfidelity_plastico/bk.png" state="12"/>
-		<image file="../piezas/pfidelity_plastico/wp_sel.png" state="13"/>
-		<image file="../piezas/pfidelity_plastico/wkn_sel.png" state="14"/>
-		<image file="../piezas/pfidelity_plastico/wb_sel.png" state="15"/>
-		<image file="../piezas/pfidelity_plastico/wr_sel.png" state="16"/>
-		<image file="../piezas/pfidelity_plastico/wq_sel.png" state="17"/>
-		<image file="../piezas/pfidelity_plastico/wk_sel.png" state="18"/>
-		<image file="../piezas/pfidelity_plastico/bp_sel.png" state="19"/>
-		<image file="../piezas/pfidelity_plastico/bkn_sel.png" state="20"/>
-		<image file="../piezas/pfidelity_plastico/bb_sel.png" state="21"/>
-		<image file="../piezas/pfidelity_plastico/br_sel.png" state="22"/>
-		<image file="../piezas/pfidelity_plastico/bq_sel.png" state="23"/>
-		<image file="../piezas/pfidelity_plastico/bk_sel.png" state="24"/>
+		<image file="../pieces/pfidelity_plastic/wp.png" state="1"/>
+		<image file="../pieces/pfidelity_plastic/wkn.png" state="2"/>
+        <image file="../pieces/pfidelity_plastic/wb.png" state="3"/>
+		<image file="../pieces/pfidelity_plastic/wr.png" state="4"/>
+		<image file="../pieces/pfidelity_plastic/wq.png" state="5"/>
+		<image file="../pieces/pfidelity_plastic/wk.png" state="6"/>
+		<image file="../pieces/pfidelity_plastic/bp.png" state="7"/>
+		<image file="../pieces/pfidelity_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pfidelity_plastic/bb.png" state="9"/>
+		<image file="../pieces/pfidelity_plastic/br.png" state="10"/>
+		<image file="../pieces/pfidelity_plastic/bq.png" state="11"/>
+		<image file="../pieces/pfidelity_plastic/bk.png" state="12"/>
+		<image file="../pieces/pfidelity_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pfidelity_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pfidelity_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pfidelity_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pfidelity_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pfidelity_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pfidelity_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pfidelity_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pfidelity_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pfidelity_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pfidelity_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pfidelity_plastic/bk_sel.png" state="24"/>
 	</element>
 
 	<element name="piece_2m" defstate="0">
-	     <image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+	     <image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp.png" state="13"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wn.png" state="14"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wb.png" state="15"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wr.png" state="16"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wq.png" state="17"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/wk.png" state="18"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wp.png" state="13"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wn.png" state="14"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wb.png" state="15"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wr.png" state="16"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wq.png" state="17"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wk.png" state="18"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/bp.png" state="19"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bn.png" state="20"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bb.png" state="21"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/br.png" state="22"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bq.png" state="23"><color alpha="0.5" /></image>
-		<image file="../piezas/chess2/bk.png" state="24"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bp.png" state="19"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bn.png" state="20"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bb.png" state="21"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/br.png" state="22"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bq.png" state="23"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bk.png" state="24"><color alpha="0.5" /></image>
 	</element>
 
 <element name="piece_panel" defstate="0">
-		<image file="../piezas/pmephisto1/bpawn.png" state="1"/>
-		<image file="../piezas/pmephisto1/bknight.png" state="2"/>
-		<image file="../piezas/pmephisto1/bbishop.png" state="3"/>
-		<image file="../piezas/pmephisto1/brook.png" state="4"/>
-		<image file="../piezas/pmephisto1/bqueen.png" state="5"/>
-		<image file="../piezas/pmephisto1/bking.png" state="6"/>
-		<image file="../piezas/pmephisto1/wpawn.png" state="7"/>
-		<image file="../piezas/pmephisto1/wknight.png" state="8"/>
-		<image file="../piezas/pmephisto1/wbishop.png" state="9"/>
-		<image file="../piezas/pmephisto1/wrook.png" state="10"/>
-		<image file="../piezas/pmephisto1/wqueen.png" state="11"/>
-		<image file="../piezas/pmephisto1/wking.png" state="12"/>
-		<image file="../piezas/pmephisto1/bpawn_sel.png" state="13"/>
-		<image file="../piezas/pmephisto1/bknight_sel.png" state="14"/>
-		<image file="../piezas/pmephisto1/bbishop_sel.png" state="15"/>
-		<image file="../piezas/pmephisto1/brook_sel.png" state="16"/>
-		<image file="../piezas/pmephisto1/bqueen_sel.png" state="17"/>
-		<image file="../piezas/pmephisto1/bking_sel.png" state="18"/>
-		<image file="../piezas/pmephisto1/wpawn_sel.png" state="19"/>
-		<image file="../piezas/pmephisto1/wknight_sel.png" state="20"/>
-		<image file="../piezas/pmephisto1/wbishop_sel.png" state="21"/>
-		<image file="../piezas/pmephisto1/wrook_sel.png" state="22"/>
-		<image file="../piezas/pmephisto1/wqueen_sel.png" state="23"/>
-		<image file="../piezas/pmephisto1/wking_sel.png" state="24"/>
+		<image file="../pieces/pmephisto1/bpawn.png" state="1"/>
+		<image file="../pieces/pmephisto1/bknight.png" state="2"/>
+		<image file="../pieces/pmephisto1/bbishop.png" state="3"/>
+		<image file="../pieces/pmephisto1/brook.png" state="4"/>
+		<image file="../pieces/pmephisto1/bqueen.png" state="5"/>
+		<image file="../pieces/pmephisto1/bking.png" state="6"/>
+		<image file="../pieces/pmephisto1/wpawn.png" state="7"/>
+		<image file="../pieces/pmephisto1/wknight.png" state="8"/>
+		<image file="../pieces/pmephisto1/wbishop.png" state="9"/>
+		<image file="../pieces/pmephisto1/wrook.png" state="10"/>
+		<image file="../pieces/pmephisto1/wqueen.png" state="11"/>
+		<image file="../pieces/pmephisto1/wking.png" state="12"/>
+		<image file="../pieces/pmephisto1/bpawn_sel.png" state="13"/>
+		<image file="../pieces/pmephisto1/bknight_sel.png" state="14"/>
+		<image file="../pieces/pmephisto1/bbishop_sel.png" state="15"/>
+		<image file="../pieces/pmephisto1/brook_sel.png" state="16"/>
+		<image file="../pieces/pmephisto1/bqueen_sel.png" state="17"/>
+		<image file="../pieces/pmephisto1/bking_sel.png" state="18"/>
+		<image file="../pieces/pmephisto1/wpawn_sel.png" state="19"/>
+		<image file="../pieces/pmephisto1/wknight_sel.png" state="20"/>
+		<image file="../pieces/pmephisto1/wbishop_sel.png" state="21"/>
+		<image file="../pieces/pmephisto1/wrook_sel.png" state="22"/>
+		<image file="../pieces/pmephisto1/wqueen_sel.png" state="23"/>
+		<image file="../pieces/pmephisto1/wking_sel.png" state="24"/>
 	</element>
 
 <element name="led" defstate="0">
@@ -124,31 +124,31 @@
 	<image file="cl.png" state="1"/>
 </element>
 
-<element name="rey" defstate="0">
-	<image file="rey.png" state="1"/>
+<element name="king" defstate="0">
+	<image file="king.png" state="1"/>
 </element>
 
-<element name="dama" defstate="0">
-	<image file="dama.png" state="1"/>
+<element name="queen" defstate="0">
+	<image file="queen.png" state="1"/>
 </element>
 
-<element name="alfil" defstate="0">
-	<image file="alfil.png" state="1"/>
+<element name="bishop" defstate="0">
+	<image file="bishop.png" state="1"/>
 
 	</element>
 
-<element name="caballo" defstate="0">
-	<image file="caballo.png" state="1"/>
+<element name="knight" defstate="0">
+	<image file="knight.png" state="1"/>
 
 	</element>
 
-<element name="torre" defstate="0">
-	<image file="torre.png" state="1"/>
+<element name="rook" defstate="0">
+	<image file="rook.png" state="1"/>
 
 	</element>
 
-<element name="peon" defstate="0">
-	<image file="peon.png" state="1"/>
+<element name="pawn" defstate="0">
+	<image file="pawn.png" state="1"/>
 </element>
 	
 
@@ -166,7 +166,7 @@
 	</element>
 
 	<element name="hlb" defstate="0">
-	<image file="../botones/down_sel1.png" state="1"/>
+	<image file="../buttons/down_sel1.png" state="1"/>
     </element>
 	
 	
@@ -363,7 +363,7 @@
 	<view name="3d artwork by luis">
 <bounds left="-10" right="108" top="0" bottom="87" />
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="-10" y="0" width="120" height="87" />
 		</element>
 		
@@ -634,12 +634,12 @@
 
 		<element ref="re" inputtag="IN.0" inputmask="0x80"><bounds x="88.0" y="22.7" width="5.3" height="4.0" /></element>
 		<element ref="cl" inputtag="IN.0" inputmask="0x40"><bounds x="88.7" y="28" width="5.3" height="4.0" /></element>
-		<element ref="rey" inputtag="IN.0" inputmask="0x20"><bounds x="89.6" y="33.6" width="5.3" height="4.0" /></element>
-		<element ref="dama" inputtag="IN.0" inputmask="0x10"><bounds x="90.3" y="39.4" width="5.3" height="4.0" /></element>
-		<element ref="alfil" inputtag="IN.0" inputmask="0x08"><bounds x="91" y="45.2" width="5.9" height="4.6" /></element>
-		<element ref="caballo" inputtag="IN.0" inputmask="0x04"><bounds x="91.9" y="51.3" width="6" height="4.7" /></element>
-		<element ref="torre" inputtag="IN.0" inputmask="0x02"><bounds x="92.9" y="58" width="6" height="4.7" /></element>
-		<element ref="peon" inputtag="IN.0" inputmask="0x01"><bounds x="93.9" y="64.7" width="6" height="4.7" /></element>
+		<element ref="king" inputtag="IN.0" inputmask="0x20"><bounds x="89.6" y="33.6" width="5.3" height="4.0" /></element>
+		<element ref="queen" inputtag="IN.0" inputmask="0x10"><bounds x="90.3" y="39.4" width="5.3" height="4.0" /></element>
+		<element ref="bishop" inputtag="IN.0" inputmask="0x08"><bounds x="91" y="45.2" width="5.9" height="4.6" /></element>
+		<element ref="knight" inputtag="IN.0" inputmask="0x04"><bounds x="91.9" y="51.3" width="6" height="4.7" /></element>
+		<element ref="rook" inputtag="IN.0" inputmask="0x02"><bounds x="92.9" y="58" width="6" height="4.7" /></element>
+		<element ref="pawn" inputtag="IN.0" inputmask="0x01"><bounds x="93.9" y="64.7" width="6" height="4.7" /></element>
 
 	</view>
 	
@@ -648,7 +648,7 @@
 	<view name="artwork by luis">
 		<bounds left="-200" right="1896" top="-10" bottom="1910" />
 	
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-220" y="-10" width="2116" height="1930" />
 		</element>
 
@@ -680,7 +680,7 @@
 	<view name="2d artwork by luis">
 	<bounds left="-200" right="1896" top="-10" bottom="1910" />
 	
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-220" y="-10" width="2116" height="1930" />
 		</element>
 

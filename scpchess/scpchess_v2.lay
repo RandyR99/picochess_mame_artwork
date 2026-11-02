@@ -10,12 +10,12 @@ license:cc0
 		<image file="portachess5.png" />
 	</element>
 	
-	<element name="fondo">
-		<image file="../varios/fondo4.png" />
+	<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 	<element name="led" defstate="0">
@@ -31,95 +31,95 @@ license:cc0
 
 	
 	<element name="but" defstate="0">
-	<image file="../botones/but2a_sel.png" state="1"/>
-	<image file="../botones/but2a.png" state="0"/>
+	<image file="../buttons/but2a_sel.png" state="1"/>
+	<image file="../buttons/but2a.png" state="0"/>
 	</element>
 	
 	<element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 <element name="piece_m" defstate="0">
-		<image file="../piezas/pnovag_plastico/wp.png" state="1"/>
-		<image file="../piezas/pnovag_plastico/wkn.png" state="2"/>
-		<image file="../piezas/pnovag_plastico/wb.png" state="3"/>
-		<image file="../piezas/pnovag_plastico/wr.png" state="4"/>
-		<image file="../piezas/pnovag_plastico/wq.png" state="5"/>
-		<image file="../piezas/pnovag_plastico/wk.png" state="6"/>
-		<image file="../piezas/pnovag_plastico/bp.png" state="7"/>
-		<image file="../piezas/pnovag_plastico/bkn.png" state="8"/>
-		<image file="../piezas/pnovag_plastico/bb.png" state="9"/>
-		<image file="../piezas/pnovag_plastico/br.png" state="10"/>
-		<image file="../piezas/pnovag_plastico/bq.png" state="11"/>
-		<image file="../piezas/pnovag_plastico/bk.png" state="12"/>
-		<image file="../piezas/pnovag_plastico/wp_sel.png" state="13"/>
-		<image file="../piezas/pnovag_plastico/wkn_sel.png" state="14"/>
-		<image file="../piezas/pnovag_plastico/wb_sel.png" state="15"/>
-		<image file="../piezas/pnovag_plastico/wr_sel.png" state="16"/>
-		<image file="../piezas/pnovag_plastico/wq_sel.png" state="17"/>
-		<image file="../piezas/pnovag_plastico/wk_sel.png" state="18"/>
-		<image file="../piezas/pnovag_plastico/bp_sel.png" state="19"/>
-		<image file="../piezas/pnovag_plastico/bkn_sel.png" state="20"/>
-		<image file="../piezas/pnovag_plastico/bb_sel.png" state="21"/>
-		<image file="../piezas/pnovag_plastico/br_sel.png" state="22"/>
-		<image file="../piezas/pnovag_plastico/bq_sel.png" state="23"/>
-		<image file="../piezas/pnovag_plastico/bk_sel.png" state="24"/>
+		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
+		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
 	</element>
 
-<element name="pplanas" defstate="0">
-		<image file="../piezas/pplanas/wp.png" state="1"/>
-		<image file="../piezas/pplanas/wn.png" state="2"/>
-		<image file="../piezas/pplanas/wb.png" state="3"/>
-		<image file="../piezas/pplanas/wr.png" state="4"/>
-		<image file="../piezas/pplanas/wq.png" state="5"/>
-		<image file="../piezas/pplanas/wk.png" state="6"/>
-        <image file="../piezas/pplanas/bp.png" state="7"/>
-		<image file="../piezas/pplanas/bn.png" state="8"/>
-		<image file="../piezas/pplanas/bb.png" state="9"/>
-		<image file="../piezas/pplanas/br.png" state="10"/>
-		<image file="../piezas/pplanas/bq.png" state="11"/>
-		<image file="../piezas/pplanas/bk.png" state="12"/>
+<element name="pflat" defstate="0">
+		<image file="../pieces/pflat/wp.png" state="1"/>
+		<image file="../pieces/pflat/wn.png" state="2"/>
+		<image file="../pieces/pflat/wb.png" state="3"/>
+		<image file="../pieces/pflat/wr.png" state="4"/>
+		<image file="../pieces/pflat/wq.png" state="5"/>
+		<image file="../pieces/pflat/wk.png" state="6"/>
+        <image file="../pieces/pflat/bp.png" state="7"/>
+		<image file="../pieces/pflat/bn.png" state="8"/>
+		<image file="../pieces/pflat/bb.png" state="9"/>
+		<image file="../pieces/pflat/br.png" state="10"/>
+		<image file="../pieces/pflat/bq.png" state="11"/>
+		<image file="../pieces/pflat/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/pplanas/wp_sel.png" state="13"></image>
-		<image file="../piezas/pplanas/wn_sel.png" state="14"></image>
-		<image file="../piezas/pplanas/wb_sel.png" state="15"></image>
-		<image file="../piezas/pplanas/wr_sel.png" state="16"></image>
-		<image file="../piezas/pplanas/wq_sel.png" state="17"></image>
-		<image file="../piezas/pplanas/wk_sel.png" state="18"></image>
-        <image file="../piezas/pplanas/bp_sel.png" state="19"></image>
-		<image file="../piezas/pplanas/bn_sel.png" state="20"></image>
-		<image file="../piezas/pplanas/bb_sel.png" state="21"></image>
-		<image file="../piezas/pplanas/br_sel.png" state="22"></image>
-		<image file="../piezas/pplanas/bq_sel.png" state="23"></image>
-		<image file="../piezas/pplanas/bk_sel.png" state="24"></image>
+		<image file="../pieces/pflat/wp_sel.png" state="13"></image>
+		<image file="../pieces/pflat/wn_sel.png" state="14"></image>
+		<image file="../pieces/pflat/wb_sel.png" state="15"></image>
+		<image file="../pieces/pflat/wr_sel.png" state="16"></image>
+		<image file="../pieces/pflat/wq_sel.png" state="17"></image>
+		<image file="../pieces/pflat/wk_sel.png" state="18"></image>
+        <image file="../pieces/pflat/bp_sel.png" state="19"></image>
+		<image file="../pieces/pflat/bn_sel.png" state="20"></image>
+		<image file="../pieces/pflat/bb_sel.png" state="21"></image>
+		<image file="../pieces/pflat/br_sel.png" state="22"></image>
+		<image file="../pieces/pflat/bq_sel.png" state="23"></image>
+		<image file="../pieces/pflat/bk_sel.png" state="24"></image>
 	</element>
 
 <!-- sb board -->
@@ -192,14 +192,14 @@ license:cc0
 
 
 
-			<element name="piece_a~i~" ref="pplanas"><bounds x="0.5" y="~y~" width="8" height="8" /></element>
-			<element name="piece_b~i~" ref="pplanas"><bounds x="10.5" y="~y~"  width="8" height="8" /></element>
-			<element name="piece_c~i~" ref="pplanas"><bounds x="20.5" y="~y~" width="8" height="8" /></element>
-			<element name="piece_d~i~" ref="pplanas"><bounds x="30.5" y="~y~" width="8" height="8" /></element>
-			<element name="piece_e~i~" ref="pplanas"><bounds x="40.5" y="~y~" width="8" height="8" /></element>
-			<element name="piece_f~i~" ref="pplanas"><bounds x="50.5" y="~y~" width="8" height="8" /></element>
-			<element name="piece_g~i~" ref="pplanas"><bounds x="60.5" y="~y~" width="8" height="8" /></element>
-			<element name="piece_h~i~" ref="pplanas"><bounds x="70.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_a~i~" ref="pflat"><bounds x="0.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_b~i~" ref="pflat"><bounds x="10.5" y="~y~"  width="8" height="8" /></element>
+			<element name="piece_c~i~" ref="pflat"><bounds x="20.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_d~i~" ref="pflat"><bounds x="30.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_e~i~" ref="pflat"><bounds x="40.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_f~i~" ref="pflat"><bounds x="50.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_g~i~" ref="pflat"><bounds x="60.5" y="~y~" width="8" height="8" /></element>
+			<element name="piece_h~i~" ref="pflat"><bounds x="70.5" y="~y~" width="8" height="8" /></element>
 		</repeat>
 	</group>
 
@@ -317,7 +317,7 @@ license:cc0
 	<view name="artwork by luis">
 <bounds left="-50" right="833" top="-5" bottom="550" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-50" y="-5" width="900" height="560" />
 		</element>
 
@@ -366,7 +366,7 @@ license:cc0
 	<view name="2d artwork by luis">
 <bounds left="-50" right="833" top="-5" bottom="550" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-50" y="-5" width="900" height="560" />
 		</element>
 

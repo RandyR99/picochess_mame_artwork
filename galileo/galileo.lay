@@ -7,10 +7,10 @@ license:cc0
 <!-- define elements -->
 
 <element name="saitek">
-		<image file="tablero6.png" />
+		<image file="board6.png" />
 	</element>
 
-<element name="teclado">
+<element name="keypad">
 		<image file="galileo3.png" />
 	</element>
 
@@ -21,18 +21,18 @@ license:cc0
 <element name="display">
 		<image file="display.png" />
 	</element>
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 
 <element name="ledr" defstate="0">
-	<image file="../leds/gris.png" state="0"/>
+	<image file="../leds/grey.png" state="0"/>
 	<image file="../leds/red4_sel.png" state="1"/>
 	</element>
 
@@ -44,27 +44,27 @@ license:cc0
 	
 	
 <element name="ledrr" defstate="0">
-	<image file="../leds/led_gris_0.png" state="0"/>
-	<image file="../leds/led_rojo_2.png" state="1"/>
+	<image file="../leds/led_grey_0.png" state="0"/>
+	<image file="../leds/led_red_2.png" state="1"/>
 	</element>
 	
 	<element name="ledrg" defstate="0">
-	<image file="../leds/led_gris_0.png" state="0"/>
-	<image file="../leds/led_verde_2.png" state="1"/>
+	<image file="../leds/led_grey_0.png" state="0"/>
+	<image file="../leds/led_green_2.png" state="1"/>
 	</element>
 	
 	<element name="ledo">
-		<image file="../botones/down_sel.png" />
+		<image file="../buttons/down_sel.png" />
 	</element>
 	
 	<element name="ledr2" defstate="0">
-	<image file="../leds/led_rojo_0.png" state="0"/>
-	<image file="../leds/led_rojo_2.png" state="1"/>
+	<image file="../leds/led_red_0.png" state="0"/>
+	<image file="../leds/led_red_2.png" state="1"/>
 	</element>
 	
 		<element name="ledg2" defstate="0">
-	<image file="../leds/led_rojo_0.png" state="0"/>
-	<image file="../leds/led_verde_2.png" state="1"/>
+	<image file="../leds/led_red_0.png" state="0"/>
+	<image file="../leds/led_green_2.png" state="1"/>
 	</element>
 	
 	
@@ -80,14 +80,14 @@ license:cc0
 
 
 
-<element name="boton" defstate="0">
-		<image file="boton_0.png" state="0"/>
-	    <image file="boton_1.png" state="1"/>
+<element name="button" defstate="0">
+		<image file="button_0.png" state="0"/>
+	    <image file="button_1.png" state="1"/>
 	</element>
 
 <element name="acl" defstate="0">
-		<image file="../botones/but4.png" state="0"/>
-	    <image file="../botones/but4_sel.png" state="1"/>
+		<image file="../buttons/but4.png" state="0"/>
+	    <image file="../buttons/but4_sel.png" state="1"/>
 	</element>
 
 <element name="hlb" defstate="0">
@@ -107,61 +107,61 @@ license:cc0
 	</element>
 
 	<element name="piece_e" defstate="0">
-		<image file="../piezas/pmephisto5/wp.png" state="1"/>
-		<image file="../piezas/pmephisto5/wkn.png" state="2"/>
-		<image file="../piezas/pmephisto5/wb.png" state="3"/>
-		<image file="../piezas/pmephisto5/wr.png" state="4"/>
-		<image file="../piezas/pmephisto5/wq.png" state="5"/>
-		<image file="../piezas/pmephisto5/wk.png" state="6"/>
-		<image file="../piezas/pmephisto5/bp.png" state="7"/>
-		<image file="../piezas/pmephisto5/bkn.png" state="8"/>
-		<image file="../piezas/pmephisto5/bb.png" state="9"/>
-		<image file="../piezas/pmephisto5/br.png" state="10"/>
-		<image file="../piezas/pmephisto5/bq.png" state="11"/>
-		<image file="../piezas/pmephisto5/bk.png" state="12"/>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="13"/>
-		<image file="../piezas/pmephisto5/wkn_sel.png" state="14"/>
-		<image file="../piezas/pmephisto5/wb_sel.png" state="15"/>
-		<image file="../piezas/pmephisto5/wr_sel.png" state="16"/>
-		<image file="../piezas/pmephisto5/wq_sel.png" state="17"/>
-		<image file="../piezas/pmephisto5/wk_sel.png" state="18"/>
-		<image file="../piezas/pmephisto5/bp_sel.png" state="19"/>
-		<image file="../piezas/pmephisto5/bkn_sel.png" state="20"/>
-		<image file="../piezas/pmephisto5/bb_sel.png" state="21"/>
-		<image file="../piezas/pmephisto5/br_sel.png" state="22"/>
-		<image file="../piezas/pmephisto5/bq_sel.png" state="23"/>
-		<image file="../piezas/pmephisto5/bk_sel.png" state="24"/>
+		<image file="../pieces/pmephisto5/wp.png" state="1"/>
+		<image file="../pieces/pmephisto5/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto5/wb.png" state="3"/>
+		<image file="../pieces/pmephisto5/wr.png" state="4"/>
+		<image file="../pieces/pmephisto5/wq.png" state="5"/>
+		<image file="../pieces/pmephisto5/wk.png" state="6"/>
+		<image file="../pieces/pmephisto5/bp.png" state="7"/>
+		<image file="../pieces/pmephisto5/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto5/bb.png" state="9"/>
+		<image file="../pieces/pmephisto5/br.png" state="10"/>
+		<image file="../pieces/pmephisto5/bq.png" state="11"/>
+		<image file="../pieces/pmephisto5/bk.png" state="12"/>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto5/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto5/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto5/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto5/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto5/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto5/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto5/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto5/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto5/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto5/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto5/bk_sel.png" state="24"/>
 	</element>
 
 <element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 
@@ -311,21 +311,21 @@ license:cc0
 	<view name="galileo analyst artwork  by luis">
 <bounds left="160" right="2350" top="-10" bottom="1910" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="1650" width="1380" height="1400" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="2350" height="1673" />
 		</element>
 
 
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="2300" y="1630" width="50" height="300" />
 		</element>
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="0" y="1895" width="2350" height="80" />
 		</element>
 
@@ -333,7 +333,7 @@ license:cc0
 			<bounds x="576" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="180" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -416,31 +416,31 @@ license:cc0
 
 <element ref="acl" inputtag="RESET" inputmask="0x02"> <bounds x="965"  y="1668" width="20" height="20" /> </element>  // acl
  
-<element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="260" y="1735" width="80" height="20" /> </element>  // rey 1
-<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="260" y="1800" width="80" height="20" /> </element>  // dama 4
-<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="260" y="1865" width="80" height="20" /> </element>  // torre 2 
+<element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="260" y="1735" width="80" height="20" /> </element>  // rey 1
+<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="260" y="1800" width="80" height="20" /> </element>  // dama 4
+<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="260" y="1865" width="80" height="20" /> </element>  // torre 2 
  
-<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="425" y="1735" width="80" height="20" /> </element>  // alfil 5
-<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="425" y="1800" width="80" height="20" /> </element>   // caballo 3
-<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="425" y="1865" width="80" height="20" /> </element>   // peon 6  
+<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="425" y="1735" width="80" height="20" /> </element>  // alfil 5
+<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="425" y="1800" width="80" height="20" /> </element>   // caballo 3
+<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="425" y="1865" width="80" height="20" /> </element>   // peon 6  
  
-<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="740"  y="1735" width="80" height="20" /> </element>   // tab 8
-<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="854"  y="1735" width="80" height="20" /> </element>  // func w
-<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="969"  y="1735" width="80" height="20" /> </element>  // play i
-<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="1083" y="1735" width="80" height="20" /> </element>  // normal s
-<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1197" y="1735" width="80" height="20" /> </element>  // new game g 
+<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="740"  y="1735" width="80" height="20" /> </element>   // tab 8
+<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="854"  y="1735" width="80" height="20" /> </element>  // func w
+<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="969"  y="1735" width="80" height="20" /> </element>  // play i
+<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="1083" y="1735" width="80" height="20" /> </element>  // normal s
+<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1197" y="1735" width="80" height="20" /> </element>  // new game g 
  
-<element ref="boton" inputtag="IN.2"  inputmask="0x04"> <bounds x="740"  y="1800" width="80" height="20" /> </element>   // + 9
-<element ref="boton" inputtag="IN.3"  inputmask="0x04"> <bounds x="854"  y="1800" width="80" height="20" /> </element>  //sound e
-<element ref="boton" inputtag="IN.5"  inputmask="0x04"> <bounds x="969"  y="1800" width="80" height="20" /> </element>  // level o
-<element ref="boton" inputtag="IN.6"  inputmask="0x04"> <bounds x="1083" y="1800" width="80" height="20" /> </element>  // analysis d
-<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1197" y="1800" width="80" height="20" /> </element>  // go   
+<element ref="button" inputtag="IN.2"  inputmask="0x04"> <bounds x="740"  y="1800" width="80" height="20" /> </element>   // + 9
+<element ref="button" inputtag="IN.3"  inputmask="0x04"> <bounds x="854"  y="1800" width="80" height="20" /> </element>  //sound e
+<element ref="button" inputtag="IN.5"  inputmask="0x04"> <bounds x="969"  y="1800" width="80" height="20" /> </element>  // level o
+<element ref="button" inputtag="IN.6"  inputmask="0x04"> <bounds x="1083" y="1800" width="80" height="20" /> </element>  // analysis d
+<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1197" y="1800" width="80" height="20" /> </element>  // go   
 
-<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="740"  y="1865" width="80" height="20" /> </element>   // - a
-<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="854"  y="1865" width="80" height="20" /> </element>  //info u
-<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="969"  y="1865" width="80" height="20" /> </element>  // lib y
-<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1083" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
-<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1197" y="1865" width="80" height="20" /> </element>  // stop t
+<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="740"  y="1865" width="80" height="20" /> </element>   // - a
+<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="854"  y="1865" width="80" height="20" /> </element>  //info u
+<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="969"  y="1865" width="80" height="20" /> </element>  // lib y
+<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1083" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
+<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1197" y="1865" width="80" height="20" /> </element>  // stop t
  
 
 
@@ -465,21 +465,21 @@ license:cc0
  	<view name="2d galileo analyst artwork  by luis">
 <bounds left="160" right="2350" top="-10" bottom="1910" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="1650" width="1380" height="1400" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="2350" height="1673" />
 		</element>
 
 
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="2300" y="1630" width="50" height="300" />
 		</element>
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="0" y="1895" width="2350" height="80" />
 		</element>
 
@@ -487,7 +487,7 @@ license:cc0
 			<bounds x="576" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="180" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -572,31 +572,31 @@ license:cc0
 
 <element ref="acl" inputtag="RESET" inputmask="0x02"> <bounds x="965"  y="1668" width="20" height="20" /> </element>  // acl
  
-<element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="260" y="1735" width="80" height="20" /> </element>  // rey 1
-<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="260" y="1800" width="80" height="20" /> </element>  // dama 4
-<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="260" y="1865" width="80" height="20" /> </element>  // torre 2 
+<element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="260" y="1735" width="80" height="20" /> </element>  // rey 1
+<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="260" y="1800" width="80" height="20" /> </element>  // dama 4
+<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="260" y="1865" width="80" height="20" /> </element>  // torre 2 
  
-<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="425" y="1735" width="80" height="20" /> </element>  // alfil 5
-<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="425" y="1800" width="80" height="20" /> </element>   // caballo 3
-<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="425" y="1865" width="80" height="20" /> </element>   // peon 6  
+<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="425" y="1735" width="80" height="20" /> </element>  // alfil 5
+<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="425" y="1800" width="80" height="20" /> </element>   // caballo 3
+<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="425" y="1865" width="80" height="20" /> </element>   // peon 6  
  
-<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="740"  y="1735" width="80" height="20" /> </element>   // tab 8
-<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="854"  y="1735" width="80" height="20" /> </element>  // func w
-<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="969"  y="1735" width="80" height="20" /> </element>  // play i
-<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="1083" y="1735" width="80" height="20" /> </element>  // normal s
-<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1197" y="1735" width="80" height="20" /> </element>  // new game g 
+<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="740"  y="1735" width="80" height="20" /> </element>   // tab 8
+<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="854"  y="1735" width="80" height="20" /> </element>  // func w
+<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="969"  y="1735" width="80" height="20" /> </element>  // play i
+<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="1083" y="1735" width="80" height="20" /> </element>  // normal s
+<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1197" y="1735" width="80" height="20" /> </element>  // new game g 
  
-<element ref="boton" inputtag="IN.2"  inputmask="0x04"> <bounds x="740"  y="1800" width="80" height="20" /> </element>   // + 9
-<element ref="boton" inputtag="IN.3"  inputmask="0x04"> <bounds x="854"  y="1800" width="80" height="20" /> </element>  //sound e
-<element ref="boton" inputtag="IN.5"  inputmask="0x04"> <bounds x="969"  y="1800" width="80" height="20" /> </element>  // level o
-<element ref="boton" inputtag="IN.6"  inputmask="0x04"> <bounds x="1083" y="1800" width="80" height="20" /> </element>  // analysis d
-<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1197" y="1800" width="80" height="20" /> </element>  // go   
+<element ref="button" inputtag="IN.2"  inputmask="0x04"> <bounds x="740"  y="1800" width="80" height="20" /> </element>   // + 9
+<element ref="button" inputtag="IN.3"  inputmask="0x04"> <bounds x="854"  y="1800" width="80" height="20" /> </element>  //sound e
+<element ref="button" inputtag="IN.5"  inputmask="0x04"> <bounds x="969"  y="1800" width="80" height="20" /> </element>  // level o
+<element ref="button" inputtag="IN.6"  inputmask="0x04"> <bounds x="1083" y="1800" width="80" height="20" /> </element>  // analysis d
+<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1197" y="1800" width="80" height="20" /> </element>  // go   
 
-<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="740"  y="1865" width="80" height="20" /> </element>   // - a
-<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="854"  y="1865" width="80" height="20" /> </element>  //info u
-<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="969"  y="1865" width="80" height="20" /> </element>  // lib y
-<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1083" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
-<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1197" y="1865" width="80" height="20" /> </element>  // stop t
+<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="740"  y="1865" width="80" height="20" /> </element>   // - a
+<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="854"  y="1865" width="80" height="20" /> </element>  //info u
+<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="969"  y="1865" width="80" height="20" /> </element>  // lib y
+<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1083" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
+<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1197" y="1865" width="80" height="20" /> </element>  // stop t
  
 
 
@@ -622,7 +622,7 @@ license:cc0
  <view name="galileo artwork by luis">
 <bounds left="0" right="1905" top="-10" bottom="1980" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="1920" height="2000" />
 		</element>
 
@@ -630,7 +630,7 @@ license:cc0
 			<bounds x="276" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="490" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -713,31 +713,31 @@ license:cc0
 
 <element ref="acl" inputtag="RESET" inputmask="0x02"> <bounds x="1275"  y="1668" width="20" height="20" /> </element>  // acl
  
-<element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="570" y="1735" width="80" height="20" /> </element>  // rey 1
-<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="570" y="1800" width="80" height="20" /> </element>  // dama 4
-<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="570" y="1865" width="80" height="20" /> </element>  // torre 2 
+<element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="570" y="1735" width="80" height="20" /> </element>  // rey 1
+<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="570" y="1800" width="80" height="20" /> </element>  // dama 4
+<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="570" y="1865" width="80" height="20" /> </element>  // torre 2 
  
-<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="735" y="1735" width="80" height="20" /> </element>  // alfil 5
-<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="735" y="1800" width="80" height="20" /> </element>   // caballo 3
-<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="735" y="1865" width="80" height="20" /> </element>   // peon 6  
+<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="735" y="1735" width="80" height="20" /> </element>  // alfil 5
+<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="735" y="1800" width="80" height="20" /> </element>   // caballo 3
+<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="735" y="1865" width="80" height="20" /> </element>   // peon 6  
  
-<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="1050"  y="1735" width="80" height="20" /> </element>   // tab 8
-<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="1164"  y="1735" width="80" height="20" /> </element>  // func w
-<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="1279"  y="1735" width="80" height="20" /> </element>  // play i
-<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="1393" y="1735" width="80" height="20" /> </element>  // normal s
-<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1507" y="1735" width="80" height="20" /> </element>  // new game g 
+<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="1050"  y="1735" width="80" height="20" /> </element>   // tab 8
+<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="1164"  y="1735" width="80" height="20" /> </element>  // func w
+<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="1279"  y="1735" width="80" height="20" /> </element>  // play i
+<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="1393" y="1735" width="80" height="20" /> </element>  // normal s
+<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1507" y="1735" width="80" height="20" /> </element>  // new game g 
  
-<element ref="boton" inputtag="IN.2"  inputmask="0x04"> <bounds x="1050"  y="1800" width="80" height="20" /> </element>   // + 9
-<element ref="boton" inputtag="IN.3"  inputmask="0x04"> <bounds x="1164"  y="1800" width="80" height="20" /> </element>  //sound e
-<element ref="boton" inputtag="IN.5"  inputmask="0x04"> <bounds x="1279"  y="1800" width="80" height="20" /> </element>  // level o
-<element ref="boton" inputtag="IN.6"  inputmask="0x04"> <bounds x="1393" y="1800" width="80" height="20" /> </element>  // analysis d
-<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1507" y="1800" width="80" height="20" /> </element>  // go   
+<element ref="button" inputtag="IN.2"  inputmask="0x04"> <bounds x="1050"  y="1800" width="80" height="20" /> </element>   // + 9
+<element ref="button" inputtag="IN.3"  inputmask="0x04"> <bounds x="1164"  y="1800" width="80" height="20" /> </element>  //sound e
+<element ref="button" inputtag="IN.5"  inputmask="0x04"> <bounds x="1279"  y="1800" width="80" height="20" /> </element>  // level o
+<element ref="button" inputtag="IN.6"  inputmask="0x04"> <bounds x="1393" y="1800" width="80" height="20" /> </element>  // analysis d
+<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1507" y="1800" width="80" height="20" /> </element>  // go   
 
-<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="1050"  y="1865" width="80" height="20" /> </element>   // - a
-<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="1164"  y="1865" width="80" height="20" /> </element>  //info u
-<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="1279"  y="1865" width="80" height="20" /> </element>  // lib y
-<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1393" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
-<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1507" y="1865" width="80" height="20" /> </element>  // stop t
+<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="1050"  y="1865" width="80" height="20" /> </element>   // - a
+<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="1164"  y="1865" width="80" height="20" /> </element>  //info u
+<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="1279"  y="1865" width="80" height="20" /> </element>  // lib y
+<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1393" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
+<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1507" y="1865" width="80" height="20" /> </element>  // stop t
  
  
  
@@ -747,7 +747,7 @@ license:cc0
  <view name="2d galileo artwork by luis">
 <bounds left="0" right="1905" top="-10" bottom="1980" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="1920" height="2000" />
 		</element>
 
@@ -755,7 +755,7 @@ license:cc0
 			<bounds x="276" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="490" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -838,31 +838,31 @@ license:cc0
 
 <element ref="acl" inputtag="RESET" inputmask="0x02"> <bounds x="1275"  y="1668" width="20" height="20" /> </element>  // acl
  
-<element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="570" y="1735" width="80" height="20" /> </element>  // rey 1
-<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="570" y="1800" width="80" height="20" /> </element>  // dama 4
-<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="570" y="1865" width="80" height="20" /> </element>  // torre 2 
+<element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="570" y="1735" width="80" height="20" /> </element>  // rey 1
+<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="570" y="1800" width="80" height="20" /> </element>  // dama 4
+<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="570" y="1865" width="80" height="20" /> </element>  // torre 2 
  
-<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="735" y="1735" width="80" height="20" /> </element>  // alfil 5
-<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="735" y="1800" width="80" height="20" /> </element>   // caballo 3
-<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="735" y="1865" width="80" height="20" /> </element>   // peon 6  
+<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="735" y="1735" width="80" height="20" /> </element>  // alfil 5
+<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="735" y="1800" width="80" height="20" /> </element>   // caballo 3
+<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="735" y="1865" width="80" height="20" /> </element>   // peon 6  
  
-<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="1050"  y="1735" width="80" height="20" /> </element>   // tab 8
-<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="1164"  y="1735" width="80" height="20" /> </element>  // func w
-<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="1279"  y="1735" width="80" height="20" /> </element>  // play i
-<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="1393" y="1735" width="80" height="20" /> </element>  // normal s
-<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1507" y="1735" width="80" height="20" /> </element>  // new game g 
+<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="1050"  y="1735" width="80" height="20" /> </element>   // tab 8
+<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="1164"  y="1735" width="80" height="20" /> </element>  // func w
+<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="1279"  y="1735" width="80" height="20" /> </element>  // play i
+<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="1393" y="1735" width="80" height="20" /> </element>  // normal s
+<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1507" y="1735" width="80" height="20" /> </element>  // new game g 
  
-<element ref="boton" inputtag="IN.2"  inputmask="0x04"> <bounds x="1050"  y="1800" width="80" height="20" /> </element>   // + 9
-<element ref="boton" inputtag="IN.3"  inputmask="0x04"> <bounds x="1164"  y="1800" width="80" height="20" /> </element>  //sound e
-<element ref="boton" inputtag="IN.5"  inputmask="0x04"> <bounds x="1279"  y="1800" width="80" height="20" /> </element>  // level o
-<element ref="boton" inputtag="IN.6"  inputmask="0x04"> <bounds x="1393" y="1800" width="80" height="20" /> </element>  // analysis d
-<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1507" y="1800" width="80" height="20" /> </element>  // go   
+<element ref="button" inputtag="IN.2"  inputmask="0x04"> <bounds x="1050"  y="1800" width="80" height="20" /> </element>   // + 9
+<element ref="button" inputtag="IN.3"  inputmask="0x04"> <bounds x="1164"  y="1800" width="80" height="20" /> </element>  //sound e
+<element ref="button" inputtag="IN.5"  inputmask="0x04"> <bounds x="1279"  y="1800" width="80" height="20" /> </element>  // level o
+<element ref="button" inputtag="IN.6"  inputmask="0x04"> <bounds x="1393" y="1800" width="80" height="20" /> </element>  // analysis d
+<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1507" y="1800" width="80" height="20" /> </element>  // go   
 
-<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="1050"  y="1865" width="80" height="20" /> </element>   // - a
-<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="1164"  y="1865" width="80" height="20" /> </element>  //info u
-<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="1279"  y="1865" width="80" height="20" /> </element>  // lib y
-<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1393" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
-<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1507" y="1865" width="80" height="20" /> </element>  // stop t
+<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="1050"  y="1865" width="80" height="20" /> </element>   // - a
+<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="1164"  y="1865" width="80" height="20" /> </element>  //info u
+<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="1279"  y="1865" width="80" height="20" /> </element>  // lib y
+<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1393" y="1865" width="80" height="20" /> </element>  // set up h                                                                                                                      
+<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1507" y="1865" width="80" height="20" /> </element>  // stop t
  
  
  

@@ -8,8 +8,8 @@ license:cc0
 		<image file="savant4.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
@@ -41,7 +41,7 @@ license:cc0
 
 <element name="but" defstate="0">
 	  
-      <image file="../botones/down_sel4.png" state="1"/>
+      <image file="../buttons/down_sel4.png" state="1"/>
 	</element>
 
 	
@@ -102,19 +102,19 @@ license:cc0
 	<view name="artwork by luis">
 	<bounds left="-10" right="1520" top="-10" bottom="1049" />
 	
-	<element ref="fondo">
+	<element ref="background">
 			<bounds x="-10" y="-10" width="1530" height="70" />
 		</element>
 	
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-10" y="1020" width="1530" height="60" />
 		</element>
 	
-	<element ref="fondo">
+	<element ref="background">
 			<bounds x="-10" y="-10" width="50" height="1050" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="1420" y="-10" width="110" height="1050" />
 		</element>
 	

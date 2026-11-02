@@ -40,17 +40,17 @@ license:CC0
 
 
 <element name="hlb" defstate="0">
-<image file="../botones/down_sel1a.png" state="1"/>
+<image file="../buttons/down_sel1a.png" state="1"/>
 	</element>
 
 <element name="h2b" defstate="0">
-<image file="../botones/but4.png" state="0"/>
-<image file="../botones/but4_sel.png" state="1"/>
+<image file="../buttons/but4.png" state="0"/>
+<image file="../buttons/but4_sel.png" state="1"/>
 	</element>
 
 <element name="h2b_a" defstate="0">
-<image file="../botones/but4_amarillo.png" state="0"/>
-<image file="../botones/but4_amarillo_sel.png" state="1"/>
+<image file="../buttons/but4_yellow.png" state="0"/>
+<image file="../buttons/but4_yellow_sel.png" state="1"/>
 	</element>
 	
 	

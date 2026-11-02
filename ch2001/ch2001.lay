@@ -11,72 +11,72 @@
 
 <!-- dibujo de volodymyr -->
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element> 
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 
 	<element name="piece" defstate="0">
-		<image file="../piezas/psphinx/wp.png" state="1"/>
-		<image file="../piezas/psphinx/wkn.png" state="2"/>
-		<image file="../piezas/psphinx/wb.png" state="3"/>
-		<image file="../piezas/psphinx/wr.png" state="4"/>
-		<image file="../piezas/psphinx/wq.png" state="5"/>
-		<image file="../piezas/psphinx/wk.png" state="6"/>
-		<image file="../piezas/psphinx/bp.png" state="7"/>
-		<image file="../piezas/psphinx/bkn.png" state="8"/>
-		<image file="../piezas/psphinx/bb.png" state="9"/>
-		<image file="../piezas/psphinx/br.png" state="10"/>
-		<image file="../piezas/psphinx/bq.png" state="11"/>
-		<image file="../piezas/psphinx/bk.png" state="12"/>
-		<image file="../piezas/psphinx/wp_sel.png" state="13"/>
-		<image file="../piezas/psphinx/wkn_sel.png" state="14"/>
-		<image file="../piezas/psphinx/wb_sel.png" state="15"/>
-		<image file="../piezas/psphinx/wr_sel.png" state="16"/>
-		<image file="../piezas/psphinx/wq_sel.png" state="17"/>
-		<image file="../piezas/psphinx/wk_sel.png" state="18"/>
-		<image file="../piezas/psphinx/bp_sel.png" state="19"/>
-		<image file="../piezas/psphinx/bkn_sel.png" state="20"/>
-		<image file="../piezas/psphinx/bb_sel.png" state="21"/>
-		<image file="../piezas/psphinx/br_sel.png" state="22"/>
-		<image file="../piezas/psphinx/bq_sel.png" state="23"/>
-		<image file="../piezas/psphinx/bk_sel.png" state="24"/>
-<!--		<image file="../piezas/psphinx/dummy.png" state="99"/> -->
+		<image file="../pieces/psphinx/wp.png" state="1"/>
+		<image file="../pieces/psphinx/wkn.png" state="2"/>
+		<image file="../pieces/psphinx/wb.png" state="3"/>
+		<image file="../pieces/psphinx/wr.png" state="4"/>
+		<image file="../pieces/psphinx/wq.png" state="5"/>
+		<image file="../pieces/psphinx/wk.png" state="6"/>
+		<image file="../pieces/psphinx/bp.png" state="7"/>
+		<image file="../pieces/psphinx/bkn.png" state="8"/>
+		<image file="../pieces/psphinx/bb.png" state="9"/>
+		<image file="../pieces/psphinx/br.png" state="10"/>
+		<image file="../pieces/psphinx/bq.png" state="11"/>
+		<image file="../pieces/psphinx/bk.png" state="12"/>
+		<image file="../pieces/psphinx/wp_sel.png" state="13"/>
+		<image file="../pieces/psphinx/wkn_sel.png" state="14"/>
+		<image file="../pieces/psphinx/wb_sel.png" state="15"/>
+		<image file="../pieces/psphinx/wr_sel.png" state="16"/>
+		<image file="../pieces/psphinx/wq_sel.png" state="17"/>
+		<image file="../pieces/psphinx/wk_sel.png" state="18"/>
+		<image file="../pieces/psphinx/bp_sel.png" state="19"/>
+		<image file="../pieces/psphinx/bkn_sel.png" state="20"/>
+		<image file="../pieces/psphinx/bb_sel.png" state="21"/>
+		<image file="../pieces/psphinx/br_sel.png" state="22"/>
+		<image file="../pieces/psphinx/bq_sel.png" state="23"/>
+		<image file="../pieces/psphinx/bk_sel.png" state="24"/>
+<!--		<image file="../pieces/psphinx/dummy.png" state="99"/> -->
 	</element>
 	
 <element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 
@@ -110,18 +110,18 @@
 -->
 	</element>
 	<element name="but1" defstate="0">
-	<image file="../botones/but1_sel.png" state="1"/>
-	<image file="../botones/but1.png" state="0"/>
+	<image file="../buttons/but1_sel.png" state="1"/>
+	<image file="../buttons/but1.png" state="0"/>
 	</element>
 
 	<element name="but2" defstate="0">
-	<image file="../botones/but2_sel.png" state="1"/>
-	<image file="../botones/but2.png" state="0"/>
+	<image file="../buttons/but2_sel.png" state="1"/>
+	<image file="../buttons/but2.png" state="0"/>
 	</element>
 
 	<element name="but3" defstate="0">
-	<image file="../botones/but3_sel.png" state="1"/>
-	<image file="../botones/but3.png" state="0"/>
+	<image file="../buttons/but3_sel.png" state="1"/>
+	<image file="../buttons/but3.png" state="0"/>
 	</element>
 
 	<element name="sensor" defstate="0"></element>
@@ -292,7 +292,7 @@
 	<view name="3d artwork by volodymyr/luis">
 		<bounds left="-35" right="107" top="-9.2" bottom="116.3" />
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="-35" y="-9.2" width="142" height="125.3" />
 		</element>
 		
@@ -574,7 +574,7 @@
 	<view name="2d artwork by volodymyr/luis">
 		<bounds left="-35" right="107" top="-9.2" bottom="116.3" />
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="-35" y="-9.2" width="142" height="125.3" />
 		</element>
 		

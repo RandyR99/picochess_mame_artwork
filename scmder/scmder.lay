@@ -16,15 +16,15 @@
 
 <element name="sbui_png">
 
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 
 	</element>
 
 
 
-<element name="fondo">
+<element name="background">
 
-		<image file="../varios/fondo4.png" />
+		<image file="../misc/background4.png" />
 
 	</element>
 
@@ -50,11 +50,11 @@
 
 
 
-<element name="boton" defstate="0">
+<element name="button" defstate="0">
 
-		<image file="../botones/but2a.png" state="0"/>
+		<image file="../buttons/but2a.png" state="0"/>
 
-	    <image file="../botones/but2a_sel.png" state="1"/>
+	    <image file="../buttons/but2a_sel.png" state="1"/>
 
 	</element>
 
@@ -92,53 +92,53 @@
 
 <element name="piece_e" defstate="0">
 
-		<image file="../piezas/pmephisto5/wp.png" state="1"/>
+		<image file="../pieces/pmephisto5/wp.png" state="1"/>
 
-		<image file="../piezas/pmephisto5/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto5/wkn.png" state="2"/>
 
-		<image file="../piezas/pmephisto5/wb.png" state="3"/>
+		<image file="../pieces/pmephisto5/wb.png" state="3"/>
 
-		<image file="../piezas/pmephisto5/wr.png" state="4"/>
+		<image file="../pieces/pmephisto5/wr.png" state="4"/>
 
-		<image file="../piezas/pmephisto5/wq.png" state="5"/>
+		<image file="../pieces/pmephisto5/wq.png" state="5"/>
 
-		<image file="../piezas/pmephisto5/wk.png" state="6"/>
+		<image file="../pieces/pmephisto5/wk.png" state="6"/>
 
-		<image file="../piezas/pmephisto5/bp.png" state="7"/>
+		<image file="../pieces/pmephisto5/bp.png" state="7"/>
 
-		<image file="../piezas/pmephisto5/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto5/bkn.png" state="8"/>
 
-		<image file="../piezas/pmephisto5/bb.png" state="9"/>
+		<image file="../pieces/pmephisto5/bb.png" state="9"/>
 
-		<image file="../piezas/pmephisto5/br.png" state="10"/>
+		<image file="../pieces/pmephisto5/br.png" state="10"/>
 
-		<image file="../piezas/pmephisto5/bq.png" state="11"/>
+		<image file="../pieces/pmephisto5/bq.png" state="11"/>
 
-		<image file="../piezas/pmephisto5/bk.png" state="12"/>
+		<image file="../pieces/pmephisto5/bk.png" state="12"/>
 
-		<image file="../piezas/pmephisto5/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="13"/>
 
-		<image file="../piezas/pmephisto5/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto5/wkn_sel.png" state="14"/>
 
-		<image file="../piezas/pmephisto5/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto5/wb_sel.png" state="15"/>
 
-		<image file="../piezas/pmephisto5/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto5/wr_sel.png" state="16"/>
 
-		<image file="../piezas/pmephisto5/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto5/wq_sel.png" state="17"/>
 
-		<image file="../piezas/pmephisto5/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto5/wk_sel.png" state="18"/>
 
-		<image file="../piezas/pmephisto5/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto5/bp_sel.png" state="19"/>
 
-		<image file="../piezas/pmephisto5/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto5/bkn_sel.png" state="20"/>
 
-		<image file="../piezas/pmephisto5/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto5/bb_sel.png" state="21"/>
 
-		<image file="../piezas/pmephisto5/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto5/br_sel.png" state="22"/>
 
-		<image file="../piezas/pmephisto5/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto5/bq_sel.png" state="23"/>
 
-		<image file="../piezas/pmephisto5/bk_sel.png" state="24"/>
+		<image file="../pieces/pmephisto5/bk_sel.png" state="24"/>
 
 	</element>
 
@@ -150,61 +150,61 @@
 
 	<element name="piece_2m" defstate="0">
 
-		<image file="../piezas/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
 
-		<image file="../piezas/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
 
-		<image file="../piezas/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
 
-		<image file="../piezas/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
 
-		<image file="../piezas/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
 
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
 
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
 
-		<image file="../piezas/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
 
-		<image file="../piezas/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
 
-		<image file="../piezas/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
 
-		<image file="../piezas/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
 
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 
 
 		<!-- selected pieces -->
 
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
 
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
 
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
 
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
 
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
 
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
 
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
 
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
 
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
 
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
 
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
 
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 
 	</element>
 
@@ -714,7 +714,7 @@
 
 
 
-<element ref="fondo">
+<element ref="background">
 
 			<bounds x="-145" y="-10" width="1340" height="1465" />
 
@@ -766,37 +766,37 @@
 
 
 
-        <element ref="boton" inputtag="IN.0" inputmask="0x04"><bounds x="188" y="1290" width="48" height="76" /></element>
+        <element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="188" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x08"><bounds x="235" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="235" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x10"><bounds x="282" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x10"><bounds x="282" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x20"><bounds x="329" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x20"><bounds x="329" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x40"><bounds x="376" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x40"><bounds x="376" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x80"><bounds x="423" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="423" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x80"><bounds x="470" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x80"><bounds x="470" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x40"><bounds x="517" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x40"><bounds x="517" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x02"><bounds x="567" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="567" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x01"><bounds x="616" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="616" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x10"><bounds x="663" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x10"><bounds x="663" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x20"><bounds x="710" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x20"><bounds x="710" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x08"><bounds x="757" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x08"><bounds x="757" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x04"><bounds x="804" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="804" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x01"><bounds x="851" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="851" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x02"><bounds x="898" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="898" y="1290" width="48" height="76" /></element>
 
 		
 
@@ -826,7 +826,7 @@
 
 
 
-<element ref="fondo">
+<element ref="background">
 
 			<bounds x="-145" y="-10" width="1340" height="1465" />
 
@@ -878,37 +878,37 @@
 
 
 
-        <element ref="boton" inputtag="IN.0" inputmask="0x04"><bounds x="188" y="1290" width="48" height="76" /></element>
+        <element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="188" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x08"><bounds x="235" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="235" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x10"><bounds x="282" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x10"><bounds x="282" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x20"><bounds x="329" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x20"><bounds x="329" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x40"><bounds x="376" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x40"><bounds x="376" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x80"><bounds x="423" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="423" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x80"><bounds x="470" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x80"><bounds x="470" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x40"><bounds x="517" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x40"><bounds x="517" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x02"><bounds x="567" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="567" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x01"><bounds x="616" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="616" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x10"><bounds x="663" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x10"><bounds x="663" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x20"><bounds x="710" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x20"><bounds x="710" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x08"><bounds x="757" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x08"><bounds x="757" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x04"><bounds x="804" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="804" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.0" inputmask="0x01"><bounds x="851" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="851" y="1290" width="48" height="76" /></element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x02"><bounds x="898" y="1290" width="48" height="76" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="898" y="1290" width="48" height="76" /></element>
 
 		
 

@@ -7,11 +7,11 @@ license:cc0
 <!-- define elements -->
 
 <element name="saitek">
-		<image file="tablero6.png" />
+		<image file="board6.png" />
 	</element>
 
-<element name="teclado">
-		<image file="leo_teclado6.png" />
+<element name="keypad">
+		<image file="leo_keypad6.png" />
 	</element>
 
 <element name="modulo">
@@ -21,22 +21,22 @@ license:cc0
 <element name="display">
 		<image file="display.png" />
 	</element>
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 
 <element name="sbui_png">
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 	</element>
 
 	<element name="led" defstate="0">
-	<image file="../leds/rojo_0.png" state="0"/>
-	<image file="../leds/rojo_1a.png" state="1"/>
+	<image file="../leds/red_0.png" state="0"/>
+	<image file="../leds/red_1a.png" state="1"/>
 	</element>
 
 <element name="ledr" defstate="0">
-	<image file="../leds/gris.png" state="0"/>
+	<image file="../leds/grey.png" state="0"/>
 	<image file="../leds/red4_sel.png" state="1"/>
 	</element>
 
@@ -46,21 +46,21 @@ license:cc0
 	</element>
 
 	<element name="ledro">
-	<image file="../leds/rojo_0.png" />
+	<image file="../leds/red_0.png" />
 	</element>
 	
 	<element name="ledrr" defstate="0">
-		<image file="../leds/gris.png" state="0"/>
+		<image file="../leds/grey.png" state="0"/>
 	<image file="../leds/red4_sel.png" state="1"/>
 	</element>
 	
 	<element name="ledrg" defstate="0">
-	<image file="../leds/gris.png" state="0"/>
+	<image file="../leds/grey.png" state="0"/>
 	<image file="../leds/green_sel.png" state="1"/>
 	</element>
 	
 	<element name="ledo">
-		<image file="../botones/down_sel.png" />
+		<image file="../buttons/down_sel.png" />
 	</element>
 	
 	
@@ -76,9 +76,9 @@ license:cc0
 
 
 
-<element name="boton" defstate="0">
-		<image file="boton_0.png" state="0"/>
-	<image file="boton_1.png" state="1"/>
+<element name="button" defstate="0">
+		<image file="button_0.png" state="0"/>
+	<image file="button_1.png" state="1"/>
 	</element>
 
 <element name="hlb" defstate="0">
@@ -98,61 +98,61 @@ license:cc0
 	</element>
 
 	<element name="piece_e" defstate="0">
-		<image file="../piezas/pmephisto5/wp.png" state="1"/>
-		<image file="../piezas/pmephisto5/wkn.png" state="2"/>
-		<image file="../piezas/pmephisto5/wb.png" state="3"/>
-		<image file="../piezas/pmephisto5/wr.png" state="4"/>
-		<image file="../piezas/pmephisto5/wq.png" state="5"/>
-		<image file="../piezas/pmephisto5/wk.png" state="6"/>
-		<image file="../piezas/pmephisto5/bp.png" state="7"/>
-		<image file="../piezas/pmephisto5/bkn.png" state="8"/>
-		<image file="../piezas/pmephisto5/bb.png" state="9"/>
-		<image file="../piezas/pmephisto5/br.png" state="10"/>
-		<image file="../piezas/pmephisto5/bq.png" state="11"/>
-		<image file="../piezas/pmephisto5/bk.png" state="12"/>
-		<image file="../piezas/pmephisto5/wp_sel.png" state="13"/>
-		<image file="../piezas/pmephisto5/wkn_sel.png" state="14"/>
-		<image file="../piezas/pmephisto5/wb_sel.png" state="15"/>
-		<image file="../piezas/pmephisto5/wr_sel.png" state="16"/>
-		<image file="../piezas/pmephisto5/wq_sel.png" state="17"/>
-		<image file="../piezas/pmephisto5/wk_sel.png" state="18"/>
-		<image file="../piezas/pmephisto5/bp_sel.png" state="19"/>
-		<image file="../piezas/pmephisto5/bkn_sel.png" state="20"/>
-		<image file="../piezas/pmephisto5/bb_sel.png" state="21"/>
-		<image file="../piezas/pmephisto5/br_sel.png" state="22"/>
-		<image file="../piezas/pmephisto5/bq_sel.png" state="23"/>
-		<image file="../piezas/pmephisto5/bk_sel.png" state="24"/>
+		<image file="../pieces/pmephisto5/wp.png" state="1"/>
+		<image file="../pieces/pmephisto5/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto5/wb.png" state="3"/>
+		<image file="../pieces/pmephisto5/wr.png" state="4"/>
+		<image file="../pieces/pmephisto5/wq.png" state="5"/>
+		<image file="../pieces/pmephisto5/wk.png" state="6"/>
+		<image file="../pieces/pmephisto5/bp.png" state="7"/>
+		<image file="../pieces/pmephisto5/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto5/bb.png" state="9"/>
+		<image file="../pieces/pmephisto5/br.png" state="10"/>
+		<image file="../pieces/pmephisto5/bq.png" state="11"/>
+		<image file="../pieces/pmephisto5/bk.png" state="12"/>
+		<image file="../pieces/pmephisto5/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto5/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto5/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto5/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto5/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto5/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto5/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto5/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto5/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto5/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto5/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto5/bk_sel.png" state="24"/>
 	</element>
 
 <element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 
@@ -302,19 +302,19 @@ license:cc0
 	<view name="leonardo analyst artwork  by luis">
 <bounds left="0" right="2350" top="-10" bottom="1910" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="2350" height="1653" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="1640" width="50" height="1660" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="2300" y="1640" width="50" height="300" />
 		</element>
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="0" y="1895" width="2350" height="80" />
 		</element>
 
@@ -322,7 +322,7 @@ license:cc0
 			<bounds x="476" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="20" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -407,30 +407,30 @@ license:cc0
  
        
 
-		 <element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="56" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="171" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="283" y="1774" width="80" height="20" /> </element>
+		 <element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="56" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="171" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="283" y="1774" width="80" height="20" /> </element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="110"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="224"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="337"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="110"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="224"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="337"  y="1848" width="80" height="20" /> </element>
 
-		<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="503" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.2" inputmask="0x04"> <bounds x="614" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="725" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="834" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x04"> <bounds x="944" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1054" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1164" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1274" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="503" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"> <bounds x="614" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="725" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="834" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x04"> <bounds x="944" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1054" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1164" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1274" y="1774" width="80" height="20" /> </element>
 
-		<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="555" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.3" inputmask="0x04"> <bounds x="667" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="777" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="887" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x04"> <bounds x="997" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="1106" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1216" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="555" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"> <bounds x="667" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="777" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="887" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x04"> <bounds x="997" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="1106" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1216" y="1844" width="80" height="20" /> </element>
  
  
  
@@ -444,19 +444,19 @@ license:cc0
  	<view name="2d leonardo analyst artwork  by luis">
 <bounds left="0" right="2350" top="-10" bottom="1910" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="2350" height="1653" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="1640" width="50" height="1660" />
 		</element>
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="2300" y="1640" width="50" height="300" />
 		</element>
 		
-		<element ref="fondo">
+		<element ref="background">
 			<bounds x="0" y="1895" width="2350" height="80" />
 		</element>
 
@@ -464,7 +464,7 @@ license:cc0
 			<bounds x="476" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="20" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -549,30 +549,30 @@ license:cc0
  
        
 
-		 <element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="56" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="171" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="283" y="1774" width="80" height="20" /> </element>
+		 <element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="56" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="171" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="283" y="1774" width="80" height="20" /> </element>
 
-		<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="110"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="224"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="337"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="110"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="224"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="337"  y="1848" width="80" height="20" /> </element>
 
-		<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="503" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.2" inputmask="0x04"> <bounds x="614" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="725" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="834" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x04"> <bounds x="944" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1054" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1164" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1274" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="503" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"> <bounds x="614" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="725" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="834" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x04"> <bounds x="944" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1054" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1164" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1274" y="1774" width="80" height="20" /> </element>
 
-		<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="555" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.3" inputmask="0x04"> <bounds x="667" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="777" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="887" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x04"> <bounds x="997" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="1106" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1216" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="555" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"> <bounds x="667" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="777" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="887" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x04"> <bounds x="997" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="1106" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1216" y="1844" width="80" height="20" /> </element>
  
  
  
@@ -585,7 +585,7 @@ license:cc0
  <view name="leonardo artwork by luis">
 <bounds left="0" right="1905" top="-10" bottom="1980" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="1920" height="2000" />
 		</element>
 
@@ -593,7 +593,7 @@ license:cc0
 			<bounds x="276" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="400" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -674,30 +674,30 @@ license:cc0
         <element name="8.7" ref="ledrr" blend="add"><bounds x="1446" y="1666" width="48" height="48" /></element>
 		<element name="9.7" ref="ledrg" blend="add"><bounds x="1446" y="1666" width="48" height="48" /></element>
         
-        <element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="436" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="551" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="663" y="1774" width="80" height="20" /> </element>
+        <element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="436" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="551" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="663" y="1774" width="80" height="20" /> </element>
         
-		<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="490"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="604"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="717"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="490"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="604"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="717"  y="1848" width="80" height="20" /> </element>
         
-		<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="883" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.2" inputmask="0x04"> <bounds x="994" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="1105" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="1214" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x04"> <bounds x="1324" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1434" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1544" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1654" y="1774" width="80" height="20" /> </element>>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="883" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"> <bounds x="994" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="1105" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="1214" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x04"> <bounds x="1324" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1434" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1544" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1654" y="1774" width="80" height="20" /> </element>>
         
-		<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="935" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.3" inputmask="0x04"> <bounds x="1047" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="1157" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="1267" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x04"> <bounds x="1377" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="1486" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1596" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="935" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"> <bounds x="1047" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="1157" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="1267" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x04"> <bounds x="1377" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="1486" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1596" y="1844" width="80" height="20" /> </element>
  
  
  
@@ -707,7 +707,7 @@ license:cc0
  <view name="2d leonardo artwork by luis">
 <bounds left="0" right="1905" top="-10" bottom="1980" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="0" y="-10" width="1920" height="2000" />
 		</element>
 
@@ -715,7 +715,7 @@ license:cc0
 			<bounds x="276" y="10" width="1590" height="1620" />
 		</element>
 		
-<element ref="teclado">
+<element ref="keypad">
 			<bounds x="400" y="1640" width="1495" height="256" />
 		</element>			
 
@@ -796,30 +796,30 @@ license:cc0
         <element name="8.7" ref="ledrr" blend="add"><bounds x="1446" y="1666" width="48" height="48" /></element>
 		<element name="9.7" ref="ledrg" blend="add"><bounds x="1446" y="1666" width="48" height="48" /></element>
         
-        <element ref="boton" inputtag="IN.0" inputmask="0x01"> <bounds x="436" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x02"> <bounds x="551" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.0" inputmask="0x04"> <bounds x="663" y="1774" width="80" height="20" /> </element>
+        <element ref="button" inputtag="IN.0" inputmask="0x01"> <bounds x="436" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"> <bounds x="551" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"> <bounds x="663" y="1774" width="80" height="20" /> </element>
         
-		<element ref="boton" inputtag="IN.1" inputmask="0x01"> <bounds x="490"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x02"> <bounds x="604"  y="1848" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.1" inputmask="0x04"> <bounds x="717"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"> <bounds x="490"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"> <bounds x="604"  y="1848" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"> <bounds x="717"  y="1848" width="80" height="20" /> </element>
         
-		<element ref="boton" inputtag="IN.2" inputmask="0x02"> <bounds x="883" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.2" inputmask="0x04"> <bounds x="994" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x01"> <bounds x="1105" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x02"> <bounds x="1214" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.6" inputmask="0x04"> <bounds x="1324" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x04"> <bounds x="1434" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.7" inputmask="0x02"> <bounds x="1544" y="1774" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="RESET" inputmask="0x01"> <bounds x="1654" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"> <bounds x="883" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"> <bounds x="994" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x01"> <bounds x="1105" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x02"> <bounds x="1214" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.6" inputmask="0x04"> <bounds x="1324" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x04"> <bounds x="1434" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.7" inputmask="0x02"> <bounds x="1544" y="1774" width="80" height="20" /> </element>
+		<element ref="button" inputtag="RESET" inputmask="0x01"> <bounds x="1654" y="1774" width="80" height="20" /> </element>
         
-		<element ref="boton" inputtag="IN.3" inputmask="0x02"> <bounds x="935" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.3" inputmask="0x04"> <bounds x="1047" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x01"> <bounds x="1157" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x02"> <bounds x="1267" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.5" inputmask="0x04"> <bounds x="1377" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x04"> <bounds x="1486" y="1844" width="80" height="20" /> </element>
-		<element ref="boton" inputtag="IN.4" inputmask="0x02"> <bounds x="1596" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"> <bounds x="935" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"> <bounds x="1047" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x01"> <bounds x="1157" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x02"> <bounds x="1267" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.5" inputmask="0x04"> <bounds x="1377" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x04"> <bounds x="1486" y="1844" width="80" height="20" /> </element>
+		<element ref="button" inputtag="IN.4" inputmask="0x02"> <bounds x="1596" y="1844" width="80" height="20" /> </element>
  
  
  

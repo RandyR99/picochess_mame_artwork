@@ -10,9 +10,9 @@
 
 
 
-<element name="fondo_gris">
+<element name="background_grey">
 
-		<image file="../varios/fondo4.png" />
+		<image file="../misc/background4.png" />
 
 	</element>
 
@@ -20,7 +20,7 @@
 
 <element name="sbui_png">
 
-		<image file="../varios/clipboard09b.png" />
+		<image file="../misc/clipboard09b.png" />
 
 	</element>
 
@@ -36,17 +36,17 @@
 
 
 
-	<element name="blitz_izq_v">
+	<element name="blitz_left_v">
 
-		<image file="blitz_izq_v.png" />
+		<image file="blitz_left_v.png" />
 
 	</element>
 
 
 
-<element name="blitz_dcha_v">
+<element name="blitz_right_v">
 
-		<image file="blitz_dcha_v.png" />
+		<image file="blitz_right_v.png" />
 
 	</element>
 
@@ -82,7 +82,7 @@
 
 		<image file="../leds/red4_sel.png" state="1"/>
 
-	    <image file="../leds/gris.png" state="0"/>
+	    <image file="../leds/grey.png" state="0"/>
 
 </element>
 
@@ -114,7 +114,7 @@
 
 <element name="keys_v" defstate="0">
 
-	<image file="../botones/down1_sel.png" state="1"/>
+	<image file="../buttons/down1_sel.png" state="1"/>
 
 	
 
@@ -150,55 +150,55 @@
 
 <element name="piece_v" defstate="0">
 
-		<image file="../piezas/pfidelity_plastico3/wp.png" state="1"/>
+		<image file="../pieces/pfidelity_plastic3/wp.png" state="1"/>
 
-		<image file="../piezas/pfidelity_plastico3/wkn.png" state="2"/>
+		<image file="../pieces/pfidelity_plastic3/wkn.png" state="2"/>
 
 
 
-		<image file="../piezas/pfidelity_plastico3/wb.png" state="3"/>
+		<image file="../pieces/pfidelity_plastic3/wb.png" state="3"/>
 
-		<image file="../piezas/pfidelity_plastico3/wr.png" state="4"/>
+		<image file="../pieces/pfidelity_plastic3/wr.png" state="4"/>
 
-		<image file="../piezas/pfidelity_plastico3/wq.png" state="5"/>
+		<image file="../pieces/pfidelity_plastic3/wq.png" state="5"/>
 
-		<image file="../piezas/pfidelity_plastico3/wk.png" state="6"/>
+		<image file="../pieces/pfidelity_plastic3/wk.png" state="6"/>
 
-		<image file="../piezas/pfidelity_plastico3/bp.png" state="7"/>
+		<image file="../pieces/pfidelity_plastic3/bp.png" state="7"/>
 
-		<image file="../piezas/pfidelity_plastico3/bkn.png" state="8"/>
+		<image file="../pieces/pfidelity_plastic3/bkn.png" state="8"/>
 
-		<image file="../piezas/pfidelity_plastico3/bb.png" state="9"/>
+		<image file="../pieces/pfidelity_plastic3/bb.png" state="9"/>
 
-		<image file="../piezas/pfidelity_plastico3/br.png" state="10"/>
+		<image file="../pieces/pfidelity_plastic3/br.png" state="10"/>
 
-		<image file="../piezas/pfidelity_plastico3/bq.png" state="11"/>
+		<image file="../pieces/pfidelity_plastic3/bq.png" state="11"/>
 
-		<image file="../piezas/pfidelity_plastico3/bk.png" state="12"/>
+		<image file="../pieces/pfidelity_plastic3/bk.png" state="12"/>
 
-		<image file="../piezas/pfidelity_plastico3/wp_sel.png" state="13"/>
+		<image file="../pieces/pfidelity_plastic3/wp_sel.png" state="13"/>
 
-		<image file="../piezas/pfidelity_plastico3/wkn_sel.png" state="14"/>
+		<image file="../pieces/pfidelity_plastic3/wkn_sel.png" state="14"/>
 
-		<image file="../piezas/pfidelity_plastico3/wb_sel.png" state="15"/>
+		<image file="../pieces/pfidelity_plastic3/wb_sel.png" state="15"/>
 
-		<image file="../piezas/pfidelity_plastico3/wr_sel.png" state="16"/>
+		<image file="../pieces/pfidelity_plastic3/wr_sel.png" state="16"/>
 
-		<image file="../piezas/pfidelity_plastico3/wq_sel.png" state="17"/>
+		<image file="../pieces/pfidelity_plastic3/wq_sel.png" state="17"/>
 
-		<image file="../piezas/pfidelity_plastico3/wk_sel.png" state="18"/>
+		<image file="../pieces/pfidelity_plastic3/wk_sel.png" state="18"/>
 
-		<image file="../piezas/pfidelity_plastico3/bp_sel.png" state="19"/>
+		<image file="../pieces/pfidelity_plastic3/bp_sel.png" state="19"/>
 
-		<image file="../piezas/pfidelity_plastico3/bkn_sel.png" state="20"/>
+		<image file="../pieces/pfidelity_plastic3/bkn_sel.png" state="20"/>
 
-		<image file="../piezas/pfidelity_plastico3/bb_sel.png" state="21"/>
+		<image file="../pieces/pfidelity_plastic3/bb_sel.png" state="21"/>
 
-		<image file="../piezas/pfidelity_plastico3/br_sel.png" state="22"/>
+		<image file="../pieces/pfidelity_plastic3/br_sel.png" state="22"/>
 
-		<image file="../piezas/pfidelity_plastico3/bq_sel.png" state="23"/>
+		<image file="../pieces/pfidelity_plastic3/bq_sel.png" state="23"/>
 
-		<image file="../piezas/pfidelity_plastico3/bk_sel.png" state="24"/>
+		<image file="../pieces/pfidelity_plastic3/bk_sel.png" state="24"/>
 
 	</element>
 
@@ -208,53 +208,53 @@
 
 	<element name="piece_m" defstate="0">
 
-		<image file="../piezas/pfidelity_plastico2/wp.png" state="1"/>
+		<image file="../pieces/pfidelity_plastic2/wp.png" state="1"/>
 
-		<image file="../piezas/pfidelity_plastico2/wkn.png" state="2"/>
+		<image file="../pieces/pfidelity_plastic2/wkn.png" state="2"/>
 
-		<image file="../piezas/pfidelity_plastico2/wb.png" state="3"/>
+		<image file="../pieces/pfidelity_plastic2/wb.png" state="3"/>
 
-		<image file="../piezas/pfidelity_plastico2/wr.png" state="4"/>
+		<image file="../pieces/pfidelity_plastic2/wr.png" state="4"/>
 
-		<image file="../piezas/pfidelity_plastico2/wq.png" state="5"/>
+		<image file="../pieces/pfidelity_plastic2/wq.png" state="5"/>
 
-		<image file="../piezas/pfidelity_plastico2/wk.png" state="6"/>
+		<image file="../pieces/pfidelity_plastic2/wk.png" state="6"/>
 
-		<image file="../piezas/pfidelity_plastico2/bp.png" state="7"/>
+		<image file="../pieces/pfidelity_plastic2/bp.png" state="7"/>
 
-		<image file="../piezas/pfidelity_plastico2/bkn.png" state="8"/>
+		<image file="../pieces/pfidelity_plastic2/bkn.png" state="8"/>
 
-		<image file="../piezas/pfidelity_plastico2/bb.png" state="9"/>
+		<image file="../pieces/pfidelity_plastic2/bb.png" state="9"/>
 
-		<image file="../piezas/pfidelity_plastico2/br.png" state="10"/>
+		<image file="../pieces/pfidelity_plastic2/br.png" state="10"/>
 
-		<image file="../piezas/pfidelity_plastico2/bq.png" state="11"/>
+		<image file="../pieces/pfidelity_plastic2/bq.png" state="11"/>
 
-		<image file="../piezas/pfidelity_plastico2/bk.png" state="12"/>
+		<image file="../pieces/pfidelity_plastic2/bk.png" state="12"/>
 
-		<image file="../piezas/pfidelity_plastico2/wp_sel.png" state="13"/>
+		<image file="../pieces/pfidelity_plastic2/wp_sel.png" state="13"/>
 
-		<image file="../piezas/pfidelity_plastico2/wkn_sel.png" state="14"/>
+		<image file="../pieces/pfidelity_plastic2/wkn_sel.png" state="14"/>
 
-		<image file="../piezas/pfidelity_plastico2/wb_sel.png" state="15"/>
+		<image file="../pieces/pfidelity_plastic2/wb_sel.png" state="15"/>
 
-		<image file="../piezas/pfidelity_plastico2/wr_sel.png" state="16"/>
+		<image file="../pieces/pfidelity_plastic2/wr_sel.png" state="16"/>
 
-		<image file="../piezas/pfidelity_plastico2/wq_sel.png" state="17"/>
+		<image file="../pieces/pfidelity_plastic2/wq_sel.png" state="17"/>
 
-		<image file="../piezas/pfidelity_plastico2/wk_sel.png" state="18"/>
+		<image file="../pieces/pfidelity_plastic2/wk_sel.png" state="18"/>
 
-		<image file="../piezas/pfidelity_plastico2/bp_sel.png" state="19"/>
+		<image file="../pieces/pfidelity_plastic2/bp_sel.png" state="19"/>
 
-		<image file="../piezas/pfidelity_plastico2/bkn_sel.png" state="20"/>
+		<image file="../pieces/pfidelity_plastic2/bkn_sel.png" state="20"/>
 
-		<image file="../piezas/pfidelity_plastico2/bb_sel.png" state="21"/>
+		<image file="../pieces/pfidelity_plastic2/bb_sel.png" state="21"/>
 
-		<image file="../piezas/pfidelity_plastico2/br_sel.png" state="22"/>
+		<image file="../pieces/pfidelity_plastic2/br_sel.png" state="22"/>
 
-		<image file="../piezas/pfidelity_plastico2/bq_sel.png" state="23"/>
+		<image file="../pieces/pfidelity_plastic2/bq_sel.png" state="23"/>
 
-		<image file="../piezas/pfidelity_plastico2/bk_sel.png" state="24"/>
+		<image file="../pieces/pfidelity_plastic2/bk_sel.png" state="24"/>
 
 	</element>
 
@@ -262,61 +262,61 @@
 
 <element name="piece_2m" defstate="0">
 
-	     <image file="../piezas/chess2/wp.png" state="1"/>
+	     <image file="../pieces/chess2/wp.png" state="1"/>
 
-		<image file="../piezas/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
 
-		<image file="../piezas/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
 
-		<image file="../piezas/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
 
-		<image file="../piezas/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
 
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
 
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
 
-		<image file="../piezas/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
 
-		<image file="../piezas/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
 
-		<image file="../piezas/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
 
-		<image file="../piezas/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
 
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 
 
 		<!-- selected pieces -->
 
-		<image file="../piezas/chess2/wp.png" state="13"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wp.png" state="13"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/wn.png" state="14"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wn.png" state="14"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/wb.png" state="15"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wb.png" state="15"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/wr.png" state="16"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wr.png" state="16"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/wq.png" state="17"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wq.png" state="17"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/wk.png" state="18"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/wk.png" state="18"><color alpha="0.5" /></image>
 
 
 
-		<image file="../piezas/chess2/bp.png" state="19"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bp.png" state="19"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/bn.png" state="20"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bn.png" state="20"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/bb.png" state="21"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bb.png" state="21"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/br.png" state="22"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/br.png" state="22"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/bq.png" state="23"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bq.png" state="23"><color alpha="0.5" /></image>
 
-		<image file="../piezas/chess2/bk.png" state="24"><color alpha="0.5" /></image>
+		<image file="../pieces/chess2/bk.png" state="24"><color alpha="0.5" /></image>
 
 	</element>
 
@@ -1044,7 +1044,7 @@
 
 
 
-<element ref="fondo_gris">
+<element ref="background_grey">
 
 			<bounds x="-15" y="-2" width="105" height="114" />
 
@@ -1128,7 +1128,7 @@
 
 
 
-<element ref="fondo_gris">
+<element ref="background_grey">
 
 			<bounds x="-15" y="-2" width="105" height="114" />
 
@@ -1206,7 +1206,7 @@
 
 
 
-		<element ref="blitz_izq_v">
+		<element ref="blitz_left_v">
 
 			<bounds x="160" y="1500" width="454" height="56" />
 
@@ -1216,7 +1216,7 @@
 
 
 
-		<element ref="blitz_dcha_v">
+		<element ref="blitz_right_v">
 
 			<bounds x="1240" y="1500" width="454" height="56" />
 

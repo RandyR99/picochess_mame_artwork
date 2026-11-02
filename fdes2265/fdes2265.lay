@@ -15,8 +15,8 @@
 		<image file="clipboard09b.png" />
 	</element>
 
-<element name="fondo">
-		<image file="../varios/fondo4.png" />
+<element name="background">
+		<image file="../misc/background4.png" />
 	</element>
 
 <element name="led" defstate="0">
@@ -32,28 +32,28 @@
 
 
 <element name="button" defstate="1">
-	<image file="../botones/bt_sel1.png" state="1"/>
+	<image file="../buttons/bt_sel1.png" state="1"/>
 	
 	</element>
 
 	<element name="bbut" defstate="0">
-	<image file="../botones/bbt_sel.png" state="1"/>
-	<image file="../botones/bbt.png" state="0"/>
+	<image file="../buttons/bbt_sel.png" state="1"/>
+	<image file="../buttons/bbt.png" state="0"/>
 	</element>
 
 
-<element name="boton_l" defstate="0">
+<element name="button_l" defstate="0">
 		
-	<image file="../botones/down_sel9.png" state="1"/>
+	<image file="../buttons/down_sel9.png" state="1"/>
 	</element>
 
 	<element name="shift_l" defstate="0">
-	<image file="../botones/down_sel8.png" state="1"/>
+	<image file="../buttons/down_sel8.png" state="1"/>
 	
 	</element>
 
 <element name="CLEAR_l" defstate="0">
-	<image file="../botones/down_sel8.png" state="1"/>
+	<image file="../buttons/down_sel8.png" state="1"/>
 	
 	</element>
 
@@ -88,63 +88,63 @@
 
 
 <element name="piece" defstate="0">
-		<image file="../piezas/pfidelity_plastico3/wp.png" state="1"/>
-		<image file="../piezas/pfidelity_plastico3/wkn.png" state="2"/>
-        <image file="../piezas/pfidelity_plastico3/wb.png" state="3"/>
-		<image file="../piezas/pfidelity_plastico3/wr.png" state="4"/>
-		<image file="../piezas/pfidelity_plastico3/wq.png" state="5"/>
-		<image file="../piezas/pfidelity_plastico3/wk.png" state="6"/>
-		<image file="../piezas/pfidelity_plastico3/bp.png" state="7"/>
-		<image file="../piezas/pfidelity_plastico3/bkn.png" state="8"/>
-		<image file="../piezas/pfidelity_plastico3/bb.png" state="9"/>
-		<image file="../piezas/pfidelity_plastico3/br.png" state="10"/>
-		<image file="../piezas/pfidelity_plastico3/bq.png" state="11"/>
-		<image file="../piezas/pfidelity_plastico3/bk.png" state="12"/>
-		<image file="../piezas/pfidelity_plastico3/wp_sel.png" state="13"/>
-		<image file="../piezas/pfidelity_plastico3/wkn_sel.png" state="14"/>
-		<image file="../piezas/pfidelity_plastico3/wb_sel.png" state="15"/>
-		<image file="../piezas/pfidelity_plastico3/wr_sel.png" state="16"/>
-		<image file="../piezas/pfidelity_plastico3/wq_sel.png" state="17"/>
-		<image file="../piezas/pfidelity_plastico3/wk_sel.png" state="18"/>
-		<image file="../piezas/pfidelity_plastico3/bp_sel.png" state="19"/>
-		<image file="../piezas/pfidelity_plastico3/bkn_sel.png" state="20"/>
-		<image file="../piezas/pfidelity_plastico3/bb_sel.png" state="21"/>
-		<image file="../piezas/pfidelity_plastico3/br_sel.png" state="22"/>
-		<image file="../piezas/pfidelity_plastico3/bq_sel.png" state="23"/>
-		<image file="../piezas/pfidelity_plastico3/bk_sel.png" state="24"/>
+		<image file="../pieces/pfidelity_plastic3/wp.png" state="1"/>
+		<image file="../pieces/pfidelity_plastic3/wkn.png" state="2"/>
+        <image file="../pieces/pfidelity_plastic3/wb.png" state="3"/>
+		<image file="../pieces/pfidelity_plastic3/wr.png" state="4"/>
+		<image file="../pieces/pfidelity_plastic3/wq.png" state="5"/>
+		<image file="../pieces/pfidelity_plastic3/wk.png" state="6"/>
+		<image file="../pieces/pfidelity_plastic3/bp.png" state="7"/>
+		<image file="../pieces/pfidelity_plastic3/bkn.png" state="8"/>
+		<image file="../pieces/pfidelity_plastic3/bb.png" state="9"/>
+		<image file="../pieces/pfidelity_plastic3/br.png" state="10"/>
+		<image file="../pieces/pfidelity_plastic3/bq.png" state="11"/>
+		<image file="../pieces/pfidelity_plastic3/bk.png" state="12"/>
+		<image file="../pieces/pfidelity_plastic3/wp_sel.png" state="13"/>
+		<image file="../pieces/pfidelity_plastic3/wkn_sel.png" state="14"/>
+		<image file="../pieces/pfidelity_plastic3/wb_sel.png" state="15"/>
+		<image file="../pieces/pfidelity_plastic3/wr_sel.png" state="16"/>
+		<image file="../pieces/pfidelity_plastic3/wq_sel.png" state="17"/>
+		<image file="../pieces/pfidelity_plastic3/wk_sel.png" state="18"/>
+		<image file="../pieces/pfidelity_plastic3/bp_sel.png" state="19"/>
+		<image file="../pieces/pfidelity_plastic3/bkn_sel.png" state="20"/>
+		<image file="../pieces/pfidelity_plastic3/bb_sel.png" state="21"/>
+		<image file="../pieces/pfidelity_plastic3/br_sel.png" state="22"/>
+		<image file="../pieces/pfidelity_plastic3/bq_sel.png" state="23"/>
+		<image file="../pieces/pfidelity_plastic3/bk_sel.png" state="24"/>
 	</element>
 
 
 
 	<element name="piece_2m" defstate="0">
-		<image file="../piezas/chess2/wp.png" state="1"/>
-		<image file="../piezas/chess2/wn.png" state="2"/>
-		<image file="../piezas/chess2/wb.png" state="3"/>
-		<image file="../piezas/chess2/wr.png" state="4"/>
-		<image file="../piezas/chess2/wq.png" state="5"/>
-		<image file="../piezas/chess2/wk.png" state="6"/>
+		<image file="../pieces/chess2/wp.png" state="1"/>
+		<image file="../pieces/chess2/wn.png" state="2"/>
+		<image file="../pieces/chess2/wb.png" state="3"/>
+		<image file="../pieces/chess2/wr.png" state="4"/>
+		<image file="../pieces/chess2/wq.png" state="5"/>
+		<image file="../pieces/chess2/wk.png" state="6"/>
 
-		<image file="../piezas/chess2/bp.png" state="7"/>
-		<image file="../piezas/chess2/bn.png" state="8"/>
-		<image file="../piezas/chess2/bb.png" state="9"/>
-		<image file="../piezas/chess2/br.png" state="10"/>
-		<image file="../piezas/chess2/bq.png" state="11"/>
-		<image file="../piezas/chess2/bk.png" state="12"/>
+		<image file="../pieces/chess2/bp.png" state="7"/>
+		<image file="../pieces/chess2/bn.png" state="8"/>
+		<image file="../pieces/chess2/bb.png" state="9"/>
+		<image file="../pieces/chess2/br.png" state="10"/>
+		<image file="../pieces/chess2/bq.png" state="11"/>
+		<image file="../pieces/chess2/bk.png" state="12"/>
 
 		<!-- selected pieces -->
-		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
-		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
-		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
-		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
-		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
-		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
+		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
+		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
+		<image file="../pieces/chess2/wr_sel.png" state="16"></image>
+		<image file="../pieces/chess2/wq_sel.png" state="17"></image>
+		<image file="../pieces/chess2/wk_sel.png" state="18"></image>
 
-		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
-		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
-		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
-		<image file="../piezas/chess2/br_sel.png" state="22"></image>
-		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
-		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+		<image file="../pieces/chess2/bp_sel.png" state="19"></image>
+		<image file="../pieces/chess2/bn_sel.png" state="20"></image>
+		<image file="../pieces/chess2/bb_sel.png" state="21"></image>
+		<image file="../pieces/chess2/br_sel.png" state="22"></image>
+		<image file="../pieces/chess2/bq_sel.png" state="23"></image>
+		<image file="../pieces/chess2/bk_sel.png" state="24"></image>
 	</element>
 
 
@@ -356,7 +356,7 @@
 <view name="artwork 3d by luis/volodymyr">
 <bounds left="-50" right="1690" top="25" bottom="1253" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-325" y="-10" width="2050" height="1300" />
 		</element>
 
@@ -579,7 +579,7 @@
 <view name="artwork by luis">
 <bounds left="-325" right="2870" top="-10" bottom="2860" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-325" y="-10" width="3230" height="2875" />
 		</element>
 
@@ -623,12 +623,12 @@
 <element ref="shift_l" inputtag="IN.0" inputmask="0x80"><bounds x="328" y="2334" width="219" height="125" /><color alpha="0.4" /></element>
 <element ref="CLEAR_l" inputtag="IN.0" inputmask="0x01"><bounds x="2311" y="2340" width="218" height="125" /><color alpha="0.4" /></element>
 
-<element ref="boton_l" inputtag="IN.0" inputmask="0x40"><bounds x="609"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
-<element ref="boton_l" inputtag="IN.0" inputmask="0x20"><bounds x="820"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
-<element ref="boton_l" inputtag="IN.0" inputmask="0x10"><bounds x="1028" y="2354" width="84" height="88" /><color alpha="0.4" /></element>
-<element ref="boton_l" inputtag="IN.0" inputmask="0x08"><bounds x="1746" y="2356" width="84" height="86" /><color alpha="0.4" /></element>        
-<element ref="boton_l" inputtag="IN.0" inputmask="0x04"><bounds x="1955" y="2356" width="84" height="86" /><color alpha="0.4" /></element>	
-<element ref="boton_l" inputtag="IN.0" inputmask="0x02"><bounds x="2163" y="2356" width="86" height="86" /><color alpha="0.4" /></element>	
+<element ref="button_l" inputtag="IN.0" inputmask="0x40"><bounds x="609"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
+<element ref="button_l" inputtag="IN.0" inputmask="0x20"><bounds x="820"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
+<element ref="button_l" inputtag="IN.0" inputmask="0x10"><bounds x="1028" y="2354" width="84" height="88" /><color alpha="0.4" /></element>
+<element ref="button_l" inputtag="IN.0" inputmask="0x08"><bounds x="1746" y="2356" width="84" height="86" /><color alpha="0.4" /></element>        
+<element ref="button_l" inputtag="IN.0" inputmask="0x04"><bounds x="1955" y="2356" width="84" height="86" /><color alpha="0.4" /></element>	
+<element ref="button_l" inputtag="IN.0" inputmask="0x02"><bounds x="2163" y="2356" width="86" height="86" /><color alpha="0.4" /></element>	
 	
 	<element name="1.8" ref="led_l"><bounds x="486" y="2413" width="40" height="41" /></element>
 	
@@ -638,7 +638,7 @@
 <view name="artwork 2d by luis">
 <bounds left="-325" right="2870" top="-10" bottom="2860" />
 
-<element ref="fondo">
+<element ref="background">
 			<bounds x="-325" y="-10" width="3230" height="2875" />
 		</element>
 
@@ -682,12 +682,12 @@
 <element ref="shift_l" inputtag="IN.0" inputmask="0x80"><bounds x="328" y="2334" width="219" height="125" /><color alpha="0.4" /></element>
 <element ref="CLEAR_l" inputtag="IN.0" inputmask="0x01"><bounds x="2311" y="2340" width="218" height="125" /><color alpha="0.4" /></element>
 
-<element ref="boton_l" inputtag="IN.0" inputmask="0x40"><bounds x="609"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
-<element ref="boton_l" inputtag="IN.0" inputmask="0x20"><bounds x="820"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
-<element ref="boton_l" inputtag="IN.0" inputmask="0x10"><bounds x="1028" y="2354" width="84" height="88" /><color alpha="0.4" /></element>
-<element ref="boton_l" inputtag="IN.0" inputmask="0x08"><bounds x="1746" y="2356" width="84" height="86" /><color alpha="0.4" /></element>        
-<element ref="boton_l" inputtag="IN.0" inputmask="0x04"><bounds x="1955" y="2356" width="84" height="86" /><color alpha="0.4" /></element>	
-<element ref="boton_l" inputtag="IN.0" inputmask="0x02"><bounds x="2163" y="2356" width="86" height="86" /><color alpha="0.4" /></element>	
+<element ref="button_l" inputtag="IN.0" inputmask="0x40"><bounds x="609"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
+<element ref="button_l" inputtag="IN.0" inputmask="0x20"><bounds x="820"  y="2356" width="83" height="84" /><color alpha="0.4" /></element>
+<element ref="button_l" inputtag="IN.0" inputmask="0x10"><bounds x="1028" y="2354" width="84" height="88" /><color alpha="0.4" /></element>
+<element ref="button_l" inputtag="IN.0" inputmask="0x08"><bounds x="1746" y="2356" width="84" height="86" /><color alpha="0.4" /></element>        
+<element ref="button_l" inputtag="IN.0" inputmask="0x04"><bounds x="1955" y="2356" width="84" height="86" /><color alpha="0.4" /></element>	
+<element ref="button_l" inputtag="IN.0" inputmask="0x02"><bounds x="2163" y="2356" width="86" height="86" /><color alpha="0.4" /></element>	
 	
 	<element name="1.8" ref="led_l"><bounds x="486" y="2413" width="40" height="41" /></element>
 	
