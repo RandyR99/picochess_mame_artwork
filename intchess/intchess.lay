@@ -108,28 +108,28 @@ license:cc0
 
 	<!-- buttons -->
 
-	    <element ref="n1"  inputtag="x3" inputmask="0x04"><bounds x="912"  y="1104" width="65" height="64" /></element>
-		<element ref="n1"  inputtag="x1" inputmask="0x04"><bounds x="1014"  y="1104" width="65" height="64" /></element>
-		<element ref="n2"  inputtag="x2" inputmask="0x04"><bounds x="1218" y="1104" width="68" height="64" /></element>
-		<element ref="n2"  inputtag="x4" inputmask="0x08"><bounds x="1320" y="1104" width="68" height="64" /></element>
-		<element ref="n3"  inputtag="x3" inputmask="0x08"><bounds x="1525" y="1104" width="76" height="64" /></element>
-		<element ref="n3"  inputtag="x3" inputmask="0x10"><bounds x="1631" y="1104" width="76" height="64" /></element>
+	    <element ref="n1"  inputtag="X3" inputmask="0x04"><bounds x="912"  y="1104" width="65" height="64" /></element>
+		<element ref="n1"  inputtag="X1" inputmask="0x04"><bounds x="1014"  y="1104" width="65" height="64" /></element>
+		<element ref="n2"  inputtag="X2" inputmask="0x04"><bounds x="1218" y="1104" width="68" height="64" /></element>
+		<element ref="n2"  inputtag="X4" inputmask="0x08"><bounds x="1320" y="1104" width="68" height="64" /></element>
+		<element ref="n3"  inputtag="X3" inputmask="0x08"><bounds x="1525" y="1104" width="76" height="64" /></element>
+		<element ref="n3"  inputtag="X3" inputmask="0x10"><bounds x="1631" y="1104" width="76" height="64" /></element>
 
-		<element ref="n1"  inputtag="x4" inputmask="0x04"><bounds x="906"  y="1214" width="74" height="67" /></element>
-		<element ref="n1"  inputtag="x1" inputmask="0x10"><bounds x="1012"  y="1214" width="74" height="67" /></element>
-		<element ref="n2"  inputtag="x2" inputmask="0x10"><bounds x="1221" y="1214" width="77" height="67" /></element>
-		<element ref="n2"  inputtag="x4" inputmask="0x10"><bounds x="1326" y="1214" width="77" height="67" /></element>
-		<element ref="n3"  inputtag="x1" inputmask="0x08"><bounds x="1542" y="1215" width="80" height="69" /></element>
-		<element ref="n3"  inputtag="x2" inputmask="0x08"><bounds x="1651" y="1215" width="80" height="69" /></element>
+		<element ref="n1"  inputtag="X4" inputmask="0x04"><bounds x="906"  y="1214" width="74" height="67" /></element>
+		<element ref="n1"  inputtag="X1" inputmask="0x10"><bounds x="1012"  y="1214" width="74" height="67" /></element>
+		<element ref="n2"  inputtag="X2" inputmask="0x10"><bounds x="1221" y="1214" width="77" height="67" /></element>
+		<element ref="n2"  inputtag="X4" inputmask="0x10"><bounds x="1326" y="1214" width="77" height="67" /></element>
+		<element ref="n3"  inputtag="X1" inputmask="0x08"><bounds x="1542" y="1215" width="80" height="69" /></element>
+		<element ref="n3"  inputtag="X2" inputmask="0x08"><bounds x="1651" y="1215" width="80" height="69" /></element>
 
-		<element ref="peon" inputtag="x1" inputmask="0x01"><bounds x="896"  y="1376" width="73" height="72" /></element>
-		<element ref="caballo" inputtag="x2" inputmask="0x01"><bounds x="1007"  y="1376" width="73" height="72" /></element>
-		<element ref="alfil" inputtag="x3" inputmask="0x01"><bounds x="1120" y="1376" width="75" height="74" /></element>
-		<element ref="torre" inputtag="x4" inputmask="0x01"><bounds x="1230" y="1376" width="75" height="74" /></element>
-		<element ref="dama" inputtag="x1" inputmask="0x02"><bounds x="1344" y="1376" width="79" height="77" /></element>
-		<element ref="rey" inputtag="x2" inputmask="0x02"><bounds x="1456" y="1376" width="79" height="77" /></element>
-		<element ref="blancas" inputtag="x3" inputmask="0x02"><bounds x="1568" y="1376" width="87" height="78" /></element>
-		<element ref="negras" inputtag="x4" inputmask="0x02"><bounds x="1678" y="1376" width="87" height="78" /></element>
+		<element ref="peon" inputtag="X1" inputmask="0x01"><bounds x="896"  y="1376" width="73" height="72" /></element>
+		<element ref="caballo" inputtag="X2" inputmask="0x01"><bounds x="1007"  y="1376" width="73" height="72" /></element>
+		<element ref="alfil" inputtag="X3" inputmask="0x01"><bounds x="1120" y="1376" width="75" height="74" /></element>
+		<element ref="torre" inputtag="X4" inputmask="0x01"><bounds x="1230" y="1376" width="75" height="74" /></element>
+		<element ref="dama" inputtag="X1" inputmask="0x02"><bounds x="1344" y="1376" width="79" height="77" /></element>
+		<element ref="rey" inputtag="X2" inputmask="0x02"><bounds x="1456" y="1376" width="79" height="77" /></element>
+		<element ref="blancas" inputtag="X3" inputmask="0x02"><bounds x="1568" y="1376" width="87" height="78" /></element>
+		<element ref="negras" inputtag="X4" inputmask="0x02"><bounds x="1678" y="1376" width="87" height="78" /></element>
 
 		
 		<element ref="start" inputtag="RESET" inputmask="0x01"><bounds x="1566" y="868" width="65" height="64" /></element>

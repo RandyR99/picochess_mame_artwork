@@ -688,26 +688,26 @@
 
 <!-- buttons -->
 
-	<element ref="keys" inputtag="key" inputmask="0x01"> <bounds x="635" y="1200" width="28" height="42" />
+	<element ref="keys" inputtag="KEY" inputmask="0x01"> <bounds x="635" y="1200" width="28" height="42" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x02"> <bounds x="741" y="1200" width="28" height="42" />
+	<element ref="keys" inputtag="KEY" inputmask="0x02"> <bounds x="741" y="1200" width="28" height="42" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x04">     <!-- mem -->
+	<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- mem -->
 		<bounds x="844" y="1200" width="28" height="42" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x08">     <!-- pos -->	
+	<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- pos -->	
 		<bounds x="948" y="1200" width="28" height="42" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x10">     <!-- lev -->
+	<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- lev -->
 		<bounds x="1053" y="1200" width="28" height="42" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x20">     <!-- fct -->
+	<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- fct -->
 		<bounds x="1158" y="1200" width="28" height="42" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x40">     <!-- ent -->
+	<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- ent -->
 		<bounds x="1312" y="1200" width="28" height="44" />
 	</element>
-	<element ref="keys" inputtag="key" inputmask="0x80">     <!-- cl -->
+	<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- cl -->
 		<bounds x="1418" y="1200" width="30" height="45" />
 	</element>
 
@@ -824,14 +824,14 @@
 <group ref="panel"><bounds x="106" y="1044" width="172" height="42" /></group>
 		
 
-	<element ref="keys1" inputtag="key" inputmask="0x01"> <bounds x="358" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x02"> <bounds x="422" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x04"> <bounds x="488" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x08"> <bounds x="550" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x10"> <bounds x="614" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x20"> <bounds x="680" y="1060" width="29" height="29" /></element>
-	<element ref="keys" inputtag="key" inputmask="0x40"> <bounds x="780" y="1059" width="15"  height="28" /></element>
-	<element ref="keys" inputtag="key" inputmask="0x80"> <bounds x="845" y="1059" width="15"  height="28" /></element>	
+	<element ref="keys1" inputtag="KEY" inputmask="0x01"> <bounds x="358" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x02"> <bounds x="422" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x04"> <bounds x="488" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x08"> <bounds x="550" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x10"> <bounds x="614" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x20"> <bounds x="680" y="1060" width="29" height="29" /></element>
+	<element ref="keys" inputtag="KEY" inputmask="0x40"> <bounds x="780" y="1059" width="15"  height="28" /></element>
+	<element ref="keys" inputtag="KEY" inputmask="0x80"> <bounds x="845" y="1059" width="15"  height="28" /></element>	
 
 	    <element name="0.0" ref="ledr"><bounds x="356"  y="1016" width="37" height="37" /></element>
 		<element name="1.0" ref="ledr"><bounds x="421"  y="1016" width="37" height="37" /></element>
@@ -890,14 +890,14 @@
 <group ref="panel"><bounds x="106" y="1044" width="172" height="42" /></group>
 		
 
-		<element ref="keys1" inputtag="key" inputmask="0x01"> <bounds x="358" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x02"> <bounds x="422" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x04"> <bounds x="488" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x08"> <bounds x="550" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x10"> <bounds x="614" y="1060" width="29" height="29" /></element>
-	<element ref="keys1" inputtag="key" inputmask="0x20"> <bounds x="680" y="1060" width="29" height="29" /></element>
-	<element ref="keys" inputtag="key" inputmask="0x40"> <bounds x="780" y="1059" width="15"  height="28" /></element>
-	<element ref="keys" inputtag="key" inputmask="0x80"> <bounds x="845" y="1059" width="15"  height="28" /></element>		
+		<element ref="keys1" inputtag="KEY" inputmask="0x01"> <bounds x="358" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x02"> <bounds x="422" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x04"> <bounds x="488" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x08"> <bounds x="550" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x10"> <bounds x="614" y="1060" width="29" height="29" /></element>
+	<element ref="keys1" inputtag="KEY" inputmask="0x20"> <bounds x="680" y="1060" width="29" height="29" /></element>
+	<element ref="keys" inputtag="KEY" inputmask="0x40"> <bounds x="780" y="1059" width="15"  height="28" /></element>
+	<element ref="keys" inputtag="KEY" inputmask="0x80"> <bounds x="845" y="1059" width="15"  height="28" /></element>		
 
 	    <element name="0.0" ref="ledr"><bounds x="356"  y="1016" width="37" height="37" /></element>
 		<element name="1.0" ref="ledr"><bounds x="421"  y="1016" width="37" height="37" /></element>

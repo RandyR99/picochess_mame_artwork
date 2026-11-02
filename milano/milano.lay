@@ -318,28 +318,28 @@
 
 <!-- buttons -->
 
-		<element ref="keys" inputtag="key" inputmask="0x01">     <!-- trn -->
+		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- trn -->
 			<bounds x="316.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x02">     <!-- inf -->
+		<element ref="keys" inputtag="KEY" inputmask="0x02">     <!-- inf -->
 			<bounds x="337.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x04">     <!-- mem -->
+		<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- mem -->
 			<bounds x="358.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x08">     <!-- pos -->	
+		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- pos -->	
 			<bounds x="379.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x10">     <!-- lev -->
+		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- lev -->
 			<bounds x="316.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x20">     <!-- fct -->
+		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- fct -->
 			<bounds x="337.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x40">     <!-- ent -->
+		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- ent -->
 			<bounds x="358.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x80">     <!-- cl -->
+		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- cl -->
 			<bounds x="379.5" y="268" width="19" height="9" />
 		</element>
 
@@ -438,28 +438,28 @@
 
 <!-- buttons -->
 
-		<element ref="keys" inputtag="key" inputmask="0x01">     <!-- trn -->
+		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- trn -->
 			<bounds x="316.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x02">     <!-- inf -->
+		<element ref="keys" inputtag="KEY" inputmask="0x02">     <!-- inf -->
 			<bounds x="337.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x04">     <!-- mem -->
+		<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- mem -->
 			<bounds x="358.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x08">     <!-- pos -->	
+		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- pos -->	
 			<bounds x="379.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x10">     <!-- lev -->
+		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- lev -->
 			<bounds x="316.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x20">     <!-- fct -->
+		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- fct -->
 			<bounds x="337.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x40">     <!-- ent -->
+		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- ent -->
 			<bounds x="358.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x80">     <!-- cl -->
+		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- cl -->
 			<bounds x="379.5" y="268" width="19" height="9" />
 		</element>
 

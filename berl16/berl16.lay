@@ -380,28 +380,28 @@
 
 <!-- buttons -->
 
-<element ref="keys" inputtag="key" inputmask="0x04">     <!-- up -->
+<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- up -->
 			<bounds x="316.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x08">     <!-- down -->
+		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- down -->
 			<bounds x="337.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x10">     <!-- left -->
+		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- left -->
 			<bounds x="358.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x20">     <!-- right -->	
+		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- right -->	
 			<bounds x="379.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x40">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- new game -->
 			<bounds x="316.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x80">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- new game -->
 			<bounds x="337.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x02">     <!-- CLEAR -->
+		<element ref="keys" inputtag="KEY" inputmask="0x02">     <!-- CLEAR -->
 			<bounds x="358.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x01">     <!-- enter -->
+		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- enter -->
 			<bounds x="379.5" y="268" width="19" height="9" />
 		</element>
 
@@ -447,28 +447,28 @@
 
 <!-- buttons -->
 
-<element ref="keys" inputtag="key" inputmask="0x04">     <!-- up -->
+<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- up -->
 			<bounds x="316.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x08">     <!-- down -->
+		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- down -->
 			<bounds x="337.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x10">     <!-- left -->
+		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- left -->
 			<bounds x="358.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x20">     <!-- right -->	
+		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- right -->	
 			<bounds x="379.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x40">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- new game -->
 			<bounds x="316.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x80">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- new game -->
 			<bounds x="337.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x02">     <!-- CLEAR -->
+		<element ref="keys" inputtag="KEY" inputmask="0x02">     <!-- CLEAR -->
 			<bounds x="358.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="key" inputmask="0x01">     <!-- enter -->
+		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- enter -->
 			<bounds x="379.5" y="268" width="19" height="9" />
 		</element>
 

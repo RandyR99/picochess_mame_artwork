@@ -545,22 +545,22 @@
 
 	
 
-		<element ref="keys" inputtag="key3" inputmask="0x08000">   <!-- ent -->
+		<element ref="keys" inputtag="KEY3" inputmask="0x08000">   <!-- ent -->
 			<bounds x="76" y="89.5" width="4.7" height="4.7" /><color alpha="0.25" />
 		</element>
-		<element ref="keys" inputtag="key2" inputmask="0x08000">   <!-- up -->
+		<element ref="keys" inputtag="KEY2" inputmask="0x08000">   <!-- up -->
 			<bounds x="82" y="89.5" width="4.7" height="4.7" /><color alpha="0.25" />
 		</element>
-		<element ref="keys" inputtag="key1" inputmask="0x08000">   <!-- cl -->
+		<element ref="keys" inputtag="KEY1" inputmask="0x08000">   <!-- cl -->
 			<bounds x="88" y="89.5" width="4.7" height="4.7" /><color alpha="0.25" />
 		</element>
-		<element ref="keys" inputtag="key3" inputmask="0x04000">   <!-- left -->
+		<element ref="keys" inputtag="KEY3" inputmask="0x04000">   <!-- left -->
 			<bounds x="76" y="95.5" width="4.7" height="4.7" /><color alpha="0.25" />
 		</element>
-		<element ref="keys" inputtag="key1" inputmask="0x04000">   <!-- right -->
+		<element ref="keys" inputtag="KEY1" inputmask="0x04000">   <!-- right -->
 			<bounds x="88" y="95.5" width="4.7" height="4.7" /><color alpha="0.25" />
 		</element>
-		<element ref="keys" inputtag="key2" inputmask="0x04000">   <!-- down -->
+		<element ref="keys" inputtag="KEY2" inputmask="0x04000">   <!-- down -->
 			<bounds x="82" y="101.5" width="4.7" height="4.7" /><color alpha="0.25" />
 		</element>
 	</group>
@@ -1104,24 +1104,24 @@
 <!-- buttons -->
 
 
-	<element ref="keys_x" inputtag="key3" inputmask="0x08000">     <!-- ent -->
+	<element ref="keys_x" inputtag="KEY3" inputmask="0x08000">     <!-- ent -->
 		<bounds x="1161" y="1183" width="34" height="34" /></element>
 
-	<element ref="keys_x" inputtag="key2" inputmask="0x08000">     <!-- up -->
+	<element ref="keys_x" inputtag="KEY2" inputmask="0x08000">     <!-- up -->
 		<bounds x="1200" y="1186" width="32" height="32" /></element>
 
-	<element ref="keys_x" inputtag="key1" inputmask="0x08000">     <!-- cl -->
+	<element ref="keys_x" inputtag="KEY1" inputmask="0x08000">     <!-- cl -->
 		<bounds x="1237" y="1183" width="36" height="34" /></element>
 
-	<element ref="keys_x" inputtag="key3" inputmask="0x04000">     <!-- left -->
+	<element ref="keys_x" inputtag="KEY3" inputmask="0x04000">     <!-- left -->
 		<bounds x="1166" y="1224" width="32" height="32" />
 	</element>
 
-	<element ref="keys_x" inputtag="key1" inputmask="0x04000">     <!-- right -->	
+	<element ref="keys_x" inputtag="KEY1" inputmask="0x04000">     <!-- right -->	
 		<bounds x="1246" y="1224" width="32" height="32" />
 	</element>
 
-	<element ref="keys_x" inputtag="key2"
+	<element ref="keys_x" inputtag="KEY2"
 inputmask="0x04000">     <!-- down -->
 		<bounds x="1212" y="1262" width="32" height="32" />
 	</element>

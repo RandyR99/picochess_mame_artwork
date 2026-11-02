@@ -1026,21 +1026,21 @@
 
 	
 
-        <element ref="hlb" inputtag="key" inputmask="0x01">       <bounds x="60.6" y="92.6" width="3" height="3.5" /><color alpha="0.25" />  </element>
+        <element ref="hlb" inputtag="KEY" inputmask="0x01">       <bounds x="60.6" y="92.6" width="3" height="3.5" /><color alpha="0.25" />  </element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x02">       <bounds x="64.7" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x02">       <bounds x="64.7" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x04">       <bounds x="68.8" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x04">       <bounds x="68.8" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x08">       <bounds x="73.2" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x08">       <bounds x="73.2" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x10">       <bounds x="77.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x10">       <bounds x="77.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x20">       <bounds x="81.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /> </element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x20">       <bounds x="81.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /> </element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x40">       <bounds x="77.4" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x40">       <bounds x="77.4" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x80">       <bounds x="81.3" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x80">       <bounds x="81.3" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
 
 
 
@@ -1156,21 +1156,21 @@
 
 	
 
-<element ref="hlb" inputtag="key" inputmask="0x01">       <bounds x="60.6" y="92.6" width="3" height="3.5" /><color alpha="0.25" />  </element>
+<element ref="hlb" inputtag="KEY" inputmask="0x01">       <bounds x="60.6" y="92.6" width="3" height="3.5" /><color alpha="0.25" />  </element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x02">       <bounds x="64.7" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x02">       <bounds x="64.7" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x04">       <bounds x="68.8" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x04">       <bounds x="68.8" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x08">       <bounds x="73.2" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x08">       <bounds x="73.2" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x10">       <bounds x="77.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x10">       <bounds x="77.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /></element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x20">       <bounds x="81.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /> </element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x20">       <bounds x="81.3" y="92.6" width="3" height="3.5" /><color alpha="0.25" /> </element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x40">       <bounds x="77.4" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x40">       <bounds x="77.4" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
 
-		<element ref="hlb" inputtag="key" inputmask="0x80">       <bounds x="81.3" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
+		<element ref="hlb" inputtag="KEY" inputmask="0x80">       <bounds x="81.3" y="101.3" width="3" height="3.5" /><color alpha="0.25" /> </element>
 
 
 
@@ -2162,19 +2162,19 @@
 
 
 
-	<element ref="keys_v" inputtag="key" inputmask="0x01">     <!-- trn -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x01">     <!-- trn -->
 
 		<bounds x="1170" y="1298" width="54" height="45" />
 
 	</element>
 
-	<element ref="keys_v" inputtag="key" inputmask="0x02">     <!-- info -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x02">     <!-- info -->
 
 		<bounds x="1239" y="1296" width="54" height="45" />
 
 	</element>
 
-	<element ref="keys_v" inputtag="key" inputmask="0x04">     <!-- mem -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x04">     <!-- mem -->
 
 		<bounds x="1305" y="1296" width="54" height="45" />
 
@@ -2182,7 +2182,7 @@
 
 
 
-	<element ref="keys_v" inputtag="key" inputmask="0x08">     <!-- pos -->	
+	<element ref="keys_v" inputtag="KEY" inputmask="0x08">     <!-- pos -->	
 
 		<bounds x="1374" y="1296" width="54" height="45" />
 
@@ -2190,13 +2190,13 @@
 
 
 
-	<element ref="keys_v" inputtag="key" inputmask="0x10">     <!-- lev -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x10">     <!-- lev -->
 
 		<bounds x="1440" y="1295" width="55" height="45" />
 
 	</element>
 
-	<element ref="keys_v" inputtag="key" inputmask="0x20">     <!-- fct -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x20">     <!-- fct -->
 
 		<bounds x="1507" y="1295" width="56" height="45" />
 
@@ -2206,13 +2206,13 @@
 
 
 
-	<element ref="keys_v" inputtag="key" inputmask="0x40">     <!-- ent -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x40">     <!-- ent -->
 
 		<bounds x="1454" y="1402" width="58" height="50" />
 
 	</element>
 
-	<element ref="keys_v" inputtag="key" inputmask="0x80">     <!-- cl -->
+	<element ref="keys_v" inputtag="KEY" inputmask="0x80">     <!-- cl -->
 
 		<bounds x="1521" y="1402" width="58" height="50" />
 
