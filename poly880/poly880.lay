@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- define elements -->
+
+	<element name="slc1" />
+
+	<element name="white"><rect><color red="0.85" green="0.85" blue="0.85" /></rect></element>
+	<element name="dark"> <rect><color red="0.15" green="0.15" blue="0.15" /></rect></element>
+	<element name="null"> <rect><color red="0.00" green="0.00" blue="0.00" /></rect></element>
+
+	<element name="button">
+                <rect state="0"><color red="0.85" green="0.85" blue="0.85" /></rect>
+                <rect state="1"><color red="0.55" green="0.55" blue="0.55" /></rect>
+	</element>
+	<element name="button_grey">
+                <rect state="0"><color red="0.40" green="0.40" blue="0.40" /></rect>
+                <rect state="1"><color red="0.30" green="0.30" blue="0.30" /></rect>
+	</element>
+
+	<element name="r_digit" defstate="0">
+		<led7seg>
+			<color red="0.85" green="0.0" blue="0.0" />
+		</led7seg>
+	</element>
+	<element name="g_digit" defstate="0">
+		<led7seg>
+			<color red="0.75" green="0.75" blue="0.0" />
+		</led7seg>
+	</element>
+
+	<element name="r_led" defstate="0">
+		<disk state="1">
+			<color red="0.75" green="0.0" blue="0.0" />
+		</disk>
+		<disk state="0">
+			<color red="0.1" green="0.01" blue="0.01" />
+		</disk>
+	</element>
+
+	<element name="text_RESET"><text string="RESET"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_view"><text string="view"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_CLEAR"><text string="CLEAR"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_enter"><text string="enter"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+
+	<element name="text_c"><text string="c"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_a"><text string="a"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_st"><text string="st"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_z"><text string="z"><color red="1.0" green="1.0" blue="1.0" /></text></element>
+	<element name="text_a1"><text string="a 1"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_b2"><text string="b 2"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_c3"><text string="c 3"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_d4"><text string="d 4"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_e5"><text string="e 5"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_f6"><text string="f 6"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_g7"><text string="g 7"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+	<element name="text_h8"><text string="h 8"><color red="0.0" green="0.0" blue="0.0" /></text></element>
+
+	<element name="piece_k"><text string="&#x265a;"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="piece_q"><text string="&#x265b;"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="piece_r"><text string="&#x265c;"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="piece_b"><text string="&#x265d;"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="piece_n"><text string="&#x265e;"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="piece_p"><text string="&#x265f;"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="piece_no"><text string="- -"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+
+<!-- build screen -->
+
+	<view name="external layout">
+		<bounds left="88" right="140" top="-5" bottom="85" />
+
+		<element ref="white"><bounds x="88" y="-5" width="52" height="90" /></element>
+		<element ref="dark"><bounds x="90" y="-3" width="48" height="86" /></element>
+		<element ref="null"><bounds x="96" y="14" width="36" height="12" /></element>
+
+		<element name="digit7" ref="r_digit">
+			<bounds x=" 98" y="17" width="4" height="6" />
+		</element>
+		<element name="digit6" ref="r_digit">
+			<bounds x="103" y="17" width="4" height="6" />
+		</element>
+		<element name="digit5" ref="r_digit">
+			<bounds x="108" y="17" width="4" height="6" />
+		</element>
+		<element name="digit4" ref="r_digit">
+			<bounds x="113" y="17" width="4" height="6" />
+		</element>
+		<element name="digit3" ref="g_digit">
+			<bounds x="121" y="17" width="4" height="6" />
+		</element>
+		<element name="digit1" ref="g_digit">
+			<bounds x="126" y="17" width="4" height="6" />
+		</element>
+
+		<element name="busyled" ref="r_led">
+			<bounds x="113" y="31.8" width="2" height="2" />
+		</element>
+
+		<element ref="button_grey" inputtag="IN.2" inputmask="0x10"><bounds x="96"  y="40" width="6" height="6" /></element>
+		<element ref="button_grey" inputtag="IN.2" inputmask="0x20"><bounds x="106" y="40" width="6" height="6" /></element>
+		<element ref="button_grey" inputtag="IN.2" inputmask="0x80"><bounds x="116" y="40" width="6" height="6" /></element>
+		<element ref="button_grey" inputtag="IN.2" inputmask="0x40"><bounds x="126" y="40" width="6" height="6" /></element>
+
+		<element ref="button" inputtag="IN.1" inputmask="0x10"><bounds x="96"  y="50" width="6" height="5" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"><bounds x="106" y="50" width="6" height="5" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"><bounds x="116" y="50" width="6" height="5" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x08"><bounds x="126" y="50" width="6" height="5" /></element>
+                                
+		<element ref="button" inputtag="IN.2" inputmask="0x01"><bounds x="96"  y="60" width="6" height="5" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="106" y="60" width="6" height="5" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="116" y="60" width="6" height="5" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x08"><bounds x="126" y="60" width="6" height="5" /></element>
+
+		<element ref="text_RESET"> <bounds x="96.0"  y="37.4" width="6" height="2.4" /></element>
+		<element ref="text_view">  <bounds x="106.0" y="37.4" width="6" height="2.4" /></element>
+		<element ref="text_CLEAR"> <bounds x="116.0" y="37.4" width="6" height="2.4" /></element>
+		<element ref="text_enter"> <bounds x="126.0" y="37.4" width="6" height="2.4" /></element>
+
+		<element ref="text_c"> <bounds x="97.5"  y="41.5" width="3" height="3" /></element>
+		<element ref="text_a"> <bounds x="107.5" y="41.5" width="3" height="3" /></element>
+		<element ref="text_st"><bounds x="117.5" y="41.5" width="3" height="3" /></element>
+		<element ref="text_z"> <bounds x="127.5" y="41.5" width="3" height="3" /></element>
+
+		<element ref="text_a1"><bounds x="97"  y="51.2" width="4.5" height="2.5" /></element>
+		<element ref="text_b2"><bounds x="107" y="51.2" width="4.5" height="2.5" /></element>
+		<element ref="text_c3"><bounds x="117" y="51.2" width="4.5" height="2.5" /></element>
+		<element ref="text_d4"><bounds x="127" y="51.2" width="4.5" height="2.5" /></element>
+
+		<element ref="text_e5"><bounds x="97"  y="61.2" width="4.5" height="2.5" /></element>
+		<element ref="text_f6"><bounds x="107" y="61.2" width="4.5" height="2.5" /></element>
+		<element ref="text_g7"><bounds x="117" y="61.2" width="4.5" height="2.5" /></element>
+		<element ref="text_h8"><bounds x="127" y="61.2" width="4.5" height="2.5" /></element>
+
+		<element ref="piece_p"><bounds x="96.5"  y="55.2" width="5.5" height="3.0" /></element>
+		<element ref="piece_n"><bounds x="106.5" y="55.2" width="5.5" height="3.0" /></element>
+		<element ref="piece_b"><bounds x="116.5" y="55.2" width="5.5" height="3.0" /></element>
+		<element ref="piece_r"><bounds x="126.5" y="55.2" width="5.5" height="3.0" /></element>
+
+		<element ref="piece_q"><bounds x="96.5"  y="65.2" width="5.5" height="3.0" /></element>
+		<element ref="piece_k"><bounds x="106.5" y="65.2" width="5.5" height="3.0" /></element>
+		<element ref="piece_no"><bounds x="116.5" y="64.7" width="5.5" height="4.0" /></element>
+		<element ref="piece_no"><bounds x="126.5" y="64.7" width="5.5" height="4.0" /></element>
+
+	</view>
+
+</mamelayout>

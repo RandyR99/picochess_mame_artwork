@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- define elements -->
+
+	<element name="sc2">
+		<image file="sc2b.png" />
+	</element>
+
+<element name="fondo">
+		<image file="../varios/fondo4.png" />
+	</element>
+
+
+
+	<element name="sensor" defstate="0"></element>
+
+	<element name="btr" defstate="0">
+	<image file="btr.png" state="0"/>
+	<image file="btr_sel.png" state="1"/>
+	</element>
+
+	<element name="btk" defstate="0">
+	<image file="btk.png" state="0"/>
+	<image file="btk_sel.png" state="1"/>
+	</element>
+
+	<element name="btw" defstate="0">
+	<image file="btw.png" state="0"/>
+	<image file="btw_sel.png" state="1"/>
+	</element>
+
+	<element name="btp" defstate="0">
+	<image file="btp.png" state="0"/>
+	<image file="btp_sel.png" state="1"/>
+	</element>
+
+	<element name="btt" defstate="0">
+	<image file="btt.png" state="0"/>
+	<image file="btt_sel.png" state="1"/>
+	</element>
+
+	<element name="btl" defstate="0">
+	<image file="btl.png" state="0"/>
+	<image file="btl_sel.png" state="1"/>
+	</element>
+
+	<element name="btq" defstate="0">
+	<image file="btq.png" state="0"/>
+	<image file="btq_sel.png" state="1"/>
+	</element>
+
+	<element name="bt1" defstate="0">
+	<image file="bt1.png" state="0"/>
+	<image file="bt1_sel.png" state="1"/>
+	</element>
+
+	<element name="bt2" defstate="0">
+	<image file="bt2.png" state="0"/>
+	<image file="bt2_sel.png" state="1"/>
+	</element>
+
+	<element name="bt3" defstate="0">
+	<image file="bt3.png" state="0"/>
+	<image file="bt3_sel.png" state="1"/>
+	</element>
+
+	<element name="bt4" defstate="0">
+	<image file="bt4.png" state="0"/>
+	<image file="bt4_sel.png" state="1"/>
+	</element>
+
+	<element name="bt5" defstate="0">
+	<image file="bt5.png" state="0"/>
+	<image file="bt5_sel.png" state="1"/>
+	</element>
+
+	<element name="bt6" defstate="0">
+	<image file="bt6.png" state="0"/>
+	<image file="bt6_sel.png" state="1"/>
+	</element>
+
+	<element name="bt7" defstate="0">
+	<image file="bt7.png" state="0"/>
+	<image file="bt7_sel.png" state="1"/>
+	</element>
+
+	<element name="bt8" defstate="0">
+	<image file="bt8.png" state="0"/>
+	<image file="bt8_sel.png" state="1"/>
+	</element>
+
+	<element name="digit" defstate="0">
+		<led7seg>
+			<color red="0.0" green="0.75" blue="0.0" />
+		</led7seg>
+	</element>
+
+	<element name="led" defstate="0">
+	<image file="../leds/red2_sel.png" state="1"/>
+	
+	</element>
+
+<!-- build screen -->
+
+	<view name="artwork by volodymyr/luis">
+
+		<bounds left="75" right="126" top="-3.2" bottom="84.5" />
+		
+		<element ref="fondo">
+			<bounds x="75" y="-3.2" width="126" height="89.5" />
+		</element>
+		
+		<element ref="sc2">
+			<bounds x="-9.2" y="-3.2" width="136" height="89.5" />
+		</element>
+
+
+
+
+
+
+
+		<element name="digit0" ref="digit">
+			<bounds x="89.7" y="28.05" width="4" height="6" />
+		</element>
+		<element name="digit1" ref="digit">
+			<bounds x="94.7" y="28.05" width="4" height="6" />
+		</element>
+		<element name="digit2" ref="digit">
+			<bounds x="102.6" y="28.05" width="4" height="6" />
+		</element>
+		<element name="digit3" ref="digit">
+			<bounds x="107.6" y="28.05" width="4" height="6" />
+		</element>
+
+		<element name="led1" ref="led">
+			<bounds x="110.1" y="44" width="7" height="7" />
+		</element>
+		<element name="led0" ref="led">
+			<bounds x="84.8" y="44" width="7" height="7" />
+		</element>
+
+		<element ref="btr" inputtag="IN.3" inputmask="0x04"><bounds x="89.9" y="44.0" width="7" height="7" /></element>
+		<element ref="btk" inputtag="IN.3" inputmask="0x01"><bounds x="97.4" y="44.0" width="7" height="7" /></element>
+		<element ref="btw" inputtag="IN.3" inputmask="0x02"><bounds x="104.9" y="44.0" width="7" height="7" /></element>
+
+		<element ref="btp" inputtag="IN.3" inputmask="0x08"><bounds x="86.2" y="51.5" width="7" height="7" /></element>
+		<element ref="btt" inputtag="IN.0" inputmask="0x02"><bounds x="93.7" y="51.5" width="7" height="7" /></element>
+		<element ref="btl" inputtag="IN.0" inputmask="0x04"><bounds x="101.2" y="51.5" width="7" height="7" /></element>
+		<element ref="btq" inputtag="IN.0" inputmask="0x08"><bounds x="108.7" y="51.5" width="7" height="7" /></element>
+
+		<element ref="bt1" inputtag="IN.1" inputmask="0x01"><bounds x="86.2"  y="59" width="7" height="7" /></element>
+		<element ref="bt2" inputtag="IN.1" inputmask="0x02"><bounds x="93.7" y="59" width="7" height="7" /></element>
+		<element ref="bt3" inputtag="IN.1" inputmask="0x04"><bounds x="101.2" y="59" width="7" height="7" /></element>
+		<element ref="bt4" inputtag="IN.1" inputmask="0x08"><bounds x="108.7" y="59" width="7" height="7" /></element>
+
+		<element ref="bt5" inputtag="IN.2" inputmask="0x01"><bounds x="86.2"  y="66.5" width="7" height="7" /></element>
+		<element ref="bt6" inputtag="IN.2" inputmask="0x02"><bounds x="93.7" y="66.5" width="7" height="7" /></element>
+		<element ref="bt7" inputtag="IN.2" inputmask="0x04"><bounds x="101.2" y="66.5" width="7" height="7" /></element>
+		<element ref="bt8" inputtag="IN.2" inputmask="0x08"><bounds x="108.7" y="66.5" width="7" height="7" /></element>
+
+	</view>
+</mamelayout>

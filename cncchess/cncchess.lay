@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- define elements -->
+
+
+<!-- define elements -->
+
+<element name="conic">
+		<image file="conic4.png" />
+	</element>
+
+<element name="fondo">
+		<image file="../varios/fondo4.png" />
+	</element>
+
+
+
+<element name="led" defstate="0">
+		<disk state="1"><color red="1.0" green="0.1" blue="0.15" /></disk>
+		<disk state="0"><color red="0.15" green="0.02" blue="0.03" /></disk>
+	</element>
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="1.0" green="0.1" blue="0.15" /></led7seg>
+	</element>
+
+
+
+
+	<element name="white"><rect><color red="0.81" green="0.8" blue="0.79" /></rect></element>
+	<element name="whited"><disk><color red="0.81" green="0.8" blue="0.79" /></disk></element>
+	<element name="black"><rect><color red="0" green="0" blue="0" /></rect></element>
+	<element name="blackd"><disk><color red="0" green="0" blue="0" /></disk></element>
+
+
+
+
+
+	<element name="hl" defstate="0">
+	<image file="../botones/down_sel.png" state="1"/>
+	
+	</element>
+
+
+
+
+
+
+
+
+
+<!-- build screen -->
+
+	<view name="artwork by luis">
+<bounds left="-10" right="1599" top="-10" bottom="1099" />
+
+<element ref="fondo">
+			<bounds x="-10" y="-10" width="1609" height="1109" />
+		</element>
+
+<element ref="conic">
+			<bounds x="0" y="0" width="1589" height="1089" />
+		</element>
+
+
+<element name="digit0" ref="digit"><bounds x="726" y="402" width="69" height="101" /></element>
+		<element name="digit1" ref="digit"><bounds x="816" y="402" width="69" height="101" /></element>
+		<element name="digit2" ref="digit"><bounds x="970" y="402" width="69" height="101" /></element>
+		<element name="digit3" ref="digit"><bounds x="1059" y="402" width="69" height="101" /></element>
+
+<element name="1.8" ref="led"><bounds x="925" y="428" width="10" height="10" /></element>
+		<element name="0.8" ref="led"><bounds x="925" y="470" width="10" height="10" /></element>
+		
+	    <element ref="hl" inputtag="IN.2" inputmask="0x08"><bounds x="366"  y="639" width="116" height="172" /></element>
+		<element ref="hl" inputtag="IN.2" inputmask="0x04"><bounds x="508"  y="639" width="112" height="168" /></element>
+		<element ref="hl" inputtag="IN.2" inputmask="0x02"><bounds x="647"  y="639" width="112" height="168" /></element>
+		<element ref="hl" inputtag="IN.2" inputmask="0x01"><bounds x="783"  y="639" width="112" height="170" /></element>
+		<element ref="hl" inputtag="IN.3" inputmask="0x08"><bounds x="922"  y="639" width="112" height="171" /></element>
+		<element ref="hl" inputtag="IN.3" inputmask="0x04"><bounds x="1060" y="639" width="118" height="173" /></element>
+		<element ref="hl" inputtag="IN.3" inputmask="0x02"><bounds x="1201" y="639" width="121" height="173" /></element>
+		<element ref="hl" inputtag="IN.3" inputmask="0x01"><bounds x="1344" y="639" width="121" height="173" /></element>
+		<element ref="hl" inputtag="IN.0" inputmask="0x08"><bounds x="366"  y="850" width="114" height="173" /></element>
+		<element ref="hl" inputtag="IN.0" inputmask="0x04"><bounds x="508"  y="850" width="112" height="176" /></element>
+		<element ref="hl" inputtag="IN.0" inputmask="0x02"><bounds x="647"  y="850" width="112" height="176" /></element>
+		<element ref="hl" inputtag="IN.0" inputmask="0x01"><bounds x="783"  y="850" width="112" height="176" /></element>
+		<element ref="hl" inputtag="IN.1" inputmask="0x08"><bounds x="922"  y="850" width="114" height="177" /></element>
+		<element ref="hl" inputtag="IN.1" inputmask="0x04"><bounds x="1060" y="851" width="116" height="178" /></element>
+		<element ref="hl" inputtag="IN.1" inputmask="0x02"><bounds x="1201" y="852" width="121" height="178" /></element>
+		<element ref="hl" inputtag="IN.1" inputmask="0x01"><bounds x="1344" y="852" width="121" height="178" /></element>
+
+		
+		<element ref="hl" inputtag="RESET" inputmask="0x01"><bounds x="81" y="900" width="164" height="83" /></element>
+
+
+	</view>
+	
+
+</mamelayout>

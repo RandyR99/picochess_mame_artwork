@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- note: no chesspieces simulation here -->
+
+<!-- define elements -->
+
+<element name="aci">
+		<image file="diplomat2.png" />
+	</element>
+
+
+
+
+
+
+
+
+<element name="button" defstate="0">
+	<image file="../botones/down.png" state="0"/>
+	<disk state="1">
+			<bounds x="0.12" y="0.12" width="0.76" height="0.76" />
+			<color red="1.0" green="1.0" blue="1.0" />
+		</disk>
+	</element>
+
+
+
+	
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="1.0" green="0.1" blue="0.15" /></led7seg>
+	</element>
+
+	
+
+	
+
+
+<!-- build screen -->
+<view name="artwork by luis">
+<bounds left="0" right="2558" top="0" bottom="2022" />
+	
+	<element ref="aci">
+			<bounds left="0" right="2558" top="0" bottom="2022" />
+		</element>
+	
+	<!-- display -->
+
+		
+
+		<element name="digit0" ref="digit"><bounds x="513"  y="611" width="40" height="60" /></element>
+		<element name="digit1" ref="digit"><bounds x="569"  y="611" width="40" height="60" /></element>
+		<element name="digit2" ref="digit"><bounds x="623"  y="611" width="40" height="60" /></element>
+		<element name="digit3" ref="digit"><bounds x="680"  y="611" width="40" height="60" /></element>
+		<element name="digit4" ref="digit"><bounds x="734" y="611" width="40" height="60" /></element>
+		<element name="digit5" ref="digit"><bounds x="791" y="611" width="40" height="60" /></element>
+		<element name="digit6" ref="digit"><bounds x="842" y="611" width="40" height="60" /></element>
+		<element name="digit7" ref="digit"><bounds x="900" y="611" width="40" height="60" /></element>
+
+		
+
+	<!-- buttons -->
+
+	
+		
+
+		
+
+		<element ref="button" inputtag="IN.3" inputmask="0x01"><bounds x="715" y="1160" width="220" height="205" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"><bounds x="895" y="1160" width="220" height="210" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"><bounds x="1077" y="1160" width="220" height="205" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="1261" y="1160" width="220" height="205" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="1445" y="1160" width="220" height="205" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="RESET" inputmask="0x01"><bounds x="1810" y="1160" width="220" height="205" /><color alpha="0.15" /></element>
+
+		<element ref="button" inputtag="IN.2" inputmask="0x08"><bounds x="516" y="1328" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x01"><bounds x="708" y="1328" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"><bounds x="892" y="1328" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"><bounds x="1076" y="1328" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="1450" y="1328" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x08"><bounds x="1636" y="1328" width="220" height="208" /><color alpha="0.15" /></element>
+
+		<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="697" y="1502" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="888" y="1500" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="1080" y="1500" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x08"><bounds x="1455" y="1500" width="220" height="208" /><color alpha="0.15" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="1832" y="1500" width="220" height="208" /><color alpha="0.15" /></element>
+
+		
+
+	</view>
+</mamelayout>

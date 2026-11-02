@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- note: no chesspieces simulation here -->
+
+<!-- define elements -->
+
+<element name="avr">
+		<image file="avr3.png" />
+	</element>
+
+<element name="but" defstate="0">
+		<image file="../botones/but5_sel.png" state="1"/>
+	<image file="../botones/but5.png" state="0"/>
+</element>
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="1.0" green="0.1" blue="0.15" /></led7seg>
+	</element>
+
+	
+
+
+
+<!-- build screen -->
+
+<view name="artwork by luis">
+<bounds left="0" right="374" top="0" bottom="237" />
+
+
+<element ref="avr">
+			<bounds x="0" y="0" width="374" height="237" />
+		</element>
+
+		<element name="digit0" ref="digit"><bounds x="56" y="77"  width="24" height="36" /></element>
+		<element name="digit1" ref="digit"><bounds x="88" y="77"  width="24" height="36" /></element>
+		<element name="digit2" ref="digit"><bounds x="119" y="77" width="24" height="36" /></element>
+		<element name="digit3" ref="digit"><bounds x="151" y="77" width="24" height="36" /></element>
+
+	
+
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="233" y="77" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="263" y="77" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x01"><bounds x="293" y="77" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.3" inputmask="0x01"><bounds x="233" y="103" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="263" y="103" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="293" y="103" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x02"><bounds x="233" y="128" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.3" inputmask="0x02"><bounds x="263" y="128" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="233" y="153" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="263" y="153" width="10" height="10" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x04"><bounds x="293" y="153" width="10" height="10" /></element>
+
+	</view>
+</mamelayout>

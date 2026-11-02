@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- note: no chesspieces simulation here -->
+
+<!-- define elements -->
+
+
+
+<element name="intchess">
+		<image file="int09.png" />
+	</element>
+	
+	<!-- basado en una foto de https://retroordenadoresorty.blogspot.com/p/novag-scisys-y-videomaster-ordenadores.html -->
+
+    <element name="start" defstate="0">
+	<image file="start_sel.png" state="1"/>
+	<image file="start.png" state="0"/>
+	</element>
+
+<element name="n1" defstate="0">
+	<image file="n1_sel.png" state="1"/>
+	<image file="n1.png" state="0"/>
+	</element>
+
+<element name="n2" defstate="0">
+	<image file="n2_sel.png" state="1"/>
+	<image file="n2.png" state="0"/>
+	</element>
+
+<element name="n3" defstate="0">
+	<image file="n3_sel.png" state="1"/>
+	<image file="n3.png" state="0"/>
+	</element>
+
+<element name="peon" defstate="0">
+	<image file="peon_sel.png" state="1"/>
+	<image file="peon.png" state="0"/>
+	</element>
+
+<element name="caballo" defstate="0">
+	<image file="caballo_sel.png" state="1"/>
+	<image file="caballo.png" state="0"/>
+	</element>
+
+<element name="alfil" defstate="0">
+	<image file="alfil_sel.png" state="1"/>
+	<image file="alfil.png" state="0"/>
+	</element>
+
+<element name="torre" defstate="0">
+	<image file="torre_sel.png" state="1"/>
+	<image file="torre.png" state="0"/>
+	</element>
+
+<element name="dama" defstate="0">
+	<image file="dama_sel.png" state="1"/>
+	<image file="dama.png" state="0"/>
+	</element>
+
+<element name="rey" defstate="0">
+	<image file="rey_sel.png" state="1"/>
+	<image file="rey.png" state="0"/>
+	</element>
+
+<element name="blancas" defstate="0">
+	<image file="blancas_sel.png" state="1"/>
+	<image file="blancas.png" state="0"/>
+	</element>
+
+<element name="negras" defstate="0">
+	<image file="negras_sel.png" state="1"/>
+	<image file="negras.png" state="0"/>
+	</element>
+
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="1.0" green="0.1" blue="0.15" /></led7seg>
+	</element>
+
+	
+
+<view name="artwork by luis">
+<bounds left="0" right="2037" top="0" bottom="1637" />
+
+	
+	
+	
+	<element ref="intchess">
+			<bounds left="0" right="2037" top="0" bottom="1637" />
+		</element>
+	
+	
+	
+	
+	<!-- display -->
+<screen index="0"><bounds x="658" y="44" width="713.5" height="647.7" /></screen>
+		
+
+		<element name="digit0" ref="digit"><bounds x="1187" y="880" width="40" height="60" /></element>
+		<element name="digit1" ref="digit"><bounds x="1239" y="880" width="40" height="60" /></element>
+		<element name="digit2" ref="digit"><bounds x="1291" y="880" width="40" height="60" /></element>
+		<element name="digit3" ref="digit"><bounds x="1343" y="880" width="40" height="60" /></element>
+		
+
+	<!-- buttons -->
+
+	    <element ref="n1"  inputtag="x3" inputmask="0x04"><bounds x="912"  y="1104" width="65" height="64" /></element>
+		<element ref="n1"  inputtag="x1" inputmask="0x04"><bounds x="1014"  y="1104" width="65" height="64" /></element>
+		<element ref="n2"  inputtag="x2" inputmask="0x04"><bounds x="1218" y="1104" width="68" height="64" /></element>
+		<element ref="n2"  inputtag="x4" inputmask="0x08"><bounds x="1320" y="1104" width="68" height="64" /></element>
+		<element ref="n3"  inputtag="x3" inputmask="0x08"><bounds x="1525" y="1104" width="76" height="64" /></element>
+		<element ref="n3"  inputtag="x3" inputmask="0x10"><bounds x="1631" y="1104" width="76" height="64" /></element>
+
+		<element ref="n1"  inputtag="x4" inputmask="0x04"><bounds x="906"  y="1214" width="74" height="67" /></element>
+		<element ref="n1"  inputtag="x1" inputmask="0x10"><bounds x="1012"  y="1214" width="74" height="67" /></element>
+		<element ref="n2"  inputtag="x2" inputmask="0x10"><bounds x="1221" y="1214" width="77" height="67" /></element>
+		<element ref="n2"  inputtag="x4" inputmask="0x10"><bounds x="1326" y="1214" width="77" height="67" /></element>
+		<element ref="n3"  inputtag="x1" inputmask="0x08"><bounds x="1542" y="1215" width="80" height="69" /></element>
+		<element ref="n3"  inputtag="x2" inputmask="0x08"><bounds x="1651" y="1215" width="80" height="69" /></element>
+
+		<element ref="peon" inputtag="x1" inputmask="0x01"><bounds x="896"  y="1376" width="73" height="72" /></element>
+		<element ref="caballo" inputtag="x2" inputmask="0x01"><bounds x="1007"  y="1376" width="73" height="72" /></element>
+		<element ref="alfil" inputtag="x3" inputmask="0x01"><bounds x="1120" y="1376" width="75" height="74" /></element>
+		<element ref="torre" inputtag="x4" inputmask="0x01"><bounds x="1230" y="1376" width="75" height="74" /></element>
+		<element ref="dama" inputtag="x1" inputmask="0x02"><bounds x="1344" y="1376" width="79" height="77" /></element>
+		<element ref="rey" inputtag="x2" inputmask="0x02"><bounds x="1456" y="1376" width="79" height="77" /></element>
+		<element ref="blancas" inputtag="x3" inputmask="0x02"><bounds x="1568" y="1376" width="87" height="78" /></element>
+		<element ref="negras" inputtag="x4" inputmask="0x02"><bounds x="1678" y="1376" width="87" height="78" /></element>
+
+		
+		<element ref="start" inputtag="RESET" inputmask="0x01"><bounds x="1566" y="868" width="65" height="64" /></element>
+
+		
+		
+	
+	
+	
+		
+
+		
+
+		
+
+		
+
+	</view>
+</mamelayout>

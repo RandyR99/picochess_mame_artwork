@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- note: no chesspieces simulation here -->
+
+<!-- define elements -->
+
+<element name="scisys">
+		<image file="inter2c.png" />
+	</element>
+
+<!-- foto: tibono -->
+
+<element name="fondo">
+		<image file="../varios/fondo4.png" />
+	</element>
+
+
+
+
+
+	
+
+
+	<element name="but" defstate="0">
+    
+    <image file="down1_sel.png" state="1"/>
+	</element>
+
+<element name="but1" defstate="1">
+    
+    <image file="down2_sel.png" state="1"/>
+	</element>
+	
+
+
+
+
+
+<!-- digits -->
+
+	<element name="lcd_bg"><rect><color red="0.894" green="0.875" blue="0.788" /></rect></element>
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="0.2" green="0.16" blue="0.16" /></led7seg>
+	</element>
+	<element name="seg0" defstate="0">
+		<rect><color red="0.894" green="0.875" blue="0.788" /></rect>
+		<text state="1" string="computing"><color red="0.2" green="0.16" blue="0.16" /></text>
+		<text state="0" string="computing"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
+	</element>
+
+	<group name="digits">
+		<bounds x="18" y="23.5" width="74" height="27.5" />
+		<element ref="lcd_bg"><bounds x="18" y="23.5" width="74" height="27.5" /></element>
+		<element name="computing" ref="seg0"><bounds x="41" y="27.7" width="30" height="4" /></element>
+		<element name="digit3" ref="digit"><bounds x="29.5" y="32" width="10" height="14" /></element>
+		<element name="digit2" ref="digit"><bounds x="40" y="32" width="10" height="14" /></element>
+		<element name="digit1" ref="digit"><bounds x="60" y="32" width="10" height="14" /></element>
+		<element name="digit0" ref="digit"><bounds x="70.5" y="32" width="10" height="14" /></element>
+	</group>
+
+<!-- build screen -->
+
+	<view name="artwork by luis">
+<bounds left="-10" right="772" top="-10" bottom="770" />
+
+<element ref="fondo">
+			<bounds x="-10" y="-10" width="782" height="780" />
+		</element>
+
+
+<element ref="scisys">
+			<bounds x="0" y="0" width="762" height="760" />
+		</element>
+
+
+<group ref="digits"><bounds x="277" y="49" width="180" height="45" /></group>
+
+		
+		
+		
+
+	<!-- button panel -->
+
+		
+
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="136" y="554" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="198" y="554" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="261" y="554" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="324" y="554" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="386" y="554" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x02"><bounds x="449" y="555" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x04"><bounds x="512" y="555" width="47" height="31" /><color alpha="0.75" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x08"><bounds x="575" y="555" width="47" height="31" /><color alpha="0.75" /></element>
+
+		<element ref="but" inputtag="IN.2" inputmask="0x01"><bounds x="128" y="619" width="49" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x02"><bounds x="193" y="619" width="49" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x04"><bounds x="258" y="619" width="49" height="31" /><color alpha="0.75" /></element>
+		<element ref="but" inputtag="IN.3" inputmask="0x04"><bounds x="323" y="619" width="49" height="31" /><color alpha="0.75" /></element>
+		<element ref="but1" inputtag="IN.2" inputmask="0x08"><bounds x="389" y="619" width="49" height="31" /><color alpha="0.75" /></element>
+		<element ref="but1" inputtag="IN.3" inputmask="0x01"><bounds x="454" y="619" width="49" height="31" /><color alpha="0.75" /></element>
+		<element ref="but1" inputtag="IN.3" inputmask="0x02"><bounds x="550" y="619" width="51" height="31" /><color alpha="0.75" /></element>
+
+	</view>
+	
+	
+	
+</mamelayout>

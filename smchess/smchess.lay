@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- define elements -->
+
+<element name="scisys">
+		<image file="mini chess2.png" />
+	</element>
+
+
+	<element name="blackb"><rect><color red="0" green="0" blue="0" /></rect></element>
+	<element name="white"><rect><color red="0.8" green="0.8" blue="0.8" /></rect></element>
+
+	
+
+	
+<element name="button" defstate="0">
+	<image file="../botones/down1_sel.png" state="1"/>
+	
+	</element>
+
+
+    <element name="sw" defstate="0">
+	<image file="sw.png" state="1"/>
+	<image file="sn.png" state="0"/>
+	</element>
+
+<element name="sw1" defstate="0">
+	<image file="sw1.png" state="1"/>
+	<image file="sw.png" state="0"/>
+	</element>
+
+<element name="sw2" defstate="0">
+	<image file="sw1.png" state="1"/>
+	<image file="sw.png" state="0"/>
+	</element>
+
+
+
+	
+
+
+<!-- lcd -->
+
+	<element name="lcd_bg"><rect><color red="0.61" green="0.60" blue="0.54" /></rect></element>
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="0.2" green="0.16" blue="0.16" /></led7seg>
+	</element>
+	<element name="seg0" defstate="0">
+		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
+		<text state="1" string="computing"><color red="0.2" green="0.16" blue="0.16" /></text>
+		<text state="0" string="computing"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
+	</element>
+	<element name="seg1" defstate="0">
+		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
+		<text state="1" string="find position" align="2"><color red="0.2" green="0.16" blue="0.16" /></text>
+		<text state="0" string="find position" align="2"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
+	</element>
+	<element name="seg2" defstate="0">
+		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
+		<text state="1" string="x"><color red="0.2" green="0.16" blue="0.16" /></text>
+		<text state="0" string="x"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
+	</element>
+	<element name="seg3" defstate="0">
+		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
+		<text state="1" string="+"><color red="0.2" green="0.16" blue="0.16" /></text>
+		<text state="0" string="+"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
+	</element>
+	<element name="seg4" defstate="0">
+		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
+		<text state="1" string="i lose" align="1"><color red="0.2" green="0.16" blue="0.16" /></text>
+		<text state="0" string="i lose" align="1"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
+	</element>
+
+	<group name="lcd">
+		<bounds x="18" y="23.5" width="74" height="27.5" />
+		<element ref="lcd_bg"><bounds x="18" y="23.5" width="74" height="27.5" /></element>
+
+		<!-- note: it also has a lightning symbol for low-battery at the left, but is unused -->
+		<element name="1.7" ref="seg2"><bounds x="50.1" y="31.4" width="10" height="15" /></element>
+		<element name="3.7" ref="seg3"><bounds x="81.1" y="28.1" width="10" height="16" /></element>
+		<element name="0.7" ref="seg1"><bounds x="22" y="44.3" width="28" height="4" /></element>
+		<element name="2.7" ref="seg4"><bounds x="71" y="44.3" width="13" height="4" /></element>
+		<element name="computing" ref="seg0"><bounds x="40" y="25.7" width="30" height="4" /></element>
+
+		<element name="digit0" ref="digit"><bounds x="29.5" y="30" width="10" height="14" /></element>
+		<element name="digit1" ref="digit"><bounds x="40" y="30" width="10" height="14" /></element>
+		<element name="digit2" ref="digit"><bounds x="60" y="30" width="10" height="14" /></element>
+		<element name="digit3" ref="digit"><bounds x="70.5" y="30" width="10" height="14" /></element>
+	</group>
+
+
+<!-- build screen -->
+
+<view name="artwork by luis">
+
+<element ref="scisys">
+			<bounds x="0" y="0" width="1055" height="1600" />
+		</element>
+		<group ref="lcd"><bounds x="254" y="371" width="550" height="180" /></group>
+
+
+	
+
+		<!-- buttons -->
+		<element ref="sw" inputtag="IN.4" inputmask="0x01"><bounds x="268" y="680" width="140" height="78" /></element>
+		<element ref="sw1" inputtag="IN.4" inputmask="0x01"><bounds x="268" y="680" width="140" height="78" /></element>
+		
+
+		<element ref="sw" inputtag="IN.4" inputmask="0x04"><bounds x="464" y="677" width="140" height="78" /></element>
+		<element ref="sw2" inputtag="IN.4" inputmask="0x04"><bounds x="464" y="677" width="140" height="78" /></element>
+		
+
+		
+
+		<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="276" y="884" width="111" height="60" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="476" y="882" width="111" height="60" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="674" y="880" width="109" height="60" /></element>
+
+		<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="274" y="1024" width="111" height="62" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="476" y="1022" width="111" height="62" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="676.2" y="1020" width="111" height="62" /></element>
+
+		<element ref="button" inputtag="IN.2" inputmask="0x01"><bounds x="271" y="1171" width="111.3" height="64" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"><bounds x="476" y="1167" width="111" height="64" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"><bounds x="680" y="1166" width="111" height="64" /></element>
+
+		<element ref="button" inputtag="IN.3" inputmask="0x01"><bounds x="269.3" y="1318" width="111.5" height="66.8" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"><bounds x="476" y="1314.2" width="111" height="66.8" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"><bounds x="683" y="1312" width="111" height="65.3" /></element>
+
+	
+
+		<element ref="white"><bounds x="11.35" y="40.25" width="0.9" height="0.9" /></element>
+		<element ref="white"><bounds x="17.35" y="40.25" width="0.9" height="0.9" /></element>
+		<element ref="blackb"><bounds x="17.5" y="40.4" width="0.6" height="0.6" /></element>
+	</view>
+
+</mamelayout>

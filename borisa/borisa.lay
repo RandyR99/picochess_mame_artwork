@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- note: no chesspieces simulation here -->
+
+<!-- define elements -->
+
+<element name="aci">
+		<image file="../boris/master1d.png" />
+	</element>
+
+    <element name="RESET" defstate="0">
+	<image file="../boris/off2.png" state="1"/>
+	<image file="../boris/on.png" state="0"/>
+	</element>
+
+
+
+
+
+
+
+<element name="button" defstate="0">
+	<image file="../botones/down_sel2.png" state="1"/>
+	<image file="../botones/down.png" state="0"/>
+	</element>
+
+
+
+	
+
+	<element name="digit" defstate="0"><led16seg><color red="1.0" green="0.1" blue="0.15" /></led16seg></element>
+
+	
+
+	
+
+
+<!-- build screen -->
+<view name="artwork by luis">
+<bounds left="0" right="1478" top="0" bottom="1002" />
+	
+	<element ref="aci">
+			<bounds left="0" right="1478" top="0" bottom="1002" />
+		</element>
+	
+	<!-- display -->
+
+		
+
+		<element name="digit7" ref="digit"><bounds x="317"  y="332" width="30" height="45" /></element>
+		<element name="digit6" ref="digit"><bounds x="346"  y="332" width="30" height="45" /></element>
+		<element name="digit5" ref="digit"><bounds x="376"  y="332" width="30" height="45" /></element>
+		<element name="digit4" ref="digit"><bounds x="406"  y="332" width="30" height="45" /></element>
+		<element name="digit3" ref="digit"><bounds x="436" y="332" width="30" height="45" /></element>
+		<element name="digit2" ref="digit"><bounds x="466" y="332" width="30" height="45" /></element>
+		<element name="digit1" ref="digit"><bounds x="496" y="332" width="30" height="45" /></element>
+		<element name="digit0" ref="digit"><bounds x="526" y="332" width="30" height="45" /></element>
+
+		
+
+	<!-- buttons -->
+
+	
+		<element ref="RESET" inputtag="RESET" inputmask="0x01"><bounds x="609" y="514" width="35" height="98" /></element>
+
+		
+
+		<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="289" y="555" width="41" height="25" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="355" y="555" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="422" y="555" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="486" y="555" width="41" height="24" /></element>
+
+		<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="280" y="625" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="348" y="625" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="415" y="625" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x08"><bounds x="480" y="625" width="41" height="24" /></element>
+
+		<element ref="button" inputtag="IN.2" inputmask="0x01"><bounds x="272" y="697" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"><bounds x="339" y="697" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"><bounds x="408" y="697" width="41" height="24" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x08"><bounds x="476" y="697" width="41" height="24" /></element>
+
+		<element ref="button" inputtag="IN.3" inputmask="0x01"><bounds x="259" y="774" width="42" height="26" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"><bounds x="331" y="774" width="42" height="26" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x04"><bounds x="401" y="774" width="42" height="26" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x08"><bounds x="469" y="774" width="42" height="26" /></element>
+
+		
+
+	</view>
+</mamelayout>

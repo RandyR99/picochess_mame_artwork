@@ -1,0 +1,675 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- define elements -->
+
+	<element name="phantom">
+		<image file="cphantom.png" />
+	</element>
+
+<element name="logo">
+		<image file="logo.png" />
+	</element>
+
+
+
+
+<element name="fondo">
+		<image file="../varios/fondo4.png" />
+	</element>
+
+<element name="sbui_png">
+		<image file="../varios/clipboard09b.png" />
+	</element>
+
+<element name="boton" defstate="0">
+		
+	<image file="../botones/down_sel.png" state="1"/>
+	</element>
+
+<element name="boton1" defstate="0">
+		
+	<image file="../botones/down_sel1.png" state="1"/>
+	</element>
+
+<element name="black"><rect><color red="0.17" green="0.15" blue="0.15" /></rect></element>
+
+	<element name="redb"><rect><color red="0.81" green="0.3" blue="0.29" /></rect></element>
+	<element name="disk_black"><disk><color red="0.17" green="0.15" blue="0.15" /></disk></element>
+	<element name="disk_white"><disk><color red="0.99" green="0.99" blue="0.99" /></disk></element>
+	<element name="lcd_bg"><rect><color red="0.639" green="0.643" blue="0.596" /></rect></element>
+	<element name="golden_mask"><rect><color red="0.843" green="0.678" blue="0.482" /></rect></element>
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="0.2" green="0.16" blue="0.16" /></led7seg>
+	</element>
+	<element name="ldot" defstate="0">
+		<rect state="1"><color red="0.2" green="0.16" blue="0.16" /></rect>
+		<rect state="0"><color red="0.49412" green="0.51765" blue="0.51765" /></rect>
+	</element>
+
+	<element name="led" defstate="0">
+	<image file="../leds/green1_sel.png" state="1"/>
+	<image file="../leds/green1.png" state="0"/>
+	</element>
+
+	<element name="hlr" defstate="0">
+		<text string=" ">
+			<bounds x="0" y="0" width="8" height="6" />
+			<color red="0.0" green="0.0" blue="0.0" />
+		</text>
+		<disk state="1">
+			<bounds x="0.5" y="0.5" width="7" height="5" />
+			<color red="1.0" green="1.0" blue="1.0" />
+		</disk>
+	</element>
+
+
+	
+	<element name="text_1">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="1"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_2">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="2"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_3">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="3"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_4">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="4"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_5">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="5"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_6">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="6"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_7">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="7"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_8">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="8"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+
+	<element name="text_a">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="a"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_b">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="b"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_c">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="c"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_d">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="d"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_e">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="e"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_f">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="f"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_g">
+		<rect><color red="0.209" green="0.209" blue="0.201" /></rect>
+		<text string="g"><color red="0.843" green="0.678" blue="0.482" /></text>
+	</element>
+	<element name="text_h">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="h"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+
+	<element name="text_white">
+		<rect><color red="0.17" green="0.15" blue="0.15" /></rect>
+		<text string="white"><color red="0.99" green="0.99" blue="0.99" /></text>
+	</element>
+	<element name="text_black">
+		<rect><color red="0.17" green="0.15" blue="0.15" /></rect>
+		<text string="black"><color red="0.99" green="0.99" blue="0.99" /></text>
+	</element>
+	<element name="text_u1">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="verify"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u2">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="option"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u3">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="level"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u4">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="take back"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u5">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="hint"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u6">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="move"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u7">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="auto"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_u8">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="CLEAR"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+
+	<element name="text_shift">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="shift"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s1">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="problem"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s2">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="time"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s3">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="new"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s4">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="replay"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s5">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="info"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s6">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="alternate"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s7">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="stop"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+	<element name="text_s8">
+		<rect><color red="0.843" green="0.678" blue="0.482" /></rect>
+		<text string="CLEAR"><color red="0.81" green="0.3" blue="0.29" /></text>
+	</element>
+
+	<element name="text_p1">      <image file="../piezas/chess/wk.svg"/></element>
+	<element name="text_p2">      <image file="../piezas/chess/wq.svg"/></element>
+	<element name="text_p3">      <image file="../piezas/chess/wr.svg"/></element>
+	<element name="text_p4">      <image file="../piezas/chess/wb.svg"/></element>
+	<element name="text_p5">      <image file="../piezas/chess/wn.svg"/></element>
+	<element name="text_p6">      <image file="../piezas/chess/wp.svg"/></element>
+
+<!-- sb board -->
+
+	<element name="cblack"><rect><color red="0.209" green="0.209" blue="0.201" /></rect></element>
+	<element name="cwhite"><rect><color red="0.843" green="0.678" blue="0.482" /></rect></element>
+
+	<element name="hlbb" defstate="0">
+		<text string=" "><bounds x="0" y="0" width="1" height="1" /></text>
+		<disk state="1">
+			<bounds x="0.12" y="0.12" width="0.76" height="0.76" />
+			<color red="0" green="0" blue="0" />
+		</disk>
+	</element>
+
+<element name="piece" defstate="0">
+		<image file="../piezas/pfidelity_plastico2/wp.png" state="1"/>
+		<image file="../piezas/pfidelity_plastico2/wkn.png" state="2"/>
+		<image file="../piezas/pfidelity_plastico2/wb.png" state="3"/>
+		<image file="../piezas/pfidelity_plastico2/wr.png" state="4"/>
+		<image file="../piezas/pfidelity_plastico2/wq.png" state="5"/>
+		<image file="../piezas/pfidelity_plastico2/wk.png" state="6"/>
+		<image file="../piezas/pfidelity_plastico2/bp.png" state="7"/>
+		<image file="../piezas/pfidelity_plastico2/bkn.png" state="8"/>
+		<image file="../piezas/pfidelity_plastico2/bb.png" state="9"/>
+		<image file="../piezas/pfidelity_plastico2/br.png" state="10"/>
+		<image file="../piezas/pfidelity_plastico2/bq.png" state="11"/>
+		<image file="../piezas/pfidelity_plastico2/bk.png" state="12"/>
+		<image file="../piezas/pfidelity_plastico2/wp_sel.png" state="13"/>
+		<image file="../piezas/pfidelity_plastico2/wkn_sel.png" state="14"/>
+		<image file="../piezas/pfidelity_plastico2/wb_sel.png" state="15"/>
+		<image file="../piezas/pfidelity_plastico2/wr_sel.png" state="16"/>
+		<image file="../piezas/pfidelity_plastico2/wq_sel.png" state="17"/>
+		<image file="../piezas/pfidelity_plastico2/wk_sel.png" state="18"/>
+		<image file="../piezas/pfidelity_plastico2/bp_sel.png" state="19"/>
+		<image file="../piezas/pfidelity_plastico2/bkn_sel.png" state="20"/>
+		<image file="../piezas/pfidelity_plastico2/bb_sel.png" state="21"/>
+		<image file="../piezas/pfidelity_plastico2/br_sel.png" state="22"/>
+		<image file="../piezas/pfidelity_plastico2/bq_sel.png" state="23"/>
+		<image file="../piezas/pfidelity_plastico2/bk_sel.png" state="24"/>
+	</element>
+
+
+
+
+<element name="piece_2m" defstate="0">
+		<image file="../piezas/chess2/wp.png" state="1"/>
+		<image file="../piezas/chess2/wn.png" state="2"/>
+		<image file="../piezas/chess2/wb.png" state="3"/>
+		<image file="../piezas/chess2/wr.png" state="4"/>
+		<image file="../piezas/chess2/wq.png" state="5"/>
+		<image file="../piezas/chess2/wk.png" state="6"/>
+
+		<image file="../piezas/chess2/bp.png" state="7"/>
+		<image file="../piezas/chess2/bn.png" state="8"/>
+		<image file="../piezas/chess2/bb.png" state="9"/>
+		<image file="../piezas/chess2/br.png" state="10"/>
+		<image file="../piezas/chess2/bq.png" state="11"/>
+		<image file="../piezas/chess2/bk.png" state="12"/>
+
+		<!-- selected pieces -->
+		<image file="../piezas/chess2/wp_sel.png" state="13"></image>
+		<image file="../piezas/chess2/wn_sel.png" state="14"></image>
+		<image file="../piezas/chess2/wb_sel.png" state="15"></image>
+		<image file="../piezas/chess2/wr_sel.png" state="16"></image>
+		<image file="../piezas/chess2/wq_sel.png" state="17"></image>
+		<image file="../piezas/chess2/wk_sel.png" state="18"></image>
+
+		<image file="../piezas/chess2/bp_sel.png" state="19"></image>
+		<image file="../piezas/chess2/bn_sel.png" state="20"></image>
+		<image file="../piezas/chess2/bb_sel.png" state="21"></image>
+		<image file="../piezas/chess2/br_sel.png" state="22"></image>
+		<image file="../piezas/chess2/bq_sel.png" state="23"></image>
+		<image file="../piezas/chess2/bk_sel.png" state="24"></image>
+	</element>
+
+<element name="piece_svg" defstate="0">
+		<image file="../piezas/chess/wp.svg" state="1"/>
+		<image file="../piezas/chess/wn.svg" state="2"/>
+		<image file="../piezas/chess/wb.svg" state="3"/>
+		<image file="../piezas/chess/wr.svg" state="4"/>
+		<image file="../piezas/chess/wq.svg" state="5"/>
+		<image file="../piezas/chess/wk.svg" state="6"/>
+
+		<image file="../piezas/chess/bp.svg" state="7"/>
+		<image file="../piezas/chess/bn.svg" state="8"/>
+		<image file="../piezas/chess/bb.svg" state="9"/>
+		<image file="../piezas/chess/br.svg" state="10"/>
+		<image file="../piezas/chess/bq.svg" state="11"/>
+		<image file="../piezas/chess/bk.svg" state="12"/>
+
+		<!-- selected pieces -->
+		<image file="../piezas/chess/wp.svg" state="13"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/wn.svg" state="14"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/wb.svg" state="15"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/wr.svg" state="16"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/wq.svg" state="17"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/wk.svg" state="18"><color alpha="0.5" /></image>
+					
+		<image file="../piezas/chess/bp.svg" state="19"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/bn.svg" state="20"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/bb.svg" state="21"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/br.svg" state="22"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/bq.svg" state="23"><color alpha="0.5" /></image>
+		<image file="../piezas/chess/bk.svg" state="24"><color alpha="0.5" /></image>
+	</element>
+
+
+
+	<group name="sb_board">
+		<bounds x="-20.5" y="0" width="121.0" height="80" />
+
+	
+
+		<!-- chessboard coords -->
+
+		
+
+		
+
+		
+
+		
+
+				<!-- sensors, pieces -->
+		<repeat count="8">
+			<param name="y" start="-9" increment="10" />
+			<param name="i" start="8" increment="-1" />
+<param name="z" start="0" increment="10" />
+
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x01"><bounds x="0"  y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x02"><bounds x="10" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x04"><bounds x="20" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x08"><bounds x="30" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x10"><bounds x="40" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x20"><bounds x="50" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x40"><bounds x="60" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x80"><bounds x="70" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x400"><bounds x="-20.5" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x800"><bounds x="-10.5" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x100"><bounds x="80.5"  y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x200"><bounds x="90.5"  y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
+
+			<element name="piece_a~i~" ref="piece"><bounds x="-3.6"  y="~y~" width="18" height="18" /></element>
+			<element name="piece_b~i~" ref="piece"><bounds x="6.3" y="~y~" width="18" height="18" /></element>
+			<element name="piece_c~i~" ref="piece"><bounds x="16.3" y="~y~" width="18" height="18" /></element>
+			<element name="piece_d~i~" ref="piece"><bounds x="26.3" y="~y~" width="18" height="18" /></element>
+			<element name="piece_e~i~" ref="piece"><bounds x="36.3" y="~y~" width="18" height="18" /></element>
+			<element name="piece_f~i~" ref="piece"><bounds x="46.3" y="~y~" width="18" height="18" /></element>
+			<element name="piece_g~i~" ref="piece"><bounds x="56.3" y="~y~" width="18" height="18" /></element>
+			<element name="piece_h~i~" ref="piece"><bounds x="66.3" y="~y~" width="18" height="18" /></element>
+
+			<element name="piece_k~i~" ref="piece_2m"><bounds x="-20.5" y="~z~" width="9" height="9" /></element>
+			<element name="piece_l~i~" ref="piece_2m"><bounds x="-10.5" y="~z~" width="9" height="9" /></element>
+			<element name="piece_i~i~" ref="piece_2m"><bounds x="80.5"  y="~z~" width="9" height="9" /></element>
+			<element name="piece_j~i~" ref="piece_2m"><bounds x="90.5"  y="~z~" width="9" height="9" /></element>
+		</repeat>
+	</group>
+
+	<group name="sb_board_2m">
+		<bounds x="-20.5" y="0" width="121.0" height="80" />
+
+<!-- sensors, pieces -->
+		<repeat count="8">
+			<param name="y" start="0" increment="10" />
+			<param name="i" start="8" increment="-1" />
+
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x01"><bounds x="0"  y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x02"><bounds x="10" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x04"><bounds x="20" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x08"><bounds x="30" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x10"><bounds x="40" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x20"><bounds x="50" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x40"><bounds x="60" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x80"><bounds x="70" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x400"><bounds x="-20.5" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x800"><bounds x="-10.5" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x100"><bounds x="80.5" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x200"><bounds x="90.5" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+
+			<element name="piece_a~i~" ref="piece_2m"><bounds x="0"  y="~y~" width="10" height="10" /></element>
+			<element name="piece_b~i~" ref="piece_2m"><bounds x="10" y="~y~" width="10" height="10" /></element>
+			<element name="piece_c~i~" ref="piece_2m"><bounds x="20" y="~y~" width="10" height="10" /></element>
+			<element name="piece_d~i~" ref="piece_2m"><bounds x="30" y="~y~" width="10" height="10" /></element>
+			<element name="piece_e~i~" ref="piece_2m"><bounds x="40" y="~y~" width="10" height="10" /></element>
+			<element name="piece_f~i~" ref="piece_2m"><bounds x="50" y="~y~" width="10" height="10" /></element>
+			<element name="piece_g~i~" ref="piece_2m"><bounds x="60" y="~y~" width="10" height="10" /></element>
+			<element name="piece_h~i~" ref="piece_2m"><bounds x="70" y="~y~" width="10" height="10" /></element>
+
+			<element name="piece_k~i~" ref="piece_2m"><bounds x="-20.5" y="~y~" width="10" height="10" /></element>
+			<element name="piece_l~i~" ref="piece_2m"><bounds x="-10.5" y="~y~" width="10" height="10" /></element>
+			<element name="piece_i~i~" ref="piece_2m"><bounds x="80.5" y="~y~" width="10" height="10" /></element>
+			<element name="piece_j~i~" ref="piece_2m"><bounds x="90.5" y="~y~" width="10" height="10" /></element>
+		</repeat>
+	</group>
+
+<!-- sb ui -->
+
+	<!-- sb ui -->
+
+	<element name="hlub" defstate="0">
+		<rect state="1"><color red="0" green="0" blue="0" /></rect>
+	</element>
+
+	<element name="text_uit1"><text string="S.BOARD"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uit2"><text string="INTERFACE"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uib1"><text string="BOARD:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uib2">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string="RESET"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uib3">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string="CLEAR"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uis1"><text string="SPAWN"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uih1"><text string="HAND::"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uih2">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string="REMOVE"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uiu1"><text string="UNDO:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uiu2a">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string=" &lt;&lt;"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uiu2b">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string=" &lt;  "><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uiu2c">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string="   &gt;"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uiu2d">
+		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
+		<text string=" &gt;&gt;"><color red="0.01" green="0.01" blue="0.01" /></text>
+	</element>
+	<element name="text_uiu3a" defstate="0">
+		<simplecounter maxstate="999" digits="1" align="2">
+			<color red="0.81" green="0.8" blue="0.79" />
+		</simplecounter>
+	</element>
+	<element name="text_uiu3b"><text string="/"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uiu3c" defstate="0">
+		<simplecounter maxstate="999" digits="1" align="1">
+			<color red="0.81" green="0.8" blue="0.79" />
+		</simplecounter>
+	</element>
+
+	<group name="sb_ui">
+		<bounds x="0" y="0" width="10" height="80" />
+		
+		<element ref="hlub" inputtag="board:UI" inputmask="0x200"><bounds x="1.8" y="11.7" width="6.3" height="3" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:UI" inputmask="0x100"><bounds x="1.8" y="15.3" width="6.3" height="3" /><color alpha="0.25" /></element>
+
+		<!-- spawn -->
+		
+
+		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.6" y="23" width="3.8" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.6" y="27" width="3.8" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.6" y="31" width="3.8" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.6" y="36" width="3.8" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.6" y="40" width="3.8" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.6" y="43.7" width="3.8" height="3.8" /></element>
+
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0004"><bounds x="1" y="31" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0008"><bounds x="5" y="23" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0010"><bounds x="5" y="27" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0020"><bounds x="5" y="31" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0040"><bounds x="1" y="36" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0080"><bounds x="1" y="40" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0100"><bounds x="1" y="44" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0200"><bounds x="5" y="36" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
+
+		<!-- HAND: -->
+		
+		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
+
+		<element ref="hlub" inputtag="board:UI" inputmask="0x08"><bounds x="1.8" y="59.2" width="6.3" height="3" /><color alpha="0.25" /></element>
+
+		<!-- undo -->
+
+		<element ref="hlub" inputtag="board:UI" inputmask="0x10"><bounds x="1.3" y="67.65" width="2" height="2" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:UI" inputmask="0x20"><bounds x="3.1" y="67.65" width="1.7" height="2" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:UI" inputmask="0x40"><bounds x="5.2" y="67.65" width="1.7" height="2" /><color alpha="0.25" /></element>
+		<element ref="hlub" inputtag="board:UI" inputmask="0x80"><bounds x="6.9" y="67.65" width="2" height="2" /><color alpha="0.25" /></element>
+
+		<element name="count_ui0" ref="text_uiu3a"><bounds x="0" y="71" width="4" height="2" /></element>
+		<element name="count_ui1" ref="text_uiu3c"><bounds x="6" y="71" width="4" height="2" /></element>
+		<element ref="text_uiu3b"><bounds x="4" y="71" width="2" height="2" /></element>
+	</group>
+
+	<group name="panel">
+		<bounds x="0" y="0" width="122" height="17" />
+
+		
+		<element name="0.8" ref="led"><bounds x="52.2" y="4.9" width="3" height="3" /></element>
+		
+<element ref="boton" inputtag="IN.0" inputmask="0x100"><bounds x="50.8" y="9.5" width="6.5" height="4.5" /><color alpha="0.3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x01"><bounds x="59.5"  y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x02"><bounds x="66.3"  y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x04"><bounds x="73.3"  y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x08"><bounds x="80.3"  y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x10"><bounds x="87.4"  y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x20"><bounds x="94.4"  y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x40"><bounds x="101.4" y="7.5" width="3" height="3" /></element>
+<element ref="boton1" inputtag="IN.0" inputmask="0x80"><bounds x="108.4" y="7.5" width="3" height="3" /></element>
+
+		
+		<element name="0.0" ref="led"><bounds x="33.7" y="5.4"  width="3" height="3" /></element>
+		<element name="0.1" ref="led"><bounds x="33.7" y="9.4" width="3" height="3" /></element>
+		<element ref="text_p1" ><bounds x="37.5" y="5.5" width="2.3" height="2.5" /></element>
+		<element name="0.2" ref="led" blend="multiply"><bounds x="37" y="5.5" width="3" height="3" /></element>
+		<element ref="text_p2" ><bounds x="40.5" y="5.5" width="2.3" height="2.5" /></element>
+		<element name="0.3" ref="led" blend="multiply"><bounds x="40" y="5.5" width="3" height="3" /></element>
+		<element ref="text_p3" ><bounds x="43.5" y="5.5" width="2.3" height="2.5" /></element>
+		<element name="0.4" ref="led" blend="multiply"><bounds x="43" y="5.5" width="3" height="3" /></element>
+		<element ref="text_p4" ><bounds x="37.5" y="9.5" width="2.3" height="2.5" /></element>
+		<element name="0.5" ref="led" blend="multiply"><bounds x="37" y="9.5" width="3" height="3" /></element>
+		<element ref="text_p5" ><bounds x="40.5" y="9.5" width="2.3" height="2.5" /></element>
+		<element name="0.6" ref="led" blend="multiply"><bounds x="40" y="9.5" width="3" height="3" /></element>
+		<element ref="text_p6" ><bounds x="43.5" y="9.5" width="2.3" height="2.5" /></element>
+		<element name="0.7" ref="led" blend="multiply"><bounds x="43" y="9.5" width="3" height="3" /></element>
+
+		<!-- lcd panel -->
+
+		
+		<element ref="lcd_bg"><bounds x="4.625" y="6.125" width="18" height="5.25" /></element>
+
+		<element name="digit1" ref="digit"><bounds x="5.375" y="6.5" width="3" height="4.5" /></element>
+		<element name="digit2" ref="digit"><bounds x="9.875" y="6.5" width="3" height="4.5" /></element>
+		<element name="digit3" ref="digit"><bounds x="14.375" y="6.5" width="3" height="4.5" /></element>
+		<element name="digit4" ref="digit"><bounds x="18.875" y="6.5" width="3" height="4.5" /></element>
+
+		<element name="1.7" ref="ldot"><bounds x="8.75" y="10.625" width="0.45" height="0.45" /></element>
+		<element name="2.7" ref="ldot"><bounds x="13.25" y="10.625" width="0.45" height="0.45" /></element>
+		<element name="3.7" ref="ldot"><bounds x="17.75" y="10.625" width="0.45" height="0.45" /></element>
+
+		<element name="4.7" ref="ldot"><bounds x="13.5575" y="7.85" width="0.45" height="0.45" /></element>
+		<element name="4.7" ref="ldot"><bounds x="13.3925" y="9.2375" width="0.45" height="0.45" /></element>
+	</group>
+
+<!-- motor status -->
+
+	<element name="text_motor"><text string="motor:"><color red="0.843" green="0.678" blue="0.482" /></text></element>
+	<element name="text_motoru">
+		<text string="u" state="0"><color red="0.209" green="0.209" blue="0.201" /></text>
+		<text string="u" state="1"><color red="0.9" green="0.9" blue="0.85" /></text>
+	</element>
+	<element name="text_motord">
+		<text string="d" state="0"><color red="0.209" green="0.209" blue="0.201" /></text>
+		<text string="d" state="1"><color red="0.9" green="0.9" blue="0.85" /></text>
+	</element>
+	<element name="text_motorl">
+		<text string="l" state="0" align="2"><color red="0.209" green="0.209" blue="0.201" /></text>
+		<text string="l" state="1" align="2"><color red="0.9" green="0.9" blue="0.85" /></text>
+	</element>
+	<element name="text_motorr">
+		<text string="r" state="0" align="1"><color red="0.209" green="0.209" blue="0.201" /></text>
+		<text string="r" state="1" align="1"><color red="0.9" green="0.9" blue="0.85" /></text>
+	</element>
+	<element name="text_motorx">
+		<text string="x" state="0"><color red="0.209" green="0.209" blue="0.201" /></text>
+		<text string="x" state="1"><color red="0.9" green="0.9" blue="0.85" /></text>
+	</element>
+
+	<group name="motor">
+		<bounds x="0" y="0" width="10" height="12" />
+		
+		<element ref="black"><bounds x="0" y="0" width="10" height="10" /></element>
+		
+		<element ref="text_motor"><bounds x="0" y="0" width="10" height="2" /></element>
+		
+
+		<element name="motor.1" ref="text_motoru"><bounds x="0" y="3" width="10" height="2" /></element>
+		<element name="motor.2" ref="text_motorl"><bounds x="0" y="5" width="3.5" height="2" /></element>
+		<element name="motor.3" ref="text_motorr"><bounds x="6.5" y="5" width="3.5" height="2" /></element>
+		<element name="motor.4" ref="text_motorx"><bounds x="0" y="5" width="10" height="2" /></element>
+		<element name="motor.0" ref="text_motord"><bounds x="0" y="7" width="10" height="2" /></element>
+	</group>
+
+
+<!-- build screen -->
+
+	<view name="artwork by luis">
+		<bounds left="-66" right="129" top="-30" bottom="111" />
+
+
+	<element ref="fondo">
+			<bounds x="-67" y="-30" width="230" height="155" />
+		</element>
+
+
+<element ref="phantom">
+			<bounds x="-49" y="-27" width="178" height="138" />
+		</element>
+
+
+
+
+		
+
+		<group ref="sb_board"><bounds x="-19.8" y="3.5" width="121" height="80" /></group>
+
+<element ref="sbui_png"><bounds x="-62" y="-20" width="14" height="112" /></element>
+       <group ref="sb_ui"><bounds x="-62" y="-20" width="14" height="112" /></group>
+
+		
+		<group ref="motor"><bounds x="-61.1" y="95" width="12" height="14" /></group>
+
+		<group ref="panel"><bounds x="-20" y="87.7" width="122" height="17" /></group>
+	</view>
+	
+<view name="2d artwork by luis">
+		<bounds left="-66" right="129" top="-30" bottom="111" />
+
+
+	<element ref="fondo">
+			<bounds x="-67" y="-30" width="230" height="155" />
+		</element>
+
+
+<element ref="phantom">
+			<bounds x="-49" y="-27" width="178" height="138" />
+		</element>
+
+
+
+
+		
+
+		<group ref="sb_board_2m"><bounds x="-19.8" y="3.5" width="121" height="80" /></group>
+
+<element ref="sbui_png"><bounds x="-62" y="-20" width="14" height="112" /></element>
+       <group ref="sb_ui"><bounds x="-62" y="-20" width="14" height="112" /></group>
+
+		
+		<group ref="motor"><bounds x="-61.1" y="95" width="12" height="14" /></group>
+
+		<group ref="panel"><bounds x="-20" y="87.7" width="122" height="17" /></group>
+	
+		
+	</view>	
+	
+</mamelayout>

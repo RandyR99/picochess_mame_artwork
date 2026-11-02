@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--
+license:cc0
+-->
+<mamelayout version="2">
+
+<!-- note: no chesspieces simulation here -->
+
+<!-- define elements -->
+
+<element name="novag">
+		<image file="ccmk2.png" />
+	</element>
+
+<element name="fondo">
+		<image file="../varios/fondo.png" />
+	</element>
+
+
+
+
+	<element name="black"><rect><color red="0.12" green="0.12" blue="0.12" /></rect></element>
+	<element name="black2"><rect><color red="0.16" green="0.16" blue="0.16" /></rect></element>
+	<element name="blackb"><rect><color red="0" green="0" blue="0" /></rect></element>
+	<element name="red"><rect><color red="0.8" green="0.2" blue="0.25" /></rect></element>
+
+	<element name="digit" defstate="0">
+		<led7seg><color red="1.0" green="0.1" blue="0.15" /></led7seg>
+	</element>
+
+	<element name="hl" defstate="0">
+		<text string=" "/>
+		<rect state="1"><color red="0" green="0" blue="0" /></rect>
+	</element>
+
+
+    <element name="but" defstate="0">
+    <image file="../botones/down_sel.png" state="1"/>
+	</element>
+
+	<element name="led" defstate="0">
+	<image file="../leds/red5_sel.png" state="1"/>
+	
+	</element>
+
+<element name="ledi" defstate="1">
+	<image file="../leds/red5_sel.png" state="0"/>
+	<image file="../leds/red5.png" state="1"/>
+	</element>
+
+
+<group name="display">
+<!-- digit panel is actually on the left, but that would leave a large empty space in this internal layout -->
+		<element name="digit0" ref="digit"><bounds x="3.125"  y="-2" width="4" height="6" /></element>
+		<element name="digit1" ref="digit"><bounds x="7.125"  y="-2" width="4" height="6" /></element>
+		<element name="digit2" ref="digit"><bounds x="11.125"  y="-2" width="4" height="6" /></element>
+		<element name="digit3" ref="digit"><bounds x="15.125" y="-2" width="4" height="6" /></element>
+
+</group>
+
+<!-- build screen -->
+
+	<view name="artwork by luis">
+<bounds left="0" right="826" top="0" bottom="1316" />
+
+
+
+
+<element ref="novag">
+			<bounds x="0" y="0" width="826" height="1316" />
+		</element>
+
+<group ref="display"><bounds x="277" y="232" width="254" height="78" /></group>
+
+
+		
+        <element name="4.0" ref="led"><bounds  x="209" y="501" width="39" height="39" /></element>
+		<element name="4.2" ref="led"><bounds  x="300" y="501" width="39" height="39" /></element>
+		<element name="4.1" ref="led"><bounds  x="389" y="501" width="39" height="39" /></element>
+		<element name="4.1" ref="ledi"><bounds x="479" y="501" width="39" height="39" /></element>
+		
+
+		
+		
+		
+
+	<!-- button panel -->
+
+        <element ref="but" inputtag="RESET" inputmask="0x01"><bounds x="209" y="584" width="80" height="78" /><color alpha="0.70" /></element>		
+        
+		<element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="315"  y="584" width="80" height="78" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="416" y="581" width="80" height="78" /><color alpha="0.70" /></element>
+
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="207"  y="705" width="80" height="78" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="313"  y="705" width="80" height="78" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="418"  y="703" width="80" height="78" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="521"  y="703" width="80" height="78" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="205"  y="822" width="80" height="79" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="311"  y="821" width="80" height="79" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="417"  y="821" width="80" height="79" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="523"  y="821" width="82" height="79" /><color alpha="0.70" /></element>
+
+		<element ref="but" inputtag="IN.2" inputmask="0x20"><bounds x="203" y="940" width="84" height="86" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x10"><bounds x="311" y="938" width="84" height="86" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x08"><bounds x="417" y="938" width="84" height="86" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x04"><bounds x="523" y="938"  width="86" height="86" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x02"><bounds x="200" y="1062" width="85" height="91" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.2" inputmask="0x01"><bounds x="309" y="1060" width="85" height="91" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.3" inputmask="0x40"><bounds x="417" y="1060" width="85" height="91" /><color alpha="0.70" /></element>
+		<element ref="but" inputtag="IN.3" inputmask="0x20"><bounds x="526" y="1060" width="87" height="91" /><color alpha="0.70" /></element>
+
+	</view>
+</mamelayout>
