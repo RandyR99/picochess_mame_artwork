@@ -737,7 +737,7 @@
 	<element ref="hlbb_e" inputtag="board:board:RANK.1" inputmask="0x80"><bounds x="886" y="531" width="87" height="84" /></element>
 
 
-                    <!-- piezas-->
+                    <!-- pieces -->
 
 <!-- fila 8 -->
 		<element name="piece_a8" ref="piece_e"><bounds x="309" y="8" width="100" height="107" /></element>

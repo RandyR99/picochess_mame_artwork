@@ -62,7 +62,7 @@
 		<image file="../pieces/chess2/bq.png" state="11"/>
 		<image file="../pieces/chess2/bk.png" state="12"/>
 
-		<!-- piezas seleccionadas -->
+		<!-- selected pieces -->
 		<image file="../pieces/chess2/wp_sel.png" state="13"></image>
 		<image file="../pieces/chess2/wn_sel.png" state="14"></image>
 		<image file="../pieces/chess2/wb_sel.png" state="15"></image>
@@ -101,7 +101,7 @@
       <image file="button3_sel.png" state="1"/>
 	</element>
 
-<!-- sb tablero -->
+<!-- sb board -->
 
 
 	<element name="hlbb" defstate="0">
@@ -117,7 +117,7 @@
 
 		
 
-		<!-- sensores, piezas -->
+		<!-- sensors, pieces -->
 		<repeat count="8">
 			<param name="y" start="-5" increment="10" />
 			<param name="i" start="8" increment="-1" />
@@ -148,7 +148,7 @@
 
 		
 
-		<!-- sensores, piezas -->
+		<!-- sensors, pieces -->
 		<repeat count="8">
 			<param name="y" start="0" increment="10" />
 			<param name="i" start="8" increment="-1" />

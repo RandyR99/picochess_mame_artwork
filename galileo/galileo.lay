@@ -349,7 +349,7 @@ license:cc0
 <element ref="sbui_png"><bounds x="222" y="20" width="200" height="1600" /></element>
 	   <group ref="sb_ui"><bounds x="222" y="20" width="200" height="1600" /></group>		
 		
-<!-- leds tablero -->
+<!-- board leds -->
 		
         <element name="7.3" ref="ledr"><bounds x="750" y="285" width="20" height="20" /></element>
 		<element name="6.3" ref="ledr"><bounds x="750" y="433" width="20" height="20" /></element>
@@ -505,7 +505,7 @@ license:cc0
 <element ref="sbui_png"><bounds x="222" y="20" width="200" height="1600" /></element>
 	   <group ref="sb_ui"><bounds x="222" y="20" width="200" height="1600" /></group>		
 		
-<!-- leds tablero -->
+<!-- board leds -->
 		
         <element name="7.3" ref="ledr"><bounds x="750" y="285" width="20" height="20" /></element>
 		<element name="6.3" ref="ledr"><bounds x="750" y="433" width="20" height="20" /></element>
