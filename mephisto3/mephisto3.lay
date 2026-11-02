@@ -3,10 +3,10 @@
 
 
 <element name="esb">
-		<image file="../mephisto2e/esb2.png" />
+		<image file="../mephistoe2/esb2.png" />
 	</element>
         <element name="modular">
-		<image file="../mephisto2e/modular3.png" />
+		<image file="../mephistoe2/modular3.png" />
 	</element>
 
 <!-- foto:mythbuster-->   
