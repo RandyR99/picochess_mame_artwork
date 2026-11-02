@@ -170,8 +170,8 @@
 	</element>
 
 	<element name="CLEAR" defstate="0">
-	<image file="../fexcela/CLEAR.png" state="0"/>
-	<image file="../fexcela/CLEAR_sel.png" state="1"/>
+	<image file="../fexcela/clear.png" state="0"/>
+	<image file="../fexcela/clear_sel.png" state="1"/>
 
 	</element>
 
@@ -215,7 +215,7 @@
     </element>
 
 	<element name="CLEAR3" defstate="0">
-	<image file="../fexcela/zCLEAR_sel.png" state="1"/>
+	<image file="../fexcela/zclear_sel.png" state="1"/>
     </element>
 
 	<element name="takeback3" defstate="0">

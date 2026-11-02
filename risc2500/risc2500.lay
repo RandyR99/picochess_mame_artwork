@@ -48,7 +48,7 @@
 	</element>
 	
 	<element name="ledv" defstate="0">
-	<image file="..leds/redv_sel.png" state="1"/>
+	<image file="../leds/redv_sel.png" state="1"/>
 	</element>
 	
 	

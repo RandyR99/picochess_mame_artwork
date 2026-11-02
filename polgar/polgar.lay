@@ -27,11 +27,11 @@
 
 
 <element name="modular_3d">
-		<image file="../polgar/polgar_risc_3d6a.png" />
+		<image file="polgar_risc_3d6a.png" />
 	</element>
 
 <element name="LOGO_3D">
-		<image file="polgar_3D_logo.png" />
+		<image file="polgar_3d_logo.png" />
 	</element>
 
 	<element name="polgar_centro_v">

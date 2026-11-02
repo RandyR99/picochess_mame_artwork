@@ -122,9 +122,9 @@
 
 	<element name="keys_v" defstate="0">
 
-	<image file="../bup_mm5/down_sel.png" state="1"/>
+	<image file="../botones/down_sel.png" state="1"/>
 
-	<image file="../bup_mm5/down.png" state="0"/>
+	<image file="../botones/down.png" state="0"/>
 
 	</element>
 

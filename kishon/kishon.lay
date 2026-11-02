@@ -114,8 +114,8 @@
 	</element>
 
 <element name="CLEAR1" defstate="1">
-	<image file="CLEAR_sel.png" state="1"/>
-	<image file="CLEAR.png" state="0"/>
+	<image file="clear_sel.png" state="1"/>
+	<image file="clear.png" state="0"/>
 	</element>
 
 

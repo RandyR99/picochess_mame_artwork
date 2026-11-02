@@ -28,7 +28,7 @@
 </element>
 
 <element name="led_verde" defstate="0">
-		<image file="../varios/verde_1.png" state="0"/>
+		<image file="../leds/verde_1.png" state="0"/>
 	</element>
 
 <element name="led_y" defstate="0">

@@ -6,7 +6,7 @@
 		<image file="esb2.png" />
 	</element>
         <element name="modular">
-		<image file="../mephisto2e/modular3.png" />
+		<image file="modular3.png" />
 	</element>
         <element name="modulo">
 		<image file="mephisto2a1.png" />

@@ -28,7 +28,7 @@
 
 	<element name="logos">
 
-		<image file="polgar10_logo.png" />
+		<image file="../polgar10/polgar10_logo.png" />
 
 	</element>
 
@@ -64,7 +64,7 @@
 
 <element name="logo_3d">
 
-		<image file="polgar10_3d_logo.png" />
+		<image file="../polgar10/polgar10_3d_logo.png" />
 
 	</element>
 

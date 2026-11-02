@@ -4,7 +4,7 @@
 <!-- define elements -->
 
 	<element name="feag_l">
-		<image file="../feag68k//avg3.png" />
+		<image file="../feag68k/avg3.png" />
 	</element>
 
 <element name="fondo">

@@ -2,7 +2,7 @@
 <mamelayout version="2">
 
 <element name="fondo">
-		<image file="../feas/fondo4.png" />
+		<image file="../varios/fondo4.png" />
 	</element>
 
 <element name="fidelity">
@@ -14,7 +14,7 @@
 	</element>
 
 <element name="sbui_png">
-		<image file="../feas/clipboard09b.png" />
+		<image file="../varios/clipboard09b.png" />
 	</element>
 
 <element name="digit" defstate="0">
@@ -35,8 +35,8 @@
 	</element>
 
 <element name="but" defstate="0">
-	    <image file="../feas/boton_0.png" state="0"/>
-        <image file="../feas/boton_1.png" state="1"/>
+	    <image file="../botones/boton_0.png" state="0"/>
+        <image file="../botones/boton_1.png" state="1"/>
 	</element>
 
 <element name="piece" defstate="0">

@@ -61,16 +61,16 @@
 
 
 <element name="CLEARboard" defstate="0">
-		<image file="../piezas/pmephisto2/CLEARboard.png" state="0"/>
-	<image file="../piezas/pmephisto2/CLEARboard_sel.png" state="1"/>
+		<image file="../piezas/pmephisto1/clearboard.png" state="0"/>
+	<image file="../piezas/pmephisto1/clearboard_sel.png" state="1"/>
 	</element>
 	<element name="startpos" defstate="0">
-		<image file="../piezas/pmephisto2/startpos.png" state="0"/>
-	<image file="../piezas/pmephisto2/startpos_sel.png" state="1"/>
+		<image file="../piezas/pmephisto1/startpos.png" state="0"/>
+	<image file="../piezas/pmephisto1/startpos_sel.png" state="1"/>
 	</element>
 	<element name="turnboard" defstate="0">
-		<image file="../piezas/pmephisto2/turnboard.png" state="0"/>
-	<image file="../piezas/pmephisto2/turnboard_sel.png" state="1"/>
+		<image file="../piezas/pmephisto1/turnboard.png" state="0"/>
+	<image file="../piezas/pmephisto1/turnboard_sel.png" state="1"/>
 	</element>
 
 

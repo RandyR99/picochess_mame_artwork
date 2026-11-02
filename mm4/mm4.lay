@@ -14,11 +14,11 @@
 	</element>
 
 	<element name="mephisto_v">
-		<image file="../mm2/mm4_v1a.png" />
+		<image file="../mm2/MM4_v1a.png" />
 	</element>
 
 	<element name="mm2_izq_v">
-		<image file="mm4_izq_v.png" />
+		<image file="mm4_Izq_v.png" />
 	</element>
 
 <element name="mm2_dcha_v">

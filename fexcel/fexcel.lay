@@ -125,8 +125,8 @@
 	</element>
 
 	<element name="CLEAR" defstate="0">
-	<image file="CLEAR.png" state="0"/>
-<image file="CLEAR_sel.png" state="1"/>
+	<image file="clear.png" state="0"/>
+<image file="clear_sel.png" state="1"/>
 	</element>
 
 	<element name="takeback" defstate="0">

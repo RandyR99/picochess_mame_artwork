@@ -3,7 +3,7 @@
 <!-- define elements -->
 	
 	<element name="mephisto_x">
-		<image file="../van32t8/van_tm12d.png" />
+		<image file="van_tm12d.png" />
 	</element>
 
 <element name="mephisto_logo_x">
@@ -11,7 +11,7 @@
 	</element>	
 
 <element name="mephisto_y">
-		<image file="../van32t8/tm_munchen2a.png" />
+		<image file="tm_munchen2a.png" />
 	</element>
 
 <element name="mephisto_logo_y">

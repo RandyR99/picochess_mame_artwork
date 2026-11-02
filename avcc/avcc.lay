@@ -9,7 +9,7 @@ license:CC0
 <!-- define elements -->
 
 <element name="fidelity">
-		<image file="..\vcc\vcc.jpg" />
+		<image file="../vcc/vcc.jpg" />
 	</element>
 
 <element name="advanced">

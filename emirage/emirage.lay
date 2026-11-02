@@ -58,8 +58,8 @@
 	</element>
 
 	<element name="led" defstate="0">
-	<image file="../LEDS/RED_SEL.png" state="1"/>
-	<image file="../LEDS/RED.png" state="0"/>
+	<image file="../leds/red_sel.png" state="1"/>
+	<image file="../leds/red.png" state="0"/>
 	</element>
 
 	<element name="hlr" defstate="0">

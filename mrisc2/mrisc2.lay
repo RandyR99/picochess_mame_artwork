@@ -30,7 +30,7 @@
 	</element>
 
 <element name="risc_logo_3d">
-		<image file="risc_logo_3d.png" />
+		<image file="../mrisc/risc_logo_3d.png" />
 	</element>
 
 <element name="risc_bola">
@@ -42,7 +42,7 @@
 	</element>
 
 	<element name="display_txt">
-		<image file="16_32bit_3d.png" />
+		<image file="../mrisc/16_32bit_3d.png" />
 	</element>
 
 <element name="display_txt1">

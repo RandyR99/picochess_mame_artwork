@@ -137,7 +137,7 @@
 	</element>
 
 	<element name="bt" defstate="0">
- 	<!--<image file="button.png" state="0"/> -->
+ 	<!--<image file="../botones/button.png" state="0"/> -->
 	<image file="../botones/boton_1.png" state="1"/>
 	</element>
 

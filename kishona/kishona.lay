@@ -114,8 +114,8 @@
 	</element>
 
 <element name="CLEAR1" defstate="1">
-	<image file="../kishon/CLEAR_sel.png" state="1"/>
-	<image file="../kishon/CLEAR.png" state="0"/>
+	<image file="../kishon/clear_sel.png" state="1"/>
+	<image file="../kishon/clear.png" state="0"/>
 	</element>
 
 
