@@ -408,11 +408,9 @@
 	<!-- lcd panel -->
 
 
-     <element ref="lcdw"><bounds x="92.2" y="7.8" width="25.25" height="8" /></element> 
-		
-		<screen tag="screen"><bounds x="93.2" y="7.8" width="22.75" height="2.5" />
-		</screen>
-	<element ref="lcdm" blend="multiply"><bounds x="92.2" y="7.8" width="24" height="6" /></element>
+		<element ref="lcdw"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
+		<screen tag="screen"><bounds x="93.3" y="8.0" width="22.6" height="2.55" /></screen>
+		<element ref="lcdm" blend="multiply"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
 
 
 	<!-- right side buttons -->
@@ -513,11 +511,9 @@
 		<element name="0.1" ref="ledr_v"><bounds x="77.3" y="83.8" width="1.4" height="3.2" /></element>
 
 	<!-- lcd panel -->
-        <element ref="lcdw"><bounds x="92.2" y="7.8" width="25.25" height="8" /></element> 
-		
-		<screen tag="screen"><bounds x="93.2" y="7.8" width="22.75" height="2.5" />
-		</screen>
-	<element ref="lcdm" blend="multiply"><bounds x="92.2" y="7.8" width="24" height="6" /></element>
+		<element ref="lcdw"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
+		<screen tag="screen"><bounds x="93.3" y="8.0" width="22.6" height="2.55" /></screen>
+		<element ref="lcdm" blend="multiply"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
 
 	<!-- right side buttons -->
 

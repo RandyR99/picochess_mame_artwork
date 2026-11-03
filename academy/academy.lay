@@ -820,8 +820,8 @@
 		<group ref="sb_ui"><bounds x="-150" y="30" width="135" height="1080" /></group>
 
 
-<element ref="lcd_bg"><bounds x="104" y="1040" width="180" height="50" /></element>
-<group ref="panel"><bounds x="106" y="1044" width="172" height="42" /></group>
+<element ref="lcd_bg"><bounds x="101.75" y="1042.25" width="180" height="50" /></element>
+<group ref="panel"><bounds x="105.75" y="1046.25" width="172" height="42" /></group>
 		
 
 	<element ref="keys1" inputtag="KEY" inputmask="0x01"> <bounds x="358" y="1060" width="29" height="29" /></element>
@@ -886,8 +886,8 @@
  <element ref="sbui_png"><bounds x="-150" y="30" width="135" height="1080" /></element>
 		<group ref="sb_ui"><bounds x="-150" y="30" width="135" height="1080" /></group>
 
-<element ref="lcd_bg"><bounds x="104" y="1040" width="180" height="50" /></element>
-<group ref="panel"><bounds x="106" y="1044" width="172" height="42" /></group>
+<element ref="lcd_bg"><bounds x="101.75" y="1042.25" width="180" height="50" /></element>
+<group ref="panel"><bounds x="105.75" y="1046.25" width="172" height="42" /></group>
 		
 
 		<element ref="keys1" inputtag="KEY" inputmask="0x01"> <bounds x="358" y="1060" width="29" height="29" /></element>

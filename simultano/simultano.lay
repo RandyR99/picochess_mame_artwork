@@ -367,7 +367,7 @@
 		</element>
 
 
-<group ref="display"><bounds x="1070" y="244" width="199" height="256" /></group>
+<group ref="display"><bounds x="1078" y="254.2" width="183" height="235.5" /></group>
 
 		<group ref="sb_board"><bounds x="166" y="161" width="759" height="753" /></group>
 		
@@ -460,7 +460,7 @@
 		</element>
 
 
-<group ref="display"><bounds x="1070" y="244" width="199" height="256" /></group>
+<group ref="display"><bounds x="1078" y="254.2" width="183" height="235.5" /></group>
 
 		<group ref="sb_board_2m"><bounds x="166" y="161" width="759" height="753" /></group>
 		
