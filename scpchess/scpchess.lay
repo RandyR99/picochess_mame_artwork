@@ -575,7 +575,7 @@ license:cc0
 		<element ref="but_porta" inputtag="IN.0" inputmask="0x80">
 			<bounds x="578" y="408" width="40" height="73.9" />
 		</element>
-		<element ref="but_porta" inputtag="IN.1" inputmask="0x01">
+		<element ref="but_porta" inputtag="RESET" inputmask="0x01">
 			<bounds x="655" y="407" width="40" height="73.9" />
 		</element>
 		<element ref="but_porta" inputtag="IN.0" inputmask="0x40">
@@ -651,7 +651,7 @@ license:cc0
 		<element name="0.0" ref="led">
 			<bounds x="441" y="452" width="15" height="15" />
 		</element>
-		<element ref="but_porta" inputtag="IN.1" inputmask="0x01">
+		<element ref="but_porta" inputtag="RESET" inputmask="0x01">
 			<bounds x="578" y="408" width="40" height="73.9" />
 		</element>
 		<element ref="but_porta" inputtag="IN.0" inputmask="0x80">
