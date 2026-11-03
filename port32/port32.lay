@@ -596,7 +596,6 @@
 
 	<group ref="sb_board_m"><bounds x="6.7" y="6.5" width="74" height="74.4" /></group>
 		
-<element ref="lcd_bg"><bounds x="32.5" y="94" width="24" height="6" /></element>		
 <group ref="panel"><bounds x="32.6" y="94.8" width="18.8" height="5.2" /></group>
 
 <element ref="sbui_png"><bounds x="-13.5" y="0" width="11" height="88" /></element>
@@ -638,7 +637,6 @@
 
 	<group ref="sb_board_2m"><bounds x="6.7" y="6.5" width="74" height="74.4" /></group>
 		
-<element ref="lcd_bg"><bounds x="32.5" y="94" width="24" height="6" /></element>		
 <group ref="panel"><bounds x="32.6" y="94.8" width="18.8" height="5.2" /></group>
 
 <element ref="sbui_png"><bounds x="-13.5" y="0" width="11" height="88" /></element>

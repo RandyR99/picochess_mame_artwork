@@ -1002,9 +1002,8 @@
 
 
 
-	<element ref="static_lcd"><bounds x="31" y="94.2" width="24" height="7.3" /></element>
 
-<group ref="panel"><bounds x="33.2" y="93.5" width="18.1" height="6.7" /></group>	
+<group ref="panel"><bounds x="33.2" y="94.0" width="18.1" height="5.6" /></group>	
 
 
 
@@ -1132,9 +1131,8 @@
 
 
 
-					<element ref="static_lcd"><bounds x="31" y="94.2" width="24" height="7.3" /></element>
 
-<group ref="panel"><bounds x="33.2" y="93.5" width="18.1" height="6.7" /></group>	
+<group ref="panel"><bounds x="33.2" y="94.0" width="18.1" height="5.6" /></group>	
 
 
 
@@ -1240,11 +1238,11 @@
 
 
 
-		<element ref="static_lcd"><bounds x="670" y="1290" width="332" height="95" /></element>
+		<element ref="static_lcd"><bounds x="672" y="1305" width="338" height="75" /></element>
 
 
 
-<group ref="panel_3d"><bounds x="704" y="1311" width="297" height="67" /></group>	
+<group ref="panel_3d"><bounds x="692" y="1309" width="297" height="67" /></group>	
 
 
 
