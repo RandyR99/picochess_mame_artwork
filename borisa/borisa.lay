@@ -9,7 +9,7 @@ license:cc0
 <!-- define elements -->
 
 <element name="aci">
-		<image file="../boris/master1d.png" />
+		<image file="../boris/boris.jpg" />
 	</element>
 
     <element name="RESET" defstate="0">
