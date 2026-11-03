@@ -57,4 +57,11 @@ cd /opt/picochess/engines/mame_emulation
 
 The artwork was made by **Luis** and **Volodymyr** for MAMEChess and the Mysticum Project (**Guido Marquardt**), and is compatible with the PicoChess project's MAME implementation. This repo starts from the version which was updated to work with PicoChess v4 (first commit). Later commits adapt it to MAME 0.289 on Linux: file name case, encodings, input tags, renamed sets, missing pictures and layout fixes. The commit history lists each change.
 
-Some layouts carry a CC0 note in their header. The photos and drawings remain the work of their authors.
+## Licensing
+
+There is no single license for this repo:
+
+- **Layout files (`.lay`):** some carry a CC0 note in their header. The changes made in this repo are released under CC0 as well.
+- **Photos and drawings:** they remain the work of their authors (the artists named above and the photographers of the original machines). They are shared here the same way they were shared with MAMEChess and PicoChess, free of charge, for use with these emulated chess computers.
+
+If you hold the rights to any of this artwork and want it credited differently or removed, please open an issue.
