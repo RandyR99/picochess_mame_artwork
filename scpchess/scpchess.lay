@@ -314,6 +314,109 @@ license:cc0
 
 <!-- build screen -->
 
+<!-- from prtchess.lay -->
+	<element name="cxg_porta">
+		<image file="portachess5.png" />
+	</element>
+	<element name="save_porta" defstate="0">
+		<image file="sw_1.png" state="1" />
+		<image file="sw_0.png" state="0" />
+	</element>
+	<element name="but_porta" defstate="0">
+		<image file="../buttons/but2a_sel.png" state="1" />
+		<image file="../buttons/but2a.png" state="0" />
+	</element>
+	<element name="piece_2m_porta" defstate="0">
+		<image file="../pieces/chess2/wp.png" state="1" />
+		<image file="../pieces/chess2/wn.png" state="2" />
+		<image file="../pieces/chess2/wb.png" state="3" />
+		<image file="../pieces/chess2/wr.png" state="4" />
+		<image file="../pieces/chess2/wq.png" state="5" />
+		<image file="../pieces/chess2/wk.png" state="6" />
+		<image file="../pieces/chess2/bp.png" state="7" />
+		<image file="../pieces/chess2/bn.png" state="8" />
+		<image file="../pieces/chess2/bb.png" state="9" />
+		<image file="../pieces/chess2/br.png" state="10" />
+		<image file="../pieces/chess2/bq.png" state="11" />
+		<image file="../pieces/chess2/bk.png" state="12" />
+		<image file="../pieces/chess2/wp_sel.png" state="13" />
+		<image file="../pieces/chess2/wn_sel.png" state="14" />
+		<image file="../pieces/chess2/wb_sel.png" state="15" />
+		<image file="../pieces/chess2/wr_sel.png" state="16" />
+		<image file="../pieces/chess2/wq_sel.png" state="17" />
+		<image file="../pieces/chess2/wk_sel.png" state="18" />
+		<image file="../pieces/chess2/bp_sel.png" state="19" />
+		<image file="../pieces/chess2/bn_sel.png" state="20" />
+		<image file="../pieces/chess2/bb_sel.png" state="21" />
+		<image file="../pieces/chess2/br_sel.png" state="22" />
+		<image file="../pieces/chess2/bq_sel.png" state="23" />
+		<image file="../pieces/chess2/bk_sel.png" state="24" />
+	</element>
+	<group name="sb_board_m_porta">
+		<bounds x="0" y="0" width="80" height="80" />
+		<repeat count="8">
+			<param name="y" start="-6.2" increment="10.15" />
+			<param name="i" start="8" increment="-1" />
+			<param name="z" start="0" increment="10" />
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x01">
+				<bounds x="0" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x02">
+				<bounds x="10" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x04">
+				<bounds x="20" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x08">
+				<bounds x="30" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x10">
+				<bounds x="40" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x20">
+				<bounds x="50" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x40">
+				<bounds x="60" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x80">
+				<bounds x="70" y="~z~" width="10" height="10" />
+				<color alpha="0.04" />
+			</element>
+			<element name="piece_a~i~" ref="piece_m">
+				<bounds x="-3.4" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_b~i~" ref="piece_m">
+				<bounds x="6.4" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_c~i~" ref="piece_m">
+				<bounds x="16.4" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_d~i~" ref="piece_m">
+				<bounds x="26.5" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_e~i~" ref="piece_m">
+				<bounds x="36.4" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_f~i~" ref="piece_m">
+				<bounds x="46.4" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_g~i~" ref="piece_m">
+				<bounds x="56.4" y="~y~" width="16" height="16" />
+			</element>
+			<element name="piece_h~i~" ref="piece_m">
+				<bounds x="66.4" y="~y~" width="16" height="16" />
+			</element>
+		</repeat>
+	</group>
+
 	<view name="artwork by luis">
 <bounds left="0" right="1730" top="0" bottom="1098" />
 
@@ -403,4 +506,163 @@ license:cc0
 
 
 </view>	
+<!-- views from prtchess.lay -->
+	<view name="portachess artwork by luis">
+		<bounds left="-50" right="833" top="-5" bottom="550" />
+		<element ref="background">
+			<bounds x="-50" y="-5" width="900" height="560" />
+		</element>
+		<element ref="cxg_porta">
+			<bounds x="0" y="0" width="833" height="548" />
+		</element>
+		<group ref="sb_board_m_porta">
+			<bounds x="105" y="67" width="368" height="362" />
+		</group>
+		<element ref="sbui_png">
+			<bounds x="-45" y="7" width="67" height="536" />
+		</element>
+		<group ref="sb_ui">
+			<bounds x="-45" y="7" width="67" height="536" />
+		</group>
+		<element name="0.1" ref="led">
+			<bounds x="70" y="83" width="15" height="15" />
+		</element>
+		<element name="1.1" ref="led">
+			<bounds x="70" y="128" width="15" height="15" />
+		</element>
+		<element name="2.1" ref="led">
+			<bounds x="70" y="174" width="15" height="15" />
+		</element>
+		<element name="3.1" ref="led">
+			<bounds x="70" y="219" width="15" height="15" />
+		</element>
+		<element name="4.1" ref="led">
+			<bounds x="70" y="265" width="15" height="15" />
+		</element>
+		<element name="5.1" ref="led">
+			<bounds x="70" y="311" width="15" height="15" />
+		</element>
+		<element name="6.1" ref="led">
+			<bounds x="70" y="356" width="15" height="15" />
+		</element>
+		<element name="7.1" ref="led">
+			<bounds x="70" y="402" width="15" height="15" />
+		</element>
+		<element name="7.0" ref="led">
+			<bounds x="119" y="452" width="15" height="15" />
+		</element>
+		<element name="6.0" ref="led">
+			<bounds x="164" y="452" width="15" height="15" />
+		</element>
+		<element name="5.0" ref="led">
+			<bounds x="210" y="452" width="15" height="15" />
+		</element>
+		<element name="4.0" ref="led">
+			<bounds x="256" y="452" width="15" height="15" />
+		</element>
+		<element name="3.0" ref="led">
+			<bounds x="302" y="452" width="15" height="15" />
+		</element>
+		<element name="2.0" ref="led">
+			<bounds x="347" y="452" width="15" height="15" />
+		</element>
+		<element name="1.0" ref="led">
+			<bounds x="394" y="452" width="15" height="15" />
+		</element>
+		<element name="0.0" ref="led">
+			<bounds x="441" y="452" width="15" height="15" />
+		</element>
+		<element ref="but_porta" inputtag="IN.0" inputmask="0x80">
+			<bounds x="578" y="408" width="40" height="73.9" />
+		</element>
+		<element ref="but_porta" inputtag="IN.1" inputmask="0x01">
+			<bounds x="655" y="407" width="40" height="73.9" />
+		</element>
+		<element ref="but_porta" inputtag="IN.0" inputmask="0x40">
+			<bounds x="729" y="407" width="40" height="73.9" />
+		</element>
+		<element ref="save_porta" inputtag="IN.1" inputmask="0x02">
+			<bounds x="658" y="322" width="106" height="40" />
+		</element>
+	</view>
+
+	<view name="portachess 2d artwork by luis">
+		<bounds left="-50" right="833" top="-5" bottom="550" />
+		<element ref="background">
+			<bounds x="-50" y="-5" width="900" height="560" />
+		</element>
+		<element ref="cxg_porta">
+			<bounds x="0" y="0" width="833" height="548" />
+		</element>
+		<group ref="sb_board_2m">
+			<bounds x="105" y="67" width="368" height="362" />
+		</group>
+		<element ref="sbui_png">
+			<bounds x="-45" y="7" width="67" height="536" />
+		</element>
+		<group ref="sb_ui">
+			<bounds x="-45" y="7" width="67" height="536" />
+		</group>
+		<element name="0.1" ref="led">
+			<bounds x="70" y="83" width="15" height="15" />
+		</element>
+		<element name="1.1" ref="led">
+			<bounds x="70" y="128" width="15" height="15" />
+		</element>
+		<element name="2.1" ref="led">
+			<bounds x="70" y="174" width="15" height="15" />
+		</element>
+		<element name="3.1" ref="led">
+			<bounds x="70" y="219" width="15" height="15" />
+		</element>
+		<element name="4.1" ref="led">
+			<bounds x="70" y="265" width="15" height="15" />
+		</element>
+		<element name="5.1" ref="led">
+			<bounds x="70" y="311" width="15" height="15" />
+		</element>
+		<element name="6.1" ref="led">
+			<bounds x="70" y="356" width="15" height="15" />
+		</element>
+		<element name="7.1" ref="led">
+			<bounds x="70" y="402" width="15" height="15" />
+		</element>
+		<element name="7.0" ref="led">
+			<bounds x="119" y="452" width="15" height="15" />
+		</element>
+		<element name="6.0" ref="led">
+			<bounds x="164" y="452" width="15" height="15" />
+		</element>
+		<element name="5.0" ref="led">
+			<bounds x="210" y="452" width="15" height="15" />
+		</element>
+		<element name="4.0" ref="led">
+			<bounds x="256" y="452" width="15" height="15" />
+		</element>
+		<element name="3.0" ref="led">
+			<bounds x="302" y="452" width="15" height="15" />
+		</element>
+		<element name="2.0" ref="led">
+			<bounds x="347" y="452" width="15" height="15" />
+		</element>
+		<element name="1.0" ref="led">
+			<bounds x="394" y="452" width="15" height="15" />
+		</element>
+		<element name="0.0" ref="led">
+			<bounds x="441" y="452" width="15" height="15" />
+		</element>
+		<element ref="but_porta" inputtag="IN.1" inputmask="0x01">
+			<bounds x="578" y="408" width="40" height="73.9" />
+		</element>
+		<element ref="but_porta" inputtag="IN.0" inputmask="0x80">
+			<bounds x="655" y="407" width="40" height="73.9" />
+		</element>
+		<element ref="but_porta" inputtag="IN.0" inputmask="0x40">
+			<bounds x="729" y="407" width="40" height="73.9" />
+		</element>
+		<element ref="save_porta" inputtag="IN.1" inputmask="0x02">
+			<bounds x="658" y="322" width="106" height="40" />
+		</element>
+	</view>
+
 </mamelayout>

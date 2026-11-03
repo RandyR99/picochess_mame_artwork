@@ -601,7 +601,7 @@
 
 		<element name="9.7" ref="led2"><bounds x="249" y="201" width="15" height="15" /></element>
 		<element name="9.6" ref="led2"><bounds x="249" y="329" width="15" height="15" /></element>
-	.1	<element name="9.5" ref="led2"><bounds x="249" y="460" width="15" height="15" /></element>
+		<element name="9.5" ref="led2"><bounds x="249" y="460" width="15" height="15" /></element>
 		<element name="9.4" ref="led2"><bounds x="249" y="589" width="15" height="15" /></element>
 		<element name="9.3" ref="led2"><bounds x="249" y="719" width="15" height="15" /></element>
 		<element name="9.2" ref="led2"><bounds x="249" y="850" width="15" height="15" /></element>
@@ -640,7 +640,7 @@
 
 	</view>
 	
-	<view name="ambassador artwork by luis">
+	<view name="ambassador 2d artwork by luis">
 <bounds left="-100" right="1500" top="-15" bottom="1370" />
 
 <element ref="background">
