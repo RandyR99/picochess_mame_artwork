@@ -247,7 +247,6 @@ license:cc0
 		<element ref="lcd" inputtag="IN.7" inputmask="0x02" inputraw="1"><bounds x="951" y="1739" width="86" height="164" /></element>
 		<element ref="sound" inputtag="IN.7" inputmask="0x01" inputraw="1"><bounds x="1053" y="1739" width="86" height="164" /></element>
 		
-		<group ref="displayc_labels"><bounds x="1510" y="60" width="1100" height="1309" /></group>
 		
 	</view>
 
