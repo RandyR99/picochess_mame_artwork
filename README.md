@@ -2,7 +2,7 @@
 
 Custom artwork for the chess computers that [picochess](https://github.com/JohanSjoblom/picochess) emulates with MAME. It has photos and drawings of the real machines, with clickable buttons, LEDs, displays and pieces. The layouts are for **MAME 0.289**.
 
-This repo holds only the files added on top of MAME's own `artwork` folder. It is not a complete artwork folder by itself.
+This repo is a complete `artwork` folder: the custom artwork plus the files of MAME 0.289's own `artwork` folder.
 
 ## Contents
 
@@ -12,7 +12,8 @@ This repo holds only the files added on top of MAME's own `artwork` folder. It i
 | `<set>/*.png`, `*.jpg` | The pictures that layout uses. Layouts also use pictures from other folders through `../`. |
 | `pieces/` | Piece sets (3D photos and flat 2D pieces). |
 | `leds/`, `buttons/`, `misc/` | Shared LEDs, buttons, backgrounds and panels. |
-| `chess/` | PNG pieces, added next to the SVG pieces in MAME's own `artwork/chess`. |
+| `chess/` | MAME's SVG pieces, and PNG pieces that were added next to them. |
+| `bgfx/`, the `.png` files in the top folder | MAME's own shaders and screen effects, unchanged. |
 
 Some folders hold only pictures that other layouts use. For example, `feag68k/` serves the Elite Avant Garde layouts.
 
@@ -20,13 +21,16 @@ A clone set without a folder of its own uses its parent's. For example, `tascr30
 
 ## Installing
 
-picochess runs MAME from `/opt/picochess/engines/mame_emulation`, which has `artpath artwork` in its `mame.ini`. Build that `artwork` folder from MAME 0.289's own artwork with this repo on top:
+picochess runs MAME from `/opt/picochess/engines/mame_emulation`, which has `artpath artwork` in its `mame.ini`. Clone this repo and make that `artwork` folder a link to the clone:
 
 ```
+git clone https://github.com/RandyR99/picochess_mame_artwork.git ~/github/picochess_mame_artwork
 cd /opt/picochess/engines/mame_emulation
-cp -r <mame-0.289-source>/artwork artwork
-rsync -a --exclude .git --exclude .gitignore --exclude README.md <this-repo>/ artwork/
+rm -rf artwork
+ln -s ~/github/picochess_mame_artwork artwork
 ```
+
+A `git pull` in the clone then updates the artwork.
 
 You can also unpack a ready-made `artwork.tar.gz`, if one was shared with you, in the same place.
 
@@ -61,6 +65,7 @@ The artwork was made by **Luis** and **Volodymyr** for MAMEChess and the Mysticu
 
 There is no single license for this repo:
 
+- **MAME's own files (`bgfx/`, the top-level effect `.png` files):** CC0, see `LICENSE.mame`. The SVG pieces in `chess/` are BSD-3-Clause, see `chess/README.md`.
 - **Layout files (`.lay`):** some carry a CC0 note in their header. The changes made in this repo are released under CC0 as well.
 - **Photos and drawings:** they remain the work of their authors (the artists named above and the photographers of the original machines). They are shared here the same way they were shared with MAMEChess and PicoChess, free of charge, for use with these emulated chess computers.
 
