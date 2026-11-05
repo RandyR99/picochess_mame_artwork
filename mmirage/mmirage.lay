@@ -138,19 +138,6 @@
 		</repeat>
 
 
-		<repeat count="4">
-			<param name="y1" start="8.3" increment="20" />
-			<param name="y2" start="18.3" increment="20" />
-
-			<repeat count="4">
-				<param name="x1" start="8.3" increment="20" />
-				<param name="x2" start="18.3" increment="20" />
-				<element ref="hidew" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x1~" y="~y1~" width="0" height="0" /></element>
-				<element ref="hidew" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x2~" y="~y2~" width="0" height="0" /></element>
-				<element ref="hideb" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x1~" y="~y2~" width="0" height="0" /></element>
-				<element ref="hideb" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x2~" y="~y1~" width="0" height="0" /></element>
-			</repeat>
-		</repeat>
 
 		<!-- sensors -->
 		<repeat count="8">
@@ -213,19 +200,6 @@
 		</repeat>
 
 
-		<repeat count="4">
-			<param name="y1" start="8.3" increment="20" />
-			<param name="y2" start="18.3" increment="20" />
-
-			<repeat count="4">
-				<param name="x1" start="8.3" increment="20" />
-				<param name="x2" start="18.3" increment="20" />
-				<element ref="hidew" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x1~" y="~y1~" width="0" height="0" /></element>
-				<element ref="hidew" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x2~" y="~y2~" width="0" height="0" /></element>
-				<element ref="hideb" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x1~" y="~y2~" width="0" height="0" /></element>
-				<element ref="hideb" inputtag="FAKE" inputmask="0x01" inputraw="yes"><bounds x="~x2~" y="~y1~" width="0" height="0" /></element>
-			</repeat>
-		</repeat>
 
 		<!-- sensors -->
 		<repeat count="8">
@@ -424,8 +398,6 @@
 			<bounds x="0" y="0" width="88" height="110" />
 		</element>
 		
-		<element ref="cblack"><bounds x="14" y="0" width="0" height="0" /></element>
-		<element ref="cwhite"><bounds x="17" y="2" width="0" height="0" /></element>
 
 			<group ref="buttons"><bounds x="32.8" y="91.7" width="21.9" height="14.4" /></group>
 
@@ -454,8 +426,6 @@
 			<bounds x="0" y="0" width="88" height="110" />
 		</element>
 		
-		<element ref="cblack"><bounds x="14" y="0" width="0" height="0" /></element>
-		<element ref="cwhite"><bounds x="17" y="2" width="0" height="0" /></element>
 
 			<group ref="buttons"><bounds x="32.8" y="91.7" width="21.9" height="14.4" /></group>
 

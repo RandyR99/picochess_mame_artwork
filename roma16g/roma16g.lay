@@ -541,8 +541,6 @@
 <element ref="mephisto_m">
 			<bounds x="0" y="0" width="88" height="110" />
 		</element>
-		<element ref="cblack"><bounds x="14" y="0" width="0" height="0" /></element>
-		<element ref="cwhite"><bounds x="17" y="2" width="0" height="0" /></element>
 
 	
 
