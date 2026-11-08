@@ -7,7 +7,7 @@ license:cc0
 <!-- define elements -->
 
 <element name="cxg">
-		<image file="computachess5.png" />
+		<image file="computachess6.png" />
 	</element>
 	
 	<element name="background">
@@ -350,7 +350,7 @@ license:cc0
 		<element name="0.0" ref="led"><bounds x="1100" y="924" width="30.2" height="30.2" /></element>
 		
 		<!-- right side buttons -->
-		<element ref="but" inputtag="RESET" inputmask="0x01"><bounds x="1361" y="665" width="120" height="38" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="1361" y="665" width="120" height="38" /></element>
 		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="1361" y="788" width="120" height="38" /></element>
 		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="1360" y="907" width="120" height="38" /></element>
 
@@ -397,7 +397,7 @@ license:cc0
 		<element name="0.0" ref="led"><bounds x="1100" y="924" width="30.2" height="30.2" /></element>
 		
 		<!-- right side buttons -->
-		<element ref="but" inputtag="RESET" inputmask="0x01"><bounds x="1361" y="665" width="120" height="38" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="1361" y="665" width="120" height="38" /></element>
 		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="1361" y="788" width="120" height="38" /></element>
 		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="1360" y="907" width="120" height="38" /></element>
 
