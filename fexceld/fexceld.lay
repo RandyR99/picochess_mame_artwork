@@ -374,14 +374,14 @@
 <!-- right side -->
 
 
-		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="81.4" y="6.5" width="15" height="13.2" /></element>
-		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="81.4" y="15.5" width="15" height="13.2" /></element>
-		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="81.4" y="23.6" width="15" height="13.2"  /></element>
-		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="81.4" y="31.8" width="15" height="13.2"  /></element>
-	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="81.4" y="40.1" width="15" height="13.2"  /></element>
-		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="81.4" y="48.3" width="15" height="13.2"  /></element>
-		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="81.4" y="56.5" width="15" height="13.2"  /></element>
-		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="81.4" y="64.5" width="15" height="13.2"  /></element>
+		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="84.7" y="11.076" width="8.6" height="4.312" /></element>
+		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="84.7" y="20.076" width="8.6" height="4.312" /></element>
+		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="84.7" y="28.176" width="8.6" height="4.312" /></element>
+		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="84.7" y="36.376" width="8.6" height="4.312" /></element>
+	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="84.7" y="44.676" width="8.6" height="4.312" /></element>
+		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="84.7" y="52.876" width="8.6" height="4.312" /></element>
+		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="84.7" y="61.076" width="8.6" height="4.312" /></element>
+		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="84.7" y="69.076" width="8.6" height="4.312" /></element>
      </view>
 	 
 	 	<view name="2d artwork by luis">
@@ -449,14 +449,14 @@
 <!-- right side -->
 
 
-		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="81.4" y="6.5" width="15" height="13.2" /></element>
-		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="81.4" y="15.5" width="15" height="13.2" /></element>
-		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="81.4" y="23.6" width="15" height="13.2"  /></element>
-		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="81.4" y="31.8" width="15" height="13.2"  /></element>
-	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="81.4" y="40.1" width="15" height="13.2"  /></element>
-		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="81.4" y="48.3" width="15" height="13.2"  /></element>
-		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="81.4" y="56.5" width="15" height="13.2"  /></element>
-		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="81.4" y="64.5" width="15" height="13.2"  /></element>
+		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="84.7" y="11.076" width="8.6" height="4.312" /></element>
+		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="84.7" y="20.076" width="8.6" height="4.312" /></element>
+		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="84.7" y="28.176" width="8.6" height="4.312" /></element>
+		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="84.7" y="36.376" width="8.6" height="4.312" /></element>
+	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="84.7" y="44.676" width="8.6" height="4.312" /></element>
+		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="84.7" y="52.876" width="8.6" height="4.312" /></element>
+		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="84.7" y="61.076" width="8.6" height="4.312" /></element>
+		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="84.7" y="69.076" width="8.6" height="4.312" /></element>
      </view>
 	 
 </mamelayout>

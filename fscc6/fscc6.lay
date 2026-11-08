@@ -417,14 +417,14 @@
 	<!-- right side -->
 
 
-		<element ref="re" inputtag="IN.0" inputmask="0x80"><bounds x="84.2" y="28" width="11" height="11"  /></element>
-		<element ref="cl" inputtag="IN.0" inputmask="0x40"><bounds x="84.2" y="34.9" width="11" height="11"  /></element>
-		<element ref="pb" inputtag="IN.0" inputmask="0x20"><bounds x="84.2" y="44" width="11" height="11"  /></element>
-		<element ref="pv" inputtag="IN.0" inputmask="0x10"><bounds x="84.2" y="52" width="11" height="11"  /></element>
-		<element ref="lv" inputtag="IN.0" inputmask="0x08"><bounds x="84.2" y="60" width="11" height="11"  /></element>
-		<element ref="tb" inputtag="IN.0" inputmask="0x04"><bounds x="84.2" y="68" width="11" height="11"  /></element>
-		<element ref="dm" inputtag="IN.0" inputmask="0x02"><bounds x="84.2" y="76" width="11" height="11"  /></element>
-		<element ref="rv" inputtag="IN.0" inputmask="0x01"><bounds x="84.2" y="84" width="11" height="11"  /></element>
+		<element ref="re" inputtag="IN.0" inputmask="0x80"><bounds x="86.84" y="30.823" width="5.72" height="5.72" /></element>
+		<element ref="cl" inputtag="IN.0" inputmask="0x40"><bounds x="86.84" y="37.723" width="5.72" height="5.72" /></element>
+		<element ref="pb" inputtag="IN.0" inputmask="0x20"><bounds x="86.84" y="46.823" width="5.72" height="5.72" /></element>
+		<element ref="pv" inputtag="IN.0" inputmask="0x10"><bounds x="86.84" y="54.823" width="5.72" height="5.72" /></element>
+		<element ref="lv" inputtag="IN.0" inputmask="0x08"><bounds x="86.84" y="62.823" width="5.72" height="5.72" /></element>
+		<element ref="tb" inputtag="IN.0" inputmask="0x04"><bounds x="86.84" y="70.823" width="5.72" height="5.72" /></element>
+		<element ref="dm" inputtag="IN.0" inputmask="0x02"><bounds x="86.84" y="78.823" width="5.72" height="5.72" /></element>
+		<element ref="rv" inputtag="IN.0" inputmask="0x01"><bounds x="86.84" y="86.823" width="5.72" height="5.72" /></element>
 
 	<!-- 7seg leds -->
 
@@ -459,14 +459,14 @@
 	<!-- right side -->
 
 
-		<element ref="re" inputtag="IN.0" inputmask="0x80"><bounds x="84.2" y="28" width="11" height="11"  /></element>
-		<element ref="cl" inputtag="IN.0" inputmask="0x40"><bounds x="84.2" y="34.9" width="11" height="11"  /></element>
-		<element ref="pb" inputtag="IN.0" inputmask="0x20"><bounds x="84.2" y="44" width="11" height="11"  /></element>
-		<element ref="pv" inputtag="IN.0" inputmask="0x10"><bounds x="84.2" y="52" width="11" height="11"  /></element>
-		<element ref="lv" inputtag="IN.0" inputmask="0x08"><bounds x="84.2" y="60" width="11" height="11"  /></element>
-		<element ref="tb" inputtag="IN.0" inputmask="0x04"><bounds x="84.2" y="68" width="11" height="11"  /></element>
-		<element ref="dm" inputtag="IN.0" inputmask="0x02"><bounds x="84.2" y="76" width="11" height="11"  /></element>
-		<element ref="rv" inputtag="IN.0" inputmask="0x01"><bounds x="84.2" y="84" width="11" height="11"  /></element>
+		<element ref="re" inputtag="IN.0" inputmask="0x80"><bounds x="86.84" y="30.823" width="5.72" height="5.72" /></element>
+		<element ref="cl" inputtag="IN.0" inputmask="0x40"><bounds x="86.84" y="37.723" width="5.72" height="5.72" /></element>
+		<element ref="pb" inputtag="IN.0" inputmask="0x20"><bounds x="86.84" y="46.823" width="5.72" height="5.72" /></element>
+		<element ref="pv" inputtag="IN.0" inputmask="0x10"><bounds x="86.84" y="54.823" width="5.72" height="5.72" /></element>
+		<element ref="lv" inputtag="IN.0" inputmask="0x08"><bounds x="86.84" y="62.823" width="5.72" height="5.72" /></element>
+		<element ref="tb" inputtag="IN.0" inputmask="0x04"><bounds x="86.84" y="70.823" width="5.72" height="5.72" /></element>
+		<element ref="dm" inputtag="IN.0" inputmask="0x02"><bounds x="86.84" y="78.823" width="5.72" height="5.72" /></element>
+		<element ref="rv" inputtag="IN.0" inputmask="0x01"><bounds x="86.84" y="86.823" width="5.72" height="5.72" /></element>
 
 	<!-- 7seg leds -->
 

@@ -853,14 +853,14 @@
 <!-- right side -->
 
 
-		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="80.4" y="11" width="15" height="13.2" /></element>
-		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="80.4" y="20.5" width="15" height="13.2" /></element>
-		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="80.4" y="28.8" width="15" height="13.2"  /></element>
-		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="80.4" y="37.1" width="15" height="13.2"  /></element>
-	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="80.4" y="45.4" width="15" height="13.2"  /></element>
-		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="80.4" y="53.7" width="15" height="13.2"  /></element>
-		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="80.4" y="62" width="15" height="13.2"  /></element>
-		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="80.4" y="71" width="15" height="13.2"  /></element>
+		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="83.7" y="15.576" width="8.6" height="4.312" /></element>
+		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="83.7" y="25.076" width="8.6" height="4.312" /></element>
+		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="83.7" y="33.376" width="8.6" height="4.312" /></element>
+		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="83.7" y="41.676" width="8.6" height="4.312" /></element>
+	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="83.7" y="49.976" width="8.6" height="4.312" /></element>
+		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="83.7" y="58.276" width="8.6" height="4.312" /></element>
+		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="83.7" y="66.576" width="8.6" height="4.312" /></element>
+		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="83.7" y="75.576" width="8.6" height="4.312" /></element>
      </view>
 	 
 	 <view name="2d artwork by luis">
@@ -908,14 +908,14 @@
 <!-- right side -->
 
 
-		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="80.4" y="11" width="15" height="13.2" /></element>
-		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="80.4" y="20.5" width="15" height="13.2" /></element>
-		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="80.4" y="28.8" width="15" height="13.2"  /></element>
-		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="80.4" y="37.1" width="15" height="13.2"  /></element>
-	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="80.4" y="45.4" width="15" height="13.2"  /></element>
-		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="80.4" y="53.7" width="15" height="13.2"  /></element>
-		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="80.4" y="62" width="15" height="13.2"  /></element>
-		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="80.4" y="71" width="15" height="13.2"  /></element>
+		<element ref="newgame" inputtag="IN.0" inputmask="0x80"><bounds x="83.7" y="15.576" width="8.6" height="4.312" /></element>
+		<element ref="verify"  inputtag="IN.0" inputmask="0x40"><bounds x="83.7" y="25.076" width="8.6" height="4.312" /></element>
+		<element ref="options" inputtag="IN.0" inputmask="0x20"><bounds x="83.7" y="33.376" width="8.6" height="4.312" /></element>
+		<element ref="level"   inputtag="IN.0" inputmask="0x10"><bounds x="83.7" y="41.676" width="8.6" height="4.312" /></element>
+	   <element ref="takeback" inputtag="IN.0" inputmask="0x08"><bounds x="83.7" y="49.976" width="8.6" height="4.312" /></element>
+		<element ref="hint"    inputtag="IN.0" inputmask="0x04"><bounds x="83.7" y="58.276" width="8.6" height="4.312" /></element>
+		<element ref="move"    inputtag="IN.0" inputmask="0x02"><bounds x="83.7" y="66.576" width="8.6" height="4.312" /></element>
+		<element ref="CLEAR"   inputtag="IN.0" inputmask="0x01"><bounds x="83.7" y="75.576" width="8.6" height="4.312" /></element>
      </view>
 	 
 <!-- views from fdes2000.lay -->
