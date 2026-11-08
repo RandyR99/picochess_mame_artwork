@@ -323,16 +323,16 @@
 	
 	  
 	  
-	<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="1080" y="313" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x40"><bounds x="1080" y="373" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x20"><bounds x="1081" y="434" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x10"><bounds x="1083" y="495" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="1083" y="560" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="1083" y="620" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="1083" y="681" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="1083" y="744" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="1017" y="825"  width="40" height="40" /></element>  
-    <element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="1110" y="826"  width="40" height="40" /></element>
+	<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="1080" y="313" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="1080" y="373" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x40"><bounds x="1081" y="434" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x20"><bounds x="1083" y="495" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x10"><bounds x="1083" y="560" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="1083" y="620" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="1083" y="681" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="1083" y="744" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="1017" y="825"  width="40" height="40" /></element>  
+    <element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="1110" y="826"  width="40" height="40" /></element>
 	</view>
 	
 	 <view name="2d artwork by luis">
@@ -359,16 +359,16 @@
 	
 	  
 	  
-	<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="1080" y="313" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x40"><bounds x="1080" y="373" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x20"><bounds x="1081" y="434" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x10"><bounds x="1083" y="495" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="1083" y="560" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="1083" y="620" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="1083" y="681" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="1083" y="744" width="40" height="40" /></element>  
-	<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="1017" y="825"  width="40" height="40" /></element>  
-    <element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="1110" y="826"  width="40" height="40" /></element>
+	<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="1080" y="313" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="1080" y="373" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x40"><bounds x="1081" y="434" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x20"><bounds x="1083" y="495" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x10"><bounds x="1083" y="560" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x08"><bounds x="1083" y="620" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="1083" y="681" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="1083" y="744" width="40" height="40" /></element>  
+	<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="1017" y="825"  width="40" height="40" /></element>  
+    <element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="1110" y="826"  width="40" height="40" /></element>
 	</view>
 	
 </mamelayout>

@@ -104,7 +104,7 @@ license:cc0
 
         <element ref="but1" inputtag="RESET" inputmask="0x01"><bounds x="226"  y="402" width="118" height="107" /><color alpha="0.7" /></element>
 		<element ref="but1" inputtag="IN.1"  inputmask="0x10"><bounds x="380"  y="402" width="121" height="107" /><color alpha="0.7" /></element>
-		<element ref="but2" inputtag="IN.1"  inputmask="0x08"><bounds x="543w" y="402" width="252" height="98" /><color alpha="0.7" /></element>
+		<element ref="but2" inputtag="IN.1"  inputmask="0x08"><bounds x="543" y="402" width="252" height="98" /><color alpha="0.7" /></element>
         
 		<element ref="but1" inputtag="IN.0" inputmask="0x20"><bounds x="196"  y="588" width="130" height="113" /><color alpha="0.7" /></element>
 		<element ref="but1" inputtag="IN.0" inputmask="0x10"><bounds x="363"  y="586" width="130" height="115" /><color alpha="0.7" /></element>

@@ -333,23 +333,23 @@ license:CC0
 		<element name="2.2" ref="ledr"><bounds x="1665" y="994" width="16" height="16" /></element>
 		<element name="2.3" ref="ledr"><bounds x="1665" y="1128" width="16" height="16" /></element>
 		
-		<element ref="but1" inputtag="IN.0" inputmask="0x80"><bounds x="1449" y="186" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x40"><bounds x="1449" y="320" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x20"><bounds x="1449" y="455" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x10"><bounds x="1449" y="588" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x08"><bounds x="1449" y="721" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x04"><bounds x="1449" y="856" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x02"><bounds x="1449" y="991" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x01"><bounds x="1449" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x01"><bounds x="1449" y="186" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x02"><bounds x="1449" y="320" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x04"><bounds x="1449" y="455" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x08"><bounds x="1449" y="588" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x10"><bounds x="1449" y="721" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x20"><bounds x="1449" y="856" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x40"><bounds x="1449" y="991" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x80"><bounds x="1449" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
 																							           
-        <element ref="but1" inputtag="IN.1" inputmask="0x80"><bounds x="1551" y="186"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x40"><bounds x="1551" y="320"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x20"><bounds x="1551" y="455"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x10"><bounds x="1551" y="588"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x08"><bounds x="1551" y="721"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x04"><bounds x="1551" y="856" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x02"><bounds x="1551" y="991" width="93" height="57" /><color alpha="0.7" /></element>
-        <element ref="but1" inputtag="IN.1" inputmask="0x01"><bounds x="1551" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
+        <element ref="but1" inputtag="IN.1" inputmask="0x01"><bounds x="1551" y="186"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x02"><bounds x="1551" y="320"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x04"><bounds x="1551" y="455"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x08"><bounds x="1551" y="588"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x10"><bounds x="1551" y="721"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x20"><bounds x="1551" y="856" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x40"><bounds x="1551" y="991" width="93" height="57" /><color alpha="0.7" /></element>
+        <element ref="but1" inputtag="IN.1" inputmask="0x80"><bounds x="1551" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
 
 	</view>	
 	
@@ -402,23 +402,23 @@ license:CC0
 		<element name="2.2" ref="ledr"><bounds x="1665" y="994" width="16" height="16" /></element>
 		<element name="2.3" ref="ledr"><bounds x="1665" y="1128" width="16" height="16" /></element>
 		
-		<element ref="but1" inputtag="IN.0" inputmask="0x80"><bounds x="1449" y="186" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x40"><bounds x="1449" y="320" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x20"><bounds x="1449" y="455" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x10"><bounds x="1449" y="588" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x08"><bounds x="1449" y="721" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x04"><bounds x="1449" y="856" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x02"><bounds x="1449" y="991" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.0" inputmask="0x01"><bounds x="1449" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x01"><bounds x="1449" y="186" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x02"><bounds x="1449" y="320" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x04"><bounds x="1449" y="455" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x08"><bounds x="1449" y="588" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x10"><bounds x="1449" y="721" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x20"><bounds x="1449" y="856" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x40"><bounds x="1449" y="991" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.0" inputmask="0x80"><bounds x="1449" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
 																							           
-        <element ref="but1" inputtag="IN.1" inputmask="0x80"><bounds x="1551" y="186"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x40"><bounds x="1551" y="320"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x20"><bounds x="1551" y="455"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x10"><bounds x="1551" y="588"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x08"><bounds x="1551" y="721"  width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x04"><bounds x="1551" y="856" width="93" height="57" /><color alpha="0.7" /></element>
-		<element ref="but1" inputtag="IN.1" inputmask="0x02"><bounds x="1551" y="991" width="93" height="57" /><color alpha="0.7" /></element>
-        <element ref="but1" inputtag="IN.1" inputmask="0x01"><bounds x="1551" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
+        <element ref="but1" inputtag="IN.1" inputmask="0x01"><bounds x="1551" y="186"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x02"><bounds x="1551" y="320"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x04"><bounds x="1551" y="455"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x08"><bounds x="1551" y="588"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x10"><bounds x="1551" y="721"  width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x20"><bounds x="1551" y="856" width="93" height="57" /><color alpha="0.7" /></element>
+		<element ref="but1" inputtag="IN.1" inputmask="0x40"><bounds x="1551" y="991" width="93" height="57" /><color alpha="0.7" /></element>
+        <element ref="but1" inputtag="IN.1" inputmask="0x80"><bounds x="1551" y="1123" width="93" height="57" /><color alpha="0.7" /></element>
 
 	</view>	
 	

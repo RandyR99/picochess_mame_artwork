@@ -572,7 +572,7 @@
 		<element ref="king" inputtag="KEY.1" inputmask="0x02"><bounds x="685" y="1081"     width="84" height="59" /></element>
 		<element ref="black_alt" inputtag="KEY.2" inputmask="0x02"><bounds x="779" y="1081"  width="84" height="59" /></element>
 		<element ref="white" inputtag="KEY.3" inputmask="0x02"><bounds x="871" y="1081" width="84" height="59" /></element>
-		<element ref="book" inputtag="KEY.1" inputmask="0x04"><bounds x="222" y="1149"    width="84" height="59" /></element>
+		<element ref="book" inputtag="KEY.0" inputmask="0x04"><bounds x="222" y="1149"    width="84" height="59" /></element>
 		<element ref="pos" inputtag="KEY.1" inputmask="0x04"><bounds x="316" y="1149"     width="84" height="59" /></element>
 		<element ref="mem" inputtag="KEY.2" inputmask="0x04"><bounds x="408" y="1149"     width="84" height="59" /></element>
 		<element ref="info" inputtag="KEY.3" inputmask="0x04"><bounds x="499" y="1149"    width="84" height="59" /></element> 

@@ -452,7 +452,7 @@
 		<element ref="keys" inputtag="KEY.0" inputmask="0x20">    <!-- lev -->
 			<bounds x="79"  y="93" width="4" height="4" /><color alpha="0.25" />
 		</element>
-		<element ref="keys" inputtag="KEY.1" inputmask="0x80">    <!-- mem -->
+		<element ref="keys" inputtag="KEY.0" inputmask="0x80">    <!-- mem -->
 			<bounds x="84"  y="93" width="4" height="4" /><color alpha="0.25" />
 		</element>
 		<element ref="keys" inputtag="KEY.1" inputmask="0x02">    <!-- cl -->
@@ -829,7 +829,7 @@
 		<element ref="keys_e" inputtag="KEY.0" inputmask="0x20">    <!-- lev -->
 			<bounds x="816"  y="742" width="22" height="23" /><color alpha="0.25" />
 		</element>
-		<element ref="keys_e" inputtag="KEY.1" inputmask="0x80">    <!-- mem -->
+		<element ref="keys_e" inputtag="KEY.0" inputmask="0x80">    <!-- mem -->
 			<bounds x="843"  y="742" width="22" height="23" /><color alpha="0.25" />
 		</element>
 		<element ref="keys_e" inputtag="KEY.1" inputmask="0x02">    <!-- cl -->
