@@ -490,8 +490,6 @@
 		<image file="../pieces/chess2/bp.png" state="63" />
 		<image file="../pieces/chess2/bp.png" state="64" />
 	</element>
-	<group name="control_panel">
-	</group>
 	<element name="board_border">
 		<rect>
 			<color red="0.00" green="0.00" blue="0.00" />
@@ -990,9 +988,6 @@
 		<group ref="sb_ui_luis">
 			<bounds x="1" y="7" width="10" height="80" />
 		</group>
-		<group ref="control_panel">
-			<bounds x="110" y="20" width="0" height="0" />
-		</group>
 	</view>
 
 	<view name="2d artwork by luis">
@@ -1058,9 +1053,6 @@
 		</element>
 		<group ref="sb_ui_luis">
 			<bounds x="1" y="7" width="10" height="80" />
-		</group>
-		<group ref="control_panel">
-			<bounds x="110" y="20" width="0" height="0" />
 		</group>
 	</view>
 

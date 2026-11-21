@@ -23,10 +23,6 @@ license:cc0
 	    <image file="../leds/red4.png" state="0"/>
 </element>
 	
-	<element name="save" defstate="0">
-		<text state="0" string="power sw.: on" align="1"><color red="0.81" green="0.8" blue="0.79" /></text>
-		<text state="1" string="power sw.: save" align="1"><color red="0.81" green="0.8" blue="0.79" /></text>
-	</element>
 
 
 	
@@ -459,7 +455,6 @@ license:cc0
 
 		
 
-		<element ref="save" inputtag="IN.1" inputmask="0x02"><bounds x="87" y="87.1" width="14.5" height="2" /></element>
 		
 		
 	</view>
