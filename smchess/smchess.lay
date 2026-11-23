@@ -92,9 +92,6 @@ license:CC0
 
 	
 
-		<element ref="white"><bounds x="11.35" y="40.25" width="0.9" height="0.9" /></element>
-		<element ref="white"><bounds x="17.35" y="40.25" width="0.9" height="0.9" /></element>
-		<element ref="blackb"><bounds x="17.5" y="40.4" width="0.6" height="0.6" /></element>
 	</view>
 
 </mamelayout>

@@ -158,7 +158,7 @@ license:CC0
 	</view>                                                                                                     
                                                                                                                 
 	<view name="Internal Layout (Screen)">
-		<bounds left="1.5" right="98.7" top="2" bottom="111.7" />
+		<bounds left="0" right="101" top="0" bottom="114" />
 		<group ref="display"><bounds x="0" y="0" width="101" height="114" /></group>
 	</view>
 
