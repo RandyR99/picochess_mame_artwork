@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -90,7 +90,7 @@ license:cc0
 
 <!-- build screen -->
 
-	<view name="artwork by luis">
+	<view name="Artwork by Luis">
 
 <element ref="cxg">
 			<bounds x="0" y="0" width="671" height="1019" />
@@ -116,7 +116,7 @@ license:cc0
 		<element ref="hlc" inputtag="IN.2" inputmask="0x80"><bounds x="367" y="864" width="35" height="30" /><color alpha="0.2" /></element>
 	</view>
 
-	<view name="internal layout (screen)">
+	<view name="Internal Layout (Screen)">
 		<bounds x="0" y="0" width="100.34" height="107.4" />
 		<group ref="display"><bounds x="0" y="0" width="100.34" height="108" /></group>
 	</view>

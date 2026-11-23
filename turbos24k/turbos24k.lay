@@ -285,7 +285,7 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="0" right="1700" top="0" bottom="1040" />
+		<bounds left="160" right="1700" top="0" bottom="1040" />
 
 <repeat count="2">
 			<param name="i" start="1" increment="-1" />
@@ -302,10 +302,11 @@
 		</element>
 
 		<group ref="sb_board"><bounds x="280" y="118" width="793" height="790" /></group>
-		
+
+<!--		
    <element ref="sbui_png"><bounds x="50" y="100" width="120" height="840" /></element>
 		<group ref="sb_ui"><bounds x="50" y="100" width="120" height="840" /></group>
-
+-->
 	
        <!-- chessboard leds -->
 
@@ -418,7 +419,7 @@
  
  	</view>
 	
-	<view name="2D Artwork by Luis">
+	<view name="2D Artwork by Luis (SBI)">
 		<bounds left="0" right="1700" top="0" bottom="1040" />
 
 <repeat count="2">

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mamelayout version="2">
 
-<!-- note: no chesspieces simulation here, h+g mephisto/mephisto ii didn't have a built-in chessboard -->
+<!-- NOTE: no chesspieces simulation here, H+G Mephisto/Mephisto II didn't have a built-in chessboard -->
 
 <!-- define elements -->
 
@@ -10,11 +10,11 @@
 	</element>
 
 <element name="h1b" defstate="0">
-	<image file="../buttons/down_sel.png" state="1"/>
-	<image file="../buttons/down.png" state="0"/>
+	<image file="../misc/DOWN_SEL.png" state="1"/>
+	<image file="../misc/DOWN.png" state="0"/>
 	</element>
 
-<!-- foto: mythbuster -->
+<!-- foto: Mythbuster -->
 
 <!-- display -->
 
@@ -49,7 +49,7 @@
 	</group>
 
 
-<view name="artwork by luis">
+<view name="Artwork by Luis">
 
 <element ref="mephisto">
 			<bounds x="0" y="0" width="1600" height="2864" />

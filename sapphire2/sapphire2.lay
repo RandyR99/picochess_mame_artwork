@@ -84,7 +84,7 @@ license:CC0
 		<element ref="hlb" inputtag="IN.2" inputmask="0x20"><bounds x="271" y="304" width="44" height="40" /></element>
 		<element ref="hlb" inputtag="IN.2" inputmask="0x10"><bounds x="350" y="304" width="44" height="40" /></element>
 		<element ref="hlb" inputtag="IN.0" inputmask="0x20"><bounds x="432" y="304" width="44" height="40" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x01"><bounds x="512" y="304" width="48" height="48" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x01"><bounds x="511" y="305" width="49" height="46" /></element>
 
 		<element ref="hlb" inputtag="IN.2" inputmask="0x08"><bounds x="108" y="387" width="44" height="40" /></element>
 		<element ref="hlb" inputtag="IN.2" inputmask="0x04"><bounds x="188" y="387" width="44" height="40" /></element>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
-<!-- note: no chesspieces simulation here -->
+<!-- NOTE: no chesspieces simulation here -->
 
 <!-- define elements -->
 
@@ -14,7 +14,7 @@ license:cc0
 		<image file="int09.png" />
 	</element>
 	
-	<!-- basado en una foto de https://retroordenadoresorty.blogspot.com/p/novag-scisys-y-videomaster-ordenadores.html -->
+	<!-- based on a photo from https://retroordenadoresorty.blogspot.com/p/novag-scisys-y-videomaster-ordenadores.html -->
 
     <element name="start" defstate="0">
 	<image file="start_sel.png" state="1"/>
@@ -83,7 +83,7 @@ license:cc0
 
 	
 
-<view name="artwork by luis">
+<view name="Artwork by Luis">
 <bounds left="0" right="2037" top="0" bottom="1637" />
 
 	

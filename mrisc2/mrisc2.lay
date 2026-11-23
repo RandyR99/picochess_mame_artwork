@@ -34,7 +34,7 @@
 	</element>
 
 <element name="risc_ball">
-		<image file="risc_ball1.png" />
+		<image file="../mrisc/risc_ball1.png" />
 	</element>
 
 <element name="ball_3d">
@@ -46,12 +46,12 @@
 	</element>
 
 <element name="display_txt1">
-		<image file="16bit_display.png" />
+		<image file="../mrisc/16bit_display.png" />
 	</element>
 
 
 <element name="background_alt">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -492,7 +492,7 @@
 <!-- build screen -->
 
 <view name="Modular Artwork by Luis">
-<bounds left="100" right="1320" top="0" bottom="1212" />
+<bounds left="250" right="1320" top="0" bottom="1212" />
 
 
 	
@@ -509,9 +509,8 @@
 
 	<group ref="sb_board_m"><bounds x="398" y="128" width="781" height="790" /></group>
 
-	<element ref="sbui_png"><bounds x="130" y="120" width="120" height="840" /></element>
-		 <group ref="sb_ui"><bounds x="130" y="120" width="120" height="840" /></group>
-
+<!--
+-->
 			
 
 
@@ -582,7 +581,7 @@
 	</view>
 
 <view name="Modular 3D artwork by Luis">
-
+<bounds left="0" right="1700" top="0" bottom="1590" />
 		
 		<!-- Board -->
 		
@@ -616,10 +615,10 @@
 			<bounds x="725" y="1265" width="263" height="24" />
 		</element>
 
-
+<!--
 <element ref="sbui_png"><bounds x="1646" y="110" width="150" height="1050" /></element>
      <group ref="sb_ui"><bounds x="1646" y="110" width="150" height="1050" /></group>
-
+-->
 	
 
 		<!-- Pieces -->
@@ -1111,6 +1110,7 @@
 	</view>
 
 <view name="Munchen 3D artwork by Luis">
+<bounds left="0" right="1700" top="0" bottom="1400" />
 
 <group ref="panel_3d"><bounds x="771" y="1175" width="173" height="55.2" /></group>
 
@@ -1121,9 +1121,10 @@
 <!-- lcd display -->
 
 
-
+<!--
 <element ref="sbui_png"><bounds x="1630" y="90" width="140" height="980" /></element>
      <group ref="sb_ui"><bounds x="1630" y="90" width="140" height="980" /></group>		
+-->
 
 <!-- module leds -->
 

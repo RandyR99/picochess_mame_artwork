@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
-<!-- note: no chesspieces simulation here -->
+<!-- NOTE: no chesspieces simulation here -->
 
 <!-- define elements -->
 
@@ -20,7 +20,7 @@ license:cc0
 
 
 <element name="button" defstate="0">
-	<image file="../buttons/down.png" state="0"/>
+	<image file="../misc/DOWN.png" state="0"/>
 	<disk state="1">
 			<bounds x="0.12" y="0.12" width="0.76" height="0.76" />
 			<color red="1.0" green="1.0" blue="1.0" />
@@ -41,7 +41,7 @@ license:cc0
 
 
 <!-- build screen -->
-<view name="artwork by luis">
+<view name="Artwork by Luis">
 <bounds left="0" right="2558" top="0" bottom="2022" />
 	
 	<element ref="aci">

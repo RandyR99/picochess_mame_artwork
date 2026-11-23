@@ -14,10 +14,6 @@
 	</element>
 
 
-
-	
-	
-
 		<element name="ledg_v" defstate="0">
 	<image file="../leds/green_v.png" state="0"/>
 	<image file="../leds/green_v_sel.png" state="1"/>
@@ -282,17 +278,10 @@
 
 
 
-
-
-
-
-
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="0" right="1750" top="0" bottom="1176" />
-
-
+		<bounds left="150" right="1750" top="0" bottom="1176" />
 
 
 <element ref="scisys">
@@ -300,12 +289,11 @@
 		</element>
 
 <group ref="sb_board"><bounds x="340" y="152" width="884" height="881" /></group>
-		
+
+<!--		
 		<element ref="sbui_png"><bounds x="50" y="135" width="130" height="910" /></element>
 		     <group ref="sb_ui"><bounds x="50" y="135" width="130" height="910" /></group>
-
-
-
+-->
 
 		<!-- chessboard leds -->
 		<element name="0.0"  ref="ledg_v"><bounds x="294" y="203" width="25" height="11" /></element>
@@ -361,7 +349,7 @@
 	
 	</view>
 	
-	<view name="2D Artwork by Luis">
+	<view name="2D Artwork by Luis (SBI)">
 		<bounds left="0" right="1750" top="0" bottom="1176" />
 
 

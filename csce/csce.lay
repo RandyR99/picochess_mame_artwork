@@ -13,7 +13,7 @@
 
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -136,59 +136,59 @@
 	<image file="../leds/red7_sel.png" state="1"/>
 	</element>
 
-	<element name="tm" defstate="0">
+	<element name="TM" defstate="0">
 <image file="../csc/tm.png" state="1"/>
 	</element>
 
-	<element name="rv" defstate="0">
+	<element name="RV" defstate="0">
 <image file="../csc/rv.png" state="1"/>
 </element>
 
-	<element name="sp" defstate="0">
+	<element name="SP" defstate="0">
 <image file="../csc/sp.png" state="1"/>
 </element>
 
-	<element name="st" defstate="0">
+	<element name="ST" defstate="0">
 <image file="../csc/st.png" state="1"/>
 </element>
 
-	<element name="dm" defstate="0">
+	<element name="DM" defstate="0">
 <image file="../csc/dm.png" state="1"/>
 	</element>
 
-	<element name="lv" defstate="0">
+	<element name="LV" defstate="0">
 <image file="../csc/lv.png" state="1"/>
 	</element>
 
-	<element name="re" defstate="0">
+	<element name="RE" defstate="0">
 <image file="../csc/re.png" state="1"/>
 </element>
 	
-	<element name="cl" defstate="0">
+	<element name="CL" defstate="0">
 <image file="../csc/cl.png" state="1"/>
 </element>
 	
-	<element name="king" defstate="0">
+	<element name="KING" defstate="0">
 	<image file="../csc/king.png" state="1"/>
 </element>
 	
-	<element name="queen" defstate="0">
+	<element name="QUEEN" defstate="0">
 	<image file="../csc/queen.png" state="1"/>
 </element>
 	
-	<element name="bishop" defstate="0">
+	<element name="BISHOP" defstate="0">
 <image file="../csc/bishop.png" state="1"/>
 </element>
 
-	<element name="knight" defstate="0">
+	<element name="KNIGHT" defstate="0">
 <image file="../csc/knight.png" state="1"/>
 </element>
 
-	<element name="rook" defstate="0">
+	<element name="ROOK" defstate="0">
 <image file="../csc/rook.png" state="1"/>
 </element>
 
-	<element name="pawn" defstate="0">
+	<element name="PAWN" defstate="0">
 <image file="../csc/pawn.png" state="1"/>
 </element>
 
@@ -329,18 +329,18 @@
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.8" height="3.8" /></element>
+		    <element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="3.8" height="3.8" /><color alpha="0.25" /></element>
@@ -355,7 +355,7 @@
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="4.9" y="40" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="4.9" y="43.7" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -401,8 +401,8 @@
 
 <!-- build screen -->
 
-	<view name="3d artwork by luis">
-		<bounds left="-13" right="115" top="0" bottom="99.49" />
+	<view name="3D Artwork by Luis">
+		<bounds left="0" right="115" top="0" bottom="99.49" />
 		
 		<element ref="background">
 			<bounds x="-13" y="0" width="130" height="99.49" />
@@ -412,8 +412,10 @@
 			<bounds x="0" y="0" width="115.5" height="99.89" />
 		</element>
 
-<element ref="sbui_png"><bounds x="-11" y="2" width="12" height="96" /></element>
-		<group ref="sb_ui"><bounds x="-11" y="2" width="12" height="96" /></group>
+<!--
+<element ref="sbui_png"><bounds x="-11" y="8" width="12" height="84" /></element>
+	 <group ref="sb_ui"><bounds x="-11" y="8" width="12" height="84" /></group>
+-->
 
 <!-- chessboard leds -->
 
@@ -490,7 +492,7 @@
 		<element name="7.8" ref="led3"><bounds x="81.3" y="83.2" width="3.5" height="3.4" /></element>
 
 
-<!-- pieces -->
+<!-- Pieces -->
 
 <!-- fila8 -->
 		<element name="piece_a8" ref="piece3"><bounds x="19.7" y="21.7" width="11.9" height="11.9" /></element>
@@ -669,32 +671,32 @@
 
 		<element name="0.7" ref="led3"><bounds x="88.7" y="28.7" width="3.1" height="2.7" /></element>
 
-		<element ref="re" inputtag="IN.8" inputmask="0x80"><bounds x="88.4" y="33.4" width="5" height="4"  /></element>
-		<element ref="cl" inputtag="IN.8" inputmask="0x40"><bounds x="89.3" y="39" width="5" height="4"  /></element>
-		<element ref="king" inputtag="IN.8" inputmask="0x20"><bounds x="90.3" y="44.9" width="5" height="4"  /></element>
-		<element ref="queen" inputtag="IN.8" inputmask="0x10"><bounds x="91.2" y="51" width="5.2" height="4.2"  /></element>
-		<element ref="bishop" inputtag="IN.8" inputmask="0x08"><bounds x="92.4" y="57.5" width="5.2" height="4.2"  /></element>
-		<element ref="knight" inputtag="IN.8" inputmask="0x04"><bounds x="93.3" y="64.3" width="5.4" height="4.7"  /></element>
-		<element ref="rook" inputtag="IN.8" inputmask="0x02"><bounds x="94.4" y="71.5" width="5.7" height="4.7"  /></element>
-		<element ref="pawn" inputtag="IN.8" inputmask="0x01"><bounds x="95.3" y="78.8" width="6" height="5.2"  /></element>
+		<element ref="RE" inputtag="IN.8" inputmask="0x80"><bounds x="88.4" y="33.4" width="5" height="4"  /></element>
+		<element ref="CL" inputtag="IN.8" inputmask="0x40"><bounds x="89.3" y="39" width="5" height="4"  /></element>
+		<element ref="KING" inputtag="IN.8" inputmask="0x20"><bounds x="90.3" y="44.9" width="5" height="4"  /></element>
+		<element ref="QUEEN" inputtag="IN.8" inputmask="0x10"><bounds x="91.2" y="51" width="5.2" height="4.2"  /></element>
+		<element ref="BISHOP" inputtag="IN.8" inputmask="0x08"><bounds x="92.4" y="57.5" width="5.2" height="4.2"  /></element>
+		<element ref="KNIGHT" inputtag="IN.8" inputmask="0x04"><bounds x="93.3" y="64.3" width="5.4" height="4.7"  /></element>
+		<element ref="ROOK" inputtag="IN.8" inputmask="0x02"><bounds x="94.4" y="71.5" width="5.7" height="4.7"  /></element>
+		<element ref="PAWN" inputtag="IN.8" inputmask="0x01"><bounds x="95.3" y="78.8" width="6" height="5.2"  /></element>
 
 
 <!-- panel buttons -->
 
-		<element ref="tm"><bounds x="73" y="4.7" width="7.5" height="7.5" /></element>
-		<element ref="rv"><bounds x="77.4" y="4.7" width="7.5" height="7.5" /></element>
-		<element ref="sp"><bounds x="81.8" y="4.7" width="7.5" height="7.5" /></element>
-		<element ref="st"><bounds x="76.3" y="12" width="5.2" height="4.2" /></element>
-		<element ref="dm"><bounds x="77.4" y="7.7" width="7.5" height="7.5" /></element>
-		<element ref="lv"><bounds x="81.8" y="7.7" width="7.5" height="7.5" /></element>
+		<element ref="TM"><bounds x="73" y="4.7" width="7.5" height="7.5" /></element>
+		<element ref="RV"><bounds x="77.4" y="4.7" width="7.5" height="7.5" /></element>
+		<element ref="SP"><bounds x="81.8" y="4.7" width="7.5" height="7.5" /></element>
+		<element ref="ST"><bounds x="76.3" y="12" width="5.2" height="4.2" /></element>
+		<element ref="DM"><bounds x="77.4" y="7.7" width="7.5" height="7.5" /></element>
+		<element ref="LV"><bounds x="81.8" y="7.7" width="7.5" height="7.5" /></element>
 
 
-		<element ref="tm" inputtag="IN.2" inputmask="0x100"><bounds x="77.5" y="9.3" width="3.3" height="2.5" /></element>
-    <element ref="rv" inputtag="IN.1" inputmask="0x100"><bounds x="81.9" y="9.3" width="3.3" height="2.3" /></element>
-		<element ref="sp" inputtag="IN.0" inputmask="0x100"><bounds x="86.4" y="9.2" width="3.3" height="2.5" /></element>
-		<element ref="st" inputtag="IN.5" inputmask="0x100"><bounds x="77.2" y="13.9" width="3.2" height="2.1" /></element>
-		<element ref="dm" inputtag="IN.4" inputmask="0x100"><bounds x="81.6" y="13.8" width="3.1" height="2.3" /></element>
-		<element ref="lv" inputtag="IN.3" inputmask="0x100"><bounds x="86" y="13.8" width="3.1" height="2.1" /></element>
+		<element ref="TM" inputtag="IN.2" inputmask="0x100"><bounds x="77.5" y="9.3" width="3.3" height="2.5" /></element>
+    <element ref="RV" inputtag="IN.1" inputmask="0x100"><bounds x="81.9" y="9.3" width="3.3" height="2.3" /></element>
+		<element ref="SP" inputtag="IN.0" inputmask="0x100"><bounds x="86.4" y="9.2" width="3.3" height="2.5" /></element>
+		<element ref="ST" inputtag="IN.5" inputmask="0x100"><bounds x="77.2" y="13.9" width="3.2" height="2.1" /></element>
+		<element ref="DM" inputtag="IN.4" inputmask="0x100"><bounds x="81.6" y="13.8" width="3.1" height="2.3" /></element>
+		<element ref="LV" inputtag="IN.3" inputmask="0x100"><bounds x="86" y="13.8" width="3.1" height="2.1" /></element>
 
 
 
@@ -722,8 +724,8 @@
 
 	</view>
 
-<view name="artwork by luis">
-		<bounds left="-150" right="993" top="-5" bottom="1160" />
+<view name="Artwork by Luis">
+		<bounds left="-15" right="993" top="-5" bottom="1160" />
 
 <element ref="background">
 			<bounds x="-170" y="-10" width="1255" height="40" />
@@ -745,8 +747,10 @@
 			<bounds x="0" y="0" width="993" height="1164"/>
 		</element>
 
-<element ref="sbui_png"><bounds x="-135" y="25" width="140" height="1120" /></element>
-	<group ref="sb_ui"><bounds x="-135" y="25" width="140" height="1120" /></group>		
+<!--
+<element ref="sbui_png"><bounds x="-135" y="95" width="140" height="980" /></element>
+	 <group ref="sb_ui"><bounds x="-135" y="95" width="140" height="980" /></group>	
+-->
 	
 <group ref="sb_board"><bounds x="123" y="365" width="678" height="684" /></group>	
 
@@ -775,7 +779,7 @@
 
 	</view>	
 	
-	<view name="artwork 2d by luis">
+	<view name="Artwork 2D by Luis (SBI)">
 		<bounds left="-150" right="993" top="-5" bottom="1160" />
 
 <element ref="background">
@@ -798,8 +802,8 @@
 			<bounds x="0" y="0" width="993" height="1164"/>
 		</element>
 
-<element ref="sbui_png"><bounds x="-135" y="25" width="140" height="1120" /></element>
-	<group ref="sb_ui"><bounds x="-135" y="25" width="140" height="1120" /></group>		
+<element ref="sbui_png"><bounds x="-135" y="95" width="140" height="980" /></element>
+	 <group ref="sb_ui"><bounds x="-135" y="95" width="140" height="980" /></group>		
 	
 <group ref="sb_board_2m"><bounds x="123" y="365" width="678" height="684" /></group>	
 

@@ -52,31 +52,31 @@ license:CC0
 
 
 <element name="piece3" defstate="0">
-    <image file="../pieces/pnovag_plastic/wp.png" state="1"/>
-    <image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
-    <image file="../pieces/pnovag_plastic/wb.png" state="3"/>
-    <image file="../pieces/pnovag_plastic/wr.png" state="4"/>
-    <image file="../pieces/pnovag_plastic/wq.png" state="5"/>
-    <image file="../pieces/pnovag_plastic/wk.png" state="6"/>
-    <image file="../pieces/pnovag_plastic/bp.png" state="7"/>
-    <image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
-    <image file="../pieces/pnovag_plastic/bb.png" state="9"/>
-    <image file="../pieces/pnovag_plastic/br.png" state="10"/>
-    <image file="../pieces/pnovag_plastic/bq.png" state="11"/>
-    <image file="../pieces/pnovag_plastic/bk.png" state="12"/>
-    <image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
-    <image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
-    <image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
-    <image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
-    <image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
-    <image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
-    <image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
-    <image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
-    <image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
-    <image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
-    <image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
-    <image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
-</element>
+		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
+		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
+	</element>
 
 <element name="piece_2m" defstate="0">
 		<image file="../pieces/chess2/wp.png" state="1"/>
@@ -285,7 +285,7 @@ license:CC0
 
 
 <view name="Artwork by Luis">
-		<bounds left="0" right="2068" top="0" bottom="1753" />
+		<bounds left="260" right="2068" top="0" bottom="1753" />
 
 <!-- lcd panels (actually they're above eachother instead of side by side, but this is much better) -->
 		
@@ -299,8 +299,8 @@ license:CC0
 			<bounds x="0" y="0" width="2068" height="1753"/>
 		</element>
 
-<element ref="sbui_png"><bounds x="50" y="100" width="200" height="1400" /></element>
-	 <group ref="sb_ui"><bounds x="50" y="100" width="200" height="1400" /></group>		
+<!--
+-->
 	
 <group ref="sb_board"><bounds x="409" y="141" width="1236" height="1240" /></group>	
 
@@ -352,7 +352,7 @@ license:CC0
 
 	</view>	
 	
-<view name="2D Artwork by Luis">
+<view name="2D Artwork by Luis (SBI)">
 		<bounds left="0" right="2068" top="0" bottom="1753" />
 
 <!-- lcd panels (actually they're above eachother instead of side by side, but this is much better) -->

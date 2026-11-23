@@ -7,12 +7,12 @@
 		<image file="../conc/escorter3a.png" />
 	</element>
 
-<element name="ambassador">
-		<image file="../conc/ambassador_2d2.png" />
+<element name="monarch">
+		<image file="../conc/monarch1.png" />
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -52,30 +52,30 @@
 	</element>
 
 <element name="piece_e" defstate="0">
-		<image file="../pieces/psphinx/wp.png" state="1"/>
-		<image file="../pieces/psphinx/wkn.png" state="2"/>
-		<image file="../pieces/psphinx/wb.png" state="3"/>
-		<image file="../pieces/psphinx/wr.png" state="4"/>
-		<image file="../pieces/psphinx/wq.png" state="5"/>
-		<image file="../pieces/psphinx/wk.png" state="6"/>
-		<image file="../pieces/psphinx/bp.png" state="7"/>
-		<image file="../pieces/psphinx/bkn.png" state="8"/>
-		<image file="../pieces/psphinx/bb.png" state="9"/>
-		<image file="../pieces/psphinx/br.png" state="10"/>
-		<image file="../pieces/psphinx/bq.png" state="11"/>
-		<image file="../pieces/psphinx/bk.png" state="12"/>
-		<image file="../pieces/psphinx/wp_sel.png" state="13"/>
-		<image file="../pieces/psphinx/wkn_sel.png" state="14"/>
-		<image file="../pieces/psphinx/wb_sel.png" state="15"/>
-		<image file="../pieces/psphinx/wr_sel.png" state="16"/>
-		<image file="../pieces/psphinx/wq_sel.png" state="17"/>
-		<image file="../pieces/psphinx/wk_sel.png" state="18"/>
-		<image file="../pieces/psphinx/bp_sel.png" state="19"/>
-		<image file="../pieces/psphinx/bkn_sel.png" state="20"/>
-		<image file="../pieces/psphinx/bb_sel.png" state="21"/>
-		<image file="../pieces/psphinx/br_sel.png" state="22"/>
-		<image file="../pieces/psphinx/bq_sel.png" state="23"/>
-		<image file="../pieces/psphinx/bk_sel.png" state="24"/>
+		<image file="../pieces/pmephisto2/wp.png" state="1"/>
+		<image file="../pieces/pmephisto2/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto2/wb.png" state="3"/>
+		<image file="../pieces/pmephisto2/wr.png" state="4"/>
+		<image file="../pieces/pmephisto2/wq.png" state="5"/>
+		<image file="../pieces/pmephisto2/wk.png" state="6"/>
+		<image file="../pieces/pmephisto2/bp.png" state="7"/>
+		<image file="../pieces/pmephisto2/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto2/bb.png" state="9"/>
+		<image file="../pieces/pmephisto2/br.png" state="10"/>
+		<image file="../pieces/pmephisto2/bq.png" state="11"/>
+		<image file="../pieces/pmephisto2/bk.png" state="12"/>
+		<image file="../pieces/pmephisto2/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto2/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto2/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto2/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto2/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto2/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto2/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto2/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto2/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto2/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto2/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto2/bk_sel.png" state="24"/>
 	</element>
 
 <element name="piece_a" defstate="0">
@@ -182,20 +182,20 @@
 	</group>
 
 
-<group name="sb_board_a">
+<group name="sb_board_m">
 		<bounds x="0" y="0" width="80" height="80" />
 
 		
 
 		<!-- leds -->
 		<repeat count="8">
-			<param name="y" start="8.1" increment="10.1" />
+			<param name="y" start="8.2" increment="10" />
 			<param name="i1" start="7" increment="-1" />
 
 			<repeat count="8">
-				<param name="x" start="1.0" increment="9.85" />
+				<param name="x" start="0.3" increment="10.11" />
 				<param name="i2" start="8" increment="-1" />
-				<element name="~i2~.~i1~" ref="led1"><bounds x="~x~" y="~y~" width="1.2" height="1.2" /></element>
+				<element name="~i2~.~i1~" ref="led1"><bounds x="~x~" y="~y~" width="1.20" height="1.20" /></element>
 			</repeat>
 		</repeat>
 
@@ -222,7 +222,7 @@
 			<element name="piece_e~i~" ref="piece_a"><bounds x="37.5" y="~y~" width="15" height="15" /></element>
 			<element name="piece_f~i~" ref="piece_a"><bounds x="47.5" y="~y~" width="15" height="15" /></element>
 			<element name="piece_g~i~" ref="piece_a"><bounds x="57.5" y="~y~" width="15" height="15" /></element>
-			<element name="piece_h~i~" ref="piece_a"><bounds x="67" y="~y~" width="15" height="15" /></element>
+			<element name="piece_h~i~" ref="piece_a"><bounds x="67.5" y="~y~" width="15" height="15" /></element>
 		</repeat>
 	</group>
 
@@ -277,13 +277,13 @@
 
 			<!-- leds -->
 		<repeat count="8">
-			<param name="y" start="8.1" increment="10.1" />
+			<param name="y" start="8.2" increment="10" />
 			<param name="i1" start="7" increment="-1" />
 
 			<repeat count="8">
-				<param name="x" start="1.0" increment="9.85" />
+				<param name="x" start="0.3" increment="10.11" />
 				<param name="i2" start="8" increment="-1" />
-				<element name="~i2~.~i1~" ref="led1"><bounds x="~x~" y="~y~" width="1.2" height="1.2" /></element>
+				<element name="~i2~.~i1~" ref="led1"><bounds x="~x~" y="~y~" width="1.20" height="1.20" /></element>
 			</repeat>
 		</repeat>
 
@@ -338,8 +338,8 @@
 		<rect><color red="0.81" green="0.8" blue="0.79" /></rect>
 		<text string="CLEAR"><color red="0.01" green="0.01" blue="0.01" /></text>
 	</element>
-	<element name="text_uis1"><text string="SPAWN"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_uih1"><text string="HAND::"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uis1"><text string="SPAWN:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uih1"><text string="HAND:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 	<element name="text_uih2">
 		<rect><color red="0.81" green="0.8" blue="0.79" /></rect>
 		<text string="REMOVE"><color red="0.01" green="0.01" blue="0.01" /></text>
@@ -385,18 +385,18 @@
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.6" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.6" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.6" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.6" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.6" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.6" y="43.7" width="3.8" height="3.8" /></element>
+	    <element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="4" height="4" /><color alpha="0.25" /></element>
@@ -411,7 +411,7 @@
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -433,11 +433,147 @@
 
 <!-- build screen -->
 
-	<view name="escort artwork by luis">
-<bounds left="-13" right="102" top="-2" bottom="99" />
+	<view name="Monarch Artwork by Luis">
+<bounds left="-40" right="1050" top="-15" bottom="1026" />
 
 <element ref="background">
-			<bounds x="-13" y="-5" width="115" height="104" />
+			<bounds x="-40" y="-15" width="1250" height="1041" />
+		</element>
+
+<element ref="monarch">
+			<bounds x="0" y="0" width="1015" height="1016" />
+		</element>
+
+
+
+
+
+		<group ref="sb_board_m"><bounds x="105" y="110" width="805" height="807" /></group>
+		
+<!--
+<element ref="sbui_a_png"><bounds x="-140" y="105" width="120" height="840" /></element>
+       <group ref="sb_ui"><bounds x="-140" y="105" width="120" height="840" /></group>
+-->
+
+	<!-- chessboard coords -->
+
+		
+
+	<!-- side leds/buttons -->
+
+		<element name="9.7" ref="led2"><bounds x="76" y="133" width="12" height="12" /></element>
+		<element name="9.6" ref="led2"><bounds x="76" y="233" width="12" height="12" /></element>
+		<element name="9.5" ref="led2"><bounds x="76" y="333" width="12" height="12" /></element>
+		<element name="9.4" ref="led2"><bounds x="76" y="433" width="12" height="12" /></element>
+		<element name="9.3" ref="led2"><bounds x="77" y="533" width="12" height="12" /></element>
+		<element name="9.2" ref="led2"><bounds x="77" y="633" width="12" height="12" /></element>
+		<element name="9.1" ref="led2"><bounds x="77" y="733" width="12" height="12" /></element>
+		<element name="9.0" ref="led2"><bounds x="77" y="833" width="12" height="12" /></element>
+
+		<element name="0.7" ref="led2"><bounds x="924" y="133" width="12" height="12" /></element>
+		<element name="0.6" ref="led2"><bounds x="924" y="233" width="12" height="12" /></element>
+		<element name="0.5" ref="led2"><bounds x="924" y="333" width="12" height="12" /></element>
+		<element name="0.4" ref="led2"><bounds x="924" y="433" width="12" height="12" /></element>
+		<element name="0.3" ref="led2"><bounds x="924" y="533" width="12" height="12" /></element>
+		<element name="0.2" ref="led2"><bounds x="924" y="633" width="12" height="12" /></element>
+		<element name="0.1" ref="led2"><bounds x="924" y="733" width="12" height="12" /></element>
+		<element name="0.0" ref="led2"><bounds x="924" y="833" width="12" height="12" /></element>
+
+		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="78" y="185" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="78" y="287" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="78" y="388" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="78" y="488" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="78" y="588" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="78" y="688" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="78" y="788" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="78" y="890" width="9" height="9" /></element>
+
+		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="925" y="183" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="925" y="284" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="925" y="385" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="925" y="485" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="925" y="585" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="925" y="685" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="925" y="785" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="925" y="885" width="9" height="9" /></element>
+
+	
+
+
+	</view>
+	
+	<view name="Monarch 2D Artwork by Luis (SBI)">
+<bounds left="-160" right="1025" top="-15" bottom="1026" />
+
+<element ref="background">
+			<bounds x="-160" y="-15" width="1215" height="1041" />
+		</element>
+
+<element ref="monarch">
+			<bounds x="0" y="0" width="1015" height="1016" />
+		</element>
+
+
+
+
+
+		<group ref="sb_board_2ma"><bounds x="105" y="110" width="805" height="807" /></group>
+		
+
+<element ref="sbui_a_png"><bounds x="-140" y="105" width="120" height="840" /></element>
+       <group ref="sb_ui"><bounds x="-140" y="105" width="120" height="840" /></group>
+
+
+	<!-- chessboard coords -->
+
+		
+
+	<!-- side leds/buttons -->
+
+<!-- side leds/buttons -->
+
+		<element name="9.7" ref="led2"><bounds x="76" y="133" width="12" height="12" /></element>
+		<element name="9.6" ref="led2"><bounds x="76" y="233" width="12" height="12" /></element>
+		<element name="9.5" ref="led2"><bounds x="76" y="333" width="12" height="12" /></element>
+		<element name="9.4" ref="led2"><bounds x="76" y="433" width="12" height="12" /></element>
+		<element name="9.3" ref="led2"><bounds x="77" y="533" width="12" height="12" /></element>
+		<element name="9.2" ref="led2"><bounds x="77" y="633" width="12" height="12" /></element>
+		<element name="9.1" ref="led2"><bounds x="77" y="733" width="12" height="12" /></element>
+		<element name="9.0" ref="led2"><bounds x="77" y="833" width="12" height="12" /></element>
+
+		<element name="0.7" ref="led2"><bounds x="924" y="133" width="12" height="12" /></element>
+		<element name="0.6" ref="led2"><bounds x="924" y="233" width="12" height="12" /></element>
+		<element name="0.5" ref="led2"><bounds x="924" y="333" width="12" height="12" /></element>
+		<element name="0.4" ref="led2"><bounds x="924" y="433" width="12" height="12" /></element>
+		<element name="0.3" ref="led2"><bounds x="924" y="533" width="12" height="12" /></element>
+		<element name="0.2" ref="led2"><bounds x="924" y="633" width="12" height="12" /></element>
+		<element name="0.1" ref="led2"><bounds x="924" y="733" width="12" height="12" /></element>
+		<element name="0.0" ref="led2"><bounds x="924" y="833" width="12" height="12" /></element>
+
+		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="78" y="185" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="78" y="287" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="78" y="388" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="78" y="488" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="78" y="588" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="78" y="688" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="78" y="788" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="78" y="890" width="9" height="9" /></element>
+
+		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="925" y="183" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="925" y="284" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="925" y="385" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="925" y="485" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="925" y="585" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="925" y="685" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="925" y="785" width="9" height="9" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="925" y="885" width="9" height="9" /></element>
+</view>
+
+	<view name="Escorter Artwork by Luis">
+<bounds left="-40" right="1050" top="-15" bottom="1026" />
+
+<element ref="background">
+			<bounds x="-40" y="-15" width="1250" height="1041" />
 		</element>
 
 <element ref="conchess">
@@ -450,12 +586,10 @@
 
 		<group ref="sb_board"><bounds x="13.2" y="12.2" width="74" height="74" /></group>
 		
-
-<element ref="sbui_png"><bounds x="-11.5" y="1" width="12" height="96" /></element>
-
-<group ref="sb_ui"><bounds x="-11.5" y="1" width="12" height="96" /></group>
-
-
+<!--
+<element ref="sbui_a_png"><bounds x="-140" y="105" width="120" height="840" /></element>
+       <group ref="sb_ui"><bounds x="-140" y="105" width="120" height="840" /></group>
+-->
 	<!-- chessboard coords -->
 
 		
@@ -503,7 +637,7 @@
 
 	</view>
 	
-	<view name="escort 2d artwork by luis">
+	<view name="Escorter 2D Artwork by Luis (SBI)">
 <bounds left="-13" right="102" top="-2" bottom="99" />
 
 <element ref="background">
@@ -521,9 +655,8 @@
 		<group ref="sb_board_2m"><bounds x="13.2" y="12.2" width="74" height="74" /></group>
 		
 
-<element ref="sbui_png"><bounds x="-11.5" y="1" width="12" height="96" /></element>
-
-<group ref="sb_ui"><bounds x="-11.5" y="1" width="12" height="96" /></group>
+<element ref="sbui_png"><bounds x="-11.5" y="7" width="12" height="84" /></element>
+     <group ref="sb_ui"><bounds x="-11.5" y="7" width="12" height="84" /></group>
 
 
 	<!-- chessboard coords -->
@@ -567,143 +700,6 @@
 		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="89" y="63.8" width="1.2" height="1.2" /></element>
 		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="89" y="72.9" width="1.2" height="1.2" /></element>
 		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="89" y="82" width="1.2" height="1.2" /></element>
-
-	</view>
-	
-	<view name="ambassador artwork by luis">
-<bounds left="-100" right="1500" top="-15" bottom="1370" />
-
-<element ref="background">
-			<bounds x="-100" y="-15" width="1600" height="1385" />
-		</element>
-
-<element ref="ambassador">
-			<bounds x="0" y="0" width="1600" height="1384" />
-		</element>
-
-
-
-
-
-		<group ref="sb_board_a"><bounds x="274" y="168" width="1056" height="1032" /></group>
-		
-
-<element ref="sbui_a_png"><bounds x="-50" y="45" width="160" height="1280" /></element>
-
-<group ref="sb_ui"><bounds x="-50" y="45" width="160" height="1280" /></group>
-
-
-	<!-- chessboard coords -->
-
-		
-
-	<!-- side leds/buttons -->
-
-		<element name="9.7" ref="led2"><bounds x="249" y="201" width="15" height="15" /></element>
-		<element name="9.6" ref="led2"><bounds x="249" y="329" width="15" height="15" /></element>
-		<element name="9.5" ref="led2"><bounds x="249" y="460" width="15" height="15" /></element>
-		<element name="9.4" ref="led2"><bounds x="249" y="589" width="15" height="15" /></element>
-		<element name="9.3" ref="led2"><bounds x="249" y="719" width="15" height="15" /></element>
-		<element name="9.2" ref="led2"><bounds x="249" y="850" width="15" height="15" /></element>
-		<element name="9.1" ref="led2"><bounds x="249" y="979" width="15" height="15" /></element>
-		<element name="9.0" ref="led2"><bounds x="249" y="1108" width="15" height="15" /></element>
-
-		<element name="0.7" ref="led2"><bounds x="1338" y="201" width="15" height="15" /></element>
-		<element name="0.6" ref="led2"><bounds x="1338" y="329" width="15" height="15" /></element>
-		<element name="0.5" ref="led2"><bounds x="1338" y="460" width="15" height="15" /></element>
-		<element name="0.4" ref="led2"><bounds x="1338" y="589" width="15" height="15" /></element>
-		<element name="0.3" ref="led2"><bounds x="1338" y="719" width="15" height="15" /></element>
-		<element name="0.2" ref="led2"><bounds x="1338" y="850" width="15" height="15" /></element>
-		<element name="0.1" ref="led2"><bounds x="1338" y="979" width="15" height="15" /></element>
-		<element name="0.0" ref="led2"><bounds x="1338" y="1108" width="15" height="15" /></element>
-
-		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="249" y="249" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="249" y="379" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="249" y="511" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="249" y="640" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="249" y="770" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="249" y="900" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="249" y="1030" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="249" y="1160" width="12" height="12" /></element>
-
-		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="1339" y="249" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="1339" y="379" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="1339" y="511" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="1339" y="640" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="1339" y="770" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="1339" y="900" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="1339" y="1030" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="1339" y="1160" width="12" height="12" /></element>
-
-	
-
-
-	</view>
-	
-	<view name="ambassador 2d artwork by luis">
-<bounds left="-100" right="1500" top="-15" bottom="1370" />
-
-<element ref="background">
-			<bounds x="-100" y="-15" width="1600" height="1385" />
-		</element>
-
-<element ref="ambassador">
-			<bounds x="0" y="0" width="1600" height="1384" />
-		</element>
-
-
-
-
-
-		<group ref="sb_board_2ma"><bounds x="274" y="168" width="1056" height="1032" /></group>
-		
-
-<element ref="sbui_a_png"><bounds x="-50" y="45" width="160" height="1280" /></element>
-
-<group ref="sb_ui"><bounds x="-50" y="45" width="160" height="1280" /></group>
-
-
-	<!-- chessboard coords -->
-
-		
-
-	<!-- side leds/buttons -->
-
-		<element name="9.7" ref="led2"><bounds x="249" y="201" width="15" height="15" /></element>
-		<element name="9.6" ref="led2"><bounds x="249" y="329" width="15" height="15" /></element>
-		<element name="9.5" ref="led2"><bounds x="249" y="460" width="15" height="15" /></element>
-		<element name="9.4" ref="led2"><bounds x="249" y="589" width="15" height="15" /></element>
-		<element name="9.3" ref="led2"><bounds x="249" y="719" width="15" height="15" /></element>
-		<element name="9.2" ref="led2"><bounds x="249" y="850" width="15" height="15" /></element>
-		<element name="9.1" ref="led2"><bounds x="249" y="979" width="15" height="15" /></element>
-		<element name="9.0" ref="led2"><bounds x="249" y="1108" width="15" height="15" /></element>
-
-		<element name="0.7" ref="led2"><bounds x="1338" y="201" width="15" height="15" /></element>
-		<element name="0.6" ref="led2"><bounds x="1338" y="329" width="15" height="15" /></element>
-		<element name="0.5" ref="led2"><bounds x="1338" y="460" width="15" height="15" /></element>
-		<element name="0.4" ref="led2"><bounds x="1338" y="589" width="15" height="15" /></element>
-		<element name="0.3" ref="led2"><bounds x="1338" y="719" width="15" height="15" /></element>
-		<element name="0.2" ref="led2"><bounds x="1338" y="850" width="15" height="15" /></element>
-		<element name="0.1" ref="led2"><bounds x="1338" y="979" width="15" height="15" /></element>
-		<element name="0.0" ref="led2"><bounds x="1338" y="1108" width="15" height="15" /></element>
-
-		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="249" y="249" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="249" y="379" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="249" y="511" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="249" y="640" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="249" y="770" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="249" y="900" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="249" y="1030" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="249" y="1160" width="12" height="12" /></element>
-
-		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="1339" y="249" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="1339" y="379" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="1339" y="511" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="1339" y="640" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="1339" y="770" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="1339" y="900" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="1339" y="1030" width="12" height="12" /></element>
-		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="1339" y="1160" width="12" height="12" /></element>
 
 	
 

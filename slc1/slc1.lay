@@ -3,7 +3,7 @@
 
 <!-- define elements -->
 
-<!-- artwork by volodymyr -->
+<!-- Artwork by Volodymyr -->
 
 
 	<element name="slc1">
@@ -12,53 +12,53 @@
 
 	<element name="piece" defstate="0">
 		<image file="../pieces/chess2/bp.png" state="1"/>
-		<image file="../pieces/chess2/bkn.png" state="2"/>
+		<image file="../pieces/chess2/bn.png" state="2"/>
 		<image file="../pieces/chess2/bb.png" state="3"/>
 		<image file="../pieces/chess2/br.png" state="4"/>
 		<image file="../pieces/chess2/bq.png" state="5"/>
 		<image file="../pieces/chess2/bk.png" state="6"/>
 		<image file="../pieces/chess2/wp.png" state="7"/>
-		<image file="../pieces/chess2/wkn.png" state="8"/>
+		<image file="../pieces/chess2/wn.png" state="8"/>
 		<image file="../pieces/chess2/wb.png" state="9"/>
 		<image file="../pieces/chess2/wr.png" state="10"/>
 		<image file="../pieces/chess2/wq.png" state="11"/>
 		<image file="../pieces/chess2/wk.png" state="12"/>
 		<image file="../pieces/chess2/bp_sel.png" state="13"/>
-		<image file="../pieces/chess2/bkn_sel.png" state="14"/>
+		<image file="../pieces/chess2/bn_sel.png" state="14"/>
 		<image file="../pieces/chess2/bb_sel.png" state="15"/>
 		<image file="../pieces/chess2/br_sel.png" state="16"/>
 		<image file="../pieces/chess2/bq_sel.png" state="17"/>
 		<image file="../pieces/chess2/bk_sel.png" state="18"/>
 		<image file="../pieces/chess2/wp_sel.png" state="19"/>
-		<image file="../pieces/chess2/wkn_sel.png" state="20"/>
+		<image file="../pieces/chess2/wn_sel.png" state="20"/>
 		<image file="../pieces/chess2/wb_sel.png" state="21"/>
 		<image file="../pieces/chess2/wr_sel.png" state="22"/>
 		<image file="../pieces/chess2/wq_sel.png" state="23"/>
 		<image file="../pieces/chess2/wk_sel.png" state="24"/>
 	</element>
 
-	<element name="CLEARboard"><image file="CLEARboard.png" /></element>
-	<element name="startpos">  <image file="startpos.png" />  </element>
-	<element name="turnboard"> <image file="turnboard.png" /> </element>
+	<element name="clearboard"><image file="../pieces/pmephisto1/clearboard.png" /></element>
+	<element name="startpos">  <image file="../pieces/pmephisto1/startpos.png" />  </element>
+	<element name="turnboard"> <image file="../pieces/pmephisto1/turnboard.png" /> </element>
 
 	<element name="sensor" defstate="0"></element>
 
-	<element name="btc" defstate="0">
+	<element name="btC" defstate="0">
 	<image file="red_c.png" state="0"/>
 	<image file="red_c_sel.png" state="1"/>
 	</element>
 
-	<element name="bta" defstate="0">
+	<element name="btA" defstate="0">
 	<image file="grey_a.png" state="0"/>
 	<image file="grey_a_sel.png" state="1"/>
 	</element>
 
-	<element name="btst" defstate="0">
+	<element name="btSt" defstate="0">
 	<image file="grey_st.png" state="0"/>
 	<image file="grey_st_sel.png" state="1"/>
 	</element>
 
-	<element name="btz" defstate="0">
+	<element name="btZ" defstate="0">
 	<image file="grey_z.png" state="0"/>
 	<image file="grey_z_sel.png" state="1"/>
 	</element>
@@ -103,7 +103,7 @@
 	<image file="blue_8_sel.png" state="1"/>
 	</element>
 
-<element name="RESET" defstate="0">
+<element name="reset" defstate="0">
 	<image file="reset.png" state="0"/>
 	<image file="reset_sel.png" state="1"/>
 	</element>
@@ -151,7 +151,7 @@
 
 <!-- build screen -->
 
-	<view name="artwork by luis">
+	<view name="Artwork by Luis">
 
 		<bounds left="0" right="0" top="-3.2" bottom="534" />
 		
@@ -167,10 +167,10 @@
 			<bounds x="220" y="147" width="20" height="20" />
 		</element>
 
-		<element ref="btc" inputtag="IN.2" inputmask="0x01"><bounds x="25"  y="271" width="55" height="44" /></element>
-		<element ref="bta" inputtag="IN.2" inputmask="0x02"><bounds x="91"  y="271" width="55" height="44" /></element>
-	   <element ref="btst" inputtag="IN.2" inputmask="0x04"><bounds x="157" y="271" width="55" height="44" /></element>
-		<element ref="btz" inputtag="IN.2" inputmask="0x08"><bounds x="223" y="271" width="55" height="44" /></element>
+		<element ref="btC" inputtag="IN.2" inputmask="0x01"><bounds x="25"  y="271" width="55" height="44" /></element>
+		<element ref="btA" inputtag="IN.2" inputmask="0x02"><bounds x="91"  y="271" width="55" height="44" /></element>
+	   <element ref="btSt" inputtag="IN.2" inputmask="0x04"><bounds x="157" y="271" width="55" height="44" /></element>
+		<element ref="btZ" inputtag="IN.2" inputmask="0x08"><bounds x="223" y="271" width="55" height="44" /></element>
 
 		<element ref="bt8" inputtag="IN.1" inputmask="0x08"><bounds x="25"  y="362" width="55" height="44" /></element>
 		<element ref="bt7" inputtag="IN.1" inputmask="0x04"><bounds x="91"  y="362" width="55" height="44" /></element>
@@ -182,7 +182,7 @@
 		<element ref="bt2" inputtag="IN.0" inputmask="0x04"><bounds x="157" y="447" width="55" height="44" /></element>
 		<element ref="bt1" inputtag="IN.0" inputmask="0x08"><bounds x="223" y="447" width="55" height="44" /></element>
 
-<element ref="RESET" inputtag="RESET" inputmask="0x01"><bounds x="223" y="179" width="55" height="44" /></element>
+<element ref="reset" inputtag="RESET" inputmask="0x01"><bounds x="223" y="179" width="55" height="44" /></element>
 
 <group ref="display"><bounds x="46" y="69" width="209" height="40" /></group>
 

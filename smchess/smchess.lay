@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -45,64 +45,21 @@ license:cc0
 
 <!-- lcd -->
 
-	<element name="lcd_bg"><rect><color red="0.61" green="0.60" blue="0.54" /></rect></element>
+	<element name="lcdm"><rect><color red="0.61" green="0.60" blue="0.54" /></rect></element>
 
-	<element name="digit" defstate="0">
-		<led7seg><color red="0.2" green="0.16" blue="0.16" /></led7seg>
-	</element>
-	<element name="seg0" defstate="0">
-		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
-		<text state="1" string="computing"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="computing"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
-	<element name="seg1" defstate="0">
-		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
-		<text state="1" string="find position" align="2"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="find position" align="2"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
-	<element name="seg2" defstate="0">
-		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
-		<text state="1" string="x"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="x"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
-	<element name="seg3" defstate="0">
-		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
-		<text state="1" string="+"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="+"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
-	<element name="seg4" defstate="0">
-		<rect><color red="0.61" green="0.60" blue="0.54" /></rect>
-		<text state="1" string="i lose" align="1"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="i lose" align="1"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
-
-	<group name="lcd">
-		<bounds x="18" y="23.5" width="74" height="27.5" />
-		<element ref="lcd_bg"><bounds x="18" y="23.5" width="74" height="27.5" /></element>
-
-		<!-- note: it also has a lightning symbol for low-battery at the left, but is unused -->
-		<element name="1.7" ref="seg2"><bounds x="50.1" y="31.4" width="10" height="15" /></element>
-		<element name="3.7" ref="seg3"><bounds x="81.1" y="28.1" width="10" height="16" /></element>
-		<element name="0.7" ref="seg1"><bounds x="22" y="44.3" width="28" height="4" /></element>
-		<element name="2.7" ref="seg4"><bounds x="71" y="44.3" width="13" height="4" /></element>
-		<element name="computing" ref="seg0"><bounds x="40" y="25.7" width="30" height="4" /></element>
-
-		<element name="digit0" ref="digit"><bounds x="29.5" y="30" width="10" height="14" /></element>
-		<element name="digit1" ref="digit"><bounds x="40" y="30" width="10" height="14" /></element>
-		<element name="digit2" ref="digit"><bounds x="60" y="30" width="10" height="14" /></element>
-		<element name="digit3" ref="digit"><bounds x="70.5" y="30" width="10" height="14" /></element>
-	</group>
+	
 
 
 <!-- build screen -->
 
-<view name="artwork by luis">
+<view name="Artwork by Luis">
 
 <element ref="scisys">
 			<bounds x="0" y="0" width="1055" height="1600" />
 		</element>
-		<group ref="lcd"><bounds x="254" y="371" width="550" height="180" /></group>
-
+		
+		<screen index="0"><bounds x="254" y="371" width="550" height="180" /></screen>
+        <element ref="lcdm" blend="multiply"><bounds x="250" y="365" width="560" height="189" /></element>
 
 	
 

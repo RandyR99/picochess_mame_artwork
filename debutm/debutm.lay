@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -14,7 +14,7 @@ license:cc0
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="txt_eng">
@@ -236,8 +236,8 @@ license:cc0
 		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
 		<text string="CLEAR"><color red="0.01" green="0.01" blue="0.01" /></text>
 	</element>
-	<element name="text_uis1"><text string="SPAWN"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_uih1"><text string="HAND::"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uis1"><text string="SPAWN:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uih1"><text string="HAND:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 	<element name="text_uih2">
 		<rect><color red="0.84" green="0.75" blue="0.50" /></rect>
 		<text string="REMOVE"><color red="0.01" green="0.01" blue="0.01" /></text>
@@ -280,18 +280,18 @@ license:cc0
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.6" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.6" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.6" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.6" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.6" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.6" y="43.7" width="3.8" height="3.8" /></element>
+	    <element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="4" height="4" /><color alpha="0.25" /></element>
@@ -306,7 +306,7 @@ license:cc0
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -330,11 +330,11 @@ license:cc0
 
 <!-- build screen -->
 
-	<view name="artwork by luis (russian)"> <!-- original -->
-		<bounds left="-90" right="552" top="-3.5" bottom="631" />
+	<view name="Artwork by Luis (Russian)"> <!-- original -->
+		<bounds left="-20" right="558" top="-3.5" bottom="631" />
 		
 	<element ref="background">
-			<bounds x="-90" y="-3.5" width="642" height="634.5" />
+			<bounds x="-20" y="-3.5" width="642" height="634.5" />
 		</element>
 
 		<element ref="debutm">
@@ -345,11 +345,10 @@ license:cc0
 			<bounds x="208" y="525" width="300" height="36" />
 		</element>
 
-<element ref="sbui_png">
-			<bounds x="-80" y="10" width="75" height="600" />
-		</element>
-<group ref="sb_ui"><bounds x="-80" y="10" width="75" height="600" /></group>
-
+<!--
+<element ref="sbui_png"><bounds x="-80" y="42" width="75" height="525" /></element>
+     <group ref="sb_ui"><bounds x="-80" y="42" width="75" height="525" /></group>
+-->
 
 <group ref="sb_board"><bounds x="58" y="59" width="434" height="439" /></group>	
 		
@@ -394,11 +393,11 @@ license:cc0
 
 </view>
 
-<view name="artwork by luis (english)"> 
-		<bounds left="-90" right="552" top="-3.5" bottom="631" />
+<view name="Artwork by Luis (English)"> 
+		<bounds left="-20" right="562" top="-3.5" bottom="631" />
 		
 	<element ref="background">
-			<bounds x="-90" y="-3.5" width="642" height="634.5" />
+			<bounds x="-20" y="-3.5" width="642" height="634.5" />
 		</element>
 
 		<element ref="debutm">
@@ -409,11 +408,10 @@ license:cc0
 			<bounds x="206" y="525" width="303" height="36" />
 		</element>
 
-<element ref="sbui_png">
-			<bounds x="-80" y="10" width="75" height="600" />
-		</element>
-<group ref="sb_ui"><bounds x="-80" y="10" width="75" height="600" /></group>
-
+<!--
+<element ref="sbui_png"><bounds x="-80" y="42" width="75" height="525" /></element>
+     <group ref="sb_ui"><bounds x="-80" y="42" width="75" height="525" /></group>
+-->
 
 <group ref="sb_board"><bounds x="58" y="59" width="434" height="439" /></group>	
 		
@@ -458,7 +456,7 @@ license:cc0
 
 </view>
 
-<view name="2d artwork by luis (russian)"> <!-- original --> 
+<view name="2D Artwork by Luis (Russian) (SBI)"> <!-- original --> 
 		<bounds left="-90" right="552" top="-3.5" bottom="631" />
 		
 	<element ref="background">
@@ -473,10 +471,8 @@ license:cc0
 			<bounds x="208" y="525" width="300" height="36" />
 		</element>
 
-<element ref="sbui_png">
-			<bounds x="-80" y="10" width="75" height="600" />
-		</element>
-<group ref="sb_ui"><bounds x="-80" y="10" width="75" height="600" /></group>
+<element ref="sbui_png"><bounds x="-80" y="42" width="75" height="525" /></element>
+     <group ref="sb_ui"><bounds x="-80" y="42" width="75" height="525" /></group>
 
 
 <group ref="sb_board_2m"><bounds x="58" y="59" width="434" height="439" /></group>	
@@ -526,7 +522,7 @@ license:cc0
 		
 	</view>
 
-	<view name="2d artwork by luis (english)"> 
+	<view name="2D Artwork by Luis (English) (SBI)"> 
 		<bounds left="-90" right="552" top="-3.5" bottom="631" />
 		
 	<element ref="background">
@@ -541,10 +537,8 @@ license:cc0
 			<bounds x="206" y="525" width="303" height="36" />
 		</element>
 
-<element ref="sbui_png">
-			<bounds x="-80" y="10" width="75" height="600" />
-		</element>
-<group ref="sb_ui"><bounds x="-80" y="10" width="75" height="600" /></group>
+<element ref="sbui_png"><bounds x="-80" y="42" width="75" height="525" /></element>
+     <group ref="sb_ui"><bounds x="-80" y="42" width="75" height="525" /></group>
 
 
 <group ref="sb_board_2m"><bounds x="58" y="59" width="434" height="439" /></group>	

@@ -68,7 +68,7 @@ license:CC0
 		<bounds left="0" right="688" top="0" bottom="1145" />
 
 	
-<screen index="0"><bounds x="171" y="98" width="324" height="105" /></screen>
+<screen index="0"><bounds x="169" y="98" width="327" height="107" /></screen>
 <element ref="lcdm" blend="multiply"><bounds x="150" y="85" width="360" height="130" /></element> 
 
 
@@ -79,35 +79,34 @@ license:CC0
 
 
 
-		<element ref="hlb" inputtag="IN.2" inputmask="0x01"><bounds x="105" y="310" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.2" inputmask="0x02"><bounds x="188" y="310" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.2" inputmask="0x04"><bounds x="271" y="310" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.2" inputmask="0x08"><bounds x="350" y="310" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x20"><bounds x="432" y="310" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x80"><bounds x="514" y="306" width="45" height="44" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x01"><bounds x="108" y="306" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x02"><bounds x="188" y="306" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x04"><bounds x="271" y="306" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x08"><bounds x="350" y="306" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x20"><bounds x="432" y="306" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x80"><bounds x="512" y="306" width="46" height="43" /></element>
 
-		<element ref="hlb" inputtag="IN.2" inputmask="0x10"><bounds x="105" y="390" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.2" inputmask="0x20"><bounds x="188" y="390" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.2" inputmask="0x40"><bounds x="271" y="390" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.2" inputmask="0x80"><bounds x="350" y="390" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x10"><bounds x="432" y="390" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x08"><bounds x="512" y="390" width="44" height="42" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x10"><bounds x="108" y="387" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x20"><bounds x="188" y="387" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x40"><bounds x="271" y="387" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.2" inputmask="0x80"><bounds x="350" y="387" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x10"><bounds x="432" y="387" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x08"><bounds x="514" y="387" width="44" height="40" /></element>
 
-		<element ref="hlb" inputtag="IN.1" inputmask="0x80"><bounds x="146" y="468" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.1" inputmask="0x40"><bounds x="230" y="468" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.1" inputmask="0x20"><bounds x="310" y="468" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x02"><bounds x="390" y="468" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x04"><bounds x="473" y="468" width="44" height="42" /></element>
+		<element ref="hlb" inputtag="IN.1" inputmask="0x80"><bounds x="149" y="468" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.1" inputmask="0x40"><bounds x="230" y="468" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.1" inputmask="0x20"><bounds x="312" y="468" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x02"><bounds x="393" y="468" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x04"><bounds x="475" y="468" width="44" height="40" /></element>
 																						           
-		<element ref="hlb" inputtag="IN.1" inputmask="0x10"><bounds x="187" y="550" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.1" inputmask="0x08"><bounds x="268" y="550" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.1" inputmask="0x04"><bounds x="351" y="550" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x40"><bounds x="433" y="550" width="44" height="42" /></element>
-																						           
-		<element ref="hlb" inputtag="IN.1" inputmask="0x01"><bounds x="229" y="632" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.1" inputmask="0x02"><bounds x="309" y="632" width="44" height="42" /></element>
-		<element ref="hlb" inputtag="IN.0" inputmask="0x01"><bounds x="391" y="632" width="44" height="42" /></element>
-	</view>	
-	
+		<element ref="hlb" inputtag="IN.1" inputmask="0x10"><bounds x="190" y="550" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.1" inputmask="0x08"><bounds x="270" y="550" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.1" inputmask="0x04"><bounds x="353" y="550" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x40"><bounds x="433" y="550" width="44" height="40" /></element>
+																	 
+		<element ref="hlb" inputtag="IN.1" inputmask="0x01"><bounds x="229" y="632" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.1" inputmask="0x02"><bounds x="309" y="632" width="44" height="40" /></element>
+		<element ref="hlb" inputtag="IN.0" inputmask="0x01"><bounds x="391" y="632" width="44" height="40" /></element>
+	</view>
 	
 </mamelayout>

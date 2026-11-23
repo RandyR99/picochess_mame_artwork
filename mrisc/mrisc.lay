@@ -51,7 +51,7 @@
 
 
 <element name="background_alt">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -119,7 +119,7 @@
 </element>
 
 <element name="piece_v" defstate="0">
-		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+	<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
 		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
 		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
 		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
@@ -208,7 +208,7 @@
 <element name="piece_x" defstate="0">
 		<image file="../pieces/pmephisto5/wp.png" state="1"/>
 		<image file="../pieces/pmephisto5/wkn.png" state="2"/>
-    <image file="../pieces/pmephisto5/wb.png" state="3"/>
+        <image file="../pieces/pmephisto5/wb.png" state="3"/>
 		<image file="../pieces/pmephisto5/wr.png" state="4"/>
 		<image file="../pieces/pmephisto5/wq.png" state="5"/>
 		<image file="../pieces/pmephisto5/wk.png" state="6"/>
@@ -492,7 +492,7 @@
 <!-- build screen -->
 
 <view name="Modular Artwork by Luis">
-<bounds left="100" right="1320" top="0" bottom="1212" />
+<bounds left="250" right="1320" top="0" bottom="1212" />
 
 
 	
@@ -509,9 +509,8 @@
 
 	<group ref="sb_board_m"><bounds x="398" y="128" width="781" height="790" /></group>
 
-	<element ref="sbui_png"><bounds x="130" y="120" width="120" height="840" /></element>
-		 <group ref="sb_ui"><bounds x="130" y="120" width="120" height="840" /></group>
-
+<!--
+-->
 			
 
 
@@ -536,7 +535,7 @@
 	</view>
 
 
-<view name="2D Modular Artwork by Luis">
+<view name="2D Modular Artwork by Luis (SBI)">
 <bounds left="100" right="1320" top="0" bottom="1212" />
 
 
@@ -581,7 +580,7 @@
 	</view>
 
 <view name="Modular 3D artwork by Luis">
-
+<bounds left="0" right="1700" top="0" bottom="1590" />
 		
 		<!-- Board -->
 		
@@ -592,10 +591,6 @@
 		<element ref="modular_3d">
 			<bounds x="0" y="0" width="1800" height="1590" />
 		</element>
-
-
-		
-
 
 <element ref="logo_3d">
 			<bounds x="67" y="1223" width="524" height="258" />
@@ -609,16 +604,14 @@
 			<bounds x="1275" y="1435" width="111" height="26" />
 		</element>
 
-
-
 <element ref="display_txt">
 			<bounds x="725" y="1265" width="263" height="24" />
 		</element>
 
-
+<!--
 <element ref="sbui_png"><bounds x="1646" y="110" width="150" height="1050" /></element>
      <group ref="sb_ui"><bounds x="1646" y="110" width="150" height="1050" /></group>
-
+-->
 	
 
 		<!-- Pieces -->
@@ -1110,6 +1103,7 @@
 	</view>
 
 <view name="Munchen 3D artwork by Luis">
+<bounds left="0" right="1700" top="0" bottom="1400" />
 
 <group ref="panel_3d"><bounds x="771" y="1175" width="173" height="55.2" /></group>
 
@@ -1120,10 +1114,11 @@
 <!-- lcd display -->
 
 
-
+<!--
 <element ref="sbui_png"><bounds x="1630" y="90" width="140" height="980" /></element>
      <group ref="sb_ui"><bounds x="1630" y="90" width="140" height="980" /></group>		
 
+-->
 <!-- module leds -->
 
                 <element name="led100" ref="led_x"><bounds x="1036" y="1148" width="12" height="12" /></element>

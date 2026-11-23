@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
-<!-- note: no chesspieces simulation here -->
+<!-- NOTE: no chesspieces simulation here -->
 
 <!-- define elements -->
 
 <element name="scisys">
-		<image file="inter2c.png" />
+		<image file="INTER2d.png" />
 	</element>
 
-<!-- foto: tibono -->
+<!-- foto: Tibono -->
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 
@@ -40,45 +40,30 @@ license:cc0
 
 
 
-<!-- digits -->
 
-	<element name="lcd_bg"><rect><color red="0.894" green="0.875" blue="0.788" /></rect></element>
 
-	<element name="digit" defstate="0">
-		<led7seg><color red="0.2" green="0.16" blue="0.16" /></led7seg>
-	</element>
-	<element name="seg0" defstate="0">
-		<rect><color red="0.894" green="0.875" blue="0.788" /></rect>
-		<text state="1" string="computing"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="computing"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
+	<element name="lcdm"><rect><color red="0.61" green="0.60" blue="0.54" /></rect></element>
 
-	<group name="digits">
-		<bounds x="18" y="23.5" width="74" height="27.5" />
-		<element ref="lcd_bg"><bounds x="18" y="23.5" width="74" height="27.5" /></element>
-		<element name="computing" ref="seg0"><bounds x="41" y="27.7" width="30" height="4" /></element>
-		<element name="digit3" ref="digit"><bounds x="29.5" y="32" width="10" height="14" /></element>
-		<element name="digit2" ref="digit"><bounds x="40" y="32" width="10" height="14" /></element>
-		<element name="digit1" ref="digit"><bounds x="60" y="32" width="10" height="14" /></element>
-		<element name="digit0" ref="digit"><bounds x="70.5" y="32" width="10" height="14" /></element>
-	</group>
+
+
+
 
 <!-- build screen -->
 
-	<view name="artwork by luis">
+	<view name="Artwork by Luis">
 <bounds left="-10" right="772" top="-10" bottom="770" />
 
 <element ref="background">
 			<bounds x="-10" y="-10" width="782" height="780" />
 		</element>
 
+<screen index="0"><bounds x="277" y="49" width="180" height="45" /></screen>
+<element ref="lcdm" blend="multiply"><bounds x="269" y="45" width="190" height="54" /></element>
+
 
 <element ref="scisys">
 			<bounds x="0" y="0" width="762" height="760" />
 		</element>
-
-
-<group ref="digits"><bounds x="277" y="49" width="180" height="45" /></group>
 
 		
 		

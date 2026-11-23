@@ -361,7 +361,7 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="0" right="1800" top="0" bottom="1100" />
+		<bounds left="160" right="1800" top="0" bottom="1100" />
 
 
 
@@ -371,10 +371,11 @@
 		</element>
 
 <group ref="sb_board"><bounds x="360" y="176" width="755" height="752" /></group>
-		
+
+<!--		
 		<element ref="sbui_png"><bounds x="50" y="135" width="120" height="840" /></element>
 		     <group ref="sb_ui"><bounds x="50" y="135" width="120" height="840" /></group>
-
+-->
 
 
 
@@ -471,7 +472,7 @@
 	
 	</view>
 	
-	<view name="2D Artwork by Luis">
+	<view name="2D Artwork by Luis (SBI)">
 		<bounds left="0" right="1800" top="0" bottom="1100" />
 
 

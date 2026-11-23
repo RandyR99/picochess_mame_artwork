@@ -305,7 +305,7 @@ license:CC0-1.0
 
 
 	<view name="Artwork by Luis">
-		<bounds left="50" right="1500" top="0" bottom="882" />
+		<bounds left="160" right="1500" top="0" bottom="882" />
 
 <screen index="0"><bounds x="1255.5" y="375" width="149" height="62.38" /></screen>
 <element ref="lcdm" blend="multiply"><bounds x="1250" y="372" width="160" height="75" /></element>
@@ -318,10 +318,11 @@ license:CC0-1.0
 
                   
 		<group ref="sb_board"><bounds x="411" y="108" width="615" height="627" /></group>
-		
+
+<!--		
 		<element ref="sbui_png"><bounds x="66" y="60" width="110" height="770" /></element>
 		     <group ref="sb_ui"><bounds x="66" y="60" width="110" height="770" /></group>
-
+-->
 		
         <element ref="button1" inputtag="IN.0" inputmask="0x80"><bounds x="1113" y="369" width="39.6" height="18" /></element>
 		<element ref="button1" inputtag="IN.0" inputmask="0x40"><bounds x="1113" y="401" width="39.6" height="18" /></element>
@@ -349,7 +350,7 @@ license:CC0-1.0
 	</view>
 	
 
-<view name="2D Artwork by Luis">
+<view name="2D Artwork by Luis (SBI)">
 		<bounds left="50" right="1500" top="0" bottom="882" />
 
 <screen index="0"><bounds x="1255.5" y="375" width="149" height="62.38" /></screen>

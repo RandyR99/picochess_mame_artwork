@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -18,7 +18,7 @@ license:cc0
 </element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -217,8 +217,8 @@ license:cc0
 		<rect><color red="0.81" green="0.8" blue="0.79" /></rect>
 		<text string="CLEAR"><color red="0.01" green="0.01" blue="0.01" /></text>
 	</element>
-	<element name="text_uis1"><text string="SPAWN"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_uih1"><text string="HAND::"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uis1"><text string="SPAWN:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uih1"><text string="HAND:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 	<element name="text_uih2">
 		<rect><color red="0.81" green="0.8" blue="0.79" /></rect>
 		<text string="REMOVE"><color red="0.01" green="0.01" blue="0.01" /></text>
@@ -264,18 +264,18 @@ license:cc0
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.6" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.6" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.6" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.6" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.6" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.6" y="43.7" width="3.8" height="3.8" /></element>
+		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="4" height="4" /><color alpha="0.25" /></element>
@@ -290,7 +290,7 @@ license:cc0
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -311,8 +311,8 @@ license:cc0
 
 
 <!-- build screen -->
-<view name="artwork by luis">
-<bounds left="-100" right="1024" top="-5" bottom="900" />
+<view name="Artwork by Luis">
+<bounds left="-7" right="1024" top="-5" bottom="900" />
 
 <element ref="background">
 			<bounds x="-100" y="-5" width="1124" height="910" />
@@ -328,10 +328,10 @@ license:cc0
 	
 	<group ref="sb_board_m"><bounds x="99" y="330" width="463" height="463" /></group>
 	
-	
-	<element ref="sbui_png"><bounds x="-90" y="60" width="100" height="800" /></element>
-	<group ref="sb_ui"><bounds x="-90" y="60" width="100" height="800" /></group>
-	
+	<!--
+	<element ref="sbui_png"><bounds x="-90" y="110" width="100" height="700" /></element>
+	     <group ref="sb_ui"><bounds x="-90" y="110" width="100" height="700" /></group>
+	-->
 	
 	<element name="digit0" ref="digit"><bounds x="677" y="358" width="27" height="37" /></element>
 		<element name="digit1" ref="digit"><bounds x="728" y="358" width="27" height="37" /></element>
@@ -379,7 +379,7 @@ license:cc0
 
 </view>
 
-	<view name="2d artwork by luis">
+	<view name="2D Artwork by Luis (SBI)">
 <bounds left="-100" right="1024" top="-5" bottom="900" />
 
 <element ref="background">
@@ -393,8 +393,8 @@ license:cc0
 	<group ref="sb_board_2m"><bounds x="99" y="330" width="463" height="463" /></group>
 	
 	
-	<element ref="sbui_png"><bounds x="-90" y="60" width="100" height="800" /></element>
-	<group ref="sb_ui"><bounds x="-90" y="60" width="100" height="800" /></group>
+<element ref="sbui_png"><bounds x="-90" y="110" width="100" height="700" /></element>
+	     <group ref="sb_ui"><bounds x="-90" y="110" width="100" height="700" /></group>
 	
 	
 	<element name="digit0" ref="digit"><bounds x="677" y="358" width="27" height="37" /></element>

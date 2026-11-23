@@ -15,7 +15,7 @@
 
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -375,7 +375,7 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="50" right="1800" top="0" bottom="1240" />
+		<bounds left="235" right="1800" top="0" bottom="1240" />
 
 
 
@@ -386,17 +386,11 @@
 			<bounds x="0" y="0" width="1800" height="1240" />
 		</element>
 
-
-
-
-		
-
 		<group ref="sb_board"><bounds x="452" y="193" width="1135" height="742" /></group>
 
-<element ref="sbui_png"><bounds x="85" y="75" width="150" height="1050" /></element>
-     <group ref="sb_ui"><bounds x="85" y="75" width="150" height="1050" /></group>
+<!--
 
-		
+-->		
 		
 
 		<element ref="button" inputtag="IN.0" inputmask="0x80"><bounds x="939"  y="1058" width="33" height="33" /></element>
@@ -436,7 +430,7 @@
 		
 	</view>
 	
-	<view name="2D Artwork by Luis">
+	<view name="2D Artwork by Luis SBI)">
 		<bounds left="50" right="1800" top="0" bottom="1240" />
 
 

@@ -8,7 +8,7 @@
 	</element>
 	
 	<element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 	
 	<element name="sbui_png">
@@ -307,11 +307,11 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="-15.3" right="101.5" top="-15.4" bottom="87" />
+		<bounds left="-6" right="101.5" top="-17.4" bottom="87" />
 		
 		
 			<element ref="background">
-			<bounds x="-15.3" y="-15.4" width="119" height="104" />
+			<bounds x="-6" y="-17.4" width="119" height="114" />
 		</element>
 		
 		<element ref="fex68k">
@@ -321,8 +321,10 @@
 
 <group ref="sb_board"><bounds x="7.7" y="6" width="73.6" height="73.6" /></group>
 
+<!--
 <element ref="sbui_png"><bounds x="-13" y="-1" width="11" height="77" /></element>
 	 <group ref="sb_ui"><bounds x="-13" y="-1" width="11" height="77" /></group>
+-->
 
 	<!-- chessboard leds -->
 
@@ -434,7 +436,7 @@
 		<element ref="clear"   inputtag="IN.0" inputmask="0x80"><bounds x="84.7" y="69.076" width="8.6" height="4.312" /></element>
      </view>
 	 
-	<view name="2D Artwork by Luis">
+	<view name="2D Artwork by Luis (SBI)">
 		<bounds left="-15.3" right="101.5" top="-15.4" bottom="87" />
 		
 		

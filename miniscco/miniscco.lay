@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -8,10 +8,10 @@ license:cc0
 		<image file="mini_o1.png" />
 	</element>
 
-<!-- foto blitzchess -->
+<!-- foto Blitzchess -->
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -272,18 +272,18 @@ license:cc0
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.6" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.6" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.6" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.6" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.6" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.6" y="43.7" width="3.8" height="3.8" /></element>
+		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="4" height="4" /><color alpha="0.25" /></element>
@@ -298,7 +298,7 @@ license:cc0
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -319,25 +319,21 @@ license:cc0
 
 <!-- build screen -->
 
-<view name="artwork by luis">
-<bounds left="-150" right="1024" top="-10" bottom="1546" />
+<view name="Artwork by Luis">
+<bounds left="0" right="1024" top="-10" bottom="1546" />
 
         <element ref="background">
-			<bounds x="-150" y="-10" width="1300" height="1556" />
+			<bounds x="0" y="-10" width="1300" height="1556" />
 		</element>
 
 		<element ref="fidelity">
 			<bounds x="0" y="0" width="1024" height="1546" />
 		</element>
-
-	
-
-
-
 	
 		<group ref="sb_board"><bounds x="134" y="530" width="706" height="690" /></group>
-		<element ref="sbui_png"><bounds x="-130" y="360" width="130" height="1040" /></element>
-		<group ref="sb_ui"><bounds x="-130" y="360" width="130" height="1040" /></group>
+		
+		<!--
+        -->
 
 	<!-- chessboard leds -->
 
@@ -379,7 +375,7 @@ license:cc0
 
 	</view>
 	
-	<view name="artwork 2d by luis">
+	<view name="Artwork 2D by Luis (SBI">
 <bounds left="-150" right="1024" top="-10" bottom="1546" />
 
         <element ref="background">
@@ -396,8 +392,8 @@ license:cc0
 
 	
 		<group ref="sb_board_2m"><bounds x="134" y="530" width="706" height="690" /></group>
-		<element ref="sbui_png"><bounds x="-130" y="360" width="130" height="1040" /></element>
-		<group ref="sb_ui"><bounds x="-130" y="360" width="130" height="1040" /></group>
+<element ref="sbui_png"><bounds x="-130" y="425" width="130" height="910" /></element>
+	 <group ref="sb_ui"><bounds x="-130" y="425" width="130" height="910" /></group>
 
 	<!-- chessboard leds -->
 

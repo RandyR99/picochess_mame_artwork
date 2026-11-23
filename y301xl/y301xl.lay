@@ -228,27 +228,6 @@
 	</group>
 
 
-<group name="display">
-<element name="digit1" ref="digit">
-			<bounds x="3" y="90" width="5.66" height="8.5" />
-		</element>
-		<element name="digit0" ref="digit">
-			<bounds x="8.66" y="90" width="5.66" height="8.5" />
-		</element>
-		<element name="digit2" ref="digit">
-			<bounds x="17.16" y="90" width="5.66" height="8.5" />
-		</element>
-		<element name="digit3" ref="digit">
-			<bounds x="22.82" y="90" width="5.66" height="8.5" />
-		</element>
-
-		<element name="0.7" ref="led2">
-			<bounds x="15.58" y="91.5" width="0.85" height="0.85" />
-		</element>
-		<element name="1.7" ref="led2">
-			<bounds x="15.13" y="96.15" width="0.85" height="0.85" />
-		</element>
-</group>
 
 
 <!-- lcd -->
@@ -263,35 +242,13 @@
 		<rect state="0"><color red="0.49412" green="0.51765" blue="0.51765" /></rect>
 	</element>
 
-	<group name="lcd1">
-		<element ref="lcd_bg"><bounds x="31.70" y="90" width="21" height="8" /></element>
 
-		<element name="digit3" ref="digit"><bounds x="32.75" y="91" width="4" height="6" /></element>
-		<element name="digit2" ref="digit"><bounds x="37.75" y="91" width="4" height="6" /></element>
-		<element name="digit1" ref="digit"><bounds x="42.75" y="91" width="4" height="6" /></element>
-		<element name="digit0" ref="digit"><bounds x="47.75" y="91" width="4" height="6" /></element>
-
-		<element name="lcd7" ref="ldot"><bounds x="42.13" y="92.55" width="0.6" height="0.6" /></element>
-		<element name="lcd7" ref="ldot"><bounds x="41.97" y="94.75" width="0.6" height="0.6" /></element>
-	</group>
-
-	<group name="lcd2">
-		<element ref="lcd_bg"><bounds x="31.75" y="90" width="21" height="8" /></element>
-
-		<element name="digit7" ref="digit"><bounds x="32.75" y="91" width="4" height="6" /></element>
-		<element name="digit6" ref="digit"><bounds x="37.75" y="91" width="4" height="6" /></element>
-		<element name="digit5" ref="digit"><bounds x="42.75" y="91" width="4" height="6" /></element>
-		<element name="digit4" ref="digit"><bounds x="47.75" y="91" width="4" height="6" /></element>
-
-		<element name="lcd39" ref="ldot"><bounds x="42.13" y="92.55" width="0.6" height="0.6" /></element>
-		<element name="lcd39" ref="ldot"><bounds x="41.97" y="94.75" width="0.6" height="0.6" /></element>
-	</group>
 
 
 <!-- build screen -->
 
 <view name="Artwork by Luis">
-<bounds left="100" right="3200" top="0" bottom="3130" />
+<bounds left="455" right="3200" top="0" bottom="3130" />
 
 <element ref="yeno">
 			<bounds x="0" y="0" width="3200" height="3130" />
@@ -299,10 +256,10 @@
 
 <group ref="sb_board"><bounds x="767" y="830" width="1914" height="1904" /></group>
 
-
+<!--
 <element ref="sbui_png"><bounds x="190" y="720" width="300" height="2100" /></element>
 	 <group ref="sb_ui"><bounds x="190" y="720" width="300" height="2100" /></group>
-
+-->
 
 	    <element name="1.7" ref="led"><bounds x="725" y="945"  width="35" height="35" /></element>
 		<element name="1.6" ref="led"><bounds x="725" y="1184" width="35" height="35" /></element>
@@ -346,7 +303,7 @@
 
 </view>
 
-<view name="2D Artwork by Luis">
+<view name="2D Artwork by Luis (SBI)">
 <bounds left="100" right="3200" top="0" bottom="3130" />
 
 <element ref="yeno">

@@ -5,7 +5,7 @@
 	</element>
 
 <element name="background_alt">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -177,18 +177,18 @@
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.6" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.6" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.6" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.6" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.6" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.6" y="43.7" width="3.8" height="3.8" /></element>
+	    <element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="4" height="4" /><color alpha="0.25" /></element>
@@ -203,7 +203,7 @@
 		<element ref="hlub" inputtag="board:board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -340,25 +340,15 @@
 	</group>
 
 
-	<view name="artwork by volodymyr/luis">
-<bounds left="-45" right="441" top="-4" bottom="312" />
+	<view name="Artwork by Volodymyr\Luis">
+<bounds left="-5" right="441" top="-4" bottom="312" />
 
 <element ref="background_alt">
-			<bounds x="-45" y="-4" width="490" height="50" />
+			<bounds x="-45" y="-4" width="490" height="316" />
 		</element>
 
-<element ref="background_alt">
-			<bounds x="-45" y="270" width="490" height="50" />
-		</element>
-
-
-<element ref="background_alt">
-			<bounds x="-45" y="-4" width="100" height="316" />
-		</element>
-
-<element ref="background_alt">
-			<bounds x="410" y="-4" width="40" height="316" />
-		</element>
+	<element ref="lcd_bg"><bounds x="321" y="200" width="75" height="15.6" /></element>
+<group ref="panel1"><bounds x="323" y="200.2" width="70" height="15.4" /></group>
 
 		<element ref="milano">
 			<bounds x="0" y="0" width="436" height="307" />
@@ -367,65 +357,53 @@
 
 <group ref="sb_board"><bounds x="36" y="33.3" width="235.9" height="235.3" /></group>
 
-<element ref="sbui_png"><bounds x="-40" y="8" width="35" height="280" /></element>
-		<group ref="sb_ui"><bounds x="-40" y="8" width="35" height="280" /></group>
-
-
-		<element ref="lcd_bg"><bounds x="321" y="200" width="75" height="15.6" /></element>
-<group ref="panel1"><bounds x="323" y="200.2" width="70" height="15.4" /></group>
+<!--
+-->
 
 
 
 
 
-<!-- buttons -->
 
-<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- up -->
+
+<!-- Buttons -->
+
+<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- UP -->
 			<bounds x="316.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- down -->
+		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- DOWN -->
 			<bounds x="337.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- left -->
+		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- LEFT -->
 			<bounds x="358.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- right -->	
+		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- RIGHT -->	
 			<bounds x="379.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- NEW GAME -->
 			<bounds x="316.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- NEW GAME -->
 			<bounds x="337.5" y="268" width="19" height="9" />
 		</element>
 		<element ref="keys" inputtag="KEY" inputmask="0x02">     <!-- CLEAR -->
 			<bounds x="358.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- enter -->
+		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- ENTER -->
 			<bounds x="379.5" y="268" width="19" height="9" />
 		</element>
 
 	</view>
 
-<view name="2d artwork by volodymyr/luis">
+<view name="2D Artwork by Volodymyr\Luis (SBI)">
 <bounds left="-45" right="441" top="-4" bottom="312" />
 
 <element ref="background_alt">
-			<bounds x="-45" y="-4" width="490" height="50" />
+			<bounds x="-45" y="-4" width="490" height="316" />
 		</element>
 
-<element ref="background_alt">
-			<bounds x="-45" y="270" width="490" height="50" />
-		</element>
-
-
-<element ref="background_alt">
-			<bounds x="-45" y="-4" width="100" height="316" />
-		</element>
-
-<element ref="background_alt">
-			<bounds x="410" y="-4" width="40" height="316" />
-		</element>
+	<element ref="lcd_bg"><bounds x="321" y="200" width="75" height="15.6" /></element>
+<group ref="panel1"><bounds x="323" y="200.2" width="70" height="15.4" /></group>
 
 		<element ref="milano">
 			<bounds x="0" y="0" width="436" height="307" />
@@ -434,8 +412,8 @@
 
 <group ref="sb_board_2m"><bounds x="36" y="33.3" width="235.9" height="235.3" /></group>
 
-<element ref="sbui_png"><bounds x="-40" y="8" width="35" height="280" /></element>
-		<group ref="sb_ui"><bounds x="-40" y="8" width="35" height="280" /></group>
+<element ref="sbui_png"><bounds x="-40" y="25" width="35" height="245" /></element>
+	 <group ref="sb_ui"><bounds x="-40" y="25" width="35" height="245" /></group>
 
 
 		<element ref="lcd_bg"><bounds x="321" y="200" width="75" height="15.6" /></element>
@@ -445,30 +423,30 @@
 
 
 
-<!-- buttons -->
+<!-- Buttons -->
 
-<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- up -->
+<element ref="keys" inputtag="KEY" inputmask="0x04">     <!-- UP -->
 			<bounds x="316.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- down -->
+		<element ref="keys" inputtag="KEY" inputmask="0x08">     <!-- DOWN -->
 			<bounds x="337.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- left -->
+		<element ref="keys" inputtag="KEY" inputmask="0x10">     <!-- LEFT -->
 			<bounds x="358.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- right -->	
+		<element ref="keys" inputtag="KEY" inputmask="0x20">     <!-- RIGHT -->	
 			<bounds x="379.5" y="248.5" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x40">     <!-- NEW GAME -->
 			<bounds x="316.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- new game -->
+		<element ref="keys" inputtag="KEY" inputmask="0x80">     <!-- NEW GAME -->
 			<bounds x="337.5" y="268" width="19" height="9" />
 		</element>
 		<element ref="keys" inputtag="KEY" inputmask="0x02">     <!-- CLEAR -->
 			<bounds x="358.5" y="268" width="19" height="9" />
 		</element>
-		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- enter -->
+		<element ref="keys" inputtag="KEY" inputmask="0x01">     <!-- ENTER -->
 			<bounds x="379.5" y="268" width="19" height="9" />
 		</element>
 

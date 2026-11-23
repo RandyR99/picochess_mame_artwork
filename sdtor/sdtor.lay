@@ -16,12 +16,13 @@
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 
 <element name="led" defstate="0">
 		<image file="../leds/red4_sel.png" state="1"/>
+
 </element>
 
 <element name="led_l" defstate="0">
@@ -30,7 +31,7 @@
 	</element>	
 
 <element name="new_game" defstate="0">
-		<image file="new_game_sel.png" state="1"/>
+        <image file="new_game_sel.png" state="1"/>
 		
 </element>
 
@@ -88,7 +89,7 @@
 	<element name="piece" defstate="0">
 		<image file="../pieces/pmephisto2/wp.png" state="1"/>
 		<image file="../pieces/pmephisto2/wkn.png" state="2"/>
-		<image file="../pieces/pmephisto2/wb.png" state="3"/>
+        <image file="../pieces/pmephisto2/wb.png" state="3"/>
 		<image file="../pieces/pmephisto2/wr.png" state="4"/>
 		<image file="../pieces/pmephisto2/wq.png" state="5"/>
 		<image file="../pieces/pmephisto2/wk.png" state="6"/>
@@ -147,6 +148,7 @@
 <element name="piece_l" defstate="0">
 		<image file="../pieces/pmephisto2/wp.png" state="1"/>
 		<image file="../pieces/pmephisto2/wkn.png" state="2"/>
+
 		<image file="../pieces/pmephisto2/wb.png" state="3"/>
 		<image file="../pieces/pmephisto2/wr.png" state="4"/>
 		<image file="../pieces/pmephisto2/wq.png" state="5"/>
@@ -401,10 +403,10 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-<bounds left="-145" right="1530" top="30" bottom="1270" />
+<bounds left="-15" right="1530" top="30" bottom="1270" />
 
 <element ref="background">
-			<bounds x="-145" y="-5" width="1700" height="1280" />
+			<bounds x="-15" y="-5" width="1700" height="1280" />
 		</element>
 
 
@@ -412,8 +414,10 @@
 			<bounds x="-40" y="0" width="1600" height="1300" />
 		</element>
 
+<!--
 <element ref="sbui_png"><bounds x="-135" y="120" width="150" height="1050" /></element>
      <group ref="sb_ui"><bounds x="-135" y="120" width="150" height="1050" /></group> 
+-->
 		
 		<group ref="sb_board"><bounds x="140" y="176" width="960" height="960" /></group>
 		
@@ -428,15 +432,15 @@
 		<group ref="lcd1"><bounds x="1304" y="224" width="79" height="42" /></group>
 		<group ref="lcd2"><bounds x="1304" y="324" width="79" height="42" /></group>
 
-		<element name="8.5" ref="led"><bounds x="1240" y="499" width="15" height="15" /></element>
-		<element name="8.4" ref="led"><bounds x="1240" y="540" width="15" height="15" /></element>
-		<element name="8.3" ref="led"><bounds x="1240" y="581" width="15" height="15" /></element>
-		<element name="8.2" ref="led"><bounds x="1240" y="623" width="15" height="15" /></element>
-		<element name="8.1" ref="led"><bounds x="1240" y="665" width="15" height="15" /></element>
-		<element name="8.0" ref="led"><bounds x="1240" y="705" width="15" height="15" /></element>
+		<element name="8.5" ref="led"><bounds x="96.5" y="36" width="1.5" height="1.5" /></element>
+		<element name="8.4" ref="led"><bounds x="96.5" y="40" width="1.5" height="1.5" /></element>
+		<element name="8.3" ref="led"><bounds x="96.5" y="44" width="1.5" height="1.5" /></element>
+		<element name="8.2" ref="led"><bounds x="96.5" y="48" width="1.5" height="1.5" /></element>
+		<element name="8.1" ref="led"><bounds x="96.5" y="52" width="1.5" height="1.5" /></element>
+		<element name="8.0" ref="led"><bounds x="96.5" y="56" width="1.5" height="1.5" /></element>
 
-		<element name="8.7" ref="led"><bounds x="1240" y="817" width="15" height="15" /></element>
-		<element name="8.6" ref="led"><bounds x="1240" y="871" width="15" height="15" /></element>
+		<element name="8.7" ref="led"><bounds x="96.5" y="64.65" width="1.5" height="1.5" /></element>
+		<element name="8.6" ref="led"><bounds x="96.5" y="69.15" width="1.5" height="1.5" /></element>
 
 		<element ref="butb" inputtag="IN.0" inputmask="0x80"><bounds x="1315" y="503" width="54" height="9" /><color alpha="0.40" /></element>
 		<element ref="butb" inputtag="IN.0" inputmask="0x40"><bounds x="1315" y="544" width="54" height="9" /><color alpha="0.40" /></element>
@@ -466,7 +470,7 @@
 		
 	</view>
 	
-		<view name="2D Artwork by Luis">
+		<view name="2D Artwork by Luis (SBI)">
 <bounds left="-145" right="1530" top="30" bottom="1270" />
 
 <element ref="background">
@@ -494,15 +498,15 @@
 		<group ref="lcd1"><bounds x="1304" y="224" width="79" height="42" /></group>
 		<group ref="lcd2"><bounds x="1304" y="324" width="79" height="42" /></group>
 
-		<element name="8.5" ref="led"><bounds x="1240" y="499" width="15" height="15" /></element>
-		<element name="8.4" ref="led"><bounds x="1240" y="540" width="15" height="15" /></element>
-		<element name="8.3" ref="led"><bounds x="1240" y="581" width="15" height="15" /></element>
-		<element name="8.2" ref="led"><bounds x="1240" y="623" width="15" height="15" /></element>
-		<element name="8.1" ref="led"><bounds x="1240" y="665" width="15" height="15" /></element>
-		<element name="8.0" ref="led"><bounds x="1240" y="705" width="15" height="15" /></element>
+		<element name="8.5" ref="led"><bounds x="96.5" y="36" width="1.5" height="1.5" /></element>
+		<element name="8.4" ref="led"><bounds x="96.5" y="40" width="1.5" height="1.5" /></element>
+		<element name="8.3" ref="led"><bounds x="96.5" y="44" width="1.5" height="1.5" /></element>
+		<element name="8.2" ref="led"><bounds x="96.5" y="48" width="1.5" height="1.5" /></element>
+		<element name="8.1" ref="led"><bounds x="96.5" y="52" width="1.5" height="1.5" /></element>
+		<element name="8.0" ref="led"><bounds x="96.5" y="56" width="1.5" height="1.5" /></element>
 
-		<element name="8.7" ref="led"><bounds x="1240" y="817" width="15" height="15" /></element>
-		<element name="8.6" ref="led"><bounds x="1240" y="871" width="15" height="15" /></element>
+		<element name="8.7" ref="led"><bounds x="96.5" y="64.65" width="1.5" height="1.5" /></element>
+		<element name="8.6" ref="led"><bounds x="96.5" y="69.15" width="1.5" height="1.5" /></element>
 
 		<element ref="butb" inputtag="IN.0" inputmask="0x80"><bounds x="1315" y="503" width="54" height="9" /><color alpha="0.40" /></element>
 		<element ref="butb" inputtag="IN.0" inputmask="0x40"><bounds x="1315" y="544" width="54" height="9" /><color alpha="0.40" /></element>
@@ -534,22 +538,22 @@
 	
 	
 	<view name="Artwork 3D by Luis">
-<bounds left="-140" right="1600" top="-15" bottom="915" />
+<bounds left="-20" right="1600" top="-15" bottom="915" />
 
 <element ref="background">
 			<bounds x="1400" y="-15" width="320" height="930" />
 		</element>
 
 <element ref="background">
-			<bounds x="-140" y="-15" width="1740" height="120" />
+			<bounds x="-20" y="-15" width="1740" height="120" />
 		</element>
 
 <element ref="background">
-			<bounds x="-140" y="800" width="1740" height="120" />
+			<bounds x="-20" y="800" width="1740" height="120" />
 		</element>
 
 <element ref="background">
-			<bounds x="-140" y="-15" width="400" height="1020" />
+			<bounds x="-20" y="-15" width="400" height="1020" />
 		</element>
 
 <element ref="lcd_bg"><bounds x="1238" y="107" width="90" height="41" /></element>
@@ -562,9 +566,10 @@
 			<bounds x="0" y="0" width="1572" height="899" />
 		</element>
 
+<!--
 <element ref="sbui_png"><bounds x="-130" y="20" width="120" height="804" /></element>
      <group ref="sb_ui"><bounds x="-130" y="20" width="120" height="804" /></group>
-
+-->
 
 	
 	<!-- fila 8 -->
@@ -633,7 +638,7 @@
 	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x04"><bounds x="399" y="553" width="119" height="88"/></element>
 	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x08"><bounds x="521" y="553" width="119" height="88"/></element>
 	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x10"><bounds x="641" y="553" width="119" height="88"/></element>
-	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x20"><bounds x="761" y="553" widsionth="119" height="88"/></element>
+	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x20"><bounds x="761" y="553" width="119" height="88"/></element>
 	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x40"><bounds x="880" y="553" width="119" height="88"/></element>
 	<element ref="hlbb" inputtag="board:RANK.2" inputmask="0x80"><bounds x="999" y="553" width="119" height="88"/></element>
 
@@ -780,7 +785,7 @@
 		<element name="3.5" ref="led_l"><bounds x="757" y="447" width="25.8" height="22.5" /></element>
 		<element name="3.6" ref="led_l"><bounds x="873" y="447" width="25.8" height="22.5" /></element>
 		<element name="3.7" ref="led_l"><bounds x="991" y="447" width="25.8" height="22.5" /></element>
-sion
+
 <!-- fila 3 -->
 		<element name="2.0" ref="led_l"><bounds x="162" y="533" width="26.4" height="23.1" /></element>
 		<element name="2.1" ref="led_l"><bounds x="282" y="533" width="26.4" height="23.1" /></element>

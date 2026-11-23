@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mamelayout version="2">
 
-<!-- other than panel button mappings, layout is identical to vsc -->
+
 
 <!-- define elements -->
 <element name="super9">
@@ -14,7 +14,7 @@
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -24,58 +24,58 @@
 
 			<element name="piece" defstate="0">
 	
-		<image file="../pieces/pfidelity_plastic/wp.png" state="1"/>
-		<image file="../pieces/pfidelity_plastic/wkn.png" state="2"/>
-        <image file="../pieces/pfidelity_plastic/wb.png" state="3"/>
-		<image file="../pieces/pfidelity_plastic/wr.png" state="4"/>
-		<image file="../pieces/pfidelity_plastic/wq.png" state="5"/>
-		<image file="../pieces/pfidelity_plastic/wk.png" state="6"/>
-		<image file="../pieces/pfidelity_plastic/bp.png" state="7"/>
-		<image file="../pieces/pfidelity_plastic/bkn.png" state="8"/>
-		<image file="../pieces/pfidelity_plastic/bb.png" state="9"/>
-		<image file="../pieces/pfidelity_plastic/br.png" state="10"/>
-		<image file="../pieces/pfidelity_plastic/bq.png" state="11"/>
-		<image file="../pieces/pfidelity_plastic/bk.png" state="12"/>
-		<image file="../pieces/pfidelity_plastic/wp_sel.png" state="13"/>
-		<image file="../pieces/pfidelity_plastic/wkn_sel.png" state="14"/>
-		<image file="../pieces/pfidelity_plastic/wb_sel.png" state="15"/>
-		<image file="../pieces/pfidelity_plastic/wr_sel.png" state="16"/>
-		<image file="../pieces/pfidelity_plastic/wq_sel.png" state="17"/>
-		<image file="../pieces/pfidelity_plastic/wk_sel.png" state="18"/>
-		<image file="../pieces/pfidelity_plastic/bp_sel.png" state="19"/>
-		<image file="../pieces/pfidelity_plastic/bkn_sel.png" state="20"/>
-		<image file="../pieces/pfidelity_plastic/bb_sel.png" state="21"/>
-		<image file="../pieces/pfidelity_plastic/br_sel.png" state="22"/>
-		<image file="../pieces/pfidelity_plastic/bq_sel.png" state="23"/>
-		<image file="../pieces/pfidelity_plastic/bk_sel.png" state="24"/>
+		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
+        <image file="../pieces/pnovag_plastic/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
 	</element>
 
 
 <element name="piece_3" defstate="0">
-		<image file="../pieces/pfidelity_plastic2/wp.png" state="1"/>
-		<image file="../pieces/pfidelity_plastic2/wkn.png" state="2"/>
-		<image file="../pieces/pfidelity_plastic2/wb.png" state="3"/>
-		<image file="../pieces/pfidelity_plastic2/wr.png" state="4"/>
-		<image file="../pieces/pfidelity_plastic2/wq.png" state="5"/>
-		<image file="../pieces/pfidelity_plastic2/wk.png" state="6"/>
-		<image file="../pieces/pfidelity_plastic2/bp.png" state="7"/>
-		<image file="../pieces/pfidelity_plastic2/bkn.png" state="8"/>
-		<image file="../pieces/pfidelity_plastic2/bb.png" state="9"/>
-		<image file="../pieces/pfidelity_plastic2/br.png" state="10"/>
-		<image file="../pieces/pfidelity_plastic2/bq.png" state="11"/>
-		<image file="../pieces/pfidelity_plastic2/bk.png" state="12"/>
-		<image file="../pieces/pfidelity_plastic2/wp_sel.png" state="13"/>
-		<image file="../pieces/pfidelity_plastic2/wkn_sel.png" state="14"/>
-		<image file="../pieces/pfidelity_plastic2/wb_sel.png" state="15"/>
-		<image file="../pieces/pfidelity_plastic2/wr_sel.png" state="16"/>
-		<image file="../pieces/pfidelity_plastic2/wq_sel.png" state="17"/>
-		<image file="../pieces/pfidelity_plastic2/wk_sel.png" state="18"/>
-		<image file="../pieces/pfidelity_plastic2/bp_sel.png" state="19"/>
-		<image file="../pieces/pfidelity_plastic2/bkn_sel.png" state="20"/>
-		<image file="../pieces/pfidelity_plastic2/bb_sel.png" state="21"/>
-		<image file="../pieces/pfidelity_plastic2/br_sel.png" state="22"/>
-		<image file="../pieces/pfidelity_plastic2/bq_sel.png" state="23"/>
-		<image file="../pieces/pfidelity_plastic2/bk_sel.png" state="24"/>
+		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
+		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
 	</element>
 
 <element name="piece_2m" defstate="0">
@@ -130,73 +130,73 @@
 
       </element>
 
-	<element name="tm" defstate="0">
+	<element name="TM" defstate="0">
      
 	<image file="tm_1.png" state="1"/>
      </element>
 
-	<element name="rv" defstate="0">
+	<element name="RV" defstate="0">
      
 	<image file="rv_1.png" state="1"/>
 	</element>
 
-	<element name="sp" defstate="0">
+	<element name="SP" defstate="0">
      
 	<image file="spk_1.png" state="1"/>
 	</element>
 
-	<element name="st" defstate="0">
+	<element name="ST" defstate="0">
      
 	<image file="st_1.png" state="1"/>
      
 	</element>
 
-	<element name="dm" defstate="0">
+	<element name="DM" defstate="0">
      
 	<image file="dm_1.png" state="1"/>
       </element>
 
-	<element name="lv" defstate="0">
+	<element name="LV" defstate="0">
      
 	<image file="lv_1.png" state="1"/>
       </element>
 
-	<element name="re" defstate="0">
+	<element name="RE" defstate="0">
      
 	<image file="re_2.png" state="1"/>
 
 	</element>
-	<element name="cl" defstate="0">
+	<element name="CL" defstate="0">
      
 	<image file="cl_2.png" state="1"/>
 
 	</element>
-	<element name="pb" defstate="0">
+	<element name="PB" defstate="0">
      
 	<image file="pb_2.png" state="1"/>
 
 	</element>
-	<element name="pv" defstate="0">
+	<element name="PV" defstate="0">
      
 	<image file="pv_2.png" state="1"/>
 
 	</element>
-	<element name="lv_two" defstate="0">
+	<element name="LV_TWO" defstate="0">
      
 	<image file="lv_2.png" state="1"/>
 
 	</element>
-	<element name="tb" defstate="0">
+	<element name="TB" defstate="0">
      	
      <image file="tb_2.png" state="1"/>
 
 	</element>
-	<element name="dm_two" defstate="0">
+	<element name="DM_TWO" defstate="0">
      
 	<image file="dm_2.png" state="1"/>
     </element>
 	
-	<element name="rv_two" defstate="0">
+	<element name="RV_TWO" defstate="0">
      
 	<image file="rv_2.png" state="1"/>
     </element>
@@ -204,42 +204,42 @@
 
 
 
-  <element name="cl_2" defstate="0">
+  <element name="CL_2" defstate="0">
 	<image file="cl.png" state="0"/>
     <image file="cl_sel.png" state="1"/>
     </element>
    
-	<element name="dm_2" defstate="0">
+	<element name="DM_2" defstate="0">
 	<image file="dm.png" state="0"/>
     <image file="dm_sel.png" state="1"/>
     </element>
 
-<element name="lv_2" defstate="0">
+<element name="LV_2" defstate="0">
 	<image file="lv.png" state="0"/>
     <image file="lv_sel.png" state="1"/>
     </element>
 
-<element name="pb_2" defstate="0">
+<element name="PB_2" defstate="0">
 	<image file="pb.png" state="0"/>
     <image file="pb_sel.png" state="1"/>
     </element>
 
-<element name="pv_2" defstate="0">
+<element name="PV_2" defstate="0">
 <image file="pv.png" state="0"/>
 <image file="pv_sel.png" state="1"/>
 </element>
 
-<element name="re_2" defstate="0">
+<element name="RE_2" defstate="0">
 <image file="re.png" state="0"/>
 <image file="re_sel.png" state="1"/>
 </element>	
 
-	<element name="rv_2" defstate="0">
+	<element name="RV_2" defstate="0">
 	<image file="rv.png" state="0"/>
     <image file="rv_sel.png" state="1"/>
     </element>
 
-	<element name="tb_2" defstate="0">
+	<element name="TB_2" defstate="0">
 	<image file="tb.png" state="0"/>
     <image file="tb_sel.png" state="1"/>
     </element>
@@ -288,10 +288,10 @@
 
 <element name="blackb"><rect><color red="0" green="0" blue="0" /></rect></element>
 
+
+
 <group name="sb_board">
 		<bounds x="0" y="0" width="80" height="80" />
-
-
 
 		<!-- leds -->
 		<repeat count="8">
@@ -309,7 +309,7 @@
 		<repeat count="8">
 			<param name="y" start="0" increment="10" />
 			<param name="i" start="8" increment="-1" />
-<param name="z" start="-6.5" increment="10" />
+<param name="z" start="-5.5" increment="10" />
 
 
 			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x01"><bounds x="0"  y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
@@ -321,14 +321,14 @@
 			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x40"><bounds x="60" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
 			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x80"><bounds x="70" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
 
-			<element name="piece_a~i~" ref="piece"><bounds x="-3"  y="~z~" width="16" height="16" /></element>
-			<element name="piece_b~i~" ref="piece"><bounds x="7" y="~z~" width="16" height="16" /></element>
-			<element name="piece_c~i~" ref="piece"><bounds x="17" y="~z~" width="16" height="16" /></element>
-			<element name="piece_d~i~" ref="piece"><bounds x="27" y="~z~" width="16" height="16" /></element>
-			<element name="piece_e~i~" ref="piece"><bounds x="37" y="~z~" width="16" height="16" /></element>
-			<element name="piece_f~i~" ref="piece"><bounds x="47" y="~z~" width="16" height="16" /></element>
-			<element name="piece_g~i~" ref="piece"><bounds x="57" y="~z~" width="16" height="16" /></element>
-			<element name="piece_h~i~" ref="piece"><bounds x="67" y="~z~" width="16" height="16" /></element>
+			<element name="piece_a~i~" ref="piece"><bounds x="-2.5"  y="~z~" width="15" height="15" /></element>
+			<element name="piece_b~i~" ref="piece"><bounds x="7.5" y="~z~" width="15" height="15" /></element>
+			<element name="piece_c~i~" ref="piece"><bounds x="17.5" y="~z~" width="15" height="15" /></element>
+			<element name="piece_d~i~" ref="piece"><bounds x="27.5" y="~z~" width="15" height="15" /></element>
+			<element name="piece_e~i~" ref="piece"><bounds x="37.5" y="~z~" width="15" height="15" /></element>
+			<element name="piece_f~i~" ref="piece"><bounds x="47.5" y="~z~" width="15" height="15" /></element>
+			<element name="piece_g~i~" ref="piece"><bounds x="57.5" y="~z~" width="15" height="15" /></element>
+			<element name="piece_h~i~" ref="piece"><bounds x="67.5" y="~z~" width="15" height="15" /></element>
 		</repeat>
 	</group>
 	
@@ -432,7 +432,7 @@
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -477,8 +477,8 @@
 
 <!-- build screen -->
 
-	<view name="3d artwork by luis">
-<bounds left="-14" right="103" top="-2" bottom="103" />
+	<view name="3D Artwork by Luis">
+<bounds left="-2" right="103" top="-2" bottom="103" />
 
 <element ref="background">
 			<bounds x="-15" y="-2" width="120" height="110" />
@@ -487,94 +487,95 @@
 <element ref="super9cc">
 			<bounds x="0" y="0" width="100" height="101.85"/>
 		</element>
-
-<element ref="sbui_png"><bounds x="-12" y="10" width="11" height="88" /></element>
-	   <group ref="sb_ui"><bounds x="-12" y="10" width="11" height="88" /></group>
-
+		
+<!--
+  <element ref="sbui_png"><bounds x="-12" y="7" width="12" height="84" /></element>
+	   <group ref="sb_ui"><bounds x="-12" y="7" width="12" height="84" /></group>
+-->
 
 	<!-- chessboard leds -->
 
 <!-- fila 8 -->
-		<element name="0.15" ref="zled"><bounds x="13.5" y="31.2" width="3.3" height="3.3" /></element>
-		<element name="1.15" ref="zled"><bounds x="21.9" y="31.1" width="3.3" height="3.3" /></element>
-		<element name="2.15" ref="zled"><bounds x="30.2" y="31.1" width="3.3" height="3.3" /></element>
-		<element name="3.15" ref="zled"><bounds x="38.6" y="31" width="3.3" height="3.3" /></element>
-		<element name="4.15" ref="zled"><bounds x="47.1" y="30.9" width="3.3" height="3.3" /></element>
-		<element name="5.15" ref="zled"><bounds x="55.6" y="30.7" width="3.3" height="3.3" /></element>
-		<element name="6.15" ref="zled"><bounds x="64.1" y="30.6" width="3.3" height="3.3" /></element>
-		<element name="7.15" ref="zled"><bounds x="72.7" y="30.5" width="3.3" height="3.3" /></element>
+		<element name="0.15" ref="zled"><bounds x="13.9" y="31.7" width="2.8" height="2.8" /></element>
+		<element name="1.15" ref="zled"><bounds x="22.2" y="31.6" width="2.8" height="2.8" /></element>
+		<element name="2.15" ref="zled"><bounds x="30.5" y="31.4" width="2.8" height="2.8" /></element>
+		<element name="3.15" ref="zled"><bounds x="38.9" y="31.3" width="2.8" height="2.8" /></element>
+		<element name="4.15" ref="zled"><bounds x="47.4" y="31.2" width="2.8" height="2.8" /></element>
+		<element name="5.15" ref="zled"><bounds x="55.9" y="31.0" width="2.8" height="2.8" /></element>
+		<element name="6.15" ref="zled"><bounds x="64.4" y="30.9" width="2.8" height="2.8" /></element>
+		<element name="7.15" ref="zled"><bounds x="73.0" y="30.9" width="2.8" height="2.8" /></element>
 
 <!-- fila 7 -->
-		<element name="0.14" ref="zled"><bounds x="12.7" y="38.9" width="3.3" height="3.3" /></element>
-		<element name="1.14" ref="zled"><bounds x="21.1" y="38.8" width="3.3" height="3.3" /></element>
-		<element name="2.14" ref="zled"><bounds x="29.8" y="38.8" width="3.3" height="3.3" /></element>
-		<element name="3.14" ref="zled"><bounds x="38.1" y="38.7" width="3.3" height="3.3" /></element>
-		<element name="4.14" ref="zled"><bounds x="46.7" y="38.7" width="3.3" height="3.3" /></element>
-		<element name="5.14" ref="zled"><bounds x="55.4" y="38.6" width="3.3" height="3.3" /></element>
-		<element name="6.14" ref="zled"><bounds x="64.1" y="38.5" width="3.3" height="3.3" /></element>
-		<element name="7.14" ref="zled"><bounds x="72.9" y="38.5" width="3.1" height="3" /></element>
+		<element name="0.14" ref="zled"><bounds x="13.0" y="39.2" width="2.85" height="2.85" /></element>
+		<element name="1.14" ref="zled"><bounds x="21.3" y="39.1" width="2.85" height="2.85" /></element>
+		<element name="2.14" ref="zled"><bounds x="29.9" y="39.0" width="2.85" height="2.85" /></element>
+		<element name="3.14" ref="zled"><bounds x="38.3" y="38.9" width="2.85" height="2.85" /></element>
+		<element name="4.14" ref="zled"><bounds x="46.9" y="38.8" width="2.85" height="2.85" /></element>
+		<element name="5.14" ref="zled"><bounds x="55.6" y="38.7" width="2.85" height="2.85" /></element>
+		<element name="6.14" ref="zled"><bounds x="64.3" y="38.7" width="2.85" height="2.85" /></element>
+		<element name="7.14" ref="zled"><bounds x="73.1" y="38.6" width="2.85" height="2.85" /></element>
 
 <!-- fila 6 -->
-		<element name="0.13" ref="zled"><bounds x="11.6" y="46.8" width="3.4" height="3.4" /></element>
-		<element name="1.13" ref="zled"><bounds x="20.4" y="46.8" width="3.4" height="3.4" /></element>
-		<element name="2.13" ref="zled"><bounds x="29" y="46.7" width="3.4" height="3.4" /></element>
-		<element name="3.13" ref="zled"><bounds x="37.7" y="46.7" width="3.4" height="3.4" /></element>
-		<element name="4.13" ref="zled"><bounds x="46.3" y="46.5" width="3.4" height="3.4" /></element>
-		<element name="5.13" ref="zled"><bounds x="55.1" y="46.5" width="3.4" height="3.4" /></element>
-		<element name="6.13" ref="zled"><bounds x="64" y="46.5" width="3.4" height="3.4" /></element>
-		<element name="7.13" ref="zled"><bounds x="72.9" y="46.5" width="3.4" height="3.4" /></element>
+		<element name="0.13" ref="zled"><bounds x="11.9" y="47.1" width="3.0" height="3.0" /></element>
+		<element name="1.13" ref="zled"><bounds x="20.6" y="47.0" width="3.0" height="3.0" /></element>
+		<element name="2.13" ref="zled"><bounds x="29.2" y="46.9" width="3.0" height="3.0" /></element>
+		<element name="3.13" ref="zled"><bounds x="37.9" y="46.8" width="3.0" height="3.0" /></element>
+		<element name="4.13" ref="zled"><bounds x="46.5" y="46.7" width="3.0" height="3.0" /></element>
+		<element name="5.13" ref="zled"><bounds x="55.3" y="46.7" width="3.0" height="3.0" /></element>
+		<element name="6.13" ref="zled"><bounds x="64.2" y="46.6" width="3.0" height="3.0" /></element>
+		<element name="7.13" ref="zled"><bounds x="73.3" y="46.6" width="3.0" height="3.0" /></element>
 
 <!-- fila 5 -->
-		<element name="0.12" ref="zled"><bounds x="10.8" y="55.1" width="3.4" height="3.4" /></element>
-		<element name="1.12" ref="zled"><bounds x="19.5" y="55.1" width="3.4" height="3.4" /></element>
-		<element name="2.12" ref="zled"><bounds x="28.3" y="55" width="3.4" height="3.4" /></element>
-		<element name="3.12" ref="zled"><bounds x="37.1" y="55" width="3.4" height="3.4" /></element>
-		<element name="4.12" ref="zled"><bounds x="46.1" y="55" width="3.4" height="3.4" /></element>
-		<element name="5.12" ref="zled"><bounds x="54.9" y="54.9" width="3.4" height="3.4" /></element>
-		<element name="6.12" ref="zled"><bounds x="64" y="54.9" width="3.4" height="3.4" /></element>
-		<element name="7.12" ref="zled"><bounds x="73" y="54.9" width="3.4" height="3.4" /></element>
+		<element name="0.12" ref="zled"><bounds x="10.8" y="55.1" width="3.2" height="3.2" /></element>
+		<element name="1.12" ref="zled"><bounds x="19.5" y="55.1" width="3.2" height="3.2" /></element>
+		<element name="2.12" ref="zled"><bounds x="28.3" y="55"   width="3.2" height="3.2" /></element>
+		<element name="3.12" ref="zled"><bounds x="37.1" y="55"   width="3.2" height="3.2" /></element>
+		<element name="4.12" ref="zled"><bounds x="46.1" y="55"   width="3.2" height="3.2" /></element>
+		<element name="5.12" ref="zled"><bounds x="54.9" y="54.9" width="3.2" height="3.2" /></element>
+		<element name="6.12" ref="zled"><bounds x="64" y="54.9"   width="3.2" height="3.2" /></element>
+		<element name="7.12" ref="zled"><bounds x="73" y="54.9"   width="3.2" height="3.2" /></element>
 
 <!-- fila 4 -->
-		<element name="0.11" ref="zled"><bounds x="9.8" y="63.7" width="3.5" height="3.5" /></element>
-		<element name="1.11" ref="zled"><bounds x="18.5" y="63.6" width="3.5" height="3.5" /></element>
-		<element name="2.11" ref="zled"><bounds x="27.4" y="63.6" width="3.5" height="3.5" /></element>
-		<element name="3.11" ref="zled"><bounds x="36.4" y="63.6" width="3.5" height="3.5" /></element>
-		<element name="4.11" ref="zled"><bounds x="45.6" y="63.7" width="3.5" height="3.5" /></element>
-		<element name="5.11" ref="zled"><bounds x="54.8" y="63.7" width="3.5" height="3.5" /></element>
-		<element name="6.11" ref="zled"><bounds x="63.9" y="63.7" width="3.5" height="3.5" /></element>
-		<element name="7.11" ref="zled"><bounds x="73.1" y="63.7" width="3.5" height="3.5" /></element>
+		<element name="0.11" ref="zled"><bounds x="9.8" y="63.7"  width="3.4" height="3.4" /></element>
+		<element name="1.11" ref="zled"><bounds x="18.5" y="63.6" width="3.4" height="3.4" /></element>
+		<element name="2.11" ref="zled"><bounds x="27.4" y="63.6" width="3.4" height="3.4" /></element>
+		<element name="3.11" ref="zled"><bounds x="36.4" y="63.6" width="3.4" height="3.4" /></element>
+		<element name="4.11" ref="zled"><bounds x="45.6" y="63.7" width="3.4" height="3.4" /></element>
+		<element name="5.11" ref="zled"><bounds x="54.8" y="63.7" width="3.4" height="3.4" /></element>
+		<element name="6.11" ref="zled"><bounds x="63.9" y="63.7" width="3.4" height="3.4" /></element>
+		<element name="7.11" ref="zled"><bounds x="73.1" y="63.7" width="3.4" height="3.4" /></element>
 
 <!-- fila 3 -->
-		<element name="0.10" ref="zled"><bounds x="8.6" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="1.10" ref="zled"><bounds x="17.6" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="2.10" ref="zled"><bounds x="26.9" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="3.10" ref="zled"><bounds x="35.9" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="4.10" ref="zled"><bounds x="45.2" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="5.10" ref="zled"><bounds x="54.5" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="6.10" ref="zled"><bounds x="63.9" y="72.7" width="3.5" height="3.5" /></element>
-		<element name="7.10" ref="zled"><bounds x="73.3" y="72.7" width="3.5" height="3.5" /></element>
-
+		<element name="0.10" ref="zled"><bounds x="8.6" y="72.7"  width="3.6" height="3.6" /></element>
+		<element name="1.10" ref="zled"><bounds x="17.6" y="72.7" width="3.6" height="3.6" /></element>
+		<element name="2.10" ref="zled"><bounds x="26.9" y="72.7" width="3.6" height="3.6" /></element>
+		<element name="3.10" ref="zled"><bounds x="35.9" y="72.7" width="3.6" height="3.6" /></element>
+		<element name="4.10" ref="zled"><bounds x="45.2" y="72.7" width="3.6" height="3.6" /></element>
+		<element name="5.10" ref="zled"><bounds x="54.5" y="72.7" width="3.6" height="3.6" /></element>
+		<element name="6.10" ref="zled"><bounds x="63.9" y="72.7" width="3.6" height="3.6" /></element>
+		<element name="7.10" ref="zled"><bounds x="73.3" y="72.7" width="3.6" height="3.6" /></element>
+																		   
 <!-- fila 2 -->
-		<element name="0.9" ref="zled"><bounds x="7.4" y="81.9"  width="3.7" height="3.6" /></element>
-		<element name="1.9" ref="zled"><bounds x="17" y="81.9"   width="3.7" height="3.6" /></element>
-		<element name="2.9" ref="zled"><bounds x="26.1" y="81.9" width="3.7" height="3.6" /></element>
-		<element name="3.9" ref="zled"><bounds x="35.4" y="81.9" width="3.7" height="3.6" /></element>
-		<element name="4.9" ref="zled"><bounds x="44.8" y="81.9" width="3.7" height="3.6" /></element>
-		<element name="5.9" ref="zled"><bounds x="54.3" y="82"   width="3.7" height="3.6" /></element>
-		<element name="6.9" ref="zled"><bounds x="63.7" y="82"   width="3.7" height="3.6" /></element>
-		<element name="7.9" ref="zled"><bounds x="73.3" y="82.1" width="3.7" height="3.6" /></element>
+		<element name="0.9" ref="zled"><bounds x="7.4" y="81.9"  width="3.8" height="3.8" /></element>
+		<element name="1.9" ref="zled"><bounds x="17" y="81.9"   width="3.8" height="3.8" /></element>
+		<element name="2.9" ref="zled"><bounds x="26.1" y="81.9" width="3.8" height="3.8" /></element>
+		<element name="3.9" ref="zled"><bounds x="35.4" y="81.9" width="3.8" height="3.8" /></element>
+		<element name="4.9" ref="zled"><bounds x="44.8" y="81.9" width="3.8" height="3.8" /></element>
+		<element name="5.9" ref="zled"><bounds x="54.3" y="82"   width="3.8" height="3.8" /></element>
+		<element name="6.9" ref="zled"><bounds x="63.7" y="82"   width="3.8" height="3.8" /></element>
+		<element name="7.9" ref="zled"><bounds x="73.3" y="82.1" width="3.8" height="3.8" /></element>
 
 <!-- fila 1 -->
-		<element name="0.8" ref="zled"><bounds x="6.3" y="91.5"  width="3.7" height="3.6" /></element>
-		<element name="1.8" ref="zled"><bounds x="15.7" y="91.5" width="3.7" height="3.6" /></element>
-		<element name="2.8" ref="zled"><bounds x="25.1" y="91.6" width="3.7" height="3.6" /></element>
-		<element name="3.8" ref="zled"><bounds x="34.7" y="91.6" width="3.7" height="3.6" /></element>
-		<element name="4.8" ref="zled"><bounds x="44.3" y="91.7" width="3.7" height="3.6" /></element>
-		<element name="5.8" ref="zled"><bounds x="53.9" y="91.8" width="3.7" height="3.6" /></element>
-		<element name="6.8" ref="zled"><bounds x="63.7" y="92"   width="3.7" height="3.6" /></element>
-		<element name="7.8" ref="zled"><bounds x="73.4" y="92.1" width="3.7" height="3.6" /></element>
+		<element name="0.8" ref="zled"><bounds x="6.3" y="91.5"  width="3.9" height="3.9" /></element>
+		<element name="1.8" ref="zled"><bounds x="15.7" y="91.5" width="3.9" height="3.9" /></element>
+		<element name="2.8" ref="zled"><bounds x="25.1" y="91.6" width="3.9" height="3.9" /></element>
+		<element name="3.8" ref="zled"><bounds x="34.7" y="91.6" width="3.9" height="3.9" /></element>
+		<element name="4.8" ref="zled"><bounds x="44.3" y="91.7" width="3.9" height="3.9" /></element>
+		<element name="5.8" ref="zled"><bounds x="53.9" y="91.8" width="3.9" height="3.9" /></element>
+		<element name="6.8" ref="zled"><bounds x="63.7" y="92"   width="3.9" height="3.9" /></element>
+		<element name="7.8" ref="zled"><bounds x="73.4" y="92.1" width="3.9" height="3.9" /></element>
 
-<!-- pieces -->
+<!-- Pieces -->
 
 <!-- fila 8 -->
 		<element name="piece_a8" ref="piece_3"><bounds x="12.1" y="20" width="12.9" height="12.9"  /></element>
@@ -652,9 +653,9 @@
 		<element name="piece_c1" ref="piece_3"><bounds x="23" y="79.3" width="15" height="15"  /></element>
 		<element name="piece_d1" ref="piece_3"><bounds x="32.8" y="79.5" width="15" height="15"  /></element>
 		<element name="piece_e1" ref="piece_3"><bounds x="42.7" y="79.4" width="15" height="15"  /></element>
-		<element name="piece_f1" ref="piece_3"><bounds x="52.6" y="79.5" width="15" height="15"  /></element>
-		<element name="piece_g1" ref="piece_3"><bounds x="62.5" y="79.6" width="15" height="15"  /></element>
-		<element name="piece_h1" ref="piece_3"><bounds x="72.2" y="79.7" width="15" height="15"  /></element>
+		<element name="piece_f1" ref="piece_3"><bounds x="52.1" y="79.5" width="15" height="15"  /></element>
+		<element name="piece_g1" ref="piece_3"><bounds x="61.8" y="79.6" width="15" height="15"  /></element>
+		<element name="piece_h1" ref="piece_3"><bounds x="71.7" y="79.7" width="15" height="15"  /></element>
 
 	<!-- chessboard sensors -->
 
@@ -740,18 +741,18 @@
 
 	<!-- right side -->
 
-		<element name="0.7" ref="zled"><bounds x="86.9" y="27.4" width="3" height="3" /></element>
+		<element name="0.7" ref="zled"><bounds x="87" y="28.1" width="2.7" height="2.7" /></element>
 
             
 
-		<element ref="re" inputtag="IN.8" inputmask="0x80"><bounds x="86" y="33.5" width="5.1" height="5.1" /></element>
-		<element ref="cl" inputtag="IN.8" inputmask="0x40"><bounds x="86.4" y="40.7" width="5" height="5" /></element>
-		<element ref="pb" inputtag="IN.8" inputmask="0x20"><bounds x="86.6" y="48" width="5" height="5" /></element>
-		<element ref="pv" inputtag="IN.8" inputmask="0x10"><bounds x="87" y="55.3" width="5.1" height="5" /></element>
-		<element ref="lv_two" inputtag="IN.8" inputmask="0x08"><bounds x="87.3" y="63.1" width="5.1" height="5.1" /></element>
-		<element ref="tb" inputtag="IN.8" inputmask="0x04"><bounds x="87.5" y="70.9" width="5.3" height="5.3" /></element>
-		<element ref="dm_two" inputtag="IN.8" inputmask="0x02"><bounds x="87.9" y="79.1" width="5.5" height="5.4" /></element>
-		<element ref="rv_two" inputtag="IN.8" inputmask="0x01"><bounds x="88.2" y="87.6" width="5.6" height="5.6" /></element>
+		<element ref="RE" inputtag="IN.8" inputmask="0x80"><bounds x="86" y="33.5" width="5.1" height="5.1" /></element>
+		<element ref="CL" inputtag="IN.8" inputmask="0x40"><bounds x="86.4" y="40.7" width="5" height="5" /></element>
+		<element ref="PB" inputtag="IN.8" inputmask="0x20"><bounds x="86.6" y="48" width="5" height="5" /></element>
+		<element ref="PV" inputtag="IN.8" inputmask="0x10"><bounds x="87" y="55.3" width="5.1" height="5" /></element>
+		<element ref="LV_TWO" inputtag="IN.8" inputmask="0x08"><bounds x="87.3" y="63.1" width="5.1" height="5.1" /></element>
+		<element ref="TB" inputtag="IN.8" inputmask="0x04"><bounds x="87.5" y="70.9" width="5.3" height="5.3" /></element>
+		<element ref="DM_TWO" inputtag="IN.8" inputmask="0x02"><bounds x="87.9" y="79.1" width="5.5" height="5.4" /></element>
+		<element ref="RV_TWO" inputtag="IN.8" inputmask="0x01"><bounds x="88.2" y="87.6" width="5.6" height="5.6" /></element>
 
 	<!-- panel 7seg leds -->
 
@@ -777,19 +778,19 @@
 
 
 
-        <element ref="tm" inputtag="IN.2" inputmask="0x100"><bounds x="73.7" y="6.3" width="3.4" height="2.1" /></element>
-		<element ref="rv" inputtag="IN.1" inputmask="0x100"><bounds x="78.5" y="6.3" width="3.4" height="2.1" /></element>
-		<element ref="sp" inputtag="IN.0" inputmask="0x100"><bounds x="83.5" y="6.3" width="3.4" height="2.1" /></element>
-		<element ref="st" inputtag="IN.5" inputmask="0x100"><bounds x="73.8" y="10.9" width="3.4" height="2.1" /></element>
-		<element ref="dm" inputtag="IN.4" inputmask="0x100"><bounds x="78.6" y="10.8" width="3.4" height="2.1" /></element>
-		<element ref="lv" inputtag="IN.3" inputmask="0x100"><bounds x="83.4" y="10.8" width="3.4" height="2.1" /></element>
+        <element ref="TM" inputtag="IN.2" inputmask="0x100"><bounds x="73.7" y="6.3" width="3.4" height="2.1" /></element>
+		<element ref="RV" inputtag="IN.1" inputmask="0x100"><bounds x="78.5" y="6.3" width="3.4" height="2.1" /></element>
+		<element ref="SP" inputtag="IN.0" inputmask="0x100"><bounds x="83.5" y="6.3" width="3.4" height="2.1" /></element>
+		<element ref="ST" inputtag="IN.5" inputmask="0x100"><bounds x="73.8" y="10.9" width="3.4" height="2.1" /></element>
+		<element ref="DM" inputtag="IN.4" inputmask="0x100"><bounds x="78.6" y="10.8" width="3.4" height="2.1" /></element>
+		<element ref="LV" inputtag="IN.3" inputmask="0x100"><bounds x="83.4" y="10.8" width="3.4" height="2.1" /></element>
 
 
 	
 </view>
 	
-	<view name="artwork by luis">
-		<bounds left="-150" right="1250" top="-2" bottom="1376" />
+	<view name="Artwork by Luis">
+		<bounds left="-20" right="1250" top="-2" bottom="1376" />
 		
 		<element ref="background">
 			<bounds x="-150" y="-2" width="1450" height="1386" />
@@ -801,22 +802,24 @@
 
 <group ref="sb_board"><bounds x="115" y="382" width="884" height="882" /></group>
 
- <element ref="sbui_png"><bounds x="-120" y="275" width="130" height="1040" /></element>
-		<group ref="sb_ui"><bounds x="-120" y="275" width="130" height="1040" /></group>
+<!--
+ <element ref="sbui_png"><bounds x="-130" y="275" width="150" height="1050" /></element>
+	  <group ref="sb_ui"><bounds x="-130" y="275" width="150" height="1050" /></group>
+-->
 	
 	<group ref="panel"><bounds x="536" y="154" width="268" height="75" /></group>
 	
 	<!-- right side -->
 
 
-		<element ref="re_2" inputtag="IN.8" inputmask="0x80"><bounds x="1032" y="447" width="140" height="140"  /></element>
-		<element ref="cl_2" inputtag="IN.8" inputmask="0x40"><bounds x="1032" y="552" width="140" height="140"  /></element>
-		<element ref="pb_2" inputtag="IN.8" inputmask="0x20"><bounds x="1032" y="654" width="140" height="140"  /></element>
-		<element ref="pv_2" inputtag="IN.8" inputmask="0x10"><bounds x="1032" y="756" width="140" height="140"  /></element>
-		<element ref="lv_2" inputtag="IN.8" inputmask="0x08"><bounds x="1032" y="850" width="140" height="140"  /></element>
-		<element ref="tb_2" inputtag="IN.8" inputmask="0x04"><bounds x="1032" y="946" width="140" height="140"  /></element>
-	    <element ref="dm_2" inputtag="IN.8" inputmask="0x02"><bounds  x="1032" y="1042" width="140" height="140"  /></element>
-	    <element ref="rv_2" inputtag="IN.8" inputmask="0x01"><bounds  x="1032" y="1141" width="140" height="140"  /></element>
+		<element ref="RE_2" inputtag="IN.8" inputmask="0x80"><bounds x="1032" y="447" width="140" height="140"  /></element>
+		<element ref="CL_2" inputtag="IN.8" inputmask="0x40"><bounds x="1032" y="552" width="140" height="140"  /></element>
+		<element ref="PB_2" inputtag="IN.8" inputmask="0x20"><bounds x="1032" y="654" width="140" height="140"  /></element>
+		<element ref="PV_2" inputtag="IN.8" inputmask="0x10"><bounds x="1032" y="756" width="140" height="140"  /></element>
+		<element ref="LV_2" inputtag="IN.8" inputmask="0x08"><bounds x="1032" y="850" width="140" height="140"  /></element>
+		<element ref="TB_2" inputtag="IN.8" inputmask="0x04"><bounds x="1032" y="946" width="140" height="140"  /></element>
+	    <element ref="DM_2" inputtag="IN.8" inputmask="0x02"><bounds  x="1032" y="1042" width="140" height="140"  /></element>
+	    <element ref="RV_2" inputtag="IN.8" inputmask="0x01"><bounds  x="1032" y="1141" width="140" height="140"  /></element>
 
 <!-- panel buttons -->
 
@@ -832,7 +835,7 @@
 	</view>
 	
 	
-		<view name="2d artwork by luis">
+		<view name="2D Artwork by Luis (SBI)">
 		<bounds left="-150" right="1250" top="-2" bottom="1376" />
 		
 		<element ref="background">
@@ -845,22 +848,22 @@
 
 <group ref="sb_board_2m"><bounds x="115" y="382" width="884" height="882" /></group>
 
- <element ref="sbui_png"><bounds x="-120" y="275" width="130" height="1040" /></element>
-		<group ref="sb_ui"><bounds x="-120" y="275" width="130" height="1040" /></group>
+<element ref="sbui_png"><bounds x="-130" y="275" width="150" height="1050" /></element>
+	 <group ref="sb_ui"><bounds x="-130" y="275" width="150" height="1050" /></group>
 	
 	<group ref="panel"><bounds x="536" y="154" width="268" height="75" /></group>
 	
 	<!-- right side -->
 
 
-		<element ref="re_2" inputtag="IN.8" inputmask="0x80"><bounds x="1032" y="447" width="140" height="140"  /></element>
-		<element ref="cl_2" inputtag="IN.8" inputmask="0x40"><bounds x="1032" y="552" width="140" height="140"  /></element>
-		<element ref="pb_2" inputtag="IN.8" inputmask="0x20"><bounds x="1032" y="654" width="140" height="140"  /></element>
-		<element ref="pv_2" inputtag="IN.8" inputmask="0x10"><bounds x="1032" y="756" width="140" height="140"  /></element>
-		<element ref="lv_2" inputtag="IN.8" inputmask="0x08"><bounds x="1032" y="850" width="140" height="140"  /></element>
-		<element ref="tb_2" inputtag="IN.8" inputmask="0x04"><bounds x="1032" y="946" width="140" height="140"  /></element>
-	    <element ref="dm_2" inputtag="IN.8" inputmask="0x02"><bounds  x="1032" y="1042" width="140" height="140"  /></element>
-	    <element ref="rv_2" inputtag="IN.8" inputmask="0x01"><bounds  x="1032" y="1141" width="140" height="140"  /></element>
+		<element ref="RE_2" inputtag="IN.8" inputmask="0x80"><bounds x="1032" y="447" width="140" height="140"  /></element>
+		<element ref="CL_2" inputtag="IN.8" inputmask="0x40"><bounds x="1032" y="552" width="140" height="140"  /></element>
+		<element ref="PB_2" inputtag="IN.8" inputmask="0x20"><bounds x="1032" y="654" width="140" height="140"  /></element>
+		<element ref="PV_2" inputtag="IN.8" inputmask="0x10"><bounds x="1032" y="756" width="140" height="140"  /></element>
+		<element ref="LV_2" inputtag="IN.8" inputmask="0x08"><bounds x="1032" y="850" width="140" height="140"  /></element>
+		<element ref="TB_2" inputtag="IN.8" inputmask="0x04"><bounds x="1032" y="946" width="140" height="140"  /></element>
+	    <element ref="DM_2" inputtag="IN.8" inputmask="0x02"><bounds  x="1032" y="1042" width="140" height="140"  /></element>
+	    <element ref="RV_2" inputtag="IN.8" inputmask="0x01"><bounds  x="1032" y="1141" width="140" height="140"  /></element>
 
 <!-- panel buttons -->
 

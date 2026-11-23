@@ -8,7 +8,7 @@
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -390,10 +390,10 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="-140" right="1081" top="-10" bottom="1087" />
+		<bounds left="-40" right="1100" top="-10" bottom="1087" />
 
 <element ref="background">
-			<bounds x="-140" y="-10" width="1250" height="1097" />
+			<bounds x="-40" y="-10" width="1250" height="1097" />
 		</element>
 
 <element ref="scisys">
@@ -407,8 +407,10 @@
 
 		<group ref="sb_board"><bounds x="193" y="193" width="687" height="690" /></group>
 		
+<!--		
 		<element ref="sbui_png"><bounds x="-130" y="120" width="120" height="840" /></element>
 		     <group ref="sb_ui"><bounds x="-130" y="120" width="120" height="840" /></group>
+-->
 
 		<group ref="lcd1"><bounds x="340" y="911" width="93" height="53" /></group>
 		<group ref="lcd2"><bounds x="354" y="940" width="23" height="24" /></group>

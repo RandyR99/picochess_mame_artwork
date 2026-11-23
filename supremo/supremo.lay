@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
-<!-- foto: berger -->
+<!-- foto: Berger -->
 
      <element name="novag">
 		<image file="supremo1a.png" />
@@ -14,7 +14,7 @@ license:cc0
 
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -59,30 +59,30 @@ license:cc0
 
 
 <element name="piece3" defstate="0">
-		<image file="../pieces/pnovag_plastic_white/wp.png" state="1"/>
-		<image file="../pieces/pnovag_plastic_white/wkn.png" state="2"/>
-		<image file="../pieces/pnovag_plastic_white/wb.png" state="3"/>
-		<image file="../pieces/pnovag_plastic_white/wr.png" state="4"/>
-		<image file="../pieces/pnovag_plastic_white/wq.png" state="5"/>
-		<image file="../pieces/pnovag_plastic_white/wk.png" state="6"/>
-		<image file="../pieces/pnovag_plastic_white/bp.png" state="7"/>
-		<image file="../pieces/pnovag_plastic_white/bkn.png" state="8"/>
-		<image file="../pieces/pnovag_plastic_white/bb.png" state="9"/>
-		<image file="../pieces/pnovag_plastic_white/br.png" state="10"/>
-		<image file="../pieces/pnovag_plastic_white/bq.png" state="11"/>
-		<image file="../pieces/pnovag_plastic_white/bk.png" state="12"/>
-		<image file="../pieces/pnovag_plastic_white/wp_sel.png" state="13"/>
-		<image file="../pieces/pnovag_plastic_white/wkn_sel.png" state="14"/>
-		<image file="../pieces/pnovag_plastic_white/wb_sel.png" state="15"/>
-		<image file="../pieces/pnovag_plastic_white/wr_sel.png" state="16"/>
-		<image file="../pieces/pnovag_plastic_white/wq_sel.png" state="17"/>
-		<image file="../pieces/pnovag_plastic_white/wk_sel.png" state="18"/>
-		<image file="../pieces/pnovag_plastic_white/bp_sel.png" state="19"/>
-		<image file="../pieces/pnovag_plastic_white/bkn_sel.png" state="20"/>
-		<image file="../pieces/pnovag_plastic_white/bb_sel.png" state="21"/>
-		<image file="../pieces/pnovag_plastic_white/br_sel.png" state="22"/>
-		<image file="../pieces/pnovag_plastic_white/bq_sel.png" state="23"/>
-		<image file="../pieces/pnovag_plastic_white/bk_sel.png" state="24"/>
+		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
+		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
 	</element>
 
 <element name="piece_2m" defstate="0">
@@ -235,7 +235,7 @@ license:cc0
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="4.9" y="40" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="4.9" y="43.7" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -258,8 +258,8 @@ license:cc0
 
 
 
-<view name="artwork by luis">
-		<bounds left="-400" right="3081" top="-20" bottom="2815" />
+<view name="Artwork by Luis">
+		<bounds left="-100" right="3150" top="-20" bottom="2815" />
 
 <element ref="background">
 			<bounds x="-400" y="-20" width="3550" height="200" />
@@ -281,8 +281,10 @@ license:cc0
 			<bounds x="0" y="0" width="3061" height="2781"/>
 		</element>
 
-<element ref="sbui_png"><bounds x="-350" y="100" width="300" height="2400" /></element>
-	<group ref="sb_ui"><bounds x="-350" y="100" width="300" height="2400" /></group>		
+<!--
+<element ref="sbui_png"><bounds x="-350" y="250" width="300" height="2100" /></element>
+	 <group ref="sb_ui"><bounds x="-350" y="250" width="300" height="2100" /></group>		
+-->
 	
 <group ref="sb_board"><bounds x="267" y="180" width="2055" height="2073" /></group>	
 
@@ -331,7 +333,7 @@ license:cc0
 
 	</view>	
 	
-<view name="artwork 2d by luis">
+<view name="Artwork 2D by Luis (SBI)">
 		<bounds left="-400" right="3081" top="-20" bottom="2815" />
 
 <element ref="background">
@@ -354,8 +356,8 @@ license:cc0
 			<bounds x="0" y="0" width="3061" height="2781"/>
 		</element>
 
-<element ref="sbui_png"><bounds x="-350" y="100" width="300" height="2400" /></element>
-	<group ref="sb_ui"><bounds x="-350" y="100" width="300" height="2400" /></group>		
+<element ref="sbui_png"><bounds x="-350" y="250" width="300" height="2100" /></element>
+	 <group ref="sb_ui"><bounds x="-350" y="250" width="300" height="2100" /></group>		
 	
 <group ref="sb_board_2m"><bounds x="267" y="180" width="2055" height="2073" /></group>	
 

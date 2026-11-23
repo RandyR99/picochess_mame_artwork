@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -11,7 +11,7 @@ license:cc0
 	</element>
 
 <element name="background">
-		<image file="../misc/background4_black.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 	<element name="blackb"><rect><color red="0" green="0" blue="0" /></rect></element>
@@ -56,14 +56,14 @@ license:cc0
 
 <!-- display -->
 
-	<element name="text_cl1"><text string="a"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl2"><text string="b"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl3"><text string="c"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl4"><text string="d"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl5"><text string="e"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl6"><text string="f"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl7"><text string="g"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl8"><text string="h"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl1"><text string="A"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl2"><text string="B"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl3"><text string="C"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl4"><text string="D"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl5"><text string="E"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl6"><text string="F"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl7"><text string="G"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl8"><text string="H"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 
 	<element name="text_cn1"><text string="1"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 	<element name="text_cn2"><text string="2"><color red="0.81" green="0.8" blue="0.79" /></text></element>
@@ -137,7 +137,8 @@ license:cc0
 	</group>
 
 	<!-- same, with the coordinate labels: for the large display outside the picture -->
-	<group name="displayc_labels">
+
+	<group name="displayc1">
 		<bounds x="19.9" y="8" width="111.6" height="127.65" />
 
 		<element ref="white"><bounds x="19.9" y="19.9" width="101.1" height="115.75" /></element>
@@ -168,10 +169,9 @@ license:cc0
 		</repeat>
 	</group>
 
-
 <!-- build screen -->
 
-	<view name="artwork by luis">
+	<view name="Artwork by Luis">
 <bounds left="-10" right="1447" top="-10" bottom="1930" />
 
 
@@ -198,8 +198,8 @@ license:cc0
 			<bounds x="0" y="0" width="1437" height="1920" />
 		</element>
 
-		<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
-		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element>
+	<!--	<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
+		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element> -->
 
 		
 		<group ref="displayc"><bounds x="172" y="57" width="463" height="553" /></group>
@@ -250,7 +250,7 @@ license:cc0
 		
 	</view>
 
-	<view name="artwork screen+ by luis">
+	<view name="Artwork Screen+ by Luis">
 <bounds left="-10" right="2700" top="-10" bottom="1930" />
 
 <element ref="background">
@@ -277,8 +277,8 @@ license:cc0
 			<bounds x="0" y="0" width="1437" height="1920" />
 		</element>
 
-		<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
-		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element>
+	<!--	<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
+		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element> -->
 
 		
 		<group ref="displayc"><bounds x="172" y="57" width="463" height="553" /></group>
@@ -326,7 +326,7 @@ license:cc0
 		<element ref="lcd" inputtag="IN.7" inputmask="0x02" inputraw="1"><bounds x="951" y="1739" width="86" height="164" /></element>
 		<element ref="sound" inputtag="IN.7" inputmask="0x01" inputraw="1"><bounds x="1053" y="1739" width="86" height="164" /></element>
 		
-		<group ref="displayc_labels"><bounds x="1510" y="60" width="1100" height="1309" /></group>
+		<group ref="displayc1"><bounds x="1510" y="60" width="1100" height="1309" /></group>
 		
 	</view>
 

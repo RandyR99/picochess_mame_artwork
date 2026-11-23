@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
-<!-- note: no chesspieces simulation here -->
+<!-- NOTE: no chesspieces simulation here -->
 
 <!-- define elements -->
 
@@ -67,86 +67,86 @@ license:cc0
 
 	<element name="nothing" defstate="0"><text string=" "/></element>
 
-	<element name="text_r1"><text string="mem"><color red="0.3" green="0.3" blue="0.3" /></text></element>
-	<element name="text_r2"><text string="on"><color red="0.3" green="0.3" blue="0.3" /></text></element>
+	<element name="text_r1"><text string="MEM"><color red="0.3" green="0.3" blue="0.3" /></text></element>
+	<element name="text_r2"><text string="ON"><color red="0.3" green="0.3" blue="0.3" /></text></element>
 
 
 
-	<element name="text_boris01" defstate="0"><text state="1" string="restore"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris02" defstate="0"><text state="1" string="g.7"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris03" defstate="0"><text state="1" string="h.8"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris01" defstate="0"><text state="1" string="RESTORE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris02" defstate="0"><text state="1" string="G.7"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris03" defstate="0"><text state="1" string="H.8"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_boris04" defstate="0"><text state="1" string="9"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris05" defstate="0"><text state="1" string="ce"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris06a" defstate="0"><text state="1" string="halt /" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris06b" defstate="0"><text state="1" string="hint" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris07" defstate="0"><text state="1" string="d.4"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris08" defstate="0"><text state="1" string="e.5"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris09" defstate="0"><text state="1" string="f.6"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris10" defstate="0"><text state="1" string="time"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris11" defstate="0"><text state="1" string=".best"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris12" defstate="0"><text state="1" string="a.1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris13" defstate="0"><text state="1" string="b.2"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris14" defstate="0"><text state="1" string="c.3"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris15" defstate="0"><text state="1" string="rank"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris16" defstate="0"><text state="1" string="level"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris05" defstate="0"><text state="1" string="CE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris06a" defstate="0"><text state="1" string="HALT /" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris06b" defstate="0"><text state="1" string="HINT" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris07" defstate="0"><text state="1" string="D.4"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris08" defstate="0"><text state="1" string="E.5"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris09" defstate="0"><text state="1" string="F.6"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris10" defstate="0"><text state="1" string="TIME"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris11" defstate="0"><text state="1" string=".BEST"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris12" defstate="0"><text state="1" string="A.1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris13" defstate="0"><text state="1" string="B.2"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris14" defstate="0"><text state="1" string="C.3"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris15" defstate="0"><text state="1" string="RANK"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris16" defstate="0"><text state="1" string="LEVEL"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_boris17" defstate="0"><text state="1" string="0"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_boris18" defstate="0"><text state="1" string="-"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris19" defstate="0"><text state="1" string="b/w"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_boris20" defstate="0"><text state="1" string="enter"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris19" defstate="0"><text state="1" string="B/W"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_boris20" defstate="0"><text state="1" string="ENTER"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 
 
 
-	<element name="text_morphy01" defstate="0"><text state="2" string="restore"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy02" defstate="0"><text state="2" string="g.7"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy03" defstate="0"><text state="2" string="h.8"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy04" defstate="0"><text state="2" string="audio"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy05" defstate="0"><text state="2" string="ce"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy06a" defstate="0"><text state="2" string="halt /" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy06b" defstate="0"><text state="2" string="hint" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy07" defstate="0"><text state="2" string="d.4"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy08" defstate="0"><text state="2" string="e.5"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy09" defstate="0"><text state="2" string="f.6"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy10" defstate="0"><text state="2" string="time"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy11" defstate="0"><text state="2" string=".best"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy12" defstate="0"><text state="2" string="a.1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy13" defstate="0"><text state="2" string="b.2"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy14" defstate="0"><text state="2" string="c.3"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy15" defstate="0"><text state="2" string="rank"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy16" defstate="0"><text state="2" string="level"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy01" defstate="0"><text state="2" string="RESTORE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy02" defstate="0"><text state="2" string="G.7"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy03" defstate="0"><text state="2" string="H.8"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy04" defstate="0"><text state="2" string="AUDIO"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy05" defstate="0"><text state="2" string="CE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy06a" defstate="0"><text state="2" string="HALT /" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy06b" defstate="0"><text state="2" string="HINT" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy07" defstate="0"><text state="2" string="D.4"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy08" defstate="0"><text state="2" string="E.5"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy09" defstate="0"><text state="2" string="F.6"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy10" defstate="0"><text state="2" string="TIME"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy11" defstate="0"><text state="2" string=".BEST"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy12" defstate="0"><text state="2" string="A.1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy13" defstate="0"><text state="2" string="B.2"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy14" defstate="0"><text state="2" string="C.3"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy15" defstate="0"><text state="2" string="RANK"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy16" defstate="0"><text state="2" string="LEVEL"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_morphy17" defstate="0"><text state="2" string="0"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_morphy18" defstate="0"><text state="2" string="-"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy19" defstate="0"><text state="2" string="b/w"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_morphy20" defstate="0"><text state="2" string="enter"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy19" defstate="0"><text state="2" string="B/W"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_morphy20" defstate="0"><text state="2" string="ENTER"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 
-	<element name="text_steinitz01a" defstate="0"><text state="3" string="restore"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz01b" defstate="0"><text state="3" string="timing"><color red="0.05" green="0.7" blue="0.15" /></text></element>
-	<element name="text_steinitz02" defstate="0"><text state="3" string="g.7"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz03" defstate="0"><text state="3" string="h.8"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz04a" defstate="0"><text state="3" string="audio"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz01a" defstate="0"><text state="3" string="RESTORE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz01b" defstate="0"><text state="3" string="TIMING"><color red="0.05" green="0.7" blue="0.15" /></text></element>
+	<element name="text_steinitz02" defstate="0"><text state="3" string="G.7"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz03" defstate="0"><text state="3" string="H.8"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz04a" defstate="0"><text state="3" string="AUDIO"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_steinitz04b" defstate="0"><text state="3" string="9"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz05" defstate="0"><text state="3" string="ce"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz06a" defstate="0"><text state="3" string="halt /" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz06b" defstate="0"><text state="3" string="hint" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz06c" defstate="0"><text state="3" string="look"><color red="0.05" green="0.7" blue="0.15" /></text></element>
-	<element name="text_steinitz07" defstate="0"><text state="3" string="d.4"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz08" defstate="0"><text state="3" string="e.5"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz09" defstate="0"><text state="3" string="f.6"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz10a" defstate="0"><text state="3" string="time"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz10b" defstate="0"><text state="3" string="change"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz11a" defstate="0"><text state="3" string="best"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz11b" defstate="0"><text state="3" string="score"><color red="0.05" green="0.7" blue="0.15" /></text></element>
-	<element name="text_steinitz12" defstate="0"><text state="3" string="a.1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz13" defstate="0"><text state="3" string="b.2"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz14" defstate="0"><text state="3" string="c.3"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz15" defstate="0"><text state="3" string="rank"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz16" defstate="0"><text state="3" string="level"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz17a" defstate="0"><text state="3" string="display"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz05" defstate="0"><text state="3" string="CE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz06a" defstate="0"><text state="3" string="HALT /" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz06b" defstate="0"><text state="3" string="HINT" align="1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz06c" defstate="0"><text state="3" string="LOOK"><color red="0.05" green="0.7" blue="0.15" /></text></element>
+	<element name="text_steinitz07" defstate="0"><text state="3" string="D.4"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz08" defstate="0"><text state="3" string="E.5"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz09" defstate="0"><text state="3" string="F.6"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz10a" defstate="0"><text state="3" string="TIME"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz10b" defstate="0"><text state="3" string="CHANGE"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz11a" defstate="0"><text state="3" string="BEST"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz11b" defstate="0"><text state="3" string="SCORE"><color red="0.05" green="0.7" blue="0.15" /></text></element>
+	<element name="text_steinitz12" defstate="0"><text state="3" string="A.1"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz13" defstate="0"><text state="3" string="B.2"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz14" defstate="0"><text state="3" string="C.3"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz15" defstate="0"><text state="3" string="RANK"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz16" defstate="0"><text state="3" string="LEVEL"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz17a" defstate="0"><text state="3" string="DISPLAY"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_steinitz17b" defstate="0"><text state="3" string="0"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 	<element name="text_steinitz18a" defstate="0"><text state="3" string="&#x2190;"><color red="0.05" green="0.7" blue="0.15" /></text></element>
 	<element name="text_steinitz18b" defstate="0"><text state="3" string="&#x2192;"><color red="0.55" green="0.0" blue="0.1" /></text></element>
-	<element name="text_steinitz18c" defstate="0"><text state="3" string="review"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz19" defstate="0"><text state="3" string="b/w"><color red="0.71" green="0.68" blue="0.57" /></text></element>
-	<element name="text_steinitz20" defstate="0"><text state="3" string="enter"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz18c" defstate="0"><text state="3" string="REVIEW"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz19" defstate="0"><text state="3" string="B/W"><color red="0.71" green="0.68" blue="0.57" /></text></element>
+	<element name="text_steinitz20" defstate="0"><text state="3" string="ENTER"><color red="0.71" green="0.68" blue="0.57" /></text></element>
 
 	<element name="digitp" defstate="9224"><led14seg><color red="0.75" green="0.1" blue="0.15" /></led14seg></element>
 	<element name="digitn" defstate="3244"><led14seg><color red="0.75" green="0.1" blue="0.15" /></led14seg></element>
@@ -387,7 +387,7 @@ license:cc0
 
 
 <!-- build screen -->
-<view name="artwork by luis">
+<view name="Artwork by Luis">
 <bounds left="-10" right="2005" top="-5" bottom="1173" />
 
 <element ref="background">
@@ -408,7 +408,7 @@ license:cc0
 
 </view>
 
-<view name="artwork 1 by luis">
+<view name="Artwork 1 by Luis">
 <bounds left="1390" right="2005" top="-5" bottom="1173" />
 
 <element ref="background">

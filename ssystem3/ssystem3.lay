@@ -9,7 +9,7 @@
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 	
 	
@@ -100,7 +100,7 @@
 		<bounds x="1.5" y="2.9" width="122.6" height="122.1" />
 		<element ref="whitew"><bounds x="6.2" y="7.6" width="113.3" height="112.8" /></element>
 		<screen index="1" blend="alpha"><bounds x="9.8" y="10" width="106" height="108" /></screen>
-		<element ref="lcd_cb" blend="multiply"><bounds x="1.5" y="2.9" width="122.6" height="122.1" /></element>
+		<element ref="lcd_cb" blend="multiply"><bounds x="1.5" y="2.9" width="122.6" height="122.8" /></element>
 
 		<element ref="nothing" blend="add" inputtag="IN.4" inputmask="0x00" inputraw="1"><bounds x="6.2" y="7.6" width="113.3" height="112.8" /></element>
 		<element ref="lcd2m" blend="multiply" inputtag="IN.4" inputmask="0x04" inputraw="1"><bounds x="6.2" y="7.6" width="113.3" height="112.8" /></element>
@@ -108,7 +108,7 @@
 
 <!-- build screen -->
 
-	<view name="artwork by luis">
+	<view name="Artwork by Luis">
 		<bounds left="-5" right="1196" top="-5" bottom="486" />
 
 <element ref="background">
@@ -139,7 +139,7 @@
 
 <screen index="0"><bounds x="565" y="110" width="152" height="65" /></screen>
 <element ref="nothing" blend="add" inputtag="IN.4" inputmask="0x00" inputraw="1"><bounds x="563" y="107" width="155" height="65" /></element>
-		<element ref="lcd_bg" blend="multiply" inputtag="IN.4" inputmask="0x02" inputraw="1"><bounds x="563" y="107" width="155" height="65" /></element>
+		<element ref="lcd_bg" blend="multiply" inputtag="IN.4" inputmask="0x02" inputraw="1"><bounds x="563" y="107" width="155" height="68" /></element>
 	
 
 <group ref="lcd2"><bounds x="153" y="39" width="220.5" height="220.5" /></group>

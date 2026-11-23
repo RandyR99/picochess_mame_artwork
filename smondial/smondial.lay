@@ -8,7 +8,7 @@
 
       
 	 <element name="background_alt">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -340,7 +340,7 @@
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="5" y="40" width="4" height="4" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="5" y="44" width="4" height="4" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -379,12 +379,14 @@
 </group> 
 	 
 	  
-	 <view name="artwork by luis">
-		<bounds left="-150" right="1037" top="-10" bottom="1262" />
+	 <view name="Artwork by Luis">
+		<bounds left="-15" right="1037" top="-10" bottom="1262" />
 	
 <element ref="background_alt">
 			<bounds x="-150" y="-10" width="1187" height="1272" />
 		</element>
+
+<group ref="display"><bounds x="91" y="1069" width="112" height="112" /></group>
 
 <element ref="mephisto">
 			<bounds x="0" y="0" width="1037" height="1262"/>
@@ -393,13 +395,14 @@
 
 <group ref="sb_board"><bounds x="96" y="102" width="835" height="835" /></group>
 
-<element ref="sbui_png"><bounds x="-130" y="90" width="130" height="1040" /></element>
-       <group ref="sb_ui"><bounds x="-130" y="90" width="130" height="1040" /></group> 
+<!--
+<element ref="sbui_png"><bounds x="-130" y="85" width="130" height="910" /></element>
+     <group ref="sb_ui"><bounds x="-130" y="85" width="130" height="910" /></group> 
+-->	   
 	   
-	   <group ref="display"><bounds x="91" y="1069" width="112" height="112" /></group>
 	  
 	  
-	 <!-- leds -->
+	 <!-- LEDs -->
 		<element name="7.2" ref="ledvg"><bounds x="72" y="138" width="12" height="24" /></element>
 		<element name="6.2" ref="ledvg"><bounds x="72" y="244" width="12" height="24" /></element>
 		<element name="5.2" ref="ledvg"><bounds x="72" y="350" width="12" height="24" /></element>
@@ -482,12 +485,14 @@
 	</view>
 	
 	
- <view name="2d artwork by luis">
+ <view name="2D Artwork by Luis (SBI)">
 		<bounds left="-150" right="1037" top="-10" bottom="1262" />
 	
 <element ref="background_alt">
 			<bounds x="-150" y="-10" width="1187" height="1272" />
 		</element>
+
+<group ref="display"><bounds x="91" y="1069" width="112" height="112" /></group>
 
 <element ref="mephisto">
 			<bounds x="0" y="0" width="1037" height="1262"/>
@@ -496,13 +501,15 @@
 
 <group ref="sb_board_2m"><bounds x="96" y="102" width="835" height="835" /></group>
 
-<element ref="sbui_png"><bounds x="-130" y="90" width="130" height="1040" /></element>
-       <group ref="sb_ui"><bounds x="-130" y="90" width="130" height="1040" /></group> 
+<group ref="sb_board"><bounds x="96" y="102" width="835" height="835" /></group>
+
+<element ref="sbui_png"><bounds x="-130" y="85" width="130" height="910" /></element>
+     <group ref="sb_ui"><bounds x="-130" y="85" width="130" height="910" /></group> 
+	    
 	   
-	   <group ref="display"><bounds x="91" y="1069" width="112" height="112" /></group>
 	  
 	  
-	 <!-- leds -->
+	 <!-- LEDs -->
 		<element name="7.2" ref="ledvg"><bounds x="72" y="138" width="12" height="24" /></element>
 		<element name="6.2" ref="ledvg"><bounds x="72" y="244" width="12" height="24" /></element>
 		<element name="5.2" ref="ledvg"><bounds x="72" y="350" width="12" height="24" /></element>

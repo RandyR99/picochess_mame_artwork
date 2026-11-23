@@ -14,7 +14,7 @@ license:CC0-1.0
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="led" defstate="0">
@@ -31,6 +31,20 @@ license:CC0-1.0
 		<image file="button_0.png" state="0"/>
 	    <image file="button_1.png" state="1"/>
 	</element>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<element name="text_10">
 		<rect><color red="0.41" green="0.4" blue="0.39" /></rect>
@@ -420,38 +434,29 @@ license:CC0-1.0
 		<rect state="1"><color red="0.2" green="0.16" blue="0.16" /></rect>
 		<rect state="0"><color red="0.49412" green="0.51765" blue="0.51765" /></rect>
 	</element>
-	<element name="lcdu">
-		<rect><color red="0.639" green="0.643" blue="0.596" /></rect>
-		<text state="1" string="&#x25b2;"><color red="0.2" green="0.16" blue="0.16" /></text>
-		<text state="0" string="&#x25b2;"><color red="0.49412" green="0.51765" blue="0.51765" /></text>
-	</element>
 
 	<group name="lcd1">
-		<element ref="lcd_bg"><bounds x="28.5" y="89.5" width="25" height="9" /></element>
+		<element ref="lcd_bg"><bounds x="32" y="89.5" width="20.5" height="9" /></element>
 
-		<element name="lcd7" ref="lcdu"><bounds x="29.15" y="90.3" width="3.5" height="3.5" /></element>
+		<element name="digit0" ref="digit"><bounds x="33.0" y="91" width="4" height="6" /></element>
+		<element name="digit1" ref="digit"><bounds x="37.5" y="91" width="4" height="6" /></element>
+		<element name="digit2" ref="digit"><bounds x="43.0" y="91" width="4" height="6" /></element>
+		<element name="digit3" ref="digit"><bounds x="47.5" y="91" width="4" height="6" /></element>
 
-		<element name="digit0" ref="digit"><bounds x="32.75" y="91" width="4" height="6" /></element>
-		<element name="digit1" ref="digit"><bounds x="37.75" y="91" width="4" height="6" /></element>
-		<element name="digit2" ref="digit"><bounds x="42.75" y="91" width="4" height="6" /></element>
-		<element name="digit3" ref="digit"><bounds x="47.75" y="91" width="4" height="6" /></element>
-
-		<element name="lcd31" ref="ldot"><bounds x="42.13" y="92.55" width="0.6" height="0.6" /></element>
-		<element name="lcd31" ref="ldot"><bounds x="41.97" y="94.75" width="0.6" height="0.6" /></element>
+		<element name="s0.8" ref="ldot"><bounds xc="42.45" yc="92.25" width="0.6" height="0.6" /></element>
+		<element name="s0.8" ref="ldot"><bounds xc="42.15" yc="95.65" width="0.6" height="0.6" /></element>
 	</group>
 
 	<group name="lcd2">
-		<element ref="lcd_bg"><bounds x="28.5" y="89.5" width="25" height="9" /></element>
+		<element ref="lcd_bg"><bounds x="32" y="89.5" width="20.5" height="9" /></element>
 
-		<element name="lcd39" ref="lcdu"><bounds x="29.15" y="90.3" width="3.5" height="3.5" /></element>
+		<element name="digit4" ref="digit"><bounds x="33.0" y="91" width="4" height="6" /></element>
+		<element name="digit5" ref="digit"><bounds x="37.5" y="91" width="4" height="6" /></element>
+		<element name="digit6" ref="digit"><bounds x="43.0" y="91" width="4" height="6" /></element>
+		<element name="digit7" ref="digit"><bounds x="47.5" y="91" width="4" height="6" /></element>
 
-		<element name="digit4" ref="digit"><bounds x="32.75" y="91" width="4" height="6" /></element>
-		<element name="digit5" ref="digit"><bounds x="37.75" y="91" width="4" height="6" /></element>
-		<element name="digit6" ref="digit"><bounds x="42.75" y="91" width="4" height="6" /></element>
-		<element name="digit7" ref="digit"><bounds x="47.75" y="91" width="4" height="6" /></element>
-
-		<element name="lcd63" ref="ldot"><bounds x="42.13" y="92.55" width="0.6" height="0.6" /></element>
-		<element name="lcd63" ref="ldot"><bounds x="41.97" y="94.75" width="0.6" height="0.6" /></element>
+		<element name="s0.34" ref="ldot"><bounds xc="42.45" yc="92.25" width="0.6" height="0.6" /></element>
+		<element name="s0.34" ref="ldot"><bounds xc="42.15" yc="95.65" width="0.6" height="0.6" /></element>
 	</group>
 
 
@@ -461,7 +466,7 @@ license:CC0-1.0
 <!-- build screen -->
 
 <view name="Artwork by Luis">
-<bounds left="-270" right="2900" top="-70" bottom="2180" />
+<bounds left="-40" right="2900" top="-70" bottom="2180" />
 
 <element ref="background">
 			<bounds x="-270" y="-70" width="3170" height="2270" />
@@ -471,12 +476,13 @@ license:CC0-1.0
 			<bounds x="0" y="0" width="2853" height="2160" />
 		</element>
 
+<!--
 <element ref="sbui_png">
 			<bounds x="-220" y="225" width="200" height="1600" />
 		</element>
 <group ref="sb_ui"><bounds x="-220" y="225" width="200" height="1600" /></group>
 
-
+-->
 		<group ref="sb_board"><bounds x="99" y="63" width="1995" height="1957" /></group>
 
 <element name="7.5" ref="led2"><bounds x="63" y="174" width="30" height="30" /></element>
@@ -541,7 +547,7 @@ license:CC0-1.0
 	</view>
 	
 
-<view name="2D Artwork by Luis">
+<view name="2D Artwork by Luis (SBI)">
 <bounds left="-270" right="2900" top="-70" bottom="2180" />
 
 <element ref="background">

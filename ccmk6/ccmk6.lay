@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-license:cc0
+license:CC0
 -->
 <mamelayout version="2">
 
@@ -15,7 +15,7 @@ license:cc0
 	</element>
 
 <element name="background">
-		<image file="../misc/background4_black.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -246,18 +246,18 @@ license:cc0
 		<!-- spawn -->
 		
 
-		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23" width="3.8" height="3.8" /></element>
-		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27" width="3.8" height="3.8" /></element>
-		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31" width="3.8" height="3.8" /></element>
-		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7" width="3.8" height="3.8" /></element>
-		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36" width="3.8" height="3.8" /></element>
-		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40" width="3.8" height="3.8" /></element>
-		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.8" height="3.8" /></element>
+		<element name="piece_ui1" ref="piece_2m"><bounds x="1.4" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui2" ref="piece_2m"><bounds x="1.4" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui3" ref="piece_2m"><bounds x="1.4" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui4" ref="piece_2m"><bounds x="4.8" y="23"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui5" ref="piece_2m"><bounds x="4.8" y="27"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui6" ref="piece_2m"><bounds x="4.8" y="31"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui7" ref="piece_2m"><bounds x="1.4" y="36"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui8" ref="piece_2m"><bounds x="1.4" y="40"    width="3.7" height="3.8" /></element>
+		<element name="piece_ui9" ref="piece_2m"><bounds x="1.4" y="43.7"  width="3.7" height="3.8" /></element>
+		<element name="piece_ui10" ref="piece_2m"><bounds x="4.8" y="36"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui11" ref="piece_2m"><bounds x="4.8" y="40"   width="3.7" height="3.8" /></element>
+		<element name="piece_ui12" ref="piece_2m"><bounds x="4.8" y="43.7" width="3.7" height="3.8" /></element>
 
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0001"><bounds x="1" y="23" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0002"><bounds x="1" y="27" width="3.8" height="3.8" /><color alpha="0.25" /></element>
@@ -272,9 +272,9 @@ license:cc0
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="4.9" y="40" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="4.9" y="43.7" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
-		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
+		<element name="piece_ui0" ref="piece_2m"><bounds x="2.5" y="52.8" width="5" height="6" /></element>
 
 		<element ref="hlub" inputtag="board:UI" inputmask="0x08"><bounds x="1.8" y="59.2" width="6.3" height="3" /><color alpha="0.25" /></element>
 
@@ -294,20 +294,20 @@ license:cc0
 	
 	
 	
-	<element name="text_lcd1"><text string="lcd"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_lcd2"><text string="lcd"><color red="0.65" green="0.12" blue="0.15" /></text></element>
-	<element name="text_sound1"><text string="sound"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_sound2"><text string="sound"><color red="0.65" green="0.12" blue="0.15" /></text></element>
+	<element name="text_lcd1"><text string="LCD"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_lcd2"><text string="LCD"><color red="0.65" green="0.12" blue="0.15" /></text></element>
+	<element name="text_sound1"><text string="SOUND"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_sound2"><text string="SOUND"><color red="0.65" green="0.12" blue="0.15" /></text></element>
 
 	<element name="text_r9"><text string="|9" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r8"><text string="h|8" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r7"><text string="g|7" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r6"><text string="f|6" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r5"><text string="e|5" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r4"><text string="d|4" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r3"><text string="c|3" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r2"><text string="b|2" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_r1"><text string="a|1" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r8"><text string="H|8" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r7"><text string="G|7" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r6"><text string="F|6" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r5"><text string="E|5" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r4"><text string="D|4" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r3"><text string="C|3" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r2"><text string="B|2" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_r1"><text string="A|1" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 	<element name="text_r0"><text string="|0" align="2"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
 	<element name="text_p1"><image file="chess/wk.png"><color alpha="0.83" /></image></element>
@@ -317,90 +317,90 @@ license:cc0
 	<element name="text_p5"><image file="chess/wn.png"><color alpha="0.83" /></image></element>
 	<element name="text_p6"><image file="chess/wp.png"><color alpha="0.83" /></image></element>
 
-	<element name="text_b01e" defstate="0"><text state="0" string="ce"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b02e" defstate="0"><text state="0" string="mode"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b03e" defstate="0"><text state="0" string="start"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b04e" defstate="0"><text state="0" string="stop"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b0ce" defstate="0"><text state="0" string="clock"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b11e" defstate="0"><text state="0" string="enter"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b12e" defstate="0"><text state="0" string="go"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b13e" defstate="0"><text state="0" string="replay"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b01e" defstate="0"><text state="0" string="CE"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b02e" defstate="0"><text state="0" string="MODE"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b03e" defstate="0"><text state="0" string="START"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b04e" defstate="0"><text state="0" string="STOP"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b0ce" defstate="0"><text state="0" string="CLOCK"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b11e" defstate="0"><text state="0" string="ENTER"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b12e" defstate="0"><text state="0" string="GO"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b13e" defstate="0"><text state="0" string="REPLAY"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 	<element name="text_b14e" defstate="0"><text state="0" string="&#x2191;"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 	<element name="text_b15e" defstate="0"><text state="0" string="&#x2193;"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
-	<element name="text_b21e" defstate="0"><text state="0" string="analysis" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b22e" defstate="0"><text state="0" string="comment" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b23e" defstate="0"><text state="0" string="auto" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b24e1" defstate="0"><text state="0" string="next" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b24e2" defstate="0"><text state="0" string="best" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b25e" defstate="0"><text state="0" string="swap" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b26e1" defstate="0"><text state="0" string="next" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b26e2" defstate="0"><text state="0" string="simult" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b27e" defstate="0"><text state="0" string="peripheral" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b28e" defstate="0"><text state="0" string="draw" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b29e1" defstate="0"><text state="0" string="new" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b29e2" defstate="0"><text state="0" string="game" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b2ae1" defstate="0"><text state="0" string="enter" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b2ae2" defstate="0"><text state="0" string="position" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b21e" defstate="0"><text state="0" string="ANALYSIS" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b22e" defstate="0"><text state="0" string="COMMENT" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b23e" defstate="0"><text state="0" string="AUTO" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b24e1" defstate="0"><text state="0" string="NEXT" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b24e2" defstate="0"><text state="0" string="BEST" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b25e" defstate="0"><text state="0" string="SWAP" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b26e1" defstate="0"><text state="0" string="NEXT" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b26e2" defstate="0"><text state="0" string="SIMULT" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b27e" defstate="0"><text state="0" string="PERIPHERAL" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b28e" defstate="0"><text state="0" string="DRAW" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b29e1" defstate="0"><text state="0" string="NEW" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b29e2" defstate="0"><text state="0" string="GAME" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b2ae1" defstate="0"><text state="0" string="ENTER" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b2ae2" defstate="0"><text state="0" string="POSITION" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
-	<element name="text_b31e1" defstate="0"><text state="0" string="y"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b31e2" defstate="0"><text state="0" string="e"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b31e3" defstate="0"><text state="0" string="s"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b32e1" defstate="0"><text state="0" string="n"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b32e2" defstate="0"><text state="0" string="o"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b33e" defstate="0"><text state="0" string="cb"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b34e" defstate="0"><text state="0" string="cs"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b31e1" defstate="0"><text state="0" string="Y"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b31e2" defstate="0"><text state="0" string="E"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b31e3" defstate="0"><text state="0" string="S"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b32e1" defstate="0"><text state="0" string="N"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b32e2" defstate="0"><text state="0" string="O"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b33e" defstate="0"><text state="0" string="CB"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b34e" defstate="0"><text state="0" string="CS"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
-	<element name="text_b01d" defstate="0"><text state="1" string="löschen"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b02d" defstate="0"><text state="1" string="modus"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b03d" defstate="0"><text state="1" string="start"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b04d" defstate="0"><text state="1" string="stop"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b0cd" defstate="0"><text state="1" string="uhr"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b11d" defstate="0"><text state="1" string="eingabe"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b12d1" defstate="0"><text state="1" string="spielen/"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b12d2" defstate="0"><text state="1" string="unterbr."><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b13d1" defstate="0"><text state="1" string="partie"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b13d2" defstate="0"><text state="1" string="wiederh."><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b14d" defstate="0"><text state="1" string="vor"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b15d" defstate="0"><text state="1" string="zurück"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b01d" defstate="0"><text state="1" string="LÖSCHEN"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b02d" defstate="0"><text state="1" string="MODUS"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b03d" defstate="0"><text state="1" string="START"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b04d" defstate="0"><text state="1" string="STOP"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b0cd" defstate="0"><text state="1" string="UHR"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b11d" defstate="0"><text state="1" string="EINGABE"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b12d1" defstate="0"><text state="1" string="SPIELEN/"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b12d2" defstate="0"><text state="1" string="UNTERBR."><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b13d1" defstate="0"><text state="1" string="PARTIE"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b13d2" defstate="0"><text state="1" string="WIEDERH."><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b14d" defstate="0"><text state="1" string="VOR"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b15d" defstate="0"><text state="1" string="ZURÜCK"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
-	<element name="text_b21d" defstate="0"><text state="1" string="analyse" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b22d" defstate="0"><text state="1" string="kommentar" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b23d" defstate="0"><text state="1" string="auto" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b24d1" defstate="0"><text state="1" string="alternativ-" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b24d2" defstate="0"><text state="1" string="zug" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b25d1" defstate="0"><text state="1" string="seiten-" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b25d2" defstate="0"><text state="1" string="wechsel" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b26d" defstate="0"><text state="1" string="brett nr." align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b27d" defstate="0"><text state="1" string="peripheral" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b28d" defstate="0"><text state="1" string="remis" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b29d1" defstate="0"><text state="1" string="neue" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b29d2" defstate="0"><text state="1" string="partie" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b2ad1" defstate="0"><text state="1" string="positions-" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b2ad2" defstate="0"><text state="1" string="eingabe" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b21d" defstate="0"><text state="1" string="ANALYSE" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b22d" defstate="0"><text state="1" string="KOMMENTAR" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b23d" defstate="0"><text state="1" string="AUTO" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b24d1" defstate="0"><text state="1" string="ALTERNATIV-" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b24d2" defstate="0"><text state="1" string="ZUG" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b25d1" defstate="0"><text state="1" string="SEITEN-" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b25d2" defstate="0"><text state="1" string="WECHSEL" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b26d" defstate="0"><text state="1" string="BRETT NR." align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b27d" defstate="0"><text state="1" string="PERIPHERAL" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b28d" defstate="0"><text state="1" string="REMIS" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b29d1" defstate="0"><text state="1" string="NEUE" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b29d2" defstate="0"><text state="1" string="PARTIE" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b2ad1" defstate="0"><text state="1" string="POSITIONS-" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b2ad2" defstate="0"><text state="1" string="EINGABE" align="1"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
-	<element name="text_b31d1" defstate="0"><text state="1" string="j"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b31d2" defstate="0"><text state="1" string="a"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b32d1" defstate="0"><text state="1" string="n"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b32d2" defstate="0"><text state="1" string="e"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b32d3" defstate="0"><text state="1" string="i"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b32d4" defstate="0"><text state="1" string="n"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b33d" defstate="0"><text state="1" string="bf"><color red="0.6" green="0.6" blue="0.59" /></text></element>
-	<element name="text_b34d" defstate="0"><text state="1" string="pf"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b31d1" defstate="0"><text state="1" string="J"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b31d2" defstate="0"><text state="1" string="A"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b32d1" defstate="0"><text state="1" string="N"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b32d2" defstate="0"><text state="1" string="E"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b32d3" defstate="0"><text state="1" string="I"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b32d4" defstate="0"><text state="1" string="N"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b33d" defstate="0"><text state="1" string="BF"><color red="0.6" green="0.6" blue="0.59" /></text></element>
+	<element name="text_b34d" defstate="0"><text state="1" string="PF"><color red="0.6" green="0.6" blue="0.59" /></text></element>
 
 	
 
 
 <!-- display -->
 
-	<element name="text_cl1"><text string="a"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl2"><text string="b"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl3"><text string="c"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl4"><text string="d"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl5"><text string="e"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl6"><text string="f"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl7"><text string="g"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_cl8"><text string="h"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl1"><text string="A"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl2"><text string="B"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl3"><text string="C"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl4"><text string="D"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl5"><text string="E"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl6"><text string="F"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl7"><text string="G"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_cl8"><text string="H"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 
 	<element name="text_cn1"><text string="1"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 	<element name="text_cn2"><text string="2"><color red="0.81" green="0.8" blue="0.79" /></text></element>
@@ -474,7 +474,8 @@ license:cc0
 	</group>
 
 	<!-- same, with the coordinate labels: for the large display outside the picture -->
-	<group name="displayc_labels">
+
+	<group name="displayc1">
 		<bounds x="19.9" y="8" width="111.6" height="127.65" />
 
 		<element ref="white"><bounds x="19.9" y="19.9" width="101.1" height="115.75" /></element>
@@ -508,7 +509,7 @@ license:cc0
 
 <!-- build screen -->
 
-	<view name="artwork by luis">
+	<view name="Artwork by Luis">
 <bounds left="-250" right="2874" top="0" bottom="1920" />
 
 
@@ -543,8 +544,8 @@ license:cc0
 		
 		<group ref="sb_board"><bounds x="108" y="343" width="1230" height="1230" /></group>
 		
-		<element ref="sbui_png"><bounds x="-220" y="150" width="200" height="1600" /></element>
-		<group ref="sb_ui"><bounds x="-220" y="150" width="200" height="1600" /></group>
+		<element ref="sbui_png"><bounds x="-220" y="250" width="200" height="1400" /></element>
+		     <group ref="sb_ui"><bounds x="-220" y="250" width="200" height="1400" /></group>
 		
 		<element ref="hl" blend="add" inputtag="IN.4" inputmask="0x08"><bounds x="1566" y="697" width="115" height="66" /></element>
 		<element ref="hl" blend="add" inputtag="IN.4" inputmask="0x10"><bounds x="1566" y="762" width="115" height="66" /></element>
@@ -591,7 +592,7 @@ license:cc0
 	
 	</view>
 	
-	<view name="2d artwork by luis">
+	<view name="2D Artwork by Luis">
 <bounds left="-250" right="2874" top="0" bottom="1920" />
 
 
@@ -626,8 +627,8 @@ license:cc0
 		
 		<group ref="sb_board_2m"><bounds x="108" y="343" width="1230" height="1230" /></group>
 		
-		<element ref="sbui_png"><bounds x="-220" y="150" width="200" height="1600" /></element>
-		<group ref="sb_ui"><bounds x="-220" y="150" width="200" height="1600" /></group>
+		<element ref="sbui_png"><bounds x="-220" y="250" width="200" height="1400" /></element>
+		     <group ref="sb_ui"><bounds x="-220" y="250" width="200" height="1400" /></group>
 		
 		<element ref="hl" blend="add" inputtag="IN.4" inputmask="0x08"><bounds x="1566" y="697" width="115" height="66" /></element>
 		<element ref="hl" blend="add" inputtag="IN.4" inputmask="0x10"><bounds x="1566" y="762" width="115" height="66" /></element>
@@ -674,7 +675,7 @@ license:cc0
 	
 	</view>
 	
-	<view name="no board artwork by luis">
+	<view name="No board Artwork by Luis">
 <bounds left="-10" right="1447" top="-10" bottom="1930" />
 
 
@@ -701,8 +702,8 @@ license:cc0
 			<bounds x="0" y="0" width="1437" height="1920" />
 		</element>
 
-		<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
-		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element>
+	<!--	<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
+		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element> -->
 
 		
 		<group ref="displayc"><bounds x="172" y="57" width="463" height="553" /></group>
@@ -754,7 +755,7 @@ license:cc0
 	
 	</view>
 	
-<view name="artwork screen+ by luis">
+<view name="Artwork Screen+ by Luis">
 <bounds left="-10" right="2700" top="-10" bottom="1930" />
 
 <element ref="background">
@@ -781,8 +782,8 @@ license:cc0
 			<bounds x="0" y="0" width="1437" height="1920" />
 		</element>
 
-		<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
-		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element>
+	<!--	<element ref="black"><bounds x="100" y="19" width="35" height="40.75" /></element>
+		<element ref="blackb"><bounds x="99.5" y="19.5" width="35" height="50" /></element> -->
 
 		
 		<group ref="displayc"><bounds x="172" y="57" width="463" height="553" /></group>
@@ -830,7 +831,7 @@ license:cc0
 		<element ref="lcd" inputtag="IN.7" inputmask="0x02" inputraw="1"><bounds x="951" y="1739" width="86" height="164" /></element>
 		<element ref="sound" inputtag="IN.7" inputmask="0x01" inputraw="1"><bounds x="1053" y="1739" width="86" height="164" /></element>
 		
-		<group ref="displayc_labels"><bounds x="1510" y="60" width="1100" height="1309" /></group>
+		<group ref="displayc1"><bounds x="1510" y="60" width="1100" height="1309" /></group>
 		
 </view>
 </mamelayout>

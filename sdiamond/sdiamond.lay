@@ -4,7 +4,7 @@
 <!-- define elementos -->
 
 	<element name="novag">
-		<image file="sdiamond.png" />
+		<image file="sdiamond9e.png" />
 	</element>
 
 <element name="sbui_png">
@@ -12,7 +12,7 @@
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background2.jpg" />
 	</element>
 
 <element name="lcdw"><rect><color red="1" green="1" blue="1" /></rect></element>
@@ -285,25 +285,30 @@
 <!-- build screen -->
 
 	<view name="Artwork by Luis">
-		<bounds left="25" right="1100" top="0" bottom="830" />
+		<bounds left="130" right="1100" top="0" bottom="830" />
 		
-		
+	<element ref="background">
+			<bounds x="130" y="0" width="1170" height="840" />
+		</element>	
 
 <!-- lcd panel -->	
 <screen tag="screen"><bounds x="554" y="732" width="120" height="41.9" /></screen>
 		<element ref="lcdm" blend="multiply"><bounds x="540" y="728" width="150" height="55" /></element>
 		
+
+	
 		<element ref="novag">
 			<bounds x="0" y="0" width="1100" height="830" />
 		</element>
 
 <group ref="sb_board"><bounds x="193" y="87" width="589" height="587" /></group>
 
+<!--
 <element ref="sbui_png"><bounds x="45" y="100" width="90" height="630" /></element>
 	 <group ref="sb_ui"><bounds x="45" y="100" width="90" height="630" /></group>
+-->
 
-
-	<!-- botones -->
+	<!-- buttons -->
 
 		<element ref="button1" inputtag="IN.0" inputmask="0x80"><bounds x="821" y="115" width="60" height="39" /></element>
 		<element ref="button1" inputtag="IN.0" inputmask="0x40"><bounds x="821" y="188" width="60" height="39"  /></element>
@@ -354,7 +359,7 @@
 
 	</view>
 	
-	<view name="2D Artwork by Luis">
+	<view name="2D Artwork by Luis (SBI)">
 		<bounds left="25" right="1100" top="0" bottom="830" />
 		
 		
@@ -373,7 +378,7 @@
 	 <group ref="sb_ui"><bounds x="45" y="100" width="90" height="630" /></group>
 
 
-	<!-- botones -->
+	<!-- buttons -->
 
 		<element ref="button1" inputtag="IN.0" inputmask="0x80"><bounds x="821" y="115" width="60" height="39" /></element>
 		<element ref="button1" inputtag="IN.0" inputmask="0x40"><bounds x="821" y="188" width="60" height="39"  /></element>

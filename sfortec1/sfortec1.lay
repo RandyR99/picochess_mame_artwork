@@ -8,7 +8,7 @@
 	</element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<image file="../misc/background_pulsar.png" />
 	</element>
 
 <element name="sbui_png">
@@ -244,8 +244,8 @@
 		<rect><color red="0.81" green="0.8" blue="0.79" /></rect>
 		<text string="CLEAR"><color red="0.01" green="0.01" blue="0.01" /></text>
 	</element>
-	<element name="text_uis1"><text string="SPAWN"><color red="0.81" green="0.8" blue="0.79" /></text></element>
-	<element name="text_uih1"><text string="HAND::"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uis1"><text string="SPAWN:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uih1"><text string="HAND:"><color red="0.81" green="0.8" blue="0.79" /></text></element>
 	<element name="text_uih2">
 		<rect><color red="0.81" green="0.8" blue="0.79" /></rect>
 		<text string="REMOVE"><color red="0.01" green="0.01" blue="0.01" /></text>
@@ -314,7 +314,7 @@
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0400"><bounds x="4.9" y="40" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 		<element ref="hlub" inputtag="board:SPAWN" inputmask="0x0800"><bounds x="4.9" y="43.7" width="3.8" height="3.8" /><color alpha="0.25" /></element>
 
-		<!-- HAND: -->
+		<!-- hand -->
 		
 		<element name="piece_ui0" ref="piece_2m"><bounds x="2" y="52.8" width="6" height="6" /></element>
 
@@ -340,34 +340,23 @@
 	<element name="static_lcd"><rect><color red="0.647" green="0.671" blue="0.514" /></rect></element>
 
 
-	<group name="panel">
-		<element ref="lcdw"><bounds x="0" y="0" width="24.7" height="6.5" /></element>
-		<screen index="0" blend="alpha"><bounds x="0.25" y="1" width="24" height="4.5" /></screen>
-	<element ref="lcdm" blend="multiply"><bounds x="0" y="0" width="24.7" height="6.5" /></element>
-		<element ref="lcda" blend="add"><bounds x="0" y="0" width="24.7" height="6.5" /></element>
-	</group>
 
 
 
 
-<view name="artwork by volodymyr/luis">
-		<bounds left="-15" right="127.8" top="-4.9" bottom="90.5" />
+<view name="Artwork by Volodymyr/Luis">
+		<bounds left="-5" right="127.8" top="-4.9" bottom="90.5" />
 		
 		<element ref="background">
-			<bounds x="-15" y="-4.9" width="25" height="98" />
+			<bounds x="-15" y="-4.9" width="143" height="98" />
 		</element>
 	
-	<element ref="background">
-			<bounds x="122" y="-4.9" width="25" height="98" />
-		</element>
-	
-	<element ref="background">
-			<bounds x="-15" y="85" width="143" height="20" />
-		</element>
-	
-    <element ref="background">
-			<bounds x="-15" y="-4.9" width="143" height="10" />
-		</element>
+	<!-- lcd panel -->	
+<element ref="lcdw"><bounds x="92.2" y="7.8" width="25.25" height="8" /></element> 
+		<element ref="lcdw"><bounds x="92.2" y="7.8" width="24" height="6" /></element>
+		<screen tag="screen"><bounds x="93.2" y="7.8" width="22.75" height="2.5" />
+		</screen>
+	<element ref="lcdm" blend="multiply"><bounds x="92.2" y="7.8" width="24" height="6" /></element>
 	
 <element ref="sfortea">
 			<bounds x="-3.7" y="-3.9" width="130.8" height="93.5" />
@@ -378,12 +367,13 @@
 		</element>
 	
 	
+<!--	
 <element ref="sbui_png"><bounds x="-14.5" y="3" width="10" height="80" /></element>
+<group ref="sb_ui"><bounds x="-14.5" y="3" width="10" height="80" /></group>
+-->
+
 <group ref="sb_board"><bounds x="3.2" y="3.2" width="79.8" height="79.8" /></group>
 
-		<group ref="sb_ui"><bounds x="-14.5" y="3" width="10" height="80" /></group>
-
-	
 
 <!-- chessboard leds -->
 
@@ -405,12 +395,6 @@
 		<element name="1.1" ref="ledr_v"><bounds x="67.3" y="83.8" width="1.4" height="3.2" /></element>
 		<element name="0.1" ref="ledr_v"><bounds x="77.3" y="83.8" width="1.4" height="3.2" /></element>
 
-	<!-- lcd panel -->
-
-
-		<element ref="lcdw"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
-		<screen tag="screen"><bounds x="93.3" y="8.0" width="22.6" height="2.55" /></screen>
-		<element ref="lcdm" blend="multiply"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
 
 
 	<!-- right side buttons -->
@@ -449,24 +433,19 @@
 </view>
 	
 
-<view name="2d artwork by volodymyr/luis">
-		<bounds left="-15" right="127.8" top="-4.9" bottom="90.5" />
+<view name="2D Artwork by Volodymyr/Luis (SBI)">
+		<bounds left="-7" right="131" top="-7.9" bottom="93.5" />
 		
 		<element ref="background">
-			<bounds x="-15" y="-4.9" width="25" height="98" />
+			<bounds x="-7" y="-7.9" width="153" height="102" />
 		</element>
 	
-	<element ref="background">
-			<bounds x="122" y="-4.9" width="25" height="98" />
-		</element>
-	
-	<element ref="background">
-			<bounds x="-15" y="85" width="143" height="20" />
-		</element>
-	
-    <element ref="background">
-			<bounds x="-15" y="-4.9" width="143" height="10" />
-		</element>
+	<!-- lcd panel -->	
+<element ref="lcdw"><bounds x="92.2" y="7.8" width="25.25" height="8" /></element> 
+		<element ref="lcdw"><bounds x="92.2" y="7.8" width="24" height="6" /></element>
+		<screen tag="screen"><bounds x="93.2" y="7.8" width="22.75" height="2.5" />
+		</screen>
+	<element ref="lcdm" blend="multiply"><bounds x="92.2" y="7.8" width="24" height="6" /></element>
 
 <element ref="sfortea">
 			<bounds x="-3.7" y="-3.9" width="130.8" height="93.5" />
@@ -483,13 +462,6 @@
 		<group ref="sb_ui"><bounds x="-14.5" y="3" width="10" height="80" /></group>
 
 	
-
-		
-
-
-
-
-
 	<!-- chessboard leds -->
 
 		<element name="7.0" ref="ledr_h"><bounds x="-0.8" y="7.2" width="2.9" height="1.8" /></element>
@@ -510,10 +482,6 @@
 		<element name="1.1" ref="ledr_v"><bounds x="67.3" y="83.8" width="1.4" height="3.2" /></element>
 		<element name="0.1" ref="ledr_v"><bounds x="77.3" y="83.8" width="1.4" height="3.2" /></element>
 
-	<!-- lcd panel -->
-		<element ref="lcdw"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
-		<screen tag="screen"><bounds x="93.3" y="8.0" width="22.6" height="2.55" /></screen>
-		<element ref="lcdm" blend="multiply"><bounds x="93.3" y="7.8" width="22.6" height="2.95" /></element>
 
 	<!-- right side buttons -->
 

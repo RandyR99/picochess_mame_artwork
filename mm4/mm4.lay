@@ -84,58 +84,59 @@
 
 
 <element name="piece_v" defstate="0">
-	<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
-		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
-		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
-		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
-		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
-		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
-		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
-		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
-		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
-		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
-		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
-		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
-		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
-		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
-		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
-		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
-		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
-		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
-		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
-		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
-		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
-		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
-		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
-		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
+	    <image file="../pieces/pmephisto1a/WP.png" state="1"/>
+		<image file="../pieces/pmephisto1a/WKN.png" state="2"/>
+		<image file="../pieces/pmephisto1a/WB.png" state="3"/>
+		<image file="../pieces/pmephisto1a/WR.png" state="4"/>
+		<image file="../pieces/pmephisto1a/WQ.png" state="5"/>
+		<image file="../pieces/pmephisto1a/WK.png" state="6"/>
+		<image file="../pieces/pmephisto1a/BP.png" state="7"/>
+		<image file="../pieces/pmephisto1a/BKN.png" state="8"/>
+		<image file="../pieces/pmephisto1a/BB.png" state="9"/>
+		<image file="../pieces/pmephisto1a/BR.png" state="10"/>
+		<image file="../pieces/pmephisto1a/BQ.png" state="11"/>
+		<image file="../pieces/pmephisto1a/BK.png" state="12"/>
+		<image file="../pieces/pmephisto1a/WP_SEL.png" state="13"/>
+		<image file="../pieces/pmephisto1a/WKN_SEL.png" state="14"/>
+		<image file="../pieces/pmephisto1a/WB_SEL.png" state="15"/>
+		<image file="../pieces/pmephisto1a/WR_SEL.png" state="16"/>
+		<image file="../pieces/pmephisto1a/WQ_SEL.png" state="17"/>
+		<image file="../pieces/pmephisto1a/WK_SEL.png" state="18"/>
+		<image file="../pieces/pmephisto1a/BP_SEL.png" state="19"/>
+		<image file="../pieces/pmephisto1a/BKN_SEL.png" state="20"/>
+		<image file="../pieces/pmephisto1a/BB_SEL.png" state="21"/>
+		<image file="../pieces/pmephisto1a/BR_SEL.png" state="22"/>
+		<image file="../pieces/pmephisto1a/BQ_SEL.png" state="23"/>
+		<image file="../pieces/pmephisto1a/BK_SEL.png" state="24"/>
 	</element>
 
 
-		<element name="piece_m" defstate="0">
-		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
-		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
-		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
-		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
-		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
-		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
-		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
-		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
-		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
-		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
-		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
-		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
-		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
-		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
-		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
-		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
-		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
-		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
-		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
-		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
-		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
-		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
-		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
-		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
+
+	<element name="piece_m" defstate="0">
+		<image file="../pieces/pmephisto1a/WP.png" state="1"/>
+		<image file="../pieces/pmephisto1a/WKN.png" state="2"/>
+		<image file="../pieces/pmephisto1a/WB.png" state="3"/>
+		<image file="../pieces/pmephisto1a/WR.png" state="4"/>
+		<image file="../pieces/pmephisto1a/WQ.png" state="5"/>
+		<image file="../pieces/pmephisto1a/WK.png" state="6"/>
+		<image file="../pieces/pmephisto1a/BP.png" state="7"/>
+		<image file="../pieces/pmephisto1a/BKN.png" state="8"/>
+		<image file="../pieces/pmephisto1a/BB.png" state="9"/>
+		<image file="../pieces/pmephisto1a/BR.png" state="10"/>
+		<image file="../pieces/pmephisto1a/BQ.png" state="11"/>
+		<image file="../pieces/pmephisto1a/BK.png" state="12"/>
+		<image file="../pieces/pmephisto1a/WP_SEL.png" state="13"/>
+		<image file="../pieces/pmephisto1a/WKN_SEL.png" state="14"/>
+		<image file="../pieces/pmephisto1a/WB_SEL.png" state="15"/>
+		<image file="../pieces/pmephisto1a/WR_SEL.png" state="16"/>
+		<image file="../pieces/pmephisto1a/WQ_SEL.png" state="17"/>
+		<image file="../pieces/pmephisto1a/WK_SEL.png" state="18"/>
+		<image file="../pieces/pmephisto1a/BP_SEL.png" state="19"/>
+		<image file="../pieces/pmephisto1a/BKN_SEL.png" state="20"/>
+		<image file="../pieces/pmephisto1a/BB_SEL.png" state="21"/>
+		<image file="../pieces/pmephisto1a/BR_SEL.png" state="22"/>
+		<image file="../pieces/pmephisto1a/BQ_SEL.png" state="23"/>
+		<image file="../pieces/pmephisto1a/BK_SEL.png" state="24"/>
 	</element>
 
 <element name="piece_2m" defstate="0">
@@ -225,7 +226,7 @@
 
 <!-- sensors, pieces -->
 		<repeat count="8">
-			<param name="y" start="-5.1" increment="10.15" />
+			<param name="y" start="-7" increment="10.15" />
 			<param name="i" start="8" increment="-1" />
 			
                 <param name="z" start="0" increment="10" />
@@ -239,14 +240,14 @@
 			<element ref="hlbb" inputtag="board:board:RANK.~i~" inputmask="0x40"><bounds x="60" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
 			<element ref="hlbb" inputtag="board:board:RANK.~i~" inputmask="0x80"><bounds x="70" y="~z~" width="10" height="10" /><color alpha="0.04" /></element>
 
-			<element name="piece_a~i~" ref="piece_m"><bounds x="-3.2" y="~y~" width="14" height="14" /></element>
-			<element name="piece_b~i~" ref="piece_m"><bounds x="6.7"  y="~y~" width="14" height="14" /></element>
-			<element name="piece_c~i~" ref="piece_m"><bounds x="17" y="~y~" width="14" height="14" /></element>
-			<element name="piece_d~i~" ref="piece_m"><bounds x="27.1" y="~y~" width="14" height="14" /></element>
-			<element name="piece_e~i~" ref="piece_m"><bounds x="37.2" y="~y~" width="14" height="14" /></element>
-			<element name="piece_f~i~" ref="piece_m"><bounds x="47.3" y="~y~" width="14" height="14" /></element>
-			<element name="piece_g~i~" ref="piece_m"><bounds x="57.3" y="~y~" width="14" height="14" /></element>
-			<element name="piece_h~i~" ref="piece_m"><bounds x="67.3" y="~y~" width="14" height="14" /></element>
+			<element name="piece_a~i~" ref="piece_m"><bounds x="-4" y="~y~" width="15" height="16" /></element>
+			<element name="piece_b~i~" ref="piece_m"><bounds x="6"  y="~y~" width="15" height="16" /></element>
+			<element name="piece_c~i~" ref="piece_m"><bounds x="16.1" y="~y~" width="15" height="16" /></element>
+			<element name="piece_d~i~" ref="piece_m"><bounds x="26.3" y="~y~" width="15" height="16" /></element>
+			<element name="piece_e~i~" ref="piece_m"><bounds x="36.4" y="~y~" width="15" height="16" /></element>
+			<element name="piece_f~i~" ref="piece_m"><bounds x="46.5" y="~y~" width="15" height="16" /></element>
+			<element name="piece_g~i~" ref="piece_m"><bounds x="56.6" y="~y~" width="15" height="16" /></element>
+			<element name="piece_h~i~" ref="piece_m"><bounds x="66.6" y="~y~" width="15" height="16" /></element>
 		</repeat>
 	</group>
 
@@ -524,7 +525,7 @@
 <!-- build screen -->
 
 <view name="Modular Artwork by Luis">
-<bounds left="100" right="1320" top="0" bottom="1212" />
+<bounds left="250" right="1320" top="0" bottom="1212" />
 
 
  <element ref="lcd_bg"><bounds x="698" y="1024" width="170" height="75" /></element>
@@ -543,10 +544,8 @@
 			<bounds x="335" y="993" width="202" height="168" />
 		</element>
 	
-
-	<element ref="sbui_png"><bounds x="130" y="120" width="120" height="840" /></element>
-		 <group ref="sb_ui"><bounds x="130" y="120" width="120" height="840" /></group>
-	
+<!--
+-->	
 
 	<group ref="sb_board_m"><bounds x="398" y="128" width="781" height="790" /></group>
 
@@ -562,7 +561,7 @@
 	</view>
 
 
-<view name="Modular 2D Artwork by Luis">
+<view name="Modular 2D Artwork by Luis (SBI)">
 <bounds left="100" right="1320" top="0" bottom="1212" />
 
 
@@ -601,6 +600,7 @@
 	</view>
 
 <view name="Modular 3D by Volodymyr, adapted by Luis">
+<bounds left="0" right="1700" top="0" bottom="1590" />
 
 		<element ref="lcd_bg"><bounds x="718" y="1305.5" width="255" height="88.1" /></element>
 	<group ref="display_v"><bounds x="721" y="1310.5" width="236" height="81.1" /></group>																				 
@@ -623,10 +623,10 @@
 			<bounds x="1240" y="1500" width="454" height="56" />
 		</element>
 
-
+<!--
 <element ref="sbui_png"><bounds x="1646" y="50" width="150" height="1128" /></element>
 <group ref="sb_ui"><bounds x="1646" y="50" width="150" height="1128" /></group>
-
+-->
 
 
 		<!-- Pieces -->

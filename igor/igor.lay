@@ -232,11 +232,11 @@
 		<element ref="text_uiu3b"><bounds x="4" y="71" width="2" height="2" /></element>
 	</group>  
 	
-	  
+<!--  	  
 	 <view name="Artwork by Luis">
 		<bounds left="0" right="2300" top="0" bottom="1750" />
 		
-<screen index="0"><bounds x="1830" y="542.5" width="270" height="121.875" /></screen>
+<screen index="0"><bounds x="1830" y="542.5" width="270" height="151.875" /></screen>
 <element ref="lcdm" blend="multiply"><bounds x="1825" y="535" width="320" height="170" /></element>
 
 
@@ -250,6 +250,13 @@
 
 <element ref="sbui_png"><bounds x="40" y="100" width="200" height="1400" /></element>
      <group ref="sb_ui"><bounds x="40" y="100" width="200" height="1400" /></group> 
+	   
+	 
+	  
+	  
+		
+	  
+
 
 
         <element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="1839" y="775"  width="107" height="24" /></element>
@@ -274,6 +281,89 @@
 		
 	</view>
 	
+	 <view name="2D Artwork by Luis">
+		<bounds left="0" right="2300" top="0" bottom="1750" />
+		
+<screen index="0"><bounds x="1830" y="542.5" width="270" height="151.875" /></screen>
+<element ref="lcdm" blend="multiply"><bounds x="1825" y="535" width="320" height="170" /></element>
+
+
+<element ref="board">
+			<bounds x="0" y="0" width="2300" height="1750"/>
+		</element>
+
+                   
+
+<group ref="sb_board_2m"><bounds x="447" y="208" width="1354" height="1351" /></group>
+
+<element ref="sbui_png"><bounds x="40" y="100" width="200" height="1400" /></element>
+     <group ref="sb_ui"><bounds x="40" y="100" width="200" height="1400" /></group> 
+	   
+
+
+        <element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="1839" y="775"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="1839" y="860"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="1839" y="944"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="1839" y="1030" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="1839" y="1113" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="1839" y="1195" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="1839" y="1279" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="1839" y="1363" width="107" height="24" /></element>
+																		
+		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="1984" y="775"  width="107" height ="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="1984" y="860"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="1984" y="944"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="1984" y="1030" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="1984" y="1113" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="1984" y="1195" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="1984" y="1279" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="1984" y="1363" width="107" height="24" /></element>
+		
+		
+		
+	</view>	
+-->
+
+		 <view name="Artwork by Luis">
+		<bounds left="250" right="2300" top="0" bottom="1750" />
+		
+<screen index="0"><bounds x="1830" y="542.5" width="270" height="121.875" /></screen>
+<element ref="lcdm" blend="multiply"><bounds x="1825" y="535" width="320" height="170" /></element>
+
+
+<element ref="board">
+			<bounds x="0" y="0" width="2300" height="1750"/>
+		</element>
+
+                   
+
+<group ref="sb_board"><bounds x="447" y="208" width="1354" height="1351" /></group>
+
+<!--
+-->	   
+	
+        <element ref="but" inputtag="IN.1" inputmask="0x10"><bounds x="1839" y="775"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x08"><bounds x="1839" y="860"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="1839" y="944"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="1839" y="1030" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="1839" y="1113" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="1839" y="1195" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="1839" y="1279" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="1839" y="1363" width="107" height="24" /></element>
+																		
+		<element ref="but" inputtag="IN.0" inputmask="0x10"><bounds x="1984" y="775"  width="107" height ="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x08"><bounds x="1984" y="860"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x02"><bounds x="1984" y="944"  width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x20"><bounds x="1984" y="1030" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x40"><bounds x="1984" y="1113" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x80"><bounds x="1984" y="1195" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="1984" y="1279" width="107" height="24" /></element>
+		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="1984" y="1363" width="107" height="24" /></element>
+		
+		
+		
+	</view>
+
 	 <view name="2D Artwork by Luis">
 		<bounds left="0" right="2300" top="0" bottom="1750" />
 		
@@ -312,6 +402,8 @@
 		<element ref="but" inputtag="IN.0" inputmask="0x01"><bounds x="1984" y="1279" width="107" height="24" /></element>
 		<element ref="but" inputtag="IN.1" inputmask="0x01"><bounds x="1984" y="1363" width="107" height="24" /></element>
 		
-        </view>
+		
+		
+	</view>	
 	
 </mamelayout>

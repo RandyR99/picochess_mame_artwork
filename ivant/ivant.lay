@@ -275,7 +275,7 @@
 	 
 	  
 	 <view name="Artwork by Luis">
-		<bounds left="0" right="1800" top="0" bottom="1830" />
+		<bounds left="280" right="1800" top="0" bottom="1830" />
 		
 	
 
@@ -289,22 +289,14 @@
 
 <group ref="sb_board"><bounds x="448" y="192" width="1182" height="1185" /></group>
 
-<element ref="sbui_png"><bounds x="50" y="100" width="200" height="1400" /></element>
-     <group ref="sb_ui"><bounds x="50" y="100" width="200" height="1400" /></group> 
-	   
-	 
-	  
-	  
-		
-	  
-
-
+<!--
+-->	   
 
         <element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="613" y="1430" width="92" height="20" /></element>
 		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="613" y="1507" width="92" height="20" /></element>
 		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="613" y="1586" width="92" height="20" /></element>
-		
-		
+	   
+	 
 		<element ref="but" inputtag="IN.0" inputmask="0x04"><bounds x="738" y="1431" width="92" height="20" /></element>
 	    <element ref="but" inputtag="IN.1" inputmask="0x04"><bounds x="738" y="1509" width="92" height="20" /></element>
 		<element ref="but" inputtag="IN.1" inputmask="0x20"><bounds x="738" y="1587" width="92" height="20" /></element>
@@ -325,7 +317,7 @@
 		
 	</view>
 	
-	 <view name="2D Artwork by Luis">
+	 <view name="2D Artwork by Luis (SBI)">
 		<bounds left="0" right="1800" top="0" bottom="1830" />
 
 <element ref="board">
@@ -341,7 +333,7 @@
      <group ref="sb_ui"><bounds x="50" y="100" width="200" height="1400" /></group> 
 	   
 
-        <element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="613" y="1430" width="92" height="20" /></element>
+<element ref="but" inputtag="IN.1" inputmask="0x02"><bounds x="613" y="1430" width="92" height="20" /></element>
 		<element ref="but" inputtag="IN.1" inputmask="0x40"><bounds x="613" y="1507" width="92" height="20" /></element>
 		<element ref="but" inputtag="IN.1" inputmask="0x80"><bounds x="613" y="1586" width="92" height="20" /></element>
 		

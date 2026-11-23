@@ -51,31 +51,31 @@
 	</element>
 
 <element name="piece" defstate="0">
-    <image file="../pieces/pnovag_plastic/wp.png" state="1"/>
-    <image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
-    <image file="../pieces/pnovag_plastic/wb.png" state="3"/>
-    <image file="../pieces/pnovag_plastic/wr.png" state="4"/>
-    <image file="../pieces/pnovag_plastic/wq.png" state="5"/>
-    <image file="../pieces/pnovag_plastic/wk.png" state="6"/>
-    <image file="../pieces/pnovag_plastic/bp.png" state="7"/>
-    <image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
-    <image file="../pieces/pnovag_plastic/bb.png" state="9"/>
-    <image file="../pieces/pnovag_plastic/br.png" state="10"/>
-    <image file="../pieces/pnovag_plastic/bq.png" state="11"/>
-    <image file="../pieces/pnovag_plastic/bk.png" state="12"/>
-    <image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
-    <image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
-    <image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
-    <image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
-    <image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
-    <image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
-    <image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
-    <image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
-    <image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
-    <image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
-    <image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
-    <image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
-</element>
+		<image file="../pieces/pnovag_plastic/wp.png" state="1"/>
+		<image file="../pieces/pnovag_plastic/wkn.png" state="2"/>
+		<image file="../pieces/pnovag_plastic/wb.png" state="3"/>
+		<image file="../pieces/pnovag_plastic/wr.png" state="4"/>
+		<image file="../pieces/pnovag_plastic/wq.png" state="5"/>
+		<image file="../pieces/pnovag_plastic/wk.png" state="6"/>
+		<image file="../pieces/pnovag_plastic/bp.png" state="7"/>
+		<image file="../pieces/pnovag_plastic/bkn.png" state="8"/>
+		<image file="../pieces/pnovag_plastic/bb.png" state="9"/>
+		<image file="../pieces/pnovag_plastic/br.png" state="10"/>
+		<image file="../pieces/pnovag_plastic/bq.png" state="11"/>
+		<image file="../pieces/pnovag_plastic/bk.png" state="12"/>
+		<image file="../pieces/pnovag_plastic/wp_sel.png" state="13"/>
+		<image file="../pieces/pnovag_plastic/wkn_sel.png" state="14"/>
+		<image file="../pieces/pnovag_plastic/wb_sel.png" state="15"/>
+		<image file="../pieces/pnovag_plastic/wr_sel.png" state="16"/>
+		<image file="../pieces/pnovag_plastic/wq_sel.png" state="17"/>
+		<image file="../pieces/pnovag_plastic/wk_sel.png" state="18"/>
+		<image file="../pieces/pnovag_plastic/bp_sel.png" state="19"/>
+		<image file="../pieces/pnovag_plastic/bkn_sel.png" state="20"/>
+		<image file="../pieces/pnovag_plastic/bb_sel.png" state="21"/>
+		<image file="../pieces/pnovag_plastic/br_sel.png" state="22"/>
+		<image file="../pieces/pnovag_plastic/bq_sel.png" state="23"/>
+		<image file="../pieces/pnovag_plastic/bk_sel.png" state="24"/>
+	</element>
 
 
 
@@ -287,7 +287,7 @@
 
 
 <view name="Artwork by Luis">
-		<bounds left="50" right="2000" top="0" bottom="1250" />
+		<bounds left="250" right="2000" top="0" bottom="1250" />
 		
 
 
@@ -303,9 +303,8 @@
 
   <group ref="sb_board"><bounds x="375" y="114" width="1022" height="1021" /></group>
  
- <element ref="sbui_png"><bounds x="95" y="109" width="150" height="1050" /></element>
-	  <group ref="sb_ui"><bounds x="95" y="109" width="150" height="1050" /></group>
-
+ <!--
+-->
 	
 
 <!-- chessboard leds -->
@@ -354,8 +353,8 @@
 
 </view>
 	
-<view name="2D Artwork by Luis">
-		<bounds left="50" right="2000" top="0" bottom="1250" />
+<view name="2D Artwork by Luis (SBI)">
+		<bounds left="80" right="2000" top="0" bottom="1250" />
 		
 
 
