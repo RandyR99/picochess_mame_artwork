@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- NOTE: no chesspieces simulation here, H+G Mephisto/Mephisto II didn't have a built-in chessboard -->
+
+<!-- define elements -->
+
+	<element name="cxg">
+		<image file="pocketchess5a.png" />
+	</element>
+
+<!-- foto: Mythbuster -->
+
+<!-- display -->
+
+	<element name="lcdm"><rect><color red="0.647" green="0.671" blue="0.514" /></rect></element>
+
+
+
+
+<element name="hlb" defstate="0">
+		<rect state="1"><color red="1" green="1" blue="1" /></rect>
+	</element>
+
+
+<element name="button" defstate="0">
+	<image file="../buttons/button_white.png" state="0"/>
+	<image file="../buttons/button_white_sel.png" state="1"/>
+	
+	
+	</element>
+
+
+
+<view name="Artwork by Luis">
+
+<element ref="cxg">
+			<bounds x="0" y="0" width="900" height="1560" />
+		</element>
+
+<screen index="0"><bounds x="304" y="140" width="270" height="96" /></screen>
+		<element ref="lcdm" blend="multiply"><bounds x="300" y="130" width="280" height="110" /></element>
+
+<!-- buttons -->
+		<element ref="button" inputtag="IN.0" inputmask="0x01"><bounds x="101" y="583" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x01"><bounds x="277" y="583" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x01"><bounds x="458" y="584" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x01"><bounds x="639" y="584" width="155" height="26" /></element>
+																							
+		<element ref="button" inputtag="IN.0" inputmask="0x02"><bounds x="098" y="692" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x02"><bounds x="278" y="692" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x02"><bounds x="458" y="693" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.3" inputmask="0x02"><bounds x="639" y="694" width="155" height="26" /></element>
+																							
+		<element ref="button" inputtag="IN.3" inputmask="0x04"><bounds x="101" y="909" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.0" inputmask="0x04"><bounds x="278" y="909" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.1" inputmask="0x04"><bounds x="461" y="910" width="155" height="26" /></element>
+		<element ref="button" inputtag="IN.2" inputmask="0x04"><bounds x="642" y="910" width="155" height="26" /></element>
+
+
+	</view>
+</mamelayout>
+

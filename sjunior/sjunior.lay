@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- NOTE: no chesspieces simulation here, Sphinx Junior didn't have a built-in chessboard -->
+
+<!-- define elements -->
+
+	<element name="cxg">
+		<image file="junior6a.png" />
+	</element>
+
+
+
+<!-- display -->
+
+	<element name="lcd_bg"><rect><color red="0.54" green="0.57" blue="0.58" /></rect></element>
+
+
+
+
+
+<element name="button1" defstate="0">
+	<image file="../buttons/down_sel1.png" state="1"/>
+	
+	</element>
+
+<element name="button2" defstate="0">
+	<image file="../buttons/down_sel4.png" state="1"/>
+	
+	</element>
+
+	<element name="hlbb" defstate="0">
+		<text string=" "><bounds x="0" y="0" width="1" height="1" /></text>
+		<disk state="1">
+			<bounds x="0.12" y="0.12" width="0.76" height="0.76" />
+			<color red="0" green="0" blue="0" />
+		</disk>
+	</element>
+
+<element name="piece" defstate="0">
+		<image file="../pieces/pmephisto2/wp.png" state="1"/>
+		<image file="../pieces/pmephisto2/wkn.png" state="2"/>
+		<image file="../pieces/pmephisto2/wb.png" state="3"/>
+		<image file="../pieces/pmephisto2/wr.png" state="4"/>
+		<image file="../pieces/pmephisto2/wq.png" state="5"/>
+		<image file="../pieces/pmephisto2/wk.png" state="6"/>
+		<image file="../pieces/pmephisto2/bp.png" state="7"/>
+		<image file="../pieces/pmephisto2/bkn.png" state="8"/>
+		<image file="../pieces/pmephisto2/bb.png" state="9"/>
+		<image file="../pieces/pmephisto2/br.png" state="10"/>
+		<image file="../pieces/pmephisto2/bq.png" state="11"/>
+		<image file="../pieces/pmephisto2/bk.png" state="12"/>
+		<image file="../pieces/pmephisto2/wp_sel.png" state="13"/>
+		<image file="../pieces/pmephisto2/wkn_sel.png" state="14"/>
+		<image file="../pieces/pmephisto2/wb_sel.png" state="15"/>
+		<image file="../pieces/pmephisto2/wr_sel.png" state="16"/>
+		<image file="../pieces/pmephisto2/wq_sel.png" state="17"/>
+		<image file="../pieces/pmephisto2/wk_sel.png" state="18"/>
+		<image file="../pieces/pmephisto2/bp_sel.png" state="19"/>
+		<image file="../pieces/pmephisto2/bkn_sel.png" state="20"/>
+		<image file="../pieces/pmephisto2/bb_sel.png" state="21"/>
+		<image file="../pieces/pmephisto2/br_sel.png" state="22"/>
+		<image file="../pieces/pmephisto2/bq_sel.png" state="23"/>
+		<image file="../pieces/pmephisto2/bk_sel.png" state="24"/>
+	</element>
+
+<group name="sb_board">
+		<bounds x="0" y="0" width="80" height="80" />
+		
+		
+		<!-- sensors, pieces -->
+		<repeat count="8">
+			<param name="y" start="0" increment="10" />
+			<param name="i" start="8" increment="-1" />
+
+<param name="z" start="-5" increment="9.8" />
+
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x01"><bounds x="0.3"  y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x02"><bounds x="10.1" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x04"><bounds x="20.2" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x08"><bounds x="30" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x10"><bounds x="40" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x20"><bounds x="50" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x40"><bounds x="60" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+			<element ref="hlbb" inputtag="board:RANK.~i~" inputmask="0x80"><bounds x="70" y="~y~" width="10" height="10" /><color alpha="0.04" /></element>
+
+			<element name="piece_a~i~" ref="piece"><bounds x="-2.2"  y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_b~i~" ref="piece"><bounds x="7.6" y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_c~i~" ref="piece"><bounds x="17.6" y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_d~i~" ref="piece"><bounds x="27.7" y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_e~i~" ref="piece"><bounds x="37.7" y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_f~i~" ref="piece"><bounds x="47.7" y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_g~i~" ref="piece"><bounds x="57.5" y="~z~" width="14.5" height="14.5" /></element>
+			<element name="piece_h~i~" ref="piece"><bounds x="67.5" y="~z~" width="14.5" height="14.5" /></element>
+		</repeat>
+	</group>
+
+
+	<!-- sb ui -->
+
+	<element name="hlub" defstate="0">
+		<rect state="1"><color red="0" green="0" blue="0" /></rect>
+	</element>
+
+	<element name="text_uiu3a" defstate="0">
+		<simplecounter maxstate="999" digits="1" align="2">
+			<color red="0.81" green="0.8" blue="0.79" />
+		</simplecounter>
+	</element>
+	<element name="text_uiu3b"><text string="/"><color red="0.81" green="0.8" blue="0.79" /></text></element>
+	<element name="text_uiu3c" defstate="0">
+		<simplecounter maxstate="999" digits="1" align="1">
+			<color red="0.81" green="0.8" blue="0.79" />
+		</simplecounter>
+	</element>
+
+
+<view name="Artwork by Luis">
+
+<element ref="cxg">
+			<bounds x="0" y="0" width="750" height="840" />
+		</element>
+
+<screen index="0"><bounds x="154" y="724" width="74" height="35" /></screen>
+<element ref="lcd_bg" blend="multiply"><bounds x="153" y="724" width="75" height="36" /></element>
+
+ <group ref="sb_board"><bounds x="69" y="48" width="608" height="633" /></group> 
+		
+<!--		<element ref="sbui_png"><bounds x="15" y="60" width="100" height="700" /></element>
+		     <group ref="sb_ui"><bounds x="15" y="60" width="100" height="700" /></group> -->
+
+
+<element ref="button1" inputtag="RESET" inputmask="0x01"><bounds x="236" y="711" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0"  inputmask="0x01"><bounds x="236" y="745" width="35" height="35" /></element>
+																					  
+<element ref="button1" inputtag="IN.0" inputmask="0x10"><bounds  x="279" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x08"><bounds  x="313" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x04"><bounds  x="347" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x02"><bounds  x="382" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x100"><bounds x="417" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x80"><bounds  x="451" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x40"><bounds  x="486" y="727" width="35" height="35" /></element>
+<element ref="button1" inputtag="IN.0" inputmask="0x20"><bounds  x="520" y="727" width="35" height="35" /></element>	
+	
+<element ref="button2" inputtag="IN.0" inputmask="0x4000"><bounds x="556" y="715" width="30" height="22" /></element>
+<element ref="button2" inputtag="IN.0" inputmask="0x0200"><bounds x="592" y="715" width="30" height="22" /></element>
+<element ref="button2" inputtag="IN.0" inputmask="0x0400"><bounds x="627" y="715" width="30" height="22" /></element>
+<element ref="button2" inputtag="IN.0" inputmask="0x2000"><bounds x="663" y="715" width="30" height="22" /></element>
+			 
+<element ref="button2" inputtag="IN.0" inputmask="0x10000"><bounds x="556" y="752" width="30" height="22" /></element>
+<element ref="button2" inputtag="IN.0" inputmask="0x0800"><bounds  x="592" y="752" width="30" height="22" /></element>
+<element ref="button2" inputtag="IN.0" inputmask="0x8000"><bounds  x="627" y="752" width="30" height="22" /></element>
+<element ref="button2" inputtag="IN.0" inputmask="0x1000"><bounds  x="663" y="752" width="30" height="22" /></element>	
+	
+	
+	</view>
+</mamelayout>
+
