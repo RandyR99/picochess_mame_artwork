@@ -38,7 +38,7 @@ picochess shows the artwork when its artwork display is switched on. It then sta
 
 ## Views
 
-Most machines have several views, for example a photo with 3D pieces, the same with flat 2D pieces, or a modular board with a different display module. The view names say who made them ("artwork by luis", "2d artwork by volodymyr/luis", ...).
+Most machines have several views, for example a photo with 3D pieces, the same with flat 2D pieces, or a modular board with a different display module. The view names say who made them ("Artwork by Luis", "2D Artwork by Volodymyr/Luis (SBI)", ...). Views marked "(SBI)" show the sensor board interface panel (board reset/clear, spawn pieces, undo); the photo views leave it out.
 
 To pick a view, open MAME's menu (Tab) and go to Video Options. MAME remembers the choice per set in `cfg/<set>.cfg`. To try a view directly, use `mess <set> -view "<view name>"`.
 
@@ -59,7 +59,7 @@ cd /opt/picochess/engines/mame_emulation
 
 ## Credits
 
-The artwork was made by **Luis** and **Volodymyr** for MAMEChess and the Mysticum Project (**Guido Marquardt**), and is compatible with the PicoChess project's MAME implementation. This repo starts from the version which was updated to work with PicoChess v4 (first commit). Later commits adapt it to MAME 0.289 on Linux: file name case, encodings, input tags, renamed sets, missing pictures and layout fixes. The commit history lists each change.
+The artwork was made by **Luis** and **Volodymyr** for MAMEChess and the Mysticum Project (**Guido Marquardt**), and is compatible with the PicoChess project's MAME implementation. This repo starts from the version which was updated to work with PicoChess v4 (first commit), and includes Luis's 2025 update of the artwork. Later commits adapt it to MAME 0.289 on Linux: file name case, encodings, input tags, renamed sets, missing pictures and layout fixes. The commit history lists each change.
 
 ## Licensing
 
