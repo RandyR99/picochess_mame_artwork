@@ -23,7 +23,7 @@ license:CC0
 		<image file="display.png" />
 	</element>
 <element name="background">
-		<image file="../misc/background_pulsar.png" />
+		<rect><color red="0" green="0" blue="0" /></rect>
 	</element>
 
 

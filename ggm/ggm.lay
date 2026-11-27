@@ -18,7 +18,7 @@ license:CC0
 </element>
 
 <element name="background">
-		<image file="../misc/background4.png" />
+		<rect><color red="0" green="0" blue="0" /></rect>
 	</element>
 
 <element name="sbui_png">
